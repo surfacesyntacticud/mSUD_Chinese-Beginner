@@ -1,4 +1,4 @@
-# SUD_Chinese_Beginner
+# SUD_Chinese-Beginner
 
 This treebank is a native mSUD treebank (morpheme level Surface Universal Dependencies) of mandarin chinese.
 
