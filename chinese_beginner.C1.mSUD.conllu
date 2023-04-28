@@ -1,0 +1,18 @@
+# sent_id = 4324
+# structure = Subj. + Verb + 得 + 倒 + Adj.
+# text = 说 得 倒 容易，那 你 来 ！
+# level = C1
+# structure_verbose = Advanced usages of the contrary "dao"
+# translation_english = It's easy for you to just say it. You should give it a try!
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGXXP6M
+1	说	说	VERB	_	_	0	root	_	_
+2	得	得	PART	_	_	1	mod	_	_
+3	倒	倒	ADV	_	_	4	mod	_	Grammar_Target=Yes
+4	容	容	ADJ	_	_	1	comp:obj	_	_
+5	易	易	ADJ	_	_	4	@m	_	_
+6	，	，	PUNCT	_	_	9	punct	_	_
+7	那	那	PART	_	_	9	discourse	_	_
+8	你	你	PRON	_	Person=2	9	subj	_	_
+9	来	来	VERB	_	_	1	parataxis	_	_
+10	！	！	PUNCT	_	_	1	punct	_	_
+

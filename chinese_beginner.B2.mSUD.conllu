@@ -1,0 +1,45 @@
+# sent_id = 4286
+# structure = 或者 A ，或者 B
+# text = 咱们 或者 去 爬山 或者 泡 温泉。
+# pinyin = Zánmen huòzhě qù páshān huòzhě pào wēnquán.
+# level = B2
+# structure_verbose = Providing two options with double "huozhe"
+# translation_english = Let's either go hiking or go for a soak in the hot springs.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGYXI5X
+1	咱	咱	PRON	_	Number=Plur|Person=1	5	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	mod@m	_	_
+3	或	或	CCONJ	_	_	5	cc	_	Grammar_Target=Yes
+4	者	者	CCONJ	_	_	3	flat@m	_	Grammar_Target=Yes
+5	去	去	VERB	_	_	0	root	_	_
+6	爬	爬	VERB	_	_	5	comp:obj	_	_
+7	山	山	NOUN	_	_	6	comp:obj	_	_
+8	或	或	CCONJ	_	_	10	cc	_	Grammar_Target=Yes
+9	者	者	CCONJ	_	_	8	flat@m	_	Grammar_Target=Yes
+10	泡	泡	VERB	_	_	5	conj	_	_
+11	温	温	ADJ	_	_	12	mod@m	_	_
+12	泉	泉	NOUN	_	_	10	comp:obj	_	_
+13	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3877
+# structure = Verb + 起来
+# text = 你 为什么 要 把 我 的 手机 藏 起来 ？
+# pinyin = Nǐ wèishénme yào bǎ wǒ de shǒujī cáng qǐlái?
+# level = B2
+# structure_verbose = Advanced uses of direction complement "-qilai"
+# translation_english = Why would you hide my cell phone?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGSCN01
+1	你	你	PRON	_	Person=2	5	subj	_	_
+2	为	为	ADP	_	_	5	mod	_	_
+3	什	什	PRON	_	_	2	comp:obj@m	_	_
+4	么	么	PRON	_	_	3	fixed@m	_	_
+5	要	要	AUX	_	_	0	root	_	_
+6	把	把	ADP	_	_	11	comp:obl	_	_
+7	我	我	PRON	_	Person=1	8	comp:obj	_	_
+8	的	的	PART	_	Case=Gen	9	mod	_	_
+9	手	手	NOUN	_	_	6	comp:obj	_	_
+10	机	机	NOUN	_	_	9	@m	_	_
+11	藏	藏	VERB	_	_	5	comp:aux	_	_
+12	起	起	VERB	_	_	11	comp:dir	_	Grammar_Target=Yes
+13	来	来	VERB	_	_	12	comp:svc@m	_	Grammar_Target=Yes
+14	？	？	PUNCT	_	_	5	punct	_	_
+

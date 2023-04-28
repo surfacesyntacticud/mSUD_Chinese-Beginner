@@ -1,0 +1,523 @@
+# sent_id = 1520
+# structure = Subj. + Adj. + 极了
+# text = 味道 好 极了 !
+# pinyin = Wèidào hǎo jíle!
+# level = B1
+# structure_verbose = Adjectives with "-ji le"
+# translation_english = The taste is perfect!
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVME5V
+1	味	味	NOUN	_	_	3	subj	_	_
+2	道	道	NOUN	_	_	1	@m	_	_
+3	好	好	ADJ	_	_	0	root	_	_
+4	极	极	ADV	_	_	3	mod	_	Grammar_Target=Yes
+5	了	了	PART	_	_	4	discourse	_	Grammar_Target=Yes
+6	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 1521
+# structure = Subj. + Adj. + 极了
+# text = 他 的 英文 棒 极了 。
+# pinyin = Tā de Yīngwén bàng jíle.
+# level = B1
+# structure_verbose = Adjectives with "-ji le"
+# translation_english = His English is perfect.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVME5V
+1	他	他	PRON	_	Person=3	2	comp:obj	_	_
+2	的	的	PART	_	Case=Gen	3	mod	_	_
+3	英	英	NOUN	_	_	5	subj	_	_
+4	文	文	NOUN	_	_	3	@m	_	_
+5	棒	棒	ADJ	_	_	0	root	_	_
+6	极	极	ADV	_	_	5	mod	_	Grammar_Target=Yes
+7	了	了	PART	_	_	6	discourse	_	Grammar_Target=Yes
+8	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1553
+# structure = Subj. + 不 / 没 + 全都 + Predicate
+# text = 你 说 得 太 快 了 ， 我 没 全 都 记 下来 。
+# pinyin = Nǐ shuō de tài kuài le, wǒ méi quán dōu jì xiàlái.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = You spoke too fast. I didn't write down all of what you said.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	说	说	VERB	_	_	0	root	_	_
+3	得	得	PART	_	_	2	mod	_	_
+4	太	太	ADV	_	_	5	mod	_	_
+5	快	快	ADJ	_	_	3	comp:obj	_	_
+6	了	了	PART	_	_	5	discourse	_	_
+7	，	，	PUNCT	_	_	12	punct	_	_
+8	我	我	PRON	_	Person=1	12	subj	_	_
+9	没	没	ADV	_	_	12	mod	_	_
+10	全	全	ADV	_	_	12	mod	_	Grammar_Target=Yes
+11	都	都	ADV	_	_	12	mod	_	Grammar_Target=Yes
+12	记	记	VERB	_	_	2	parataxis	_	_
+13	下	下	VERB	_	_	12	comp:dir	_	_
+14	来	来	VERB	_	_	13	comp:dir	_	_
+15	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 1554
+# structure = Adj. + Adj. + 的 (+ Noun)
+# text = 你 的 脸 红 红 的 。
+# pinyin = Nǐ de liǎn hóng hóng de.
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = Your face is red.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	你	你	PRON	_	Person=2	2	comp:obj	_	_
+2	的	的	PART	_	Case=Gen	3	mod	_	_
+3	脸	脸	NOUN	_	_	6	subj	_	_
+4	红	红	ADJ	_	_	6	comp:obj	_	Grammar_Target=Yes
+5	红	红	ADJ	_	_	4	@m	_	Grammar_Target=Yes
+6	的	的	PART	_	_	0	root	_	Grammar_Target=Yes
+7	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1555
+# structure = Adj. + Adj. + 的 (+ Noun)
+# text = 宝宝 的 眼睛 大 大 的 。
+# pinyin = Bǎobao de yǎnjīng dà dà de.
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = The baby's eyes are big.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	宝	宝	NOUN	_	_	3	comp:obj	_	_
+2	宝	宝	NOUN	_	_	1	@m	_	_
+3	的	的	PART	_	Case=Gen	4	mod	_	_
+4	眼	眼	NOUN	_	_	0	root	_	_
+5	睛	睛	NOUN	_	_	4	@m	_	_
+6	大	大	ADJ	_	_	8	comp:obj	_	Grammar_Target=Yes
+7	大	大	ADJ	_	_	6	@m	_	Grammar_Target=Yes
+8	的	的	PART	_	_	4	mod	_	Grammar_Target=Yes
+9	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1595
+# structure = Subj. + 正好 + [Verb Phrase]
+# text = 我 正好 也 在 这里 实习 。
+# pinyin = Wǒ zhènghǎo yě zài zhèlǐ shíxí.
+# level = B1
+# structure_verbose = Coincidence with "zhenghao"
+# translation_english = I happen to be interning here too.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUD25J
+1	我	我	PRON	_	Person=1	8	subj	_	_
+2	正	正	ADV	_	_	8	mod	_	Grammar_Target=Yes
+3	好	好	ADJ	_	_	2	@m	_	Grammar_Target=Yes
+4	也	也	ADV	_	_	8	mod	_	_
+5	在	在	ADP	_	_	8	comp:obl	_	_
+6	这	这	PRON	_	_	5	comp:obj	_	_
+7	里	里	NOUN	_	_	6	@m	_	_
+8	实	实	VERB	_	_	0	root	_	_
+9	习	习	VERB	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1596
+# structure = Subj. + 正好 + [Verb Phrase]
+# text = 正好 你们 都 是 单身 。
+# pinyin = Zhènghǎo nǐmen dōu shì dānshēn.
+# level = B1
+# structure_verbose = Coincidence with "zhenghao"
+# translation_english = You both happen to be single.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUD25J
+1	正	正	ADV	_	_	6	mod	_	Grammar_Target=Yes
+2	好	好	ADJ	_	_	1	@m	_	Grammar_Target=Yes
+3	你	你	PRON	_	Number=Plur|Person=3	6	subj	_	_
+4	们	们	PART	_	Number=Plur|Person=3	3	@m	_	_
+5	都	都	ADV	_	_	6	mod	_	_
+6	是	是	VERB	_	_	0	root	_	_
+7	单	单	ADJ	_	_	6	comp:obj	_	_
+8	身	身	NOUN	_	_	7	@m	_	_
+9	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1597
+# structure = Subj. + 正好 + [Verb Phrase]
+# text = 我 明天 见 他 ，正好 可以 问问 他 这 件 事 。
+# pinyin = Wǒ míngtiān jiàn tā, zhènghǎo kěyǐ wènwen tā zhè jiàn shì.
+# level = B1
+# structure_verbose = Coincidence with "zhenghao"
+# translation_english = I'm going to meet with him tomorrow. I can just ask him about this matter.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUD25J
+1	我	我	PRON	_	Person=1	4	subj	_	_
+2	明	明	NOUN	_	_	4	mod	_	_
+3	天	天	NOUN	_	_	2	@m	_	_
+4	见	见	VERB	_	_	0	root	_	_
+5	他	他	PRON	_	Person=3	4	comp:obj	_	_
+6	，	，	PUNCT	_	_	9	punct	_	_
+7	正	正	ADV	_	_	9	mod	_	Grammar_Target=Yes
+8	好	好	ADJ	_	_	7	@m	_	Grammar_Target=Yes
+9	可	可	AUX	_	_	4	parataxis	_	_
+10	以	以	AUX	_	_	9	@m	_	_
+11	问	问	VERB	_	_	9	comp:aux	_	_
+12	问	问	VERB	_	_	11	conj:redup@m	_	_
+13	他	他	PRON	_	Person=3	11	comp:obj	_	_
+14	这	这	DET	_	_	15	det	_	_
+15	件	件	NOUN	_	_	16	clf	_	_
+16	事	事	NOUN	_	_	11	comp:obj	_	_
+17	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1598
+# structure = Subj. + 正好 + [Verb Phrase]
+# text = 我们 正好 也 要 去 那儿 ，一起 走 吧 。
+# pinyin = Wǒmen zhènghǎo yě yào qù nàr, yīqǐ zǒu ba.
+# level = B1
+# structure_verbose = Coincidence with "zhenghao"
+# translation_english = We just happen to be going there. Let's go together.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUD25J
+1	我	我	PRON	_	Number=Plur|Person=1	6	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	正	正	ADV	_	_	6	mod	_	Grammar_Target=Yes
+4	好	好	ADJ	_	_	3	@m	_	Grammar_Target=Yes
+5	也	也	ADV	_	_	6	mod	_	_
+6	要	要	AUX	_	_	0	root	_	_
+7	去	去	VERB	_	_	6	comp:aux	_	_
+8	那	那	DET	_	_	7	comp:obj	_	_
+9	儿	儿	PART	_	_	8	@m	_	_
+10	，	，	PUNCT	_	_	13	punct	_	_
+11	一	一	ADV	_	_	12	@m	_	_
+12	起	起	ADV	_	_	13	mod	_	_
+13	走	走	VERB	_	_	6	parataxis	_	_
+14	吧	吧	PART	_	_	13	discourse	_	_
+15	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1599
+# structure = Subj. + 正好 + [Verb Phrase]
+# text = 我 敲 门 的 时候 ，他 正好 出门 。
+# pinyin = Wǒ qiāo mén de shíhou, tā zhènghǎo chūmén.
+# level = B1
+# structure_verbose = Coincidence with "zhenghao"
+# translation_english = He just happened to be leaving the house while I was knocking at the door.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUD25J
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	敲	敲	VERB	_	_	4	comp:obj	_	_
+3	门	门	NOUN	_	_	2	comp:obj	_	_
+4	的	的	PART	_	Case=Gen	5	mod	_	_
+5	时	时	NOUN	_	_	11	mod	_	_
+6	候	候	NOUN	_	_	5	@m	_	_
+7	，	，	PUNCT	_	_	11	punct	_	_
+8	他	他	PRON	_	Person=3	11	subj	_	_
+9	正	正	ADV	_	_	11	mod	_	Grammar_Target=Yes
+10	好	好	ADV	_	_	9	@m	_	Grammar_Target=Yes
+11	出	出	VERB	_	_	0	root	_	_
+12	门	门	NOUN	_	_	11	comp:obj	_	_
+13	。	。	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2312
+# structure = (让 +) Subj. + 来
+# text = 让 他 自己 来 。
+# pinyin = Ràng tā zìjǐ lái.
+# level = B1
+# structure_verbose = Using "lai" as a dummy verb
+# translation_english = Let him do it himself.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG98FZK
+1	让	让	VERB	_	Voice=Cau	0	root	_	_
+2	他	他	PRON	_	Person=3	1	comp:obj	_	_
+3	自	自	ADV	_	_	2	conj:appos	_	_
+4	己	己	NOUN	_	_	3	@m	_	_
+5	来	来	VERB	_	_	1	comp:obj	_	Grammar_Target=Yes
+6	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 2417
+# structure = Subj. + 把 + Obj. + Verb + 给 + Recipient
+# text = 你 想 把 这个 礼物 送 给 谁 ？
+# pinyin = Nǐ xiǎng bǎ zhège lǐwù sòng gěi shéi?
+# level = B1
+# structure_verbose = Verbs followed by "gei"
+# translation_english = Who are you going to give this present to?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMMHTQ
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	想	想	AUX	_	_	0	root	_	_
+3	把	把	AUX	_	_	2	comp:aux	_	_
+4	这	这	DET	_	_	5	det	_	_
+5	个	个	CLF	_	_	6	clf	_	_
+6	礼	礼	NOUN	_	_	3	comp:obj	_	_
+7	物	物	NOUN	_	_	6	@m	_	_
+8	送	送	VERB	_	_	3	comp:aux	_	Grammar_Target=Yes
+9	给	给	ADP	_	_	8	comp:obl	_	Grammar_Target=Yes
+10	谁	谁	PRON	_	_	9	comp:obj	_	_
+11	？	？	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2418
+# structure = Subj. + 把 + Obj. + Verb + 给 + Recipient
+# text = 请 把 那些 照片 都 发 给 我 。
+# pinyin = Qǐng bǎ nàxiē zhàopiàn dōu fā gěi wǒ.
+# level = B1
+# structure_verbose = Verbs followed by "gei"
+# translation_english = Please send all of those pictures to me.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMMHTQ
+1	请	请	PART	_	_	2	discourse	_	_
+2	把	把	AUX	_	_	0	root	_	_
+3	那	那	DET	_	_	4	mod	_	_
+4	些	些	CLF	_	_	5	clf	_	_
+5	照	照	NOUN	_	_	2	comp:obj	_	_
+6	片	片	NOUN	_	_	5	@m	_	_
+7	都	都	ADV	_	_	8	mod	_	_
+8	发	发	VERB	_	_	2	comp:aux	_	Grammar_Target=Yes
+9	给	给	ADP	_	_	8	comp:obl	_	Grammar_Target=Yes
+10	我	我	PRON	_	Person=1	9	comp:obj	_	_
+11	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2470
+# structure = Subj. + Verb + 得 + Complement
+# text = 这么 高 的 山 ，你 爬 得 上去 吗 ？
+# pinyin = Zhème gāo de shān, nǐ pá de shàngqù ma?
+# level = B1
+# structure_verbose = Potential complement
+# translation_english = The mountain is so high. Can you climb to the top?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPJPQ
+1	这	这	ADV	_	_	3	mod	_	_
+2	么	么	ADV	_	_	1	@m	_	_
+3	高	高	ADJ	_	_	4	comp:obj	_	_
+4	的	的	PART	_	Case=Gen	5	mod	_	_
+5	山	山	NOUN	_	_	8	mod	_	_
+6	，	，	PUNCT	_	_	8	punct	_	_
+7	你	你	PRON	_	Person=2	8	subj	_	_
+8	爬	爬	VERB	_	_	0	root	_	_
+9	得	得	ADV	_	_	10	mod	_	Grammar_Target=Yes
+10	上	上	VERB	_	_	8	comp:dir	_	_
+11	去	去	VERB	_	_	10	comp:dir	_	_
+12	吗	吗	PART	_	Mood=Inter	8	discourse	_	_
+13	？	？	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2586
+# structure = Subj. + 被 (+ Doer) + Verb + 了
+# text = 我 被 他 骗 了 。
+# pinyin = Wǒ bèi tā piàn le.
+# level = B1
+# structure_verbose = Using "bei" sentences
+# translation_english = I was deceived by him.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGHF9F1
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	被	被	AUX	_	_	0	root	_	Grammar_Target=Yes
+3	他	他	PRON	_	Person=3	2	comp:obj	_	_
+4	骗	骗	VERB	_	_	2	comp:aux	_	_
+5	了	了	PART	_	_	2	discourse	_	_
+6	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 1906
+# structure = Subj. + 比较 + Adj.
+# text = 这个 问题 比较 简单 。
+# pinyin = Zhège wèntí bǐjiào jiǎndān.
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# translation_english = This question is quite easy.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	CLF	_	_	3	clf	_	_
+3	问	问	NOUN	_	_	7	subj	_	_
+4	题	题	NOUN	_	_	3	@m	_	_
+5	比	比	ADV	_	_	7	mod	_	Grammar_Target=Yes
+6	较	较	ADV	_	_	5	@m	_	Grammar_Target=Yes
+7	简	简	ADJ	_	_	0	root	_	_
+8	单	单	ADJ	_	_	7	@m	_	_
+9	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1909
+# structure = Subj. + 比较 + Adj.
+# text = 大 城市 的 工作 压力 比较 大 。
+# pinyin = Dà chéngshì de gōngzuò yālì bǐjiào dà.
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# translation_english = Jobs in big cities have quite a lot of pressure.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+1	大	大	ADJ	_	_	2	mod	_	_
+2	城	城	NOUN	_	_	4	comp:obj	_	_
+3	市	市	NOUN	_	_	2	@m	_	_
+4	的	的	PART	_	Case=Gen	7	mod	_	_
+5	工	工	NOUN	_	_	7	compound	_	_
+6	作	作	NOUN	_	_	5	@m	_	_
+7	压	压	NOUN	_	_	11	subj	_	_
+8	力	力	NOUN	_	_	7	@m	_	_
+9	比	比	ADV	_	_	11	mod	_	Grammar_Target=Yes
+10	较	较	ADV	_	_	9	@m	_	Grammar_Target=Yes
+11	大	大	ADJ	_	_	0	root	_	_
+12	。	。	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1911
+# structure = Subj. + 比较 + [Verb Phrase]
+# text = 我 比较 讨厌 男人 说 脏话 。
+# pinyin = Wǒ bǐjiào tǎoyàn nánrén shuō zānghuà.
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# translation_english = I quite hate it when men use foul language.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+1	我	我	PRON	_	Person=1	4	subj	_	_
+2	比	比	ADV	_	_	4	mod	_	Grammar_Target=Yes
+3	较	较	ADV	_	_	2	@m	_	Grammar_Target=Yes
+4	讨	讨	VERB	_	_	0	root	_	_
+5	厌	厌	VERB	_	_	4	@m	_	_
+6	男	男	NOUN	_	_	7	@m	_	_
+7	人	人	NOUN	_	_	8	subj	_	_
+8	说	说	VERB	_	_	4	comp:pred	_	_
+9	脏	脏	ADJ	_	_	10	@m	_	_
+10	话	话	NOUN	_	_	8	comp:obj	_	_
+11	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1970
+# structure = Reason / Situation ，要不 + Suggestion
+# text = 要不 你 先 走 吧 ，我 还没 做完 。
+# pinyin = Yàobù nǐ xiān zǒu ba, wǒ hái méi zuò wán.
+# level = B1
+# structure_verbose = Expressing "how about" with "yaobu"
+# translation_english = How about you leave first? I haven't finished yet.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDFQP7
+1	要	要	ADV	_	_	5	mod	_	Grammar_Target=Yes
+2	不	不	ADV	_	_	1	@m	_	Grammar_Target=Yes
+3	你	你	PRON	_	Person=2	4	subj	_	_
+4	先	先	ADV	_	_	5	mod	_	_
+5	走	走	VERB	_	_	0	root	_	_
+6	吧	吧	PART	_	_	5	discourse	_	_
+7	，	，	PUNCT	_	_	11	punct	_	_
+8	我	我	PRON	_	Person=1	11	subj	_	_
+9	还	还	ADV	_	_	11	mod	_	_
+10	没	没	ADV	_	_	11	mod	_	_
+11	做	做	VERB	_	_	5	parataxis	_	_
+12	完	完	VERB	_	_	11	comp:res	_	_
+13	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2684
+# structure = A + 比 + B + Adj. + Number + 倍
+# text = 中国 人口 比 美国 人口 多 四 倍 。
+# pinyin = Zhōngguó rénkǒu bǐ Měiguó rénkǒu duō sì bèi.
+# level = B1
+# structure_verbose = Expressing "multiples" with "bei"
+# translation_english = China's population is five times as large as the USA's.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG7D4EC
+1	中	中	PROPN	_	_	3	compound	_	_
+2	国	国	PROPN	_	_	1	@m	_	_
+3	人	人	NOUN	_	_	10	subj	_	_
+4	口	口	NOUN	_	_	3	@m	_	_
+5	比	比	ADP	_	_	10	comp:obl	_	_
+6	美	美	PROPN	_	_	8	compound	_	_
+7	国	国	PROPN	_	_	6	@m	_	_
+8	人	人	NOUN	_	_	5	comp:obj	_	_
+9	口	口	NOUN	_	_	8	@m	_	_
+10	多	多	ADJ	_	_	0	root	_	_
+11	四	四	NUM	_	NumType=Card	12	mod	_	_
+12	倍	倍	NOUN	_	_	10	comp:obj	_	Grammar_Target=Yes
+13	。	。	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2685
+# structure = A + 比 + B + Adj. + Number + 倍
+# text = 他 的 车 比 你 的 车 贵 十 倍 。
+# pinyin = Tā de chē bǐ nǐ de chē guì shí bèi.
+# level = B1
+# structure_verbose = Expressing "multiples" with "bei"
+# translation_english = His car is 11 times more expensive than your car.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG7D4EC
+1	他	他	PRON	_	Person=3	2	comp:obj	_	_
+2	的	的	PART	_	Case=Gen	3	mod	_	_
+3	车	车	NOUN	_	_	8	subj	_	_
+4	比	比	ADP	_	_	8	comp:obl	_	_
+5	你	你	PRON	_	Person=2	6	comp:obj	_	_
+6	的	的	PART	_	Case=Gen	7	mod	_	_
+7	车	车	NOUN	_	_	4	comp:obj	_	_
+8	贵	贵	ADJ	_	_	0	root	_	_
+9	十	十	NOUN	_	_	10	mod	_	_
+10	倍	倍	NOUN	_	_	8	mod	_	Grammar_Target=Yes
+11	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2717
+# structure = Word + 来说
+# text = 一般 来说 ，私立 学校 都 比较 贵 。
+# pinyin = Yībān lái shuō, sīlì xuéxiào dōu bǐjiào guì.
+# level = B1
+# structure_verbose = Phrases using "laishuo"
+# translation_english = Ordinarily, private schools are more expensive.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGD60A6
+1	一	一	ADV	_	_	13	parataxis	_	Grammar_Target=Yes
+2	般	般	ADV	_	_	1	@m	_	Grammar_Target=Yes
+3	来	来	VERB	_	_	2	@m	_	Grammar_Target=Yes
+4	说	说	VERB	_	_	3	@m	_	Grammar_Target=Yes
+5	，	，	PUNCT	_	_	13	punct	_	_
+6	私	私	NOUN	_	_	8	compound	_	_
+7	立	立	NOUN	_	_	6	@m	_	_
+8	学	学	NOUN	_	_	13	subj	_	_
+9	校	校	NOUN	_	_	8	@m	_	_
+10	都	都	ADV	_	_	13	mod	_	_
+11	比	比	ADV	_	_	13	mod	_	_
+12	较	较	ADV	_	_	11	@m	_	_
+13	贵	贵	ADJ	_	_	0	root	_	_
+14	。	。	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2756
+# structure = Noun 1 + 比 + Noun 2 + 更 / 还 + Adj.
+# text = 大 城市 的 工作 机会 比 我 老家 更 多 。
+# pinyin = Dà chéngshì de gōngzuò jīhuì bǐ wǒ lǎojiā gèng duō.
+# level = B1
+# structure_verbose = Expressing "even more" with "geng" or "hai"
+# translation_english = There are even more job opportunities in big cities than in my hometown.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG64E96
+1	大	大	ADJ	_	_	2	mod	_	_
+2	城	城	NOUN	_	_	4	comp:obj	_	_
+3	市	市	NOUN	_	_	2	@m	_	_
+4	的	的	PART	_	Case=Gen	5	mod	_	_
+5	工	工	NOUN	_	_	7	compound	_	_
+6	作	作	NOUN	_	_	5	@m	_	_
+7	机	机	NOUN	_	_	14	subj	_	_
+8	会	会	AUX	_	_	7	@m	_	_
+9	比	比	ADP	_	_	14	comp:obl	_	Grammar_Target=Yes
+10	我	我	PRON	_	Person=1	11	mod	_	_
+11	老	老	NOUN	_	_	9	comp:obj	_	_
+12	家	家	NOUN	_	_	11	@m	_	_
+13	更	更	ADV	_	_	14	mod	_	_
+14	多	多	ADJ	_	_	0	root	_	_
+15	。	。	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2757
+# structure = Noun 1 + 比 + Noun 2 + 更 / 还 + Adj.
+# text = 他 比 姚明 还 高 。
+# pinyin = Tā bǐ Yáo Míng hái gāo.
+# level = B1
+# structure_verbose = Expressing "even more" with "geng" or "hai"
+# translation_english = He is even taller than Yao Ming.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG64E96
+1	他	他	PRON	_	Person=3	6	subj	_	_
+2	比	比	ADP	_	_	6	comp:obl	_	Grammar_Target=Yes
+3	姚	姚	PROPN	_	_	2	comp:obj	_	_
+4	明	明	PROPN	_	_	3	@m	_	_
+5	还	还	ADV	_	_	6	mod	_	_
+6	高	高	ADJ	_	_	0	root	_	_
+7	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2761
+# structure = Noun 1 + 比 + Noun 2 + Adj. + 很多 / 得多 / 多了
+# text = 坐 高铁 比 坐 飞机 方便 很多 。
+# pinyin = Zuò gāotiě bǐ zuò fēijī fāngbiàn hěn duō.
+# level = B1
+# structure_verbose = Expressing "much more" in comparisons
+# translation_english = It's much more convenient to take the high-speed train than the airplane.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6KUS5
+1	坐	坐	VERB	_	_	8	subj	_	_
+2	高	高	ADJ	_	_	1	comp:obj	_	_
+3	铁	铁	NOUN	_	_	2	@m	_	_
+4	比	比	ADP	_	_	8	comp:obl	_	Grammar_Target=Yes
+5	坐	坐	VERB	_	_	4	comp:obj	_	_
+6	飞	飞	NOUN	_	_	5	comp:obj	_	_
+7	机	机	NOUN	_	_	6	@m	_	_
+8	方	方	ADJ	_	_	0	root	_	_
+9	便	便	ADJ	_	_	8	@m	_	_
+10	很	很	ADV	_	_	11	@m	_	_
+11	多	多	ADJ	_	_	8	mod	_	_
+12	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2762
+# structure = Noun 1 + 比 + Noun 2 + Adj. + 很多 / 得多 / 多了
+# text = 这 个 女老师 比 那个 男老师 严格 得 多 。
+# pinyin = Zhège nǚ lǎoshī bǐ nàge nán lǎoshī yángé de duō.
+# level = B1
+# structure_verbose = Expressing "much more" in comparisons
+# translation_english = This female teacher is much stricter than that male teacher.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6KUS5
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	CLF	_	_	4	clf	_	_
+3	女	女	NOUN	_	_	4	@m	_	_
+4	老	老	NOUN	_	_	12	subj	_	_
+5	师	师	NOUN	_	_	4	@m	_	_
+6	比	比	ADP	_	_	12	comp:obl	_	Grammar_Target=Yes
+7	那	那	DET	_	_	8	mod	_	_
+8	个	个	CLF	_	_	10	clf	_	_
+9	男	男	NOUN	_	_	10	@m	_	_
+10	老	老	NOUN	_	_	6	comp:obj	_	_
+11	师	师	NOUN	_	_	10	@m	_	_
+12	严	严	ADJ	_	_	0	root	_	_
+13	格	格	ADJ	_	_	12	@m	_	_
+14	得	得	ADV	_	_	12	mod	_	_
+15	多	多	ADV	_	_	14	comp:obj	_	_
+16	。	。	PUNCT	_	_	12	punct	_	_
+
