@@ -37,6 +37,16 @@ PS : At the moment, some of the sentences in the C1 part are missing the pinyin 
 To be independent of the results of a pre tokenization, we decided to annotate the corpus on the morpheme level. It means that each character is a node/token of the sentence, and relations xxx@m (m for morpheme) are linking characters of a same "word unit".
 We will provide in a near future the grew rules for converting to word unit SUD and to word unit UD.
 
+## Conversions
+### Prerequesites
+You first need to [install grew](https://grew.fr/usage/install/) and pull the [SUD rewriting repository](https://github.com/surfacesyntacticud/tools)
+### Convert to SUD (from mSUD)
+Given that you cloned the "tools" repo on a sibling level with the current repo 
+```
+grew transform -grs ../tools/converter/grs/zh_mSUD_to_SUD.grs -config sud -strat zh_main -i ./chinese-beginner.A1.mSUD.conllu -o ./chinese-beginner.A1.SUD.conllu
+```
+### Convert to UD (from mSUD)
+TODO
 
 ## Contact us
 If you have any question or wish to add your contribution, feel free to contact Kirian GUILLER, Qishen WU or Yixuan LI
