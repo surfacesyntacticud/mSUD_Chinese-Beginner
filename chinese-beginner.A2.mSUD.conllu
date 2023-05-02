@@ -65,7 +65,7 @@
 # translation_english = This clothing is totally hideous!
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGLEVUV
 1	这	这	DET	_	_	2	det	_	_
-2	件	件	CLF	_	_	3	clf	_	_
+2	件	件	NOUN	_	_	3	clf	_	_
 3	衣	衣	NOUN	_	_	5	subj	_	_
 4	服	服	NOUN	_	_	3	@m	_	_
 5	丑	丑	ADJ	_	_	0	root	_	_
@@ -118,7 +118,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG1NAXO
 1	这	这	DET	_	_	2	det	_	_
 2	几	几	NUM	_	NumType=Card	3	mod	_	_
-3	个	个	CLF	_	_	4	clf	_	_
+3	个	个	NOUN	_	_	4	clf	_	_
 4	地	地	NOUN	_	_	7	subj	_	_
 5	方	方	NOUN	_	_	4	@m	_	_
 6	都	都	ADV	_	_	7	mod	_	_
@@ -137,7 +137,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG1NAXO
 1	这	这	DET	_	_	2	det	_	_
 2	两	两	NUM	_	NumType=Card	3	mod	_	_
-3	个	个	CLF	_	_	4	clf	_	_
+3	个	个	NOUN	_	_	4	clf	_	_
 4	词	词	NOUN	_	_	5	comp:obj	_	_
 5	的	的	PART	_	Case=Gen	6	mod	_	_
 6	意	意	NOUN	_	_	8	subj	_	_
@@ -305,7 +305,7 @@
 2	不	不	ADV	_	_	3	@m	_	Grammar_Target=Yes
 3	多	多	ADJ	_	_	1	@m	_	Grammar_Target=Yes
 4	两	两	NUM	_	NumType=Card	5	mod	_	_
-5	个	个	CLF	_	_	6	clf	_	_
+5	个	个	NOUN	_	_	6	clf	_	_
 6	星	星	NOUN	_	_	15	mod	_	_
 7	期	期	NOUN	_	_	6	@m	_	_
 8	以	以	NOUN	_	_	6	mod	_	_
@@ -1034,7 +1034,7 @@
 7	已	已	ADV	_	_	12	mod	_	Grammar_Target=Yes
 8	经	经	ADV	_	_	7	@m	_	Grammar_Target=Yes
 9	半	半	NUM	_	NumType=Card	10	mod	_	_
-10	个	个	CLF	_	_	12	clf	_	_
+10	个	个	NOUN	_	_	12	clf	_	_
 11	小	小	ADJ	_	_	12	@m	_	_
 12	时	时	NOUN	_	_	0	root	_	_
 13	了	了	PART	_	_	12	discourse	_	Grammar_Target=Yes
@@ -1055,10 +1055,10 @@
 5	京	京	PROPN	_	_	4	@m	_	_
 6	出	出	VERB	_	_	3	comp:obj	_	_
 7	差	差	NOUN	_	_	6	comp:obj	_	_
-8	已	已	ADV	_	_	3	mod	_	Grammar_Target=Yes
+8	已	已	ADV	_	_	11	mod	_	Grammar_Target=Yes
 9	经	经	ADV	_	_	8	@m	_	Grammar_Target=Yes
 10	两	两	NUM	_	NumType=Card	11	mod	_	_
-11	天	天	NOUN	_	_	8	@m	_	_
+11	天	天	NOUN	_	_	3	comp:obl	_	_
 12	了	了	PART	_	_	3	discourse	_	Grammar_Target=Yes
 13	。	。	PUNCT	_	_	3	punct	_	_
 
@@ -1194,7 +1194,7 @@
 4	忘	忘	VERB	_	_	0	root	_	_
 5	记	记	VERB	_	_	4	@m	_	_
 6	这	这	DET	_	_	7	det	_	_
-7	个	个	CLF	_	_	8	clf	_	_
+7	个	个	NOUN	_	_	8	clf	_	_
 8	词	词	NOUN	_	_	4	comp:obj	_	_
 9	。	。	PUNCT	_	_	4	punct	_	_
 
@@ -1210,7 +1210,7 @@
 2	总	总	ADV	_	_	7	mod	_	Grammar_Target=Yes
 3	是	是	ADV	_	_	2	@m	_	Grammar_Target=Yes
 4	一	一	NUM	_	_	5	mod	_	_
-5	个	个	CLF	_	_	6	clf	_	_
+5	个	个	NOUN	_	_	6	clf	_	_
 6	人	人	NOUN	_	_	7	mod	_	_
 7	吃	吃	VERB	_	_	0	root	_	_
 8	饭	饭	NOUN	_	_	7	comp:obj	_	_
@@ -1343,14 +1343,14 @@
 1	她	她	PRON	_	Person=3	2	subj	_	_
 2	有	有	VERB	_	_	0	root	_	_
 3	一	一	NUM	_	NumType=Card	4	mod	_	_
-4	个	个	CLF	_	_	5	clf	_	_
+4	个	个	NOUN	_	_	5	clf	_	_
 5	弟	弟	NOUN	_	_	2	comp:obj	_	_
 6	弟	弟	NOUN	_	_	5	@m	_	_
 7	，	，	PUNCT	_	_	12	punct	_	_
 8	还	还	CCONJ	_	_	12	cc	_	Grammar_Target=Yes
 9	有	有	VERB	_	_	8	@m	_	_
 10	一	一	NUM	_	NumType=Card	11	mod	_	_
-11	个	个	CLF	_	_	12	clf	_	_
+11	个	个	NOUN	_	_	12	clf	_	_
 12	妹	妹	NOUN	_	_	2	conj	_	_
 13	妹	妹	NOUN	_	_	12	@m	_	_
 14	。	。	PUNCT	_	_	2	punct	_	_
@@ -1389,7 +1389,7 @@
 1	你	你	PRON	_	Person=2	2	subj	_	_
 2	要	要	AUX	_	_	0	root	_	_
 3	一	一	NUM	_	NumType=Card	4	mod	_	_
-4	杯	杯	CLF	_	_	5	clf	_	_
+4	杯	杯	NOUN	_	_	5	clf	_	_
 5	咖	咖	NOUN	_	_	2	comp:obj	_	_
 6	啡	啡	NOUN	_	_	5	@m	_	_
 7	，	，	PUNCT	_	_	9	punct	_	_
@@ -1474,7 +1474,7 @@
 3	结	结	VERB	_	_	0	root	_	_
 4	婚	婚	NOUN	_	_	3	comp:obj	_	_
 5	三	三	NUM	_	NumType=Card	6	mod	_	_
-6	个	个	CLF	_	_	7	clf	_	_
+6	个	个	NOUN	_	_	7	clf	_	_
 7	月	月	NOUN	_	_	3	mod	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
 
@@ -1515,7 +1515,7 @@
 2	只	只	ADV	_	_	3	mod	_	Grammar_Target=Yes
 3	有	有	VERB	_	_	0	root	_	_
 4	一	一	NUM	_	NumType=Card	5	mod	_	_
-5	个	个	CLF	_	_	6	clf	_	_
+5	个	个	NOUN	_	_	6	clf	_	_
 6	哥	哥	NOUN	_	_	3	comp:obj	_	_
 7	哥	哥	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
@@ -1533,7 +1533,7 @@
 3	只	只	ADV	_	_	4	mod	_	Grammar_Target=Yes
 4	有	有	VERB	_	_	0	root	_	_
 5	十	十	NUM	_	NumType=Card	6	mod	_	_
-6	块	块	CLF	_	_	7	clf	_	_
+6	块	块	NOUN	_	_	7	clf	_	_
 7	钱	钱	NOUN	_	_	4	comp:obj	_	_
 8	。	。	PUNCT	_	_	4	punct	_	_
 
@@ -1552,7 +1552,7 @@
 5	只	只	ADV	_	_	6	mod	_	Grammar_Target=Yes
 6	有	有	VERB	_	_	0	root	_	_
 7	两	两	NUM	_	NumType=Card	8	mod	_	_
-8	个	个	CLF	_	_	9	clf	_	_
+8	个	个	NOUN	_	_	9	clf	_	_
 9	员	员	NOUN	_	_	6	comp:obj	_	_
 10	工	工	NOUN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	6	punct	_	_
@@ -1724,7 +1724,7 @@
 # translation_english = How heavy are these things?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG9LLJU
 1	这	这	DET	_	_	2	det	_	_
-2	些	些	CLF	_	_	3	clf	_	_
+2	些	些	NOUN	_	_	3	clf	_	_
 3	东	东	NOUN	_	_	6	subj	_	_
 4	西	西	NOUN	_	_	3	@m	_	_
 5	多	多	ADV	_	_	6	mod	_	Grammar_Target=Yes
@@ -1858,14 +1858,14 @@
 # translation_english = Are the meanings of this word and that word the same?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGC06N0
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	词	词	NOUN	_	_	4	comp:obj	_	_
 4	的	的	PART	_	Case=Gen	5	mod	_	_
 5	意	意	NOUN	_	_	12	subj	_	_
 6	思	思	NOUN	_	_	5	@m	_	_
 7	和	和	CCONJ	_	_	10	cc	_	Grammar_Target=Yes
 8	那	那	DET	_	_	9	mod	_	_
-9	个	个	CLF	_	_	10	clf	_	_
+9	个	个	NOUN	_	_	10	clf	_	_
 10	词	词	NOUN	_	_	5	conj	_	_
 11	一	一	NOUN	_	_	12	@m	_	Grammar_Target=Yes
 12	样	样	NOUN	_	_	0	root	_	Grammar_Target=Yes
@@ -2027,7 +2027,7 @@
 # translation_english = This month the company is a little bit busy.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPM3MY
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	月	月	NOUN	_	_	6	mod	_	_
 4	公	公	NOUN	_	_	6	subj	_	_
 5	司	司	NOUN	_	_	4	@m	_	_
@@ -2045,7 +2045,7 @@
 # translation_english = This place is a little too noisy. Let's go.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPM3MY
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	地	地	NOUN	_	_	5	subj	_	_
 4	方	方	NOUN	_	_	3	@m	_	_
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
@@ -2129,7 +2129,7 @@
 # structure_verbose = Expressing "a little too" with "you dian"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPM3MY
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	地	地	NOUN	_	_	5	subj	_	_
 4	方	方	NOUN	_	_	3	@m	_	_
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
@@ -2235,7 +2235,7 @@
 2	有	有	VERB	_	_	0	root	_	_
 3	好	好	ADV	_	_	4	mod	_	Grammar_Target=Yes
 4	几	几	NUM	_	NumType=Card	5	mod	_	Grammar_Target=Yes
-5	个	个	CLF	_	_	6	clf	_	_
+5	个	个	NOUN	_	_	6	clf	_	_
 6	室	室	NOUN	_	_	2	comp:obj	_	_
 7	友	友	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	2	punct	_	_
@@ -2254,7 +2254,7 @@
 4	有	有	VERB	_	_	0	root	_	_
 5	好	好	ADV	_	_	6	mod	_	Grammar_Target=Yes
 6	几	几	NUM	_	NumType=Card	7	mod	_	Grammar_Target=Yes
-7	个	个	CLF	_	_	8	clf	_	_
+7	个	个	NOUN	_	_	8	clf	_	_
 8	孩	孩	NOUN	_	_	4	comp:obj	_	_
 9	子	子	NOUN	_	_	8	@m	_	_
 10	。	。	PUNCT	_	_	4	punct	_	_
@@ -2272,7 +2272,7 @@
 3	了	了	PART	_	_	2	aspect	_	_
 4	好	好	ADV	_	_	5	mod	_	Grammar_Target=Yes
 5	几	几	NUM	_	NumType=Card	6	mod	_	Grammar_Target=Yes
-6	碗	碗	CLF	_	_	7	clf	_	_
+6	碗	碗	NOUN	_	_	7	clf	_	_
 7	米	米	NOUN	_	_	2	comp:obj	_	_
 8	饭	饭	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	2	punct	_	_
@@ -2596,7 +2596,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGAGDCQ
 1	她	她	PRON	_	Person=3	5	subj	_	_
 2	上	上	NOUN	_	_	3	mod	_	_
-3	个	个	CLF	_	_	4	clf	_	_
+3	个	个	NOUN	_	_	4	clf	_	_
 4	月	月	NOUN	_	_	5	mod	_	_
 5	去	去	VERB	_	_	0	root	_	_
 6	了	了	PART	_	_	5	aspect	_	Grammar_Target=Yes
@@ -2644,7 +2644,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGAGDCQ
 1	她	她	PRON	_	Person=3	5	subj	_	_
 2	上	上	NOUN	_	_	3	mod	_	_
-3	个	个	CLF	_	_	4	clf	_	_
+3	个	个	NOUN	_	_	4	clf	_	_
 4	月	月	NOUN	_	_	5	mod	_	_
 5	去	去	VERB	_	_	0	root	_	_
 6	了	了	PART	_	_	5	aspect	_	Grammar_Target=Yes
@@ -2680,7 +2680,7 @@
 3	问	问	VERB	_	_	0	root	_	_
 4	了	了	PART	_	_	3	aspect	_	Grammar_Target=Yes
 5	五	五	NUM	_	NumType=Card	6	mod	_	_
-6	个	个	CLF	_	_	7	clf	_	_
+6	个	个	NOUN	_	_	7	clf	_	_
 7	问	问	NOUN	_	_	3	comp:obj	_	_
 8	题	题	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	3	punct	_	_
@@ -2697,7 +2697,7 @@
 2	买	买	VERB	_	_	0	root	_	_
 3	了	了	PART	_	_	2	aspect	_	Grammar_Target=Yes
 4	三	三	NUM	_	NumType=Card	5	mod	_	_
-5	本	本	CLF	_	_	6	clf	_	_
+5	本	本	NOUN	_	_	6	clf	_	_
 6	书	书	NOUN	_	_	2	comp:obj	_	_
 7	。	。	PUNCT	_	_	2	punct	_	_
 
@@ -2710,7 +2710,7 @@
 # translation_english = I went to Taiwan last month.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGAGDCQ
 1	上	上	NOUN	_	_	2	mod	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	月	月	NOUN	_	_	5	mod	_	_
 4	我	我	PRON	_	Person=1	5	subj	_	_
 5	去	去	VERB	_	_	0	root	_	_
@@ -2812,7 +2812,7 @@
 7	车	车	NOUN	_	_	5	comp:obj	_	_
 8	要	要	AUX	_	_	2	parataxis	_	_
 9	十	十	NUM	_	NumType=Card	10	mod	_	_
-10	个	个	CLF	_	_	12	clf	_	_
+10	个	个	NOUN	_	_	12	clf	_	_
 11	小	小	NOUN	_	_	12	@m	_	_
 12	时	时	NOUN	_	_	8	comp:obj	_	_
 13	呢	呢	PART	_	_	8	discourse	_	Grammar_Target=Yes
@@ -2937,7 +2937,7 @@
 5	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 6	见	见	VERB	_	_	5	comp:aux	_	_
 7	一	一	NUM	_	NumType=Card	8	mod	_	_
-8	个	个	CLF	_	_	10	clf	_	_
+8	个	个	NOUN	_	_	10	clf	_	_
 9	新	新	ADJ	_	_	10	mod	_	_
 10	客	客	NOUN	_	_	6	comp:obj	_	_
 11	户	户	NOUN	_	_	10	@m	_	_
@@ -3198,7 +3198,7 @@
 2	想	想	AUX	_	_	0	root	_	Grammar_Target=Yes
 3	买	买	VERB	_	_	2	comp:aux	_	_
 4	一	一	NUM	_	NumType=Card	5	mod	_	_
-5	个	个	CLF	_	_	7	clf	_	_
+5	个	个	NOUN	_	_	7	clf	_	_
 6	大	大	ADJ	_	_	7	mod	_	_
 7	房	房	NOUN	_	_	3	comp:obj	_	_
 8	子	子	NOUN	_	_	7	@m	_	_
@@ -3235,7 +3235,7 @@
 4	认	认	VERB	_	_	3	comp:aux	_	_
 5	识	识	VERB	_	_	4	@m	_	_
 6	这	这	DET	_	_	7	det	_	_
-7	个	个	CLF	_	_	8	clf	_	_
+7	个	个	NOUN	_	_	8	clf	_	_
 8	美	美	NOUN	_	_	4	comp:obj	_	_
 9	女	女	NOUN	_	_	8	@m	_	_
 10	吗	吗	PART	_	Mood=Inter	3	discourse	_	_
@@ -3250,7 +3250,7 @@
 # translation_english = That place is so close. I would not like to drive.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGT97VF
 1	那	那	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	地	地	NOUN	_	_	6	subj	_	_
 4	方	方	NOUN	_	_	3	@m	_	_
 5	很	很	ADV	_	_	6	mod	_	_
@@ -3394,7 +3394,7 @@
 3	学	学	VERB	_	_	0	root	_	_
 4	完	完	VERB	_	_	3	comp:res	_	Grammar_Target=Yes
 5	这	这	DET	_	_	6	det	_	_
-6	篇	篇	CLF	_	_	7	clf	_	_
+6	篇	篇	NOUN	_	_	7	clf	_	_
 7	课	课	NOUN	_	_	3	comp:obj	_	_
 8	文	文	NOUN	_	_	7	@m	_	_
 9	了	了	PART	_	_	3	discourse	_	Grammar_Target=Yes
@@ -3437,7 +3437,7 @@
 # translation_english = These dirty clothes are about to smell bad.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGNGEU8
 1	这	这	DET	_	_	2	det	_	_
-2	些	些	CLF	_	_	4	clf	_	_
+2	些	些	NOUN	_	_	4	clf	_	_
 3	脏	脏	ADJ	_	_	4	mod	_	_
 4	衣	衣	NOUN	_	_	7	subj	_	_
 5	服	服	NOUN	_	_	4	@m	_	_
@@ -4114,7 +4114,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGOUD8U
 1	这	这	DET	_	_	2	det	_	_
 2	几	几	NUM	_	NumType=Card	3	mod	_	_
-3	本	本	CLF	_	_	4	clf	_	_
+3	本	本	NOUN	_	_	4	clf	_	_
 4	书	书	NOUN	_	_	5	subj	_	_
 5	花	花	VERB	_	_	0	root	_	_
 6	了	了	PART	_	_	5	aspect	_	_
@@ -4305,7 +4305,7 @@
 5	要	要	AUX	_	_	0	root	_	_
 6	喝	喝	VERB	_	_	5	comp:aux	_	_
 7	几	几	NUM	_	NumType=Card	8	mod	_	Grammar_Target=Yes
-8	杯	杯	CLF	_	_	9	clf	_	_
+8	杯	杯	NOUN	_	_	9	clf	_	_
 9	咖	咖	NOUN	_	_	6	comp:obj	_	_
 10	啡	啡	NOUN	_	_	9	fixed@m	_	_
 11	。	。	PUNCT	_	_	5	punct	_	_
@@ -4325,7 +4325,7 @@
 5	开	开	VERB	_	_	0	root	_	_
 6	了	了	PART	_	_	5	aspect	_	_
 7	几	几	NUM	_	NumType=Card	8	mod	_	Grammar_Target=Yes
-8	个	个	CLF	_	_	11	comp:obj	_	_
+8	个	个	NOUN	_	_	11	comp:obj	_	_
 9	重	重	ADJ	_	_	11	comp:obj	_	_
 10	要	要	ADJ	_	_	9	@m	_	_
 11	的	的	PART	_	Case=Gen	12	mod	_	_
@@ -4346,7 +4346,7 @@
 4	学	学	VERB	_	_	3	comp:aux	_	_
 5	几	几	NUM	_	NumType=Card	6	mod	_	Grammar_Target=Yes
 6	十	十	NUM	_	NumType=Card	7	mod	_	Grammar_Target=Yes
-7	个	个	CLF	_	_	8	clf	_	_
+7	个	个	NOUN	_	_	8	clf	_	_
 8	汉	汉	NOUN	_	_	4	comp:obj	_	_
 9	字	字	NOUN	_	_	8	@m	_	_
 10	。	。	PUNCT	_	_	3	punct	_	_
@@ -4366,7 +4366,7 @@
 5	有	有	VERB	_	_	0	root	_	_
 6	几	几	NUM	_	NumType=Card	7	mod	_	Grammar_Target=Yes
 7	十	十	NUM	_	NumType=Card	8	mod	_	Grammar_Target=Yes
-8	个	个	CLF	_	_	9	clf	_	_
+8	个	个	NOUN	_	_	9	clf	_	_
 9	员	员	NOUN	_	_	5	comp:obj	_	_
 10	工	工	NOUN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	5	punct	_	_
@@ -4402,7 +4402,7 @@
 # translation_english = This young actor has acted in dozens of movies. I like them all.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGHC9CA
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	6	clf	_	_
+2	个	个	NOUN	_	_	6	clf	_	_
 3	年	年	NOUN	_	_	5	comp:obj	_	_
 4	轻	轻	ADJ	_	_	3	@m	_	_
 5	的	的	PART	_	Case=Gen	6	mod	_	_
@@ -4412,7 +4412,7 @@
 9	了	了	PART	_	_	8	aspect	_	_
 10	几	几	NUM	_	NumType=Card	11	mod	_	Grammar_Target=Yes
 11	十	十	NUM	_	NumType=Card	12	mod	_	Grammar_Target=Yes
-12	部	部	CLF	_	_	13	clf	_	_
+12	部	部	NOUN	_	_	13	clf	_	_
 13	电	电	NOUN	_	_	8	comp:obj	_	_
 14	影	影	NOUN	_	_	13	@m	_	_
 15	。	。	PUNCT	_	_	8	punct	_	_
@@ -4438,7 +4438,7 @@
 6	有	有	VERB	_	_	0	root	_	_
 7	几	几	NUM	_	NumType=Card	8	mod	_	Grammar_Target=Yes
 8	十	十	NUM	_	NumType=Card	9	mod	_	Grammar_Target=Yes
-9	套	套	CLF	_	_	10	clf	_	_
+9	套	套	NOUN	_	_	10	clf	_	_
 10	房	房	NOUN	_	_	6	comp:obj	_	_
 11	子	子	NOUN	_	_	10	@m	_	_
 12	。	。	PUNCT	_	_	6	punct	_	_
@@ -4454,14 +4454,14 @@
 1	妈	妈	NOUN	_	_	7	subj	_	_
 2	妈	妈	NOUN	_	_	1	@m	_	_
 3	每	每	ADV	_	_	4	mod	_	_
-4	个	个	CLF	_	_	5	clf	_	_
+4	个	个	NOUN	_	_	5	clf	_	_
 5	月	月	NOUN	_	_	7	mod	_	_
 6	都	都	ADV	_	_	7	mod	_	_
 7	给	给	VERB	_	_	0	root	_	_
 8	我	我	PRON	_	Person=1	7	comp:obj	_	_
 9	几	几	NUM	_	NumType=Card	10	mod	_	Grammar_Target=Yes
 10	百	百	NUM	_	NumType=Card	11	mod	_	Grammar_Target=Yes
-11	块	块	CLF	_	_	12	clf	_	_
+11	块	块	NOUN	_	_	12	clf	_	_
 12	钱	钱	NOUN	_	_	7	comp:obj	_	_
 13	。	。	PUNCT	_	_	7	punct	_	_
 
@@ -4474,7 +4474,7 @@
 # translation_english = We sold a couple thousand books this month.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGHC9CA
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	月	月	NOUN	_	_	6	mod	_	_
 4	我	我	PRON	_	Number=Plur|Person=1	6	subj	_	_
 5	们	们	PART	_	Number=Plur|Person=1	4	@m	_	_
@@ -4505,7 +4505,7 @@
 9	加	加	VERB	_	_	8	@m	_	_
 10	了	了	PART	_	_	8	aspect	_	_
 11	这	这	DET	_	_	12	det	_	_
-12	个	个	CLF	_	_	14	clf	_	_
+12	个	个	NOUN	_	_	14	clf	_	_
 13	大	大	NOUN	_	_	14	@m	_	_
 14	会	会	NOUN	_	_	8	comp:obj	_	_
 15	。	。	PUNCT	_	_	8	punct	_	_
@@ -4519,13 +4519,13 @@
 # translation_english = This article has tens of thousands of characters. It's too long.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGHC9CA
 1	这	这	DET	_	_	2	det	_	_
-2	篇	篇	CLF	_	_	3	clf	_	_
+2	篇	篇	NOUN	_	_	3	clf	_	_
 3	文	文	NOUN	_	_	5	subj	_	_
 4	章	章	NOUN	_	_	3	@m	_	_
 5	有	有	VERB	_	_	0	root	_	_
 6	几	几	NUM	_	NumType=Card	7	mod	_	Grammar_Target=Yes
 7	万	万	NUM	_	NumType=Card	8	mod	_	Grammar_Target=Yes
-8	个	个	CLF	_	_	9	clf	_	_
+8	个	个	NOUN	_	_	9	clf	_	_
 9	字	字	NOUN	_	_	5	comp:obj	_	_
 10	，	，	PUNCT	_	_	12	punct	_	_
 11	太	太	ADV	_	_	12	mod	_	_
@@ -4545,7 +4545,7 @@
 2	认	认	VERB	_	_	0	root	_	_
 3	识	识	VERB	_	_	2	@m	_	_
 4	一	一	NUM	_	NumType=Card	5	mod	_	_
-5	个	个	CLF	_	_	6	clf	_	_
+5	个	个	NOUN	_	_	6	clf	_	_
 6	朋	朋	NOUN	_	_	2	comp:obj	_	_
 7	友	友	NOUN	_	_	6	@m	_	_
 8	，	，	PUNCT	_	_	10	punct	_	_
@@ -4553,7 +4553,7 @@
 10	有	有	VERB	_	_	2	parataxis	_	_
 11	几	几	NUM	_	NumType=Card	12	mod	_	Grammar_Target=Yes
 12	百	百	NUM	_	NumType=Card	13	mod	_	Grammar_Target=Yes
-13	双	双	CLF	_	_	14	clf	_	_
+13	双	双	NOUN	_	_	14	clf	_	_
 14	鞋	鞋	NOUN	_	_	10	comp:obj	_	_
 15	。	。	PUNCT	_	_	2	punct	_	_
 
@@ -4585,7 +4585,7 @@
 2	喝	喝	VERB	_	_	0	root	_	_
 3	了	了	PART	_	_	2	aspect	_	Grammar_Target=Yes
 4	两	两	NUM	_	NumType=Card	5	mod	_	_
-5	杯	杯	CLF	_	_	6	clf	_	_
+5	杯	杯	NOUN	_	_	6	clf	_	_
 6	咖	咖	NOUN	_	_	2	comp:obj	_	_
 7	啡	啡	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	2	punct	_	_
@@ -4659,7 +4659,7 @@
 2	见	见	VERB	_	_	0	root	_	_
 3	过	过	PART	_	Aspect=Perf	2	aspect	_	Grammar_Target=Yes
 4	那	那	DET	_	_	5	det	_	_
-5	个	个	CLF	_	_	6	clf	_	_
+5	个	个	NOUN	_	_	6	clf	_	_
 6	人	人	NOUN	_	_	2	comp:obj	_	_
 7	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 8	？	？	PUNCT	_	_	2	punct	_	_
@@ -4677,7 +4677,7 @@
 3	来	来	VERB	_	_	0	root	_	_
 4	过	过	PART	_	_	3	aspect	_	Grammar_Target=Yes
 5	这	这	DET	_	_	6	det	_	_
-6	个	个	CLF	_	_	7	clf	_	_
+6	个	个	NOUN	_	_	7	clf	_	_
 7	地	地	NOUN	_	_	3	comp:obj	_	_
 8	方	方	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	3	punct	_	_
@@ -4711,7 +4711,7 @@
 2	看	看	VERB	_	_	0	root	_	_
 3	过	过	PART	_	Aspect=Perf	2	aspect	_	Grammar_Target=Yes
 4	这	这	DET	_	_	5	det	_	_
-5	个	个	CLF	_	_	6	clf	_	_
+5	个	个	NOUN	_	_	6	clf	_	_
 6	电	电	NOUN	_	_	2	comp:obj	_	_
 7	影	影	NOUN	_	_	6	@m	_	_
 8	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
@@ -4730,7 +4730,7 @@
 3	想	想	VERB	_	_	0	root	_	_
 4	过	过	PART	_	_	3	aspect	_	Grammar_Target=Yes
 5	这	这	DET	_	_	6	det	_	_
-6	个	个	CLF	_	_	7	clf	_	_
+6	个	个	NOUN	_	_	7	clf	_	_
 7	问	问	NOUN	_	_	3	comp:obj	_	_
 8	题	题	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	3	punct	_	_
@@ -4748,7 +4748,7 @@
 3	学	学	VERB	_	_	0	root	_	_
 4	过	过	PART	_	_	3	aspect	_	Grammar_Target=Yes
 5	这	这	DET	_	_	6	det	_	_
-6	个	个	CLF	_	_	7	clf	_	_
+6	个	个	NOUN	_	_	7	clf	_	_
 7	词	词	NOUN	_	_	3	comp:obj	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
 
@@ -5019,7 +5019,7 @@
 # translation_english = That place is too far away. I don't want to go.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGDHC1H
 1	那	那	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	地	地	NOUN	_	_	6	subj	_	_
 4	方	方	NOUN	_	_	3	@m	_	_
 5	太	太	ADV	_	_	6	mod	_	_
@@ -5413,7 +5413,7 @@
 1	我	我	PRON	_	Person=1	2	subj	_	_
 2	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 3	一	一	NUM	_	NumType=Card	4	mod	_	_
-4	杯	杯	CLF	_	_	5	clf	_	_
+4	杯	杯	NOUN	_	_	5	clf	_	_
 5	水	水	NOUN	_	_	2	comp:obj	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
 
@@ -5464,7 +5464,7 @@
 2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
 3	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 4	三	三	NUM	_	NumType=Card	5	mod	_	_
-5	碗	碗	CLF	_	_	6	clf	_	_
+5	碗	碗	NOUN	_	_	6	clf	_	_
 6	米	米	NOUN	_	_	3	comp:obj	_	_
 7	饭	饭	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
@@ -5498,7 +5498,7 @@
 3	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 4	买	买	VERB	_	_	3	comp:aux	_	_
 5	一	一	NUM	_	NumType=Card	6	mod	_	_
-6	个	个	CLF	_	_	8	clf	_	_
+6	个	个	NOUN	_	_	8	clf	_	_
 7	新	新	ADJ	_	_	8	mod	_	_
 8	手	手	NOUN	_	_	4	comp:obj	_	_
 9	机	机	NOUN	_	_	8	@m	_	_
@@ -5782,7 +5782,7 @@
 4	应	应	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	该	该	AUX	_	_	4	@m	_	Grammar_Target=Yes
 6	迟	迟	ADJ	_	_	7	@m	_	_
-7	到	到	VERB	_	_	5	comp:aux	_	_
+7	到	到	VERB	_	_	4	comp:aux	_	_
 8	。	。	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1097
@@ -5948,7 +5948,7 @@
 # structure_verbose = Using "hao" to mean "easy"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGJQU93
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	汉	汉	NOUN	_	_	7	subj	_	_
 4	字	字	NOUN	_	_	3	@m	_	_
 5	很	很	ADV	_	_	6	mod	_	_
@@ -6016,7 +6016,7 @@
 4	诉	诉	VERB	_	_	3	@m	_	Grammar_Target=Yes
 5	你	你	PRON	_	Person=2	3	comp:obj	_	_
 6	一	一	NUM	_	NumType=Card	7	mod	_	_
-7	个	个	CLF	_	_	9	clf	_	_
+7	个	个	NOUN	_	_	9	clf	_	_
 8	好	好	ADJ	_	_	9	mod	_	_
 9	消	消	NOUN	_	_	3	comp:obj	_	_
 10	息	息	NOUN	_	_	9	@m	_	_
@@ -6073,7 +6073,7 @@
 4	给	给	ADP	_	_	3	comp:obl	_	Grammar_Target=Yes
 5	你	你	PRON	_	Person=2	4	comp:obj	_	_
 6	一	一	NUM	_	NumType=Card	7	mod	_	_
-7	本	本	CLF	_	_	8	clf	_	_
+7	本	本	NOUN	_	_	8	clf	_	_
 8	书	书	NOUN	_	_	3	comp:obj	_	_
 9	。	。	PUNCT	_	_	2	punct	_	_
 
@@ -6092,7 +6092,7 @@
 5	给	给	ADP	_	_	4	comp:obl	_	Grammar_Target=Yes
 6	我	我	PRON	_	Person=1	5	comp:obj	_	_
 7	一	一	NUM	_	NumType=Card	8	mod	_	_
-8	个	个	CLF	_	_	14	clf	_	_
+8	个	个	NOUN	_	_	14	clf	_	_
 9	很	很	ADV	_	_	10	mod	_	_
 10	贵	贵	ADJ	_	_	11	comp:obj	_	_
 11	的	的	PART	_	Case=Gen	14	mod	_	_
@@ -6117,7 +6117,7 @@
 5	我	我	PRON	_	Person=1	4	comp:obj	_	_
 6	两	两	NUM	_	NumType=Card	8	mod	_	_
 7	千	千	NUM	_	NumType=Card	6	flat	_	_
-8	块	块	CLF	_	_	9	clf	_	_
+8	块	块	NOUN	_	_	9	clf	_	_
 9	钱	钱	NOUN	_	_	4	comp:obj	_	_
 10	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 11	？	？	PUNCT	_	_	2	punct	_	_
@@ -6137,7 +6137,7 @@
 5	给	给	ADP	_	_	4	comp:obl	_	Grammar_Target=Yes
 6	我	我	PRON	_	Person=1	5	comp:obj	_	_
 7	上	上	NOUN	_	_	8	mod	_	_
-8	个	个	CLF	_	_	9	clf	_	_
+8	个	个	NOUN	_	_	9	clf	_	_
 9	月	月	NOUN	_	_	10	comp:obj	_	_
 10	的	的	PART	_	Case=Gen	11	mod	_	_
 11	工	工	NOUN	_	_	4	comp:obj	_	_
@@ -6153,7 +6153,7 @@
 # translation_english = This person cheated me out of a lot of money.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGI2OAG
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	人	人	NOUN	_	_	4	subj	_	_
 4	骗	骗	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	了	了	PART	_	_	4	aspect	_	_
@@ -6176,7 +6176,7 @@
 3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
 4	懂	懂	VERB	_	_	2	comp:res	_	Grammar_Target=Yes
 5	这	这	DET	_	_	6	det	_	_
-6	本	本	CLF	_	_	7	clf	_	_
+6	本	本	NOUN	_	_	7	clf	_	_
 7	书	书	NOUN	_	_	2	comp:obj	_	_
 8	。	。	PUNCT	_	_	2	punct	_	_
 

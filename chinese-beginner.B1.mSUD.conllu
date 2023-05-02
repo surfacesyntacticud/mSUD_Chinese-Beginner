@@ -224,7 +224,7 @@
 2	想	想	AUX	_	_	0	root	_	_
 3	把	把	AUX	_	_	2	comp:aux	_	_
 4	这	这	DET	_	_	5	det	_	_
-5	个	个	CLF	_	_	6	clf	_	_
+5	个	个	NOUN	_	_	6	clf	_	_
 6	礼	礼	NOUN	_	_	3	comp:obj	_	_
 7	物	物	NOUN	_	_	6	@m	_	_
 8	送	送	VERB	_	_	3	comp:aux	_	Grammar_Target=Yes
@@ -243,7 +243,7 @@
 1	请	请	PART	_	_	2	discourse	_	_
 2	把	把	AUX	_	_	0	root	_	_
 3	那	那	DET	_	_	4	mod	_	_
-4	些	些	CLF	_	_	5	clf	_	_
+4	些	些	NOUN	_	_	5	clf	_	_
 5	照	照	NOUN	_	_	2	comp:obj	_	_
 6	片	片	NOUN	_	_	5	@m	_	_
 7	都	都	ADV	_	_	8	mod	_	_
@@ -298,7 +298,7 @@
 # translation_english = This question is quite easy.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	3	clf	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
 3	问	问	NOUN	_	_	7	subj	_	_
 4	题	题	NOUN	_	_	3	@m	_	_
 5	比	比	ADV	_	_	7	mod	_	Grammar_Target=Yes
@@ -505,13 +505,13 @@
 # translation_english = This female teacher is much stricter than that male teacher.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG6KUS5
 1	这	这	DET	_	_	2	det	_	_
-2	个	个	CLF	_	_	4	clf	_	_
+2	个	个	NOUN	_	_	4	clf	_	_
 3	女	女	NOUN	_	_	4	@m	_	_
 4	老	老	NOUN	_	_	12	subj	_	_
 5	师	师	NOUN	_	_	4	@m	_	_
 6	比	比	ADP	_	_	12	comp:obl	_	Grammar_Target=Yes
 7	那	那	DET	_	_	8	mod	_	_
-8	个	个	CLF	_	_	10	clf	_	_
+8	个	个	NOUN	_	_	10	clf	_	_
 9	男	男	NOUN	_	_	10	@m	_	_
 10	老	老	NOUN	_	_	6	comp:obj	_	_
 11	师	师	NOUN	_	_	10	@m	_	_
