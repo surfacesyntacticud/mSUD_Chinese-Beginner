@@ -43,10 +43,12 @@ You first need to [install grew](https://grew.fr/usage/install/) and pull the [S
 ### Convert to SUD (from mSUD)
 Given that you cloned the "tools" repo on a sibling level with the current repo 
 ```
-grew transform -grs ../tools/converter/grs/zh_mSUD_to_SUD.grs -config sud -strat zh_main -i ./chinese-beginner.A1.mSUD.conllu -o ./chinese-beginner.A1.SUD.conllu
+grew transform -grs ../tools/converter/grs/zh_mSUD_to_SUD.grs -config sud -strat zh_mSUD_to_SUD_main -i ./chinese-beginner.A1.mSUD.conllu -o ./chinese-beginner.A1.SUD.conllu
 ```
 ### Convert to UD (from mSUD)
-TODO
+```
+grew transform -grs ../tools/converter/grs/zh_mSUD_to_UD.grs -config sud -strat zh_mSUD_to_UD_main -i ./chinese-beginner.A1.mSUD.conllu -o ./chinese-beginner.A1.UD.conllu
+```
 
 ## Contact us
 If you have any question or wish to add your contribution, feel free to contact Kirian GUILLER, Qishen WU or Yixuan LI
