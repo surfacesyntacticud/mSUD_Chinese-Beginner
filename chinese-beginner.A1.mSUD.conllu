@@ -59,9 +59,9 @@
 3	没	没	ADV	_	_	4	mod	_	Grammar_Target=Yes
 4	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	爸	爸	NOUN	_	_	4	comp:obj	_	_
-6	爸	爸	NOUN	_	_	5	@m	_	_
+6	爸	爸	NOUN	_	_	5	conj:redup@m	_	_
 7	妈	妈	NOUN	_	_	5	conj	_	_
-8	妈	妈	NOUN	_	_	7	@m	_	_
+8	妈	妈	NOUN	_	_	7	conj:redup@m	_	_
 9	。	。	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 5
@@ -93,7 +93,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPNV3Q
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	爸	爸	NOUN	_	_	5	subj	_	_
-3	爸	爸	NOUN	_	_	2	@m	_	_
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	_
 4	没	没	ADV	_	_	5	mod	_	Grammar_Target=Yes
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 6	手	手	NOUN	_	_	5	comp:obj	_	_
@@ -133,11 +133,11 @@
 2	的	的	PART	_	Case=Gen	3	mod	_	_
 3	老	老	NOUN	_	_	8	subj	_	_
 4	师	师	NOUN	_	_	3	@m	_	_
-5	现	现	NOUN	_	_	8	mod	_	_
+5	现	现	NOUN	_	_	8	mod@temp	_	_
 6	在	在	NOUN	_	_	5	@m	_	_
 7	没	没	ADV	_	_	8	mod	_	Grammar_Target=Yes
 8	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
-9	男	男	NOUN	_	_	10	mod@m	_	_
+9	男	男	NOUN	_	_	10	@m	_	_
 10	朋	朋	NOUN	_	_	8	comp:obj	_	_
 11	友	友	NOUN	_	_	10	@m	_	_
 12	。	。	PUNCT	_	_	8	punct	_	_
@@ -170,7 +170,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPNV3Q
 1	这	这	DET	_	_	2	det	_	_
 2	个	个	NOUN	_	_	3	clf	_	_
-3	周	周	NOUN	_	_	9	mod	_	_
+3	周	周	NOUN	_	_	9	mod@temp	_	_
 4	末	末	NOUN	_	_	3	@m	_	_
 5	你	你	PRON	_	Number=Plur|Person=3	9	subj	_	_
 6	们	们	PART	_	Number=Plur|Person=3	5	@m	_	_
@@ -227,7 +227,7 @@
 3	天	天	NOUN	_	_	2	@m	_	_
 4	不	不	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes
 5	想	想	AUX	_	_	0	root	_	_
-6	工	工	VERB	_	_	5	comp:obj	_	_
+6	工	工	NOUN	_	_	5	comp:aux	_	_
 7	作	作	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
 
@@ -255,9 +255,9 @@
 # structure_verbose = Standard negation with "bu"
 # translation_english = Why don't you like to drink coffee?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGIPYFV
-1	为	为	ADV	_	_	6	mod	_	_
-2	什	什	ADV	_	_	1	@m	_	_
-3	么	么	ADV	_	_	2	@m	_	_
+1	为	为	PRON	_	_	6	mod	_	ExtPos=PRON
+2	什	什	PRON	_	_	1	@m	_	_
+3	么	么	PRON	_	_	2	@m	_	_
 4	你	你	PRON	_	Person=2	6	subj	_	_
 5	不	不	ADV	_	Polarity=Neg	6	mod	_	Grammar_Target=Yes
 6	喜	喜	VERB	_	_	0	root	_	_
@@ -290,7 +290,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGIPYFV
 1	这	这	DET	_	_	2	det	_	_
 2	个	个	NOUN	_	_	4	subj	_	_
-3	不	不	ADV	_	_	4	mod	_	Grammar_Target=Yes
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
 4	贵	贵	ADJ	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
 
@@ -336,12 +336,12 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGIPYFV
 1	我	我	PRON	_	Person=1	2	mod	_	_
 2	哥	哥	NOUN	_	_	5	subj	_	_
-3	哥	哥	NOUN	_	_	2	@m	_	_
+3	哥	哥	NOUN	_	_	2	conj:redup@m	_	_
 4	不	不	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes
 5	高	高	ADJ	_	_	0	root	_	_
 6	，	，	PUNCT	_	_	10	punct	_	_
-7	但	但	ADV	_	_	10	cc	_	_
-8	是	是	ADV	_	_	7	@m	_	_
+7	但	但	SCONJ	_	_	10	cc	_	_
+8	是	是	SCONJ	_	_	7	@m	_	_
 9	很	很	ADV	_	_	10	mod	_	_
 10	帅	帅	ADJ	_	_	5	parataxis	_	_
 11	。	。	PUNCT	_	_	5	punct	_	_
@@ -456,11 +456,11 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG9YK09
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	爸	爸	NOUN	_	_	9	subj	_	_
-3	爸	爸	NOUN	_	_	2	@m	_	_
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	_
 4	和	和	CCONJ	_	_	6	cc	_	_
 5	你	你	PRON	_	Person=2	6	mod	_	_
 6	妈	妈	NOUN	_	_	2	conj	_	_
-7	妈	妈	NOUN	_	_	6	@m	_	_
+7	妈	妈	NOUN	_	_	6	conj:redup@m	_	_
 8	都	都	ADV	_	_	9	mod	_	Grammar_Target=Yes
 9	是	是	VERB	_	_	0	root	_	_
 10	美	美	PROPN	_	_	12	compound	_	_
@@ -481,7 +481,7 @@
 2	和	和	CCONJ	_	_	4	cc	_	_
 3	我	我	PRON	_	Person=1	4	mod	_	_
 4	太	太	NOUN	_	_	1	conj	_	_
-5	太	太	NOUN	_	_	4	@m	_	_
+5	太	太	NOUN	_	_	4	conj:redup@m	_	_
 6	都	都	ADV	_	_	8	mod	_	Grammar_Target=Yes
 7	不	不	ADV	_	Polarity=Neg	8	mod	_	_
 8	吃	吃	VERB	_	_	0	root	_	_
@@ -498,7 +498,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG9YK09
 1	你	你	PRON	_	Number=Plur|Person=3	6	subj	_	_
 2	们	们	PART	_	Number=Plur|Person=3	1	@m	_	_
-3	两	两	NUM	_	_	4	mod	_	_
+3	两	两	NUM	_	NumType=Card	4	mod	_	_
 4	个	个	NOUN	_	_	1	conj:appos	_	_
 5	都	都	ADV	_	_	6	mod	_	Grammar_Target=Yes
 6	喜	喜	VERB	_	_	0	root	_	_
@@ -635,7 +635,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG25MD
 1	我	我	PRON	_	Person=1	2	mod	_	_
 2	妈	妈	NOUN	_	_	5	subj	_	_
-3	妈	妈	NOUN	_	_	2	@m	_	_
+3	妈	妈	NOUN	_	_	2	conj:redup@m	_	_
 4	也	也	ADV	_	_	5	mod	_	Grammar_Target=Yes
 5	喜	喜	VERB	_	_	0	root	_	_
 6	欢	欢	VERB	_	_	5	@m	_	_
@@ -737,7 +737,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG25MD
 1	我	我	PRON	_	Person=1	2	mod	_	_
 2	爸	爸	NOUN	_	_	6	subj	_	_
-3	爸	爸	NOUN	_	_	2	@m	_	_
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	_
 4	也	也	ADV	_	_	6	mod	_	Grammar_Target=Yes
 5	很	很	ADV	_	_	6	mod	_	_
 6	帅	帅	ADJ	_	_	0	root	_	_
@@ -772,7 +772,7 @@
 3	酒	酒	NOUN	_	_	7	subj	_	_
 4	也	也	ADV	_	_	7	mod	_	Grammar_Target=Yes
 5	很	很	ADV	_	_	6	mod	_	_
-6	好	好	ADJ	_	_	7	mod	_	_
+6	好	好	ADV	_	_	7	mod	_	_
 7	喝	喝	VERB	_	_	0	root	_	_
 8	。	。	PUNCT	_	_	7	punct	_	_
 
@@ -913,10 +913,10 @@
 1	我	我	PRON	_	Person=1	2	comp:obj	_	_
 2	的	的	PART	_	Case=Gen	3	mod	_	_
 3	爷	爷	NOUN	_	_	10	subj	_	_
-4	爷	爷	NOUN	_	_	3	@m	_	_
+4	爷	爷	NOUN	_	_	3	conj:redup@m	_	_
 5	和	和	CCONJ	_	_	6	cc	_	Grammar_Target=Yes
 6	奶	奶	NOUN	_	_	3	conj	_	_
-7	奶	奶	NOUN	_	_	6	@m	_	_
+7	奶	奶	NOUN	_	_	6	conj:redup@m	_	_
 8	都	都	ADV	_	_	10	mod	_	_
 9	70	70	NUM	_	_	10	mod	_	_
 10	岁	岁	NOUN	_	_	0	root	_	_
@@ -954,11 +954,11 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGP0KFF
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	爸	爸	NOUN	_	_	9	subj	_	_
-3	爸	爸	NOUN	_	_	2	@m	_	_
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	_
 4	和	和	CCONJ	_	_	6	cc	_	Grammar_Target=Yes
 5	你	你	PRON	_	Person=2	6	mod	_	_
 6	妈	妈	NOUN	_	_	2	conj	_	_
-7	妈	妈	NOUN	_	_	6	@m	_	_
+7	妈	妈	NOUN	_	_	6	conj:redup@m	_	_
 8	都	都	ADV	_	_	9	mod	_	_
 9	是	是	VERB	_	_	0	root	_	_
 10	美	美	PROPN	_	_	12	compound	_	_
@@ -1018,8 +1018,8 @@
 4	明	明	NOUN	_	_	1	conj	_	_
 5	天	天	NOUN	_	_	4	@m	_	_
 6	都	都	ADV	_	_	7	mod	_	_
-7	可	可	AUX	_	_	0	root	_	_
-8	以	以	AUX	_	_	7	@m	_	_
+7	可	可	ADJ	_	_	0	root	_	_
+8	以	以	ADJ	_	_	7	@m	_	_
 9	吗	吗	PART	_	Mood=Inter	7	discourse	_	_
 10	？	？	PUNCT	_	_	7	punct	_	_
 
@@ -1128,12 +1128,12 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGA8NIB
 1	他	他	PRON	_	Person=3	2	subj	_	_
 2	是	是	VERB	_	_	0	root	_	_
-3	美	美	PROPN	_	_	5	mod	_	_
+3	美	美	PROPN	_	_	5	compound	_	_
 4	国	国	PROPN	_	_	3	@m	_	_
 5	人	人	NOUN	_	_	2	comp:obj	_	_
 6	还	还	CCONJ	_	_	10	cc	_	Grammar_Target=Yes
 7	是	是	CCONJ	_	_	6	@m	_	Grammar_Target=Yes
-8	英	英	PROPN	_	_	10	mod	_	_
+8	英	英	PROPN	_	_	10	compound	_	_
 9	国	国	PROPN	_	_	8	@m	_	_
 10	人	人	NOUN	_	_	5	conj	_	_
 11	？	？	PUNCT	_	_	2	punct	_	_
@@ -1219,7 +1219,7 @@
 # structure_verbose = Age with "sui"
 # translation_english = My son is one year old.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGQUKJF
-1	我	我	PRON	_	Person=1	2	mod	_	_
+1	我	我	PRON	_	Person=1|Poss=Yes	2	mod	_	_
 2	儿	儿	NOUN	_	_	5	subj	_	_
 3	子	子	NOUN	_	_	2	@m	_	_
 4	一	一	NUM	_	NumType=Card	5	mod	_	_
@@ -1236,7 +1236,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGQUKJF
 1	我	我	PRON	_	Person=1	2	mod	_	_
 2	妈	妈	NOUN	_	_	7	subj	_	_
-3	妈	妈	NOUN	_	_	2	@m	_	_
+3	妈	妈	NOUN	_	_	2	conj:redup@m	_	_
 4	今	今	NOUN	_	_	7	mod	_	_
 5	年	年	NOUN	_	_	4	@m	_	_
 6	45	45	NUM	_	NumType=Card	7	mod	_	_
@@ -1253,7 +1253,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGQUKJF
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	爷	爷	NOUN	_	_	7	subj	_	_
-3	爷	爷	NOUN	_	_	2	@m	_	_
+3	爷	爷	NOUN	_	_	2	conj:redup@m	_	_
 4	今	今	NOUN	_	_	7	mod	_	_
 5	年	年	NOUN	_	_	4	@m	_	_
 6	80	80	NUM	_	NumType=Card	7	mod	_	_
@@ -1315,8 +1315,8 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGI0T9S
 1	三	三	NUM	_	NumType=Card	2	mod	_	_
 2	个	个	NOUN	_	_	5	clf	_	Grammar_Target=Yes
-3	苹	苹	NOUN	_	_	5	compound	_	_
-4	果	果	NOUN	_	_	3	@m	_	_
+3	苹	苹	PROPN	_	_	5	compound	_	_
+4	果	果	PROPN	_	_	3	@m	_	_
 5	手	手	NOUN	_	_	0	root	_	_
 6	机	机	NOUN	_	_	5	@m	_	_
 
@@ -1437,7 +1437,7 @@
 1	你	你	PRON	_	Person=2	2	subj	_	_
 2	想	想	AUX	_	_	0	root	_	_
 3	吃	吃	VERB	_	_	2	comp:aux	_	_
-4	个	个	NOUN	_	_	5	mod	_	Grammar_Target=Yes
+4	个	个	NOUN	_	_	5	clf	_	Grammar_Target=Yes
 5	包	包	NOUN	_	_	3	comp:obj	_	_
 6	子	子	NOUN	_	_	5	@m	_	_
 7	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
@@ -1473,12 +1473,12 @@
 2	8	8	NUM	_	NumType=Card	1	flat	_	_
 3	6	6	NUM	_	NumType=Card	2	flat	_	_
 4	8	8	NUM	_	NumType=Card	3	flat	_	_
-5	年	年	NOUN	_	_	0	root	_	Grammar_Target=Yes
+5	年	年	NOUN	_	_	7	mod	_	Grammar_Target=Yes
 6	1	1	NUM	_	NumType=Card	7	mod	_	_
-7	月	月	NOUN	_	_	5	flat	_	Grammar_Target=Yes
+7	月	月	NOUN	_	_	10	mod	_	Grammar_Target=Yes
 8	1	1	NUM	_	NumType=Card	10	mod	_	_
 9	8	8	NUM	_	NumType=Card	8	flat	_	_
-10	号	号	NOUN	_	_	7	flat	_	Grammar_Target=Yes
+10	号	号	NOUN	_	_	0	root	_	Grammar_Target=Yes
 
 # sent_id = 89
 # structure = x 年 + y 月 + z 日
@@ -1492,11 +1492,11 @@
 2	9	9	NUM	_	NumType=Card	1	flat	_	_
 3	1	1	NUM	_	NumType=Card	2	flat	_	_
 4	0	0	NUM	_	NumType=Card	3	flat	_	_
-5	年	年	NOUN	_	_	0	root	_	Grammar_Target=Yes
+5	年	年	NOUN	_	_	7	mod	_	Grammar_Target=Yes
 6	8	8	NUM	_	NumType=Card	7	mod	_	_
-7	月	月	NOUN	_	_	5	flat	_	Grammar_Target=Yes
+7	月	月	NOUN	_	_	9	mod	_	Grammar_Target=Yes
 8	9	9	NUM	_	NumType=Card	9	mod	_	_
-9	号	号	NOUN	_	_	7	flat	_	Grammar_Target=Yes
+9	号	号	NOUN	_	_	0	root	_	Grammar_Target=Yes
 
 # sent_id = 90
 # structure = x 年 + y 月 + z 日
@@ -1510,12 +1510,12 @@
 2	0	0	NUM	_	NumType=Card	1	flat	_	_
 3	0	0	NUM	_	NumType=Card	2	flat	_	_
 4	1	1	NUM	_	NumType=Card	3	flat	_	_
-5	年	年	NOUN	_	_	0	root	_	Grammar_Target=Yes
+5	年	年	NOUN	_	_	7	mod	_	Grammar_Target=Yes
 6	7	7	NUM	_	NumType=Card	7	mod	_	_
-7	月	月	NOUN	_	_	5	flat	_	Grammar_Target=Yes
+7	月	月	NOUN	_	_	10	mod	_	Grammar_Target=Yes
 8	2	2	NUM	_	NumType=Card	10	mod	_	_
 9	0	0	NUM	_	NumType=Card	8	flat	_	_
-10	日	日	NOUN	_	_	7	flat	_	Grammar_Target=Yes
+10	日	日	NOUN	_	_	0	root	_	Grammar_Target=Yes
 
 # sent_id = 91
 # structure = x 年 + y 月 + z 日
@@ -1526,9 +1526,9 @@
 # translation_english = January 1st is New Year's Day.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
 1	1	1	NUM	_	NumType=Card	2	mod	_	_
-2	月	月	NOUN	_	_	5	subj	_	Grammar_Target=Yes
+2	月	月	NOUN	_	_	4	mod	_	Grammar_Target=Yes
 3	1	1	NUM	_	NumType=Card	4	mod	_	_
-4	日	日	NOUN	_	_	2	flat	_	Grammar_Target=Yes
+4	日	日	NOUN	_	_	5	subj	_	Grammar_Target=Yes
 5	是	是	VERB	_	_	0	root	_	_
 6	新	新	ADJ	_	_	7	@m	_	_
 7	年	年	NOUN	_	_	5	comp:obj	_	_
@@ -1544,13 +1544,13 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
 1	1	1	NUM	_	NumType=Card	3	mod	_	_
 2	2	2	NUM	_	NumType=Card	1	flat	_	_
-3	月	月	NOUN	_	_	7	subj	_	Grammar_Target=Yes
+3	月	月	NOUN	_	_	6	mod	_	Grammar_Target=Yes
 4	2	2	NUM	_	NumType=Card	6	mod	_	_
 5	4	4	NUM	_	NumType=Card	4	flat	_	_
-6	日	日	NOUN	_	_	3	flat	_	Grammar_Target=Yes
+6	日	日	NOUN	_	_	7	subj	_	Grammar_Target=Yes
 7	是	是	VERB	_	_	0	root	_	_
-8	平	平	NOUN	_	_	10	@m	_	_
-9	安	安	NOUN	_	_	8	@m	_	_
+8	平	平	ADJ	_	_	10	mod@m	_	_
+9	安	安	ADJ	_	_	8	@m	_	_
 10	夜	夜	NOUN	_	_	7	comp:obj	_	_
 11	。	。	PUNCT	_	_	7	punct	_	_
 
@@ -1564,9 +1564,9 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
 1	1	1	NUM	_	NumType=Card	3	mod	_	_
 2	0	0	NUM	_	NumType=Card	1	flat	_	_
-3	月	月	NOUN	_	_	8	mod	_	Grammar_Target=Yes
+3	月	月	NOUN	_	_	5	mod	_	Grammar_Target=Yes
 4	1	1	NUM	_	NumType=Card	5	mod	_	_
-5	号	号	NOUN	_	_	3	flat	_	Grammar_Target=Yes
+5	号	号	NOUN	_	_	8	mod@temp	_	Grammar_Target=Yes
 6	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	_
 7	们	们	PART	_	Number=Plur|Person=1	6	@m	_	_
 8	去	去	VERB	_	_	0	root	_	_
@@ -1587,9 +1587,9 @@
 3	9	9	NUM	_	NumType=Card	2	flat	_	_
 4	9	9	NUM	_	NumType=Card	3	flat	_	_
 5	0	0	NUM	_	NumType=Card	4	flat	_	_
-6	年	年	NOUN	_	_	9	mod	_	Grammar_Target=Yes
+6	年	年	NOUN	_	_	8	mod	_	Grammar_Target=Yes
 7	7	7	NUM	_	NumType=Card	8	mod	_	_
-8	月	月	NOUN	_	_	6	flat	_	Grammar_Target=Yes
+8	月	月	NOUN	_	_	9	mod	_	Grammar_Target=Yes
 9	出	出	VERB	_	_	0	root	_	_
 10	生	生	NOUN	_	_	9	comp:obj	_	_
 11	。	。	PUNCT	_	_	9	punct	_	_
@@ -1609,10 +1609,10 @@
 5	是	是	VERB	_	_	0	root	_	_
 6	1	1	NUM	_	NumType=Card	8	mod	_	_
 7	1	1	NUM	_	NumType=Card	6	flat	_	_
-8	月	月	NOUN	_	_	5	comp:obj	_	Grammar_Target=Yes
+8	月	月	NOUN	_	_	11	mod	_	Grammar_Target=Yes
 9	1	1	NUM	_	NumType=Card	11	mod	_	_
 10	1	1	NUM	_	NumType=Card	9	flat	_	_
-11	号	号	NOUN	_	_	8	flat	_	Grammar_Target=Yes
+11	号	号	NOUN	_	_	5	comp:obj	_	Grammar_Target=Yes
 12	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 13	？	？	PUNCT	_	_	5	punct	_	_
 
@@ -1634,7 +1634,7 @@
 8	月	月	NOUN	_	_	11	mod	_	Grammar_Target=Yes
 9	1	1	NUM	_	NumType=Card	11	mod	_	_
 10	7	7	NUM	_	NumType=Card	9	flat	_	_
-11	号	号	NOUN	_	_	12	mod	_	Grammar_Target=Yes
+11	号	号	NOUN	_	_	12	mod@temp	_	Grammar_Target=Yes
 12	认	认	VERB	_	_	0	root	_	_
 13	识	识	VERB	_	_	12	@m	_	_
 14	了	了	PART	_	_	12	aspect	_	_
@@ -1653,11 +1653,11 @@
 2	9	9	NUM	_	NumType=Card	1	flat	_	_
 3	8	8	NUM	_	NumType=Card	2	flat	_	_
 4	0	0	NUM	_	NumType=Card	3	flat	_	_
-5	年	年	NOUN	_	_	12	mod	_	Grammar_Target=Yes
+5	年	年	NOUN	_	_	7	mod	_	Grammar_Target=Yes
 6	9	9	NUM	_	NumType=Card	7	mod	_	_
-7	月	月	NOUN	_	_	5	flat	_	Grammar_Target=Yes
+7	月	月	NOUN	_	_	9	mod	_	Grammar_Target=Yes
 8	4	4	NUM	_	NumType=Card	9	mod	_	_
-9	号	号	NOUN	_	_	7	flat	_	Grammar_Target=Yes
+9	号	号	NOUN	_	_	12	mod@temp	_	Grammar_Target=Yes
 10	我	我	PRON	_	Number=Plur|Person=1	12	subj	_	_
 11	们	们	PART	_	Number=Plur|Person=1	10	@m	_	_
 12	结	结	VERB	_	_	0	root	_	_
@@ -1675,12 +1675,12 @@
 2	8	8	NUM	_	NumType=Card	1	flat	_	_
 3	6	6	NUM	_	NumType=Card	2	flat	_	_
 4	8	8	NUM	_	NumType=Card	3	flat	_	_
-5	年	年	NOUN	_	_	0	root	_	Grammar_Target=Yes
+5	年	年	NOUN	_	_	7	mod	_	Grammar_Target=Yes
 6	1	1	NUM	_	NumType=Card	7	mod	_	_
-7	月	月	NOUN	_	_	5	flat	_	Grammar_Target=Yes
+7	月	月	NOUN	_	_	10	mod	_	Grammar_Target=Yes
 8	1	1	NUM	_	NumType=Card	10	mod	_	_
 9	8	8	NUM	_	NumType=Card	8	flat	_	_
-10	号	号	NOUN	_	_	7	flat	_	Grammar_Target=Yes
+10	号	号	NOUN	_	_	0	root	_	Grammar_Target=Yes
 
 # sent_id = 99
 # structure = x 年 + y 月 + z 号
@@ -1692,11 +1692,11 @@
 2	9	9	NUM	_	NumType=Card	1	flat	_	_
 3	1	1	NUM	_	NumType=Card	2	flat	_	_
 4	0	0	NUM	_	NumType=Card	3	flat	_	_
-5	年	年	NOUN	_	_	0	root	_	Grammar_Target=Yes
+5	年	年	NOUN	_	_	7	mod	_	Grammar_Target=Yes
 6	8	8	NUM	_	NumType=Card	7	mod	_	_
-7	月	月	NOUN	_	_	5	flat	_	Grammar_Target=Yes
+7	月	月	NOUN	_	_	9	mod	_	Grammar_Target=Yes
 8	9	9	NUM	_	NumType=Card	9	mod	_	_
-9	号	号	NOUN	_	_	7	flat	_	Grammar_Target=Yes
+9	号	号	NOUN	_	_	0	root	_	Grammar_Target=Yes
 
 # sent_id = 108
 # structure = (Date and/or time of day +) x 点
@@ -1743,7 +1743,7 @@
 # structure_verbose = Structure of times (basic)
 # translation_english = 12 o'clock noon
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGN6BBU
-1	中	中	NOUN	_	_	5	subj	_	_
+1	中	中	NOUN	_	_	5	mod	_	_
 2	午	午	NOUN	_	_	1	@m	_	_
 3	十	十	NUM	_	NumType=Card	5	mod	_	_
 4	二	二	NUM	_	NumType=Card	3	flat	_	_
@@ -1772,12 +1772,12 @@
 # structure_verbose = Structure of times (basic)
 # translation_english = 7:30 yesterday evening
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGN6BBU
-1	昨	昨	NOUN	_	_	0	root	_	_
+1	昨	昨	NOUN	_	_	3	mod	_	_
 2	天	天	NOUN	_	_	1	@m	_	_
-3	晚	晚	NOUN	_	_	1	flat	_	_
+3	晚	晚	NOUN	_	_	6	mod	_	_
 4	上	上	NOUN	_	_	3	@m	_	_
 5	七	七	NUM	_	NumType=Card	6	mod	_	_
-6	点	点	NOUN	_	_	1	flat	_	Grammar_Target=Yes
+6	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes
 7	半	半	NOUN	_	_	6	mod	_	Grammar_Target=Yes
 
 # sent_id = 119
@@ -1820,7 +1820,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGCI0KG
 1	你	你	PRON	_	Person=2	2	mod	_	Grammar_Target=Yes
 2	哥	哥	NOUN	_	_	5	subj	_	Grammar_Target=Yes
-3	哥	哥	NOUN	_	_	2	@m	_	Grammar_Target=Yes
+3	哥	哥	NOUN	_	_	2	conj:redup@m	_	Grammar_Target=Yes
 4	很	很	ADV	_	_	5	mod	_	_
 5	高	高	ADJ	_	_	0	root	_	_
 6	。	。	PUNCT	_	_	5	punct	_	_
@@ -1851,7 +1851,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGCI0KG
 1	她	她	PRON	_	Person=3	2	mod	_	Grammar_Target=Yes
 2	妈	妈	NOUN	_	_	5	subj	_	Grammar_Target=Yes
-3	妈	妈	NOUN	_	_	2	@m	_	Grammar_Target=Yes
+3	妈	妈	NOUN	_	_	2	conj:redup@m	_	Grammar_Target=Yes
 4	很	很	ADV	_	_	5	mod	_	_
 5	漂	漂	ADJ	_	_	0	root	_	_
 6	亮	亮	ADJ	_	_	5	@m	_	_
@@ -1949,7 +1949,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGCI0KG
 1	他	他	PRON	_	Person=3	2	mod	_	Grammar_Target=Yes
 2	爸	爸	NOUN	_	_	4	subj	_	Grammar_Target=Yes
-3	爸	爸	NOUN	_	_	2	@m	_	Grammar_Target=Yes
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	Grammar_Target=Yes
 4	是	是	VERB	_	_	0	root	_	_
 5	我	我	PRON	_	Number=Plur|Person=1	7	mod	_	Grammar_Target=Yes
 6	们	们	PART	_	Number=Plur|Person=1	5	@m	_	Grammar_Target=Yes
@@ -2022,7 +2022,7 @@
 # translation_english = dad's car
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUHQD2
 1	爸	爸	NOUN	_	_	3	comp:obj	_	_
-2	爸	爸	NOUN	_	_	1	@m	_	_
+2	爸	爸	NOUN	_	_	1	conj:redup@m	_	_
 3	的	的	PART	_	Case=Gen	4	mod	_	Grammar_Target=Yes
 4	车	车	NOUN	_	_	0	root	_	_
 
@@ -2117,7 +2117,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGMJHZO
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	妈	妈	NOUN	_	_	0	root	_	_
-3	妈	妈	NOUN	_	_	2	@m	_	_
+3	妈	妈	NOUN	_	_	2	conj:redup@m	_	_
 4	呢	呢	PART	_	Mood=Inter	2	discourse	_	Grammar_Target=Yes
 5	？	？	PUNCT	_	_	2	punct	_	_
 
@@ -2246,7 +2246,7 @@
 # translation_english = Take a break.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGMPZ6D
 1	休	休	VERB	_	_	0	root	_	_
-2	息	息	VERB	_	_	1	@m	_	_
+2	息	息	NOUN	_	_	1	@m	_	_
 3	一	一	ADV	_	_	4	@m	_	_
 4	下	下	ADV	_	_	1	mod	_	_
 5	吧	吧	PART	_	_	1	discourse	_	Grammar_Target=Yes
@@ -2277,10 +2277,10 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGMPZ6D
 1	老	老	NOUN	_	_	4	vocative	_	_
 2	板	板	NOUN	_	_	1	@m	_	_
-3	，	，	PUNCT	_	_	4	punct	_	_
+3	，	，	PUNCT	_	_	1	punct	_	_
 4	便	便	ADJ	_	_	0	root	_	_
 5	宜	宜	ADJ	_	_	4	@m	_	_
-6	一	一	ADV	_	_	7	mod@m	_	_
+6	一	一	ADV	_	_	7	@m	_	_
 7	点	点	ADV	_	_	4	mod	_	_
 8	吧	吧	PART	_	_	4	discourse	_	Grammar_Target=Yes
 9	。	。	PUNCT	_	_	4	punct	_	_
@@ -2451,7 +2451,7 @@
 # translation_english = There are a lot of puppies in my home.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG04ZCI
 1	我	我	PRON	_	Person=1	2	mod	_	_
-2	家	家	NOUN	_	_	3	subj	_	_
+2	家	家	NOUN	_	_	3	mod@loc	_	_
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 4	很	很	ADV	_	_	5	mod	_	_
 5	多	多	ADJ	_	NumType=Card	7	mod	_	_
@@ -2469,7 +2469,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG04ZCI
 1	我	我	PRON	_	Number=Plur|Person=1	3	mod	_	_
 2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
-3	学	学	NOUN	_	_	5	subj	_	_
+3	学	学	NOUN	_	_	5	mod@loc	_	_
 4	校	校	NOUN	_	_	3	@m	_	_
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 6	很	很	ADV	_	_	7	mod	_	_
@@ -2486,7 +2486,7 @@
 # structure_verbose = Expressing existence with "you"
 # translation_english = There are many Chinese people in Japan.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG04ZCI
-1	日	日	PROPN	_	_	3	subj	_	_
+1	日	日	PROPN	_	_	3	mod@loc	_	_
 2	本	本	PROPN	_	_	1	@m	_	_
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 4	很	很	ADV	_	_	5	mod	_	_
@@ -2506,7 +2506,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG04ZCI
 1	这	这	DET	_	_	2	det	_	_
 2	个	个	NOUN	_	_	3	clf	_	_
-3	酒	酒	NOUN	_	_	5	subj	_	_
+3	酒	酒	NOUN	_	_	5	mod@loc	_	_
 4	吧	吧	NOUN	_	_	3	@m	_	_
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 6	很	很	ADV	_	_	7	mod	_	_
@@ -2524,7 +2524,7 @@
 # translation_english = Is there milk in your house?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG04ZCI
 1	你	你	PRON	_	Person=2	2	mod	_	_
-2	家	家	NOUN	_	_	3	subj	_	_
+2	家	家	NOUN	_	_	3	mod@loc	_	_
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 4	牛	牛	NOUN	_	_	3	comp:obj	_	_
 5	奶	奶	NOUN	_	_	4	@m	_	_
@@ -2539,8 +2539,8 @@
 # structure_verbose = Expressing existence with "you"
 # translation_english = There is a problem here.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG04ZCI
-1	这	这	DET	_	_	2	det	_	_
-2	里	里	NOUN	_	_	3	subj	_	_
+1	这	这	DET	_	_	3	mod@loc	_	_
+2	里	里	NOUN	_	_	1	@m	_	_
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 4	一	一	NUM	_	NumType=Card	5	mod	_	_
 5	个	个	NOUN	_	_	6	clf	_	_
@@ -2558,7 +2558,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG04ZCI
 1	房	房	NOUN	_	_	3	comp:obj	_	_
 2	间	间	NOUN	_	_	1	@m	_	_
-3	里	里	ADP	_	_	4	subj	_	_
+3	里	里	ADP	_	_	4	mod@loc	_	_
 4	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	人	人	NOUN	_	_	4	comp:obj	_	_
 6	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
@@ -2574,7 +2574,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG04ZCI
 1	杯	杯	NOUN	_	_	3	comp:obj	_	_
 2	子	子	NOUN	_	_	1	@m	_	_
-3	里	里	ADP	_	_	4	subj	_	_
+3	里	里	ADP	_	_	4	mod@loc	_	_
 4	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	水	水	NOUN	_	_	4	comp:obj	_	_
 6	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
@@ -2592,7 +2592,7 @@
 2	的	的	PART	_	Case=Gen	3	mod	_	_
 3	手	手	NOUN	_	_	5	comp:obj	_	_
 4	机	机	NOUN	_	_	3	@m	_	_
-5	里	里	ADP	_	_	6	subj	_	_
+5	里	里	ADP	_	_	6	mod@loc	_	_
 6	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 7	你	你	PRON	_	Person=2	8	comp:obj	_	_
 8	的	的	PART	_	Case=Gen	9	mod	_	_
@@ -2608,12 +2608,12 @@
 # structure_verbose = Expressing existence with "you"
 # translation_english = Is there anyone in the office now?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG04ZCI
-1	现	现	NOUN	_	_	7	mod	_	_
+1	现	现	NOUN	_	_	7	mod@temp	_	_
 2	在	在	NOUN	_	_	1	@m	_	_
 3	办	办	NOUN	_	_	6	comp:obj	_	_
 4	公	公	NOUN	_	_	3	@m	_	_
 5	室	室	NOUN	_	_	3	@m	_	_
-6	里	里	ADP	_	_	7	subj	_	_
+6	里	里	ADP	_	_	7	mod@loc	_	_
 7	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 8	人	人	NOUN	_	_	7	comp:obj	_	_
 9	吗	吗	PART	_	Mood=Inter	7	discourse	_	_
@@ -2759,7 +2759,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGOOCVO
 1	我	我	PRON	_	Person=1	2	mod	_	_
 2	爸	爸	NOUN	_	_	5	subj	_	_
-3	爸	爸	NOUN	_	_	2	@m	_	_
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	_
 4	没	没	ADV	_	Polarity=Neg	5	mod	_	_
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 6	工	工	NOUN	_	_	5	comp:obj	_	_
@@ -2774,7 +2774,7 @@
 # structure_verbose = Expressing possession with "you"
 # translation_english = Do you have classes today?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGOOCVO
-1	今	今	NOUN	_	_	4	mod	_	_
+1	今	今	NOUN	_	_	4	mod@temp	_	_
 2	天	天	NOUN	_	_	1	@m	_	_
 3	你	你	PRON	_	Person=2	4	subj	_	_
 4	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
@@ -2822,7 +2822,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUGWVZ
 1	我	我	PRON	_	Person=1	2	mod	_	_
 2	哥	哥	NOUN	_	_	4	subj	_	_
-3	哥	哥	NOUN	_	_	2	@m	_	_
+3	哥	哥	NOUN	_	_	2	conj:redup@m	_	_
 4	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	老	老	PROPN	_	_	4	comp:obj	_	_
 6	马	马	PROPN	_	_	5	comp@m	_	_
@@ -2853,7 +2853,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUGWVZ
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	爸	爸	NOUN	_	_	4	subj	_	_
-3	爸	爸	NOUN	_	_	2	@m	_	_
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	_
 4	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	什	什	ADV	_	_	4	comp:obj	_	_
 6	么	么	ADV	_	_	5	@m	_	_
@@ -2954,7 +2954,7 @@
 4	们	们	PART	_	Number=Plur|Person=1	3	@m	_	_
 5	去	去	VERB	_	_	0	root	_	Grammar_Target=Yes
 6	酒	酒	NOUN	_	_	5	comp:obj	_	_
-7	吧	吧	PART	_	_	6	@m	_	_
+7	吧	吧	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
 9	你	你	PRON	_	Person=2	10	subj	_	_
 10	去	去	VERB	_	_	5	parataxis	_	_
@@ -3092,13 +3092,13 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPS9NY
 1	我	我	PRON	_	Person=1	2	mod	_	_
 2	爸	爸	NOUN	_	_	4	subj	_	_
-3	爸	爸	NOUN	_	_	2	@m	_	_
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	_
 4	姓	姓	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	周	周	PROPN	_	_	4	comp:obj	_	_
 6	，	，	PUNCT	_	_	10	punct	_	_
 7	我	我	PRON	_	Person=1	8	mod	_	_
 8	妈	妈	NOUN	_	_	10	subj	_	_
-9	妈	妈	NOUN	_	_	8	@m	_	_
+9	妈	妈	NOUN	_	_	8	conj:redup@m	_	_
 10	姓	姓	VERB	_	_	4	parataxis	_	Grammar_Target=Yes
 11	林	林	PROPN	_	_	10	comp:obj	_	_
 12	。	。	PUNCT	_	_	4	punct	_	_
@@ -3127,13 +3127,13 @@
 # structure_verbose = Using the verb "xing"
 # translation_english = Hello. My last name is Mao.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPS9NY
-1	你	你	PRON	_	_	5	parataxis	_	_
-2	好	好	ADJ	_	_	1	@m	_	_
-3	，	，	PUNCT	_	_	1	punct	_	_
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	好	好	ADJ	_	_	0	root	_	_
+3	，	，	PUNCT	_	_	5	punct	_	_
 4	我	我	PRON	_	Person=1	5	subj	_	_
-5	姓	姓	VERB	_	_	0	root	_	Grammar_Target=Yes
+5	姓	姓	VERB	_	_	2	parataxis	_	Grammar_Target=Yes
 6	毛	毛	PROPN	_	_	5	comp:obj	_	_
-7	。	。	PUNCT	_	_	5	punct	_	_
+7	。	。	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 212
 # structure = Subj. + 姓 + [Surname]
@@ -3149,7 +3149,7 @@
 4	，	，	PUNCT	_	_	9	punct	_	_
 5	我	我	PRON	_	Person=1	6	mod	_	_
 6	太	太	NOUN	_	_	9	subj	_	_
-7	太	太	ADV	_	_	6	@m	_	_
+7	太	太	NOUN	_	_	6	conj:redup@m	_	_
 8	也	也	ADV	_	_	9	mod	_	_
 9	姓	姓	VERB	_	_	2	parataxis	_	Grammar_Target=Yes
 10	赵	赵	PROPN	_	_	9	comp:obj	_	_
@@ -3183,7 +3183,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPS9NY
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	奶	奶	NOUN	_	_	5	subj	_	_
-3	奶	奶	NOUN	_	_	2	@m	_	_
+3	奶	奶	NOUN	_	_	2	conj:redup@m	_	_
 4	也	也	ADV	_	_	5	mod	_	_
 5	姓	姓	VERB	_	_	0	root	_	Grammar_Target=Yes
 6	陈	陈	PROPN	_	_	5	comp:obj	_	_
@@ -3238,7 +3238,7 @@
 5	2	2	NUM	_	NumType=Card	7	mod	_	_
 6	4	4	NUM	_	NumType=Card	5	flat	_	_
 7	个	个	NOUN	_	_	9	clf	_	_
-8	小	小	NOUN	_	_	9	@m	_	_
+8	小	小	ADJ	_	_	9	@m	_	_
 9	时	时	NOUN	_	_	3	comp:obj	_	_
 10	。	。	PUNCT	_	_	2	punct	_	_
 
@@ -3274,7 +3274,7 @@
 4	机	机	NOUN	_	_	3	@m	_	_
 5	能	能	AUX	_	_	0	root	_	Grammar_Target=Yes
 6	上	上	VERB	_	_	5	comp:aux	_	_
-7	网	网	NOUN	_	_	6	@m	_	_
+7	网	网	NOUN	_	_	6	comp:obj	_	_
 8	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 9	？	？	PUNCT	_	_	5	punct	_	_
 
@@ -3290,7 +3290,7 @@
 2	岁	岁	NOUN	_	_	3	comp:obj	_	_
 3	的	的	PART	_	Case=Gen	4	mod	_	_
 4	宝	宝	NOUN	_	_	6	subj	_	_
-5	宝	宝	NOUN	_	_	4	@m	_	_
+5	宝	宝	NOUN	_	_	4	conj:redup@m	_	_
 6	能	能	AUX	_	_	0	root	_	Grammar_Target=Yes
 7	说	说	VERB	_	_	6	comp:aux	_	_
 8	话	话	NOUN	_	_	7	comp:obj	_	_
@@ -3305,7 +3305,7 @@
 # structure_verbose = Expressing ability or possibility with "neng"
 # translation_english = Is it possible to drive home in one hour?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG9PQ40
-1	开	开	VERB	_	_	7	subj	_	_
+1	开	开	VERB	_	_	7	comp:obl	_	_
 2	车	车	NOUN	_	_	1	comp:obj	_	_
 3	一	一	NUM	_	NumType=Card	4	mod	_	_
 4	个	个	NOUN	_	_	6	clf	_	_
@@ -3449,7 +3449,7 @@
 # structure_verbose = Expressing a learned skill with "hui"
 # translation_english = Can dogs sing？
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGRHM0E
-1	狗	狗	PRON	_	_	2	subj	_	_
+1	狗	狗	NOUN	_	_	2	subj	_	_
 2	会	会	AUX	_	_	0	root	_	Grammar_Target=Yes
 3	唱	唱	VERB	_	_	2	comp:aux	_	_
 4	歌	歌	NOUN	_	_	3	comp:obj	_	_
@@ -3465,7 +3465,7 @@
 # translation_english = Dad can drive.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGRHM0E
 1	爸	爸	NOUN	_	_	3	subj	_	_
-2	爸	爸	NOUN	_	_	1	@m	_	_
+2	爸	爸	NOUN	_	_	1	conj:redup@m	_	_
 3	会	会	AUX	_	_	0	root	_	Grammar_Target=Yes
 4	开	开	VERB	_	_	3	comp:aux	_	_
 5	车	车	NOUN	_	_	4	comp:obj	_	_
@@ -3496,7 +3496,7 @@
 # translation_english = Mom can't cook Chinese food.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGRHM0E
 1	妈	妈	NOUN	_	_	4	subj	_	_
-2	妈	妈	NOUN	_	_	1	@m	_	_
+2	妈	妈	NOUN	_	_	1	conj:redup@m	_	_
 3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
 4	会	会	AUX	_	_	0	root	_	Grammar_Target=Yes
 5	做	做	VERB	_	_	4	comp:aux	_	_
@@ -3531,7 +3531,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGRHM0E
 1	我	我	PRON	_	Person=1	2	mod	_	_
 2	奶	奶	NOUN	_	_	5	subj	_	_
-3	奶	奶	NOUN	_	_	2	@m	_	_
+3	奶	奶	NOUN	_	_	2	conj:redup@m	_	_
 4	不	不	ADV	_	_	5	mod	_	Grammar_Target=Yes
 5	会	会	AUX	_	_	0	root	_	Grammar_Target=Yes
 6	用	用	VERB	_	_	5	comp:aux	_	_
@@ -3684,10 +3684,10 @@
 2	晚	晚	NOUN	_	_	4	mod	_	_
 3	上	上	NOUN	_	_	2	@m	_	_
 4	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
-5	给	给	VERB	_	_	4	comp:aux	_	_
+5	给	给	ADP	_	_	8	comp:obl	_	_
 6	妈	妈	NOUN	_	_	5	comp:obj	_	_
-7	妈	妈	NOUN	_	_	6	@m	_	_
-8	打	打	VERB	_	_	5	comp:svc	_	_
+7	妈	妈	NOUN	_	_	6	conj:redup@m	_	_
+8	打	打	VERB	_	_	4	comp:aux	_	_
 9	电	电	NOUN	_	_	8	comp:obj	_	_
 10	话	话	NOUN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	4	punct	_	_
@@ -3706,7 +3706,7 @@
 4	师	师	NOUN	_	_	3	@m	_	_
 5	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 6	来	来	VERB	_	_	5	comp:aux	_	_
-7	我	我	PRON	_	_	8	mod	_	_
+7	我	我	PRON	_	Person=1	8	mod	_	_
 8	家	家	NOUN	_	_	6	comp:obj	_	_
 9	。	。	PUNCT	_	_	5	punct	_	_
 
@@ -3737,10 +3737,10 @@
 # structure_verbose = Expressing "be going to" with "yao"
 # translation_english = Are you planning to go home after getting off work?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGVT2KN
-1	下	下	VERB	_	_	3	mod	_	_
+1	下	下	VERB	_	_	3	comp:obj	_	_
 2	班	班	NOUN	_	_	1	comp:obj	_	_
-3	以	以	NOUN	_	_	6	mod	_	_
-4	后	后	NOUN	_	_	3	@m	_	_
+3	以	以	ADP	_	_	6	mod@temp	_	_
+4	后	后	ADP	_	_	3	@m	_	_
 5	你	你	PRON	_	Person=2	6	subj	_	_
 6	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 7	回	回	VERB	_	_	6	comp:aux	_	_
@@ -3870,7 +3870,7 @@
 4	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 5	给	给	ADP	_	_	8	comp:obl	_	_
 6	妈	妈	NOUN	_	_	5	comp:obj	_	_
-7	妈	妈	NOUN	_	_	6	@m	_	_
+7	妈	妈	NOUN	_	_	6	conj:redup@m	_	_
 8	打	打	VERB	_	_	4	comp:aux	_	_
 9	电	电	NOUN	_	_	8	comp:obj	_	_
 10	话	话	NOUN	_	_	9	@m	_	_
@@ -3888,7 +3888,7 @@
 4	师	师	NOUN	_	_	3	@m	_	_
 5	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 6	来	来	VERB	_	_	5	comp:aux	_	_
-7	我	我	PRON	_	_	8	mod	_	_
+7	我	我	PRON	_	Person=1	8	mod	_	_
 8	家	家	NOUN	_	_	6	comp:obj	_	_
 9	。	。	PUNCT	_	_	5	punct	_	_
 
@@ -3915,10 +3915,10 @@
 # level = A1
 # structure_verbose = Expressing "be going to" with "yao"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGVT2KN
-1	下	下	VERB	_	_	3	mod	_	_
+1	下	下	VERB	_	_	3	comp:obj	_	_
 2	班	班	NOUN	_	_	1	comp:obj	_	_
-3	以	以	NOUN	_	_	6	mod	_	_
-4	后	后	NOUN	_	_	3	@m	_	_
+3	以	以	ADP	_	_	6	mod@temp	_	_
+4	后	后	ADP	_	_	3	@m	_	_
 5	你	你	PRON	_	Person=2	6	subj	_	_
 6	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 7	回	回	VERB	_	_	6	comp:aux	_	_
@@ -3953,9 +3953,9 @@
 1	二	二	NUM	_	NumType=Card	4	mod	_	_
 2	十	十	NUM	_	NumType=Card	1	flat	_	_
 3	一	一	NUM	_	NumType=Card	2	flat	_	_
-4	岁	岁	NOUN	_	_	7	mod	_	_
-5	以	以	ADV	_	_	4	mod	_	_
-6	后	后	ADV	_	_	5	fixed@m	_	_
+4	岁	岁	NOUN	_	_	5	mod	_	_
+5	以	以	NOUN	_	_	7	mod@temp	_	_
+6	后	后	NOUN	_	_	5	@m	_	_
 7	可	可	AUX	_	_	0	root	_	Grammar_Target=Yes
 8	以	以	AUX	_	_	7	@m	_	Grammar_Target=Yes
 9	喝	喝	VERB	_	_	7	comp:aux	_	_
@@ -3971,14 +3971,14 @@
 # translation_english = Mom, may I go out and play?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG6SPYK
 1	妈	妈	NOUN	_	_	5	vocative	_	_
-2	妈	妈	NOUN	_	_	1	@m	_	_
+2	妈	妈	NOUN	_	_	1	conj:redup@m	_	_
 3	，	，	PUNCT	_	_	1	punct	_	_
 4	我	我	PRON	_	Person=1	5	subj	_	_
 5	可	可	AUX	_	_	0	root	_	Grammar_Target=Yes
 6	以	以	AUX	_	_	5	@m	_	Grammar_Target=Yes
 7	出	出	VERB	_	_	5	comp:aux	_	_
-8	去	去	VERB	_	_	7	comp:dir	_	_
-9	玩	玩	VERB	_	_	7	comp:obj	_	_
+8	去	去	VERB	_	_	7	comp:svc	_	_
+9	玩	玩	VERB	_	_	8	comp:svc	_	_
 10	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 11	？	？	PUNCT	_	_	5	punct	_	_
 
@@ -3994,7 +3994,7 @@
 2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
 3	可	可	AUX	_	_	0	root	_	Grammar_Target=Yes
 4	以	以	AUX	_	_	3	@m	_	Grammar_Target=Yes
-5	在	在	VERB	_	_	9	mod	_	_
+5	在	在	ADP	_	_	9	comp:obl	_	_
 6	办	办	NOUN	_	_	5	comp:obj	_	_
 7	公	公	NOUN	_	_	6	@m	_	_
 8	室	室	NOUN	_	_	6	@m	_	_
@@ -4066,7 +4066,7 @@
 # structure_verbose = Expressing permission with "keyi"
 # translation_english = You can't smoke here.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG6SPYK
-1	这	这	PRON	_	_	4	subj	_	_
+1	这	这	DET	_	_	4	subj	_	_
 2	里	里	NOUN	_	_	1	@m	_	_
 3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
 4	可	可	AUX	_	_	0	root	_	Grammar_Target=Yes
@@ -4133,7 +4133,7 @@
 # translation_english = The baby wants to sleep.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGXVEAR
 1	宝	宝	NOUN	_	_	3	subj	_	_
-2	宝	宝	NOUN	_	_	1	@m	_	_
+2	宝	宝	NOUN	_	_	1	conj:redup@m	_	_
 3	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 4	睡	睡	VERB	_	_	3	comp:aux	_	_
 5	觉	觉	NOUN	_	_	4	comp:obj	_	_
@@ -4147,8 +4147,8 @@
 # structure_verbose = Wanting to do something with "yao"
 # translation_english = For breakfast I want to eat meat.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGXVEAR
-1	早	早	NOUN	_	_	4	subj	_	_
-2	饭	饭	NOUN	_	_	1	@m	_	_
+1	早	早	ADJ	_	_	2	mod@m	_	_
+2	饭	饭	NOUN	_	_	4	mod@temp	_	_
 3	我	我	PRON	_	Person=1	4	subj	_	_
 4	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 5	吃	吃	VERB	_	_	4	comp:aux	_	_
@@ -4315,12 +4315,12 @@
 # structure_verbose = How to do something with "zenme"
 # translation_english = How do you use an iPad?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGH2MNO
-1	i	i	PROPN	_	_	7	subj	_	_
+1	i	i	PROPN	_	_	7	comp:obj	_	_
 2	P	p	PROPN	_	_	1	flat:foreign@m	_	_
 3	a	a	PROPN	_	_	2	flat:foreign@m	_	_
 4	d	d	PROPN	_	_	3	flat:foreign@m	_	_
 5	怎	怎	ADV	_	_	7	mod	_	Grammar_Target=Yes
-6	么	么	ADV	_	_	7	@m	_	Grammar_Target=Yes
+6	么	么	ADV	_	_	5	@m	_	Grammar_Target=Yes
 7	用	用	VERB	_	_	0	root	_	_
 8	？	？	PUNCT	_	_	7	punct	_	_
 
@@ -4335,7 +4335,7 @@
 1	语	语	NOUN	_	_	5	comp:obj	_	_
 2	法	法	NOUN	_	_	1	@m	_	_
 3	怎	怎	ADV	_	_	5	mod	_	Grammar_Target=Yes
-4	么	么	ADV	_	_	5	@m	_	Grammar_Target=Yes
+4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes
 5	学	学	VERB	_	_	0	root	_	_
 6	？	？	PUNCT	_	_	5	punct	_	_
 
@@ -4350,8 +4350,8 @@
 1	中	中	PROPN	_	_	3	compound	_	_
 2	国	国	PROPN	_	_	1	@m	_	_
 3	菜	菜	NOUN	_	_	6	comp:obj	_	_
-4	怎	怎	ADV	_	_	6	mod	_	Grammar_Target=Yes
-5	么	么	ADV	_	_	6	@m	_	Grammar_Target=Yes
+4	怎	怎	PRON	_	_	6	mod	_	Grammar_Target=Yes
+5	么	么	PRON	_	_	4	@m	_	Grammar_Target=Yes
 6	做	做	VERB	_	_	0	root	_	_
 7	？	？	PUNCT	_	_	6	punct	_	_
 
@@ -4453,8 +4453,8 @@
 2	没	没	ADV	_	_	3	mod	_	Grammar_Target=Yes
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 4	吃	吃	VERB	_	_	3	comp:obj	_	_
-5	早	早	NOUN	_	_	4	comp:obj	_	_
-6	饭	饭	NOUN	_	_	5	@m	_	_
+5	早	早	ADJ	_	_	6	mod@m	_	_
+6	饭	饭	NOUN	_	_	4	comp:obj	_	_
 7	。	。	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 286
@@ -4466,8 +4466,8 @@
 # translation_english = The baby didn't cry.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGAUCXK
 1	宝	宝	NOUN	_	_	4	subj	_	_
-2	宝	宝	NOUN	_	_	1	@m	_	_
-3	没	没	ADV	_	_	4	mod	_	Grammar_Target=Yes
+2	宝	宝	NOUN	_	_	1	conj:redup@m	_	_
+3	没	没	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
 4	哭	哭	VERB	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
 
@@ -4482,7 +4482,7 @@
 1	你	你	PRON	_	Person=2	5	subj	_	_
 2	昨	昨	NOUN	_	_	5	mod	_	_
 3	天	天	NOUN	_	_	2	@m	_	_
-4	没	没	ADV	_	_	5	mod	_	Grammar_Target=Yes
+4	没	没	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes
 5	回	回	VERB	_	_	0	root	_	_
 6	家	家	NOUN	_	_	5	comp:obj	_	_
 7	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
@@ -4531,7 +4531,7 @@
 # translation_english = Mom didn't cook food this evening.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGAUCXK
 1	妈	妈	NOUN	_	_	6	subj	_	_
-2	妈	妈	NOUN	_	_	1	@m	_	_
+2	妈	妈	NOUN	_	_	1	conj:redup@m	_	_
 3	晚	晚	NOUN	_	_	6	mod	_	_
 4	上	上	NOUN	_	_	3	@m	_	_
 5	没	没	ADV	_	_	6	mod	_	Grammar_Target=Yes
@@ -4670,8 +4670,8 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGIVZJU
 1	上	上	VERB	_	_	3	comp:obj	_	_
 2	课	课	NOUN	_	_	1	comp:obj	_	_
-3	的	的	PART	_	_	4	mod	_	_
-4	时	时	NOUN	_	_	7	mod	_	_
+3	的	的	PART	_	Case=Gen	4	mod	_	_
+4	时	时	NOUN	_	_	7	mod@temp	_	_
 5	候	候	NOUN	_	_	4	@m	_	_
 6	不	不	ADV	_	_	7	mod	_	Grammar_Target=Yes
 7	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
@@ -4801,7 +4801,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUN7RX
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	妈	妈	NOUN	_	_	4	subj	_	_
-3	妈	妈	NOUN	_	_	2	@m	_	_
+3	妈	妈	NOUN	_	_	2	conj:redup@m	_	_
 4	是	是	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	老	老	NOUN	_	_	4	comp:obj	_	_
 6	师	师	NOUN	_	_	5	@m	_	_
@@ -5027,7 +5027,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG17BLH
 1	我	我	PRON	_	Person=1	2	mod	_	_
 2	哥	哥	NOUN	_	_	6	subj	_	_
-3	哥	哥	NOUN	_	_	2	@m	_	_
+3	哥	哥	NOUN	_	_	2	conj:redup@m	_	_
 4	也	也	ADV	_	_	6	mod	_	_
 5	很	很	ADV	_	_	6	mod	_	Grammar_Target=Yes
 6	高	高	ADJ	_	_	0	root	_	_
@@ -5058,12 +5058,12 @@
 # translation_english = Dad is busy, and mom is also busy.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG17BLH
 1	爸	爸	NOUN	_	_	4	subj	_	_
-2	爸	爸	NOUN	_	_	1	@m	_	_
+2	爸	爸	NOUN	_	_	1	conj:redup@m	_	_
 3	很	很	ADV	_	_	4	mod	_	Grammar_Target=Yes
 4	忙	忙	ADJ	_	_	0	root	_	_
 5	，	，	PUNCT	_	_	10	punct	_	_
 6	妈	妈	NOUN	_	_	10	subj	_	_
-7	妈	妈	NOUN	_	_	6	@m	_	_
+7	妈	妈	NOUN	_	_	6	conj:redup@m	_	_
 8	也	也	ADV	_	_	10	mod	_	_
 9	很	很	ADV	_	_	10	mod	_	_
 10	忙	忙	ADJ	_	_	4	parataxis	_	_
@@ -5081,7 +5081,7 @@
 2	和	和	CCONJ	_	_	4	cc	_	_
 3	他	他	PRON	_	Person=3	4	mod	_	_
 4	弟	弟	NOUN	_	_	1	conj	_	_
-5	弟	弟	NOUN	_	_	4	@m	_	_
+5	弟	弟	NOUN	_	_	4	conj:redup@m	_	_
 6	都	都	ADV	_	_	8	mod	_	_
 7	很	很	ADV	_	_	8	mod	_	Grammar_Target=Yes
 8	帅	帅	ADJ	_	_	0	root	_	_
@@ -5228,7 +5228,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGZH7K3
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	爸	爸	NOUN	_	_	4	subj	_	_
-3	爸	爸	NOUN	_	_	2	@m	_	_
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	_
 4	喝	喝	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	不	不	ADV	_	Polarity=Neg	6	mod	_	Grammar_Target=Yes
 6	喝	喝	VERB	_	_	4	conj	_	Grammar_Target=Yes
@@ -5303,7 +5303,7 @@
 # structure_verbose = Affirmative-negative question
 # translation_english = Is the coffee expensive here?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGZH7K3
-1	这	这	PRON	_	_	3	comp:obj	_	_
+1	这	这	DET	_	_	3	comp:obj	_	_
 2	里	里	NOUN	_	_	1	@m	_	_
 3	的	的	PART	_	Case=Gen	4	mod	_	_
 4	咖	咖	NOUN	_	_	6	subj	_	_
@@ -5490,7 +5490,7 @@
 2	个	个	NOUN	_	_	3	clf	_	_
 3	地	地	NOUN	_	_	8	subj	_	_
 4	方	方	NOUN	_	_	3	@m	_	_
-5	好	好	ADV	_	_	8	mod	_	Grammar_Target=Yes
+5	好	好	ADJ	_	_	8	mod	_	Grammar_Target=Yes
 6	不	不	ADV	_	Polarity=Neg	7	mod	_	Grammar_Target=Yes
 7	好	好	ADJ	_	_	5	conj	_	Grammar_Target=Yes
 8	玩	玩	VERB	_	_	0	root	_	Grammar_Target=Yes
@@ -5560,7 +5560,7 @@
 6	亮	亮	ADJ	_	_	5	@m	_	Grammar_Target=Yes
 7	不	不	ADV	_	Polarity=Neg	8	mod	_	Grammar_Target=Yes
 8	漂	漂	ADJ	_	_	5	conj	_	Grammar_Target=Yes
-9	亮	亮	ADJ	_	_	5	@m	_	Grammar_Target=Yes
+9	亮	亮	ADJ	_	_	8	@m	_	Grammar_Target=Yes
 10	？	？	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 357
@@ -5621,7 +5621,7 @@
 2	个	个	NOUN	_	_	3	clf	_	_
 3	地	地	NOUN	_	_	8	subj	_	_
 4	方	方	NOUN	_	_	3	@m	_	_
-5	好	好	ADV	_	_	8	mod	_	Grammar_Target=Yes
+5	好	好	ADJ	_	_	8	mod	_	Grammar_Target=Yes
 6	不	不	ADV	_	Polarity=Neg	7	mod	_	Grammar_Target=Yes
 7	好	好	ADJ	_	_	5	conj	_	Grammar_Target=Yes
 8	玩	玩	VERB	_	_	0	root	_	Grammar_Target=Yes
@@ -5637,7 +5637,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGZH7K3
 1	你	你	PRON	_	Person=2	2	mod	_	_
 2	哥	哥	NOUN	_	_	4	subj	_	_
-3	哥	哥	NOUN	_	_	2	@m	_	_
+3	哥	哥	NOUN	_	_	2	conj:redup@m	_	_
 4	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	没	没	ADV	_	Polarity=Neg	6	mod	_	Grammar_Target=Yes
 6	有	有	VERB	_	_	4	conj	_	Grammar_Target=Yes
@@ -5672,7 +5672,7 @@
 # translation_english = Has grandma been on a plane?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGZH7K3
 1	奶	奶	NOUN	_	_	3	subj	_	_
-2	奶	奶	NOUN	_	_	1	@m	_	_
+2	奶	奶	NOUN	_	_	1	conj:redup@m	_	_
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 4	没	没	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes
 5	有	有	VERB	_	_	3	conj	_	Grammar_Target=Yes
@@ -5696,7 +5696,7 @@
 4	有	有	VERB	_	_	2	conj	_	Grammar_Target=Yes
 5	上	上	VERB	_	_	2	comp:obj	_	_
 6	过	过	PART	_	_	5	aspect	_	_
-7	大	大	ADJ	_	_	8	@m	_	_
+7	大	大	ADJ	_	_	8	mod@m	_	_
 8	学	学	NOUN	_	_	5	comp:obj	_	_
 9	？	？	PUNCT	_	_	2	punct	_	_
 
@@ -5770,13 +5770,13 @@
 1	你	你	PRON	_	Person=2	5	subj	_	_
 2	昨	昨	NOUN	_	_	5	mod	_	_
 3	天	天	NOUN	_	_	2	@m	_	_
-4	没	没	ADV	_	_	5	mod	_	_
+4	没	没	ADV	_	Polarity=Neg	5	mod	_	_
 5	回	回	VERB	_	_	0	root	_	_
 6	家	家	NOUN	_	_	5	comp:obj	_	_
 7	，	，	PUNCT	_	_	8	punct	_	_
 8	对	对	ADJ	_	_	5	parataxis	_	Grammar_Target=Yes
 9	不	不	ADV	_	Polarity=Neg	10	mod	_	Grammar_Target=Yes
-10	对	对	ADJ	_	_	5	conj	_	Grammar_Target=Yes
+10	对	对	ADJ	_	_	8	conj	_	Grammar_Target=Yes
 11	？	？	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 385
@@ -5808,7 +5808,7 @@
 # structure_verbose = Tag questions with "bu"
 # translation_english = We are going to hold a meeting at 9, right?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG4D8XB
-1	九	九	NUM	_	_	2	mod	_	_
+1	九	九	NUM	_	NumType=Card	2	mod	_	_
 2	点	点	NOUN	_	_	3	mod	_	_
 3	开	开	VERB	_	_	0	root	_	_
 4	会	会	NOUN	_	_	3	comp:obj	_	_
@@ -5976,7 +5976,7 @@
 3	欢	欢	VERB	_	_	2	@m	_	_
 4	我	我	PRON	_	Person=1	5	mod	_	_
 5	妹	妹	NOUN	_	_	2	comp:obj	_	_
-6	妹	妹	NOUN	_	_	5	@m	_	_
+6	妹	妹	NOUN	_	_	5	conj:redup@m	_	_
 7	，	，	PUNCT	_	_	8	punct	_	_
 8	是	是	VERB	_	_	2	parataxis	_	Grammar_Target=Yes
 9	吗	吗	PART	_	Mood=Inter	8	discourse	_	Grammar_Target=Yes
@@ -6035,7 +6035,7 @@
 7	喝	喝	VERB	_	_	0	root	_	_
 8	酒	酒	NOUN	_	_	7	comp:obj	_	_
 9	，	，	PUNCT	_	_	10	punct	_	_
-10	好	好	ADJ	_	_	7	parataxis	_	Grammar_Target=Yes
+10	好	好	ADJ	_	Mood=Inter	7	parataxis	_	Grammar_Target=Yes
 11	吗	吗	PART	_	Mood=Inter	10	discourse	_	Grammar_Target=Yes
 12	？	？	PUNCT	_	_	7	punct	_	_
 
@@ -6053,7 +6053,7 @@
 4	想	想	AUX	_	_	0	root	_	_
 5	去	去	VERB	_	_	4	comp:aux	_	_
 6	洗	洗	VERB	_	_	8	@m	_	_
-7	手	手	NOUN	_	_	6	comp:obj@m	_	_
+7	手	手	NOUN	_	_	6	@m	_	_
 8	间	间	NOUN	_	_	5	comp:obj	_	_
 9	，	，	PUNCT	_	_	10	punct	_	_
 10	可	可	AUX	_	_	4	parataxis	_	Grammar_Target=Yes
@@ -6070,7 +6070,7 @@
 # translation_english = Mom, I want to eat chocolate. May I?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGSJYZ2
 1	妈	妈	NOUN	_	_	5	vocative	_	_
-2	妈	妈	NOUN	_	_	1	@m	_	_
+2	妈	妈	NOUN	_	_	1	conj:redup@m	_	_
 3	，	，	PUNCT	_	_	1	punct	_	_
 4	我	我	PRON	_	Person=1	5	subj	_	_
 5	要	要	AUX	_	_	0	root	_	_
@@ -6098,4 +6098,281 @@
 4	咖	咖	NOUN	_	_	2	comp:obj	_	_
 5	啡	啡	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 75
+# structure = Subj. + Number + 岁 + 半
+# text = 我 儿子 一 岁 半。
+# pinyin = Wǒ érzi yī suì bàn.
+# level = A1
+# structure_verbose = Age with "sui"
+# translation_english = My son is one and a half years old.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGQUKJF
+1	我	我	PRON	_	Person=1	2	mod	_	_
+2	儿	儿	NOUN	_	_	5	subj	_	_
+3	子	子	NOUN	_	_	2	@m	_	_
+4	一	一	NUM	_	NumType=Card	5	mod	_	_
+5	岁	岁	NOUN	_	_	0	root	_	Grammar_Target=Yes
+6	半	半	NOUN	_	_	5	mod	_	_
+7	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 100
+# structure = x 年 + y 月 + z 号
+# text = 2001 年 7 月 20 日
+# level = A1
+# structure_verbose = Structure of dates
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
+1	2	2	NUM	_	NumType=Card	5	mod	_	_
+2	0	0	NUM	_	NumType=Card	1	flat	_	_
+3	0	0	NUM	_	NumType=Card	2	flat	_	_
+4	1	1	NUM	_	NumType=Card	3	flat	_	_
+5	年	年	NOUN	_	_	7	mod	_	Grammar_Target=Yes
+6	7	7	NUM	_	NumType=Card	7	mod	_	_
+7	月	月	NOUN	_	_	10	mod	_	Grammar_Target=Yes
+8	2	2	NUM	_	NumType=Card	10	mod	_	_
+9	0	0	NUM	_	NumType=Card	8	flat	_	_
+10	日	日	NOUN	_	_	0	root	_	Grammar_Target=Yes
+
+# sent_id = 101
+# structure = x 年 + y 月 + z 号
+# text = 1 月 1 日 是 新年。
+# level = A1
+# structure_verbose = Structure of dates
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
+1	1	1	NUM	_	NumType=Card	2	mod	_	_
+2	月	月	NOUN	_	_	4	mod	_	Grammar_Target=Yes
+3	1	1	NUM	_	NumType=Card	4	mod	_	_
+4	日	日	NOUN	_	_	5	subj	_	Grammar_Target=Yes
+5	是	是	VERB	_	_	0	root	_	_
+6	新	新	ADJ	_	_	7	@m	_	_
+7	年	年	NOUN	_	_	5	comp:obj	_	_
+8	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 102
+# structure = x 年 + y 月 + z 号
+# text = 12 月 24 日 是 平安夜。
+# level = A1
+# structure_verbose = Structure of dates
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
+1	1	1	NUM	_	NumType=Card	3	mod	_	_
+2	2	2	NUM	_	NumType=Card	1	flat	_	_
+3	月	月	NOUN	_	_	6	mod	_	Grammar_Target=Yes
+4	2	2	NUM	_	NumType=Card	6	mod	_	_
+5	4	4	NUM	_	NumType=Card	4	flat	_	_
+6	日	日	NOUN	_	_	7	subj	_	Grammar_Target=Yes
+7	是	是	VERB	_	_	0	root	_	_
+8	平	平	ADJ	_	_	10	mod@m	_	_
+9	安	安	ADJ	_	_	8	@m	_	_
+10	夜	夜	NOUN	_	_	7	comp:obj	_	_
+11	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 103
+# structure = x 年 + y 月 + z 号
+# text = 10 月 1 号 我们 去 上海。
+# level = A1
+# structure_verbose = Structure of dates
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
+1	1	1	NUM	_	NumType=Card	3	mod	_	_
+2	0	0	NUM	_	NumType=Card	1	flat	_	_
+3	月	月	NOUN	_	_	5	mod	_	Grammar_Target=Yes
+4	1	1	NUM	_	NumType=Card	5	mod	_	_
+5	号	号	NOUN	_	_	8	mod@temp	_	Grammar_Target=Yes
+6	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	_
+7	们	们	PART	_	Number=Plur|Person=1	6	@m	_	_
+8	去	去	VERB	_	_	0	root	_	_
+9	上	上	PROPN	_	_	8	comp:obj	_	_
+10	海	海	PROPN	_	_	9	@m	_	_
+11	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 105
+# structure = x 年 + y 月 + z 号
+# text = 你 的 生日 是 11 月 11 号吗？
+# level = A1
+# structure_verbose = Structure of dates
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
+1	你	你	PRON	_	Person=2	2	comp:obj	_	_
+2	的	的	PART	_	Case=Gen	3	mod	_	_
+3	生	生	NOUN	_	_	5	subj	_	_
+4	日	日	NOUN	_	_	3	@m	_	_
+5	是	是	VERB	_	_	0	root	_	_
+6	1	1	NUM	_	NumType=Card	8	mod	_	_
+7	1	1	NUM	_	NumType=Card	6	flat	_	_
+8	月	月	NOUN	_	_	11	mod	_	Grammar_Target=Yes
+9	1	1	NUM	_	NumType=Card	11	mod	_	_
+10	1	1	NUM	_	NumType=Card	9	flat	_	_
+11	号	号	NOUN	_	_	5	comp:obj	_	Grammar_Target=Yes
+12	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
+13	？	？	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 106
+# structure = x 年 + y 月 + z 号
+# text = 我 2006 年 4 月 17 号 认识 了 他。
+# level = A1
+# structure_verbose = Structure of dates
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
+1	我	我	PRON	_	Person=1	12	subj	_	_
+2	2	2	NUM	_	NumType=Card	6	mod	_	_
+3	0	0	NUM	_	NumType=Card	2	flat	_	_
+4	0	0	NUM	_	NumType=Card	3	flat	_	_
+5	6	6	NUM	_	NumType=Card	4	flat	_	_
+6	年	年	NOUN	_	_	8	mod	_	Grammar_Target=Yes
+7	4	4	NUM	_	NumType=Card	8	mod	_	_
+8	月	月	NOUN	_	_	11	mod	_	Grammar_Target=Yes
+9	1	1	NUM	_	NumType=Card	11	mod	_	_
+10	7	7	NUM	_	NumType=Card	9	flat	_	_
+11	号	号	NOUN	_	_	12	mod@temp	_	Grammar_Target=Yes
+12	认	认	VERB	_	_	0	root	_	_
+13	识	识	VERB	_	_	12	@m	_	_
+14	了	了	PART	_	_	12	aspect	_	_
+15	他	他	PRON	_	Person=3	12	comp:obj	_	_
+16	。	。	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 107
+# structure = x 年 + y 月 + z 号
+# text = 1980 年 9 月 4 号 我们 结婚 了。
+# level = A1
+# structure_verbose = Structure of dates
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGT3KF6
+1	1	1	NUM	_	NumType=Card	5	mod	_	_
+2	9	9	NUM	_	NumType=Card	1	flat	_	_
+3	8	8	NUM	_	NumType=Card	2	flat	_	_
+4	0	0	NUM	_	NumType=Card	3	flat	_	_
+5	年	年	NOUN	_	_	7	mod	_	Grammar_Target=Yes
+6	9	9	NUM	_	NumType=Card	7	mod	_	_
+7	月	月	NOUN	_	_	9	mod	_	Grammar_Target=Yes
+8	4	4	NUM	_	NumType=Card	9	mod	_	_
+9	号	号	NOUN	_	_	12	mod@temp	_	Grammar_Target=Yes
+10	我	我	PRON	_	Number=Plur|Person=1	12	subj	_	_
+11	们	们	PART	_	Number=Plur|Person=1	10	@m	_	_
+12	结	结	VERB	_	_	0	root	_	_
+13	婚	婚	NOUN	_	_	12	comp:obj	_	_
+14	了	了	PART	_	_	12	discourse	_	_
+15	。	。	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 113
+# structure = (Date and/or time of day +) x 点
+# text = 9 月 9 号 早上 六 点
+# pinyin = jiǔ yuè jiǔ hào zǎoshang liù diǎn
+# level = A1
+# structure_verbose = Structure of times (basic)
+# translation_english = September 9th, 6 o'clock a.m.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGN6BBU
+1	9	9	NUM	_	NumType=Card	2	mod	_	_
+2	月	月	NOUN	_	_	6	mod	_	_
+3	9	9	NUM	_	NumType=Card	4	mod	_	_
+4	号	号	NOUN	_	_	6	mod	_	_
+5	早	早	ADJ	_	_	6	mod@m	_	_
+6	上	上	NOUN	_	_	8	mod	_	_
+7	六	六	NUM	_	NumType=Card	8	mod	_	_
+8	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes
+
+# sent_id = 117
+# structure = x 点 + 半
+# text = 星期天 上午 十 点 半
+# pinyin = Xīngqītiān shàngwǔ shí diǎn bàn
+# level = A1
+# structure_verbose = Structure of times (basic)
+# translation_english = Sunday at 10:30 a.m.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGN6BBU
+1	星	星	NOUN	_	_	4	mod	_	_
+2	期	期	NOUN	_	_	1	@m	_	_
+3	天	天	NOUN	_	_	1	@m	_	_
+4	上	上	NOUN	_	_	7	mod	_	_
+5	午	午	NOUN	_	_	4	@m	_	_
+6	十	十	NUM	_	NumType=Card	7	mod	_	_
+7	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes
+8	半	半	NOUN	_	_	7	mod	_	Grammar_Target=Yes
+
+# sent_id = 190
+# structure = Subj. + 叫 + [Name]
+# text = 这 个 美女 叫 Alana。
+# pinyin = Zhège měinǚ jiào Alana.
+# level = A1
+# structure_verbose = Using the verb "jiao"
+# translation_english = This pretty girl is named Alana.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUGWVZ
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	4	clf	_	_
+3	美	美	ADJ	_	_	4	mod	_	_
+4	女	女	NOUN	_	_	5	subj	_	_
+5	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes
+6	A	a	PROPN	_	_	5	comp:obj	_	_
+7	l	l	PROPN	_	_	6	flat:foreign@m	_	_
+8	a	a	PROPN	_	_	7	flat:foreign@m	_	_
+9	n	n	PROPN	_	_	8	flat:foreign@m	_	_
+10	a	a	PROPN	_	_	9	flat:foreign@m	_	_
+11	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 191
+# structure = Subj. + 叫 + [Name]
+# text = 我们 的 老板 叫 John。
+# pinyin = Wǒmen de lǎobǎn jiào John.
+# level = A1
+# structure_verbose = Using the verb "jiao"
+# translation_english = Our boss is named John.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUGWVZ
+1	我	我	PRON	_	Number=Plur|Person=1	3	comp:obj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	的	的	PART	_	Case=Gen	4	mod	_	_
+4	老	老	NOUN	_	_	6	subj	_	_
+5	板	板	NOUN	_	_	4	@m	_	_
+6	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes
+7	J	j	PROPN	_	_	6	comp:obj	_	_
+8	o	o	PROPN	_	_	7	flat:foreign@m	_	_
+9	h	h	PROPN	_	_	8	flat:foreign@m	_	_
+10	n	n	PROPN	_	_	9	flat:foreign@m	_	_
+11	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 192
+# structure = Subj. + 叫 + [Name]
+# text = 我 的 狗 叫 Max。
+# pinyin = Wǒ de gǒu jiào Max.
+# level = A1
+# structure_verbose = Using the verb "jiao"
+# translation_english = My dog is called Max.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUGWVZ
+1	我	我	PRON	_	Person=1	2	comp:obj	_	_
+2	的	的	PART	_	Case=Gen	3	mod	_	_
+3	狗	狗	NOUN	_	_	4	subj	_	_
+4	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes
+5	M	m	PROPN	_	_	4	comp:obj	_	_
+6	a	a	PROPN	_	_	5	flat:foreign@m	_	_
+7	x	x	PROPN	_	_	6	flat:foreign@m	_	_
+8	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 193
+# structure = Subj. + 叫 + [Name]
+# text = 这 种 手机 叫 iPhone。
+# pinyin = Zhè zhǒng shǒujī jiào iPhone.
+# level = A1
+# structure_verbose = Using the verb "jiao"
+# translation_english = This kind of cell phone is called an iPhone.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUGWVZ
+1	这	这	DET	_	_	2	det	_	_
+2	种	种	NOUN	_	_	3	clf	_	_
+3	手	手	NOUN	_	_	5	subj	_	_
+4	机	机	NOUN	_	_	3	@m	_	_
+5	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes
+6	i	i	PROPN	_	_	5	comp:obj	_	_
+7	P	p	PROPN	_	_	6	flat:foreign@m	_	_
+8	h	h	PROPN	_	_	7	flat:foreign@m	_	_
+9	o	o	PROPN	_	_	8	flat:foreign@m	_	_
+10	n	n	PROPN	_	_	9	flat:foreign@m	_	_
+11	e	e	PROPN	_	_	10	flat:foreign@m	_	_
+12	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 356
+# structure = [First Character of Adj.] + 不 + Adj.
+# text = 他 女朋友 漂 不 漂亮？only the first character repeated
+# level = A1
+# structure_verbose = Affirmative-negative question
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGZH7K3
+1	他	他	PRON	_	Person=3	3	mod	_	_
+2	女	女	NOUN	_	_	3	@m	_	_
+3	朋	朋	NOUN	_	_	5	subj	_	_
+4	友	友	NOUN	_	_	3	@m	_	_
+5	漂	漂	ADJ	_	_	0	root	_	Grammar_Target=Yes
+6	不	不	ADV	_	Polarity=Neg	7	mod	_	Grammar_Target=Yes
+7	漂	漂	ADJ	_	_	5	conj	_	Grammar_Target=Yes
+8	亮	亮	ADJ	_	_	7	@m	_	Grammar_Target=Yes
+9	？	？	PUNCT	_	_	5	punct	_	_
 

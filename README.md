@@ -7,7 +7,7 @@ The sentences of the corpus were taken from the [Chinese Grammar Wiki](https://r
 ## Structure of the Treebank
 The Treebank is partitioned in 5 parts A1, A2, B1, B2 and C1 that represents different level of difficulty (from easiest to hardest). 
 
-/!\ At the day of April 28th of 2023, 715 sentences have been hand annotated. But below is the complete distribution of the corpus. 
+/!\ At the day of April 28th of 2023, 1370 sentences have been hand annotated. But below is the complete distribution of the corpus. 
 
 The corpus is made of around 4300 sentences, with the following distribution : 
 - A1 : 382 sentences (3456 tokens , ~ 9.05 tokens per sentences)

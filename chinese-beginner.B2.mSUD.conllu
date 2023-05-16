@@ -29,9 +29,9 @@
 # translation_english = Why would you hide my cell phone?
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGSCN01
 1	你	你	PRON	_	Person=2	5	subj	_	_
-2	为	为	ADP	_	_	5	mod	_	_
-3	什	什	PRON	_	_	2	comp:obj@m	_	_
-4	么	么	PRON	_	_	3	fixed@m	_	_
+2	为	为	PRON	_	_	5	mod	_	_
+3	什	什	PRON	_	_	2	@m	_	_
+4	么	么	PRON	_	_	3	@m	_	_
 5	要	要	AUX	_	_	0	root	_	_
 6	把	把	ADP	_	_	11	comp:obl	_	_
 7	我	我	PRON	_	Person=1	8	comp:obj	_	_
@@ -42,4 +42,623 @@
 12	起	起	VERB	_	_	11	comp:dir	_	Grammar_Target=Yes
 13	来	来	VERB	_	_	12	comp:svc@m	_	Grammar_Target=Yes
 14	？	？	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2997
+# structure = 虽然 ⋯⋯ ，但 + 毕竟 ⋯⋯ ，(as a result) ⋯⋯
+# text = 虽然 我 跟 他 认识，但 毕竟 不 太 熟，还是 不要 去 麻烦 人家 了。
+# pinyin = Suīrán wǒ gēn tā rènshí, dàn bìjìng bùtài shú, háishì bùyào qù máfan rénjiā le.
+# level = B2
+# structure_verbose = Expressing "after all" with "bijing"
+# translation_english = Although I know him, we're not close, after all. We'd better not bother him.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG4V36Q
+1	虽	虽	SCONJ	_	_	6	cc	_	_
+2	然	然	SCONJ	_	_	1	@m	_	_
+3	我	我	PRON	_	Person=1	6	subj	_	_
+4	跟	跟	ADP	_	_	6	comp:obl	_	_
+5	他	他	PRON	_	Person=3	4	comp:obj	_	_
+6	认	认	VERB	_	_	0	root	_	_
+7	识	识	VERB	_	_	6	@m	_	_
+8	，	，	PUNCT	_	_	14	punct	_	_
+9	但	但	SCONJ	_	_	14	cc	_	_
+10	毕	毕	ADV	_	_	14	mod	_	Grammar_Target=Yes
+11	竟	竟	ADV	_	_	10	@m	_	Grammar_Target=Yes
+12	不	不	ADV	_	_	13	mod	_	_
+13	太	太	ADV	_	_	14	mod	_	_
+14	熟	熟	ADJ	_	_	6	conj	_	_
+15	，	，	PUNCT	_	_	19	punct	_	_
+16	还	还	SCONJ	_	_	19	cc	_	_
+17	是	是	SCONJ	_	_	16	@m	_	_
+18	不	不	ADV	_	Polarity=Neg	19	mod	_	_
+19	要	要	AUX	_	_	14	conj	_	_
+20	去	去	VERB	_	_	19	comp:aux	_	_
+21	麻	麻	NOUN	_	_	20	comp:svc	_	_
+22	烦	烦	NOUN	_	_	21	@m	_	_
+23	人	人	NOUN	_	_	24	mod	_	_
+24	家	家	NOUN	_	_	21	comp:obj	_	_
+25	了	了	PART	_	_	19	discourse	_	_
+26	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3012
+# structure = Subj. + 差点 + 没 + Verb Phrase
+# text = 他 差点 没 通过 考试。He did pass it, but almost didn't.
+# pinyin = Tā chàdiǎn méi tōngguò kǎoshì.
+# level = B2
+# structure_verbose = Expressing "almost" using "chadian mei"
+# translation_english = He barely passed the examination.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGGOUJB
+1	他	他	PRON	_	Person=3	5	subj	_	_
+2	差	差	ADV	_	_	5	mod	_	Grammar_Target=Yes
+3	点	点	ADV	_	_	2	mod@m	_	Grammar_Target=Yes
+4	没	没	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes
+5	通	通	VERB	_	_	0	root	_	_
+6	过	过	VERB	_	_	5	comp:res@m	_	_
+7	考	考	NOUN	_	_	5	comp:obj	_	_
+8	试	试	NOUN	_	_	7	@m	_	_
+9	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3018
+# structure = Subj. + 差点 (+ 没) + Verb Phrase
+# text = 我 差点儿 没 被 发现。
+# pinyin = Wǒ chàdiǎnr méi bèi fāxiàn.
+# level = B2
+# structure_verbose = Expressing "almost" using "chadian mei"
+# translation_english = I was almost discovered.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGGOUJB
+1	我	我	PRON	_	Person=1	6	subj	_	_
+2	差	差	ADV	_	_	6	mod	_	Grammar_Target=Yes
+3	点	点	ADV	_	_	2	mod@m	_	Grammar_Target=Yes
+4	儿	儿	PART	_	_	3	@m	_	Grammar_Target=Yes
+5	没	没	ADV	_	Polarity=Neg	6	mod	_	Grammar_Target=Yes
+6	被	被	VERB	_	_	0	root	_	_
+7	发	发	VERB	_	_	6	comp:obj	_	_
+8	现	现	NOUN	_	_	7	@m	_	_
+9	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3124
+# structure = Subj. + 干脆 + Verb Phrase
+# text = 家里 什么 都 没有，干脆 出去 吃 吧。
+# pinyin = Jiālǐ shénme dōu méiyǒu, gāncuì chūqù chī ba.
+# level = B2
+# structure_verbose = Expressing "just" do it with "gancui"
+# translation_english = There is nothing in the house, let's just go out to eat.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGZ8MJM
+1	家	家	NOUN	_	_	7	mod@loc	_	_
+2	里	里	NOUN	_	_	1	@m	_	_
+3	什	什	NOUN	_	_	7	comp:obj	_	_
+4	么	么	NOUN	_	_	3	@m	_	_
+5	都	都	ADV	_	_	7	mod	_	_
+6	没	没	ADV	_	_	7	mod	_	_
+7	有	有	VERB	_	_	0	root	_	_
+8	，	，	PUNCT	_	_	11	punct	_	_
+9	干	干	ADV	_	_	11	mod	_	Grammar_Target=Yes
+10	脆	脆	ADV	_	_	9	@m	_	Grammar_Target=Yes
+11	出	出	VERB	_	_	7	parataxis	_	_
+12	去	去	VERB	_	_	11	comp:svc	_	_
+13	吃	吃	VERB	_	_	12	comp:svc	_	_
+14	吧	吧	PART	_	_	11	discourse	_	_
+15	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3177
+# structure = Subj. + 本来 + 就...
+# text = 他 讲 得 本来就 不 对 ，为什么 还 要 我 听 他 的？
+# pinyin = Tā jiǎng de běnlái jiù bù duì, wèishénme hái yào wǒ tīng tā de?
+# level = B2
+# structure_verbose = Expressing "originally" with "benlai"
+# translation_english = What he says has always been wrong, so why do you still want me to listen to him?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6F157
+1	他	他	PRON	_	Person=3	2	subj	_	_
+2	讲	讲	VERB	_	_	3	comp:obj	_	_
+3	得	得	PART	_	_	8	mod	_	_
+4	本	本	ADV	_	_	8	mod	_	Grammar_Target=Yes
+5	来	来	ADV	_	_	4	@m	_	Grammar_Target=Yes
+6	就	就	ADV	_	_	8	mod	_	_
+7	不	不	ADV	_	Polarity=Neg	8	mod	_	_
+8	对	对	ADJ	_	_	0	root	_	_
+9	，	，	PUNCT	_	_	14	punct	_	_
+10	为	为	PRON	_	_	14	mod	_	_
+11	什	什	PRON	_	_	10	@m	_	_
+12	么	么	PRON	_	_	11	@m	_	_
+13	还	还	ADV	_	_	14	mod	_	_
+14	要	要	AUX	_	_	8	parataxis	_	_
+15	我	我	PRON	_	Person=1	16	subj	_	_
+16	听	听	VERB	_	_	18	comp:obj	_	_
+17	他	他	PRON	_	Person=3	16	comp:obj	_	_
+18	的	的	PART	_	_	14	comp:obj	_	_
+19	？	？	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3190
+# structure = 再三 + Verb Phrase
+# text = 这 个 决定 是 经过 再三 考虑 做 出来 的。
+# pinyin = Zhège juédìng shì jīngguò zàisān kǎolǜ zuò chūlái de.
+# level = B2
+# structure_verbose = Expressing "over and over again" with "zaisan"
+# translation_english = This decision was made after much consideration.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGP6LVA
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	决	决	NOUN	_	_	5	subj	_	_
+4	定	定	NOUN	_	_	3	@m	_	_
+5	是	是	VERB	_	_	0	root	_	_
+6	经	经	VERB	_	_	5	comp:obl	_	_
+7	过	过	VERB	_	_	6	@m	_	_
+8	再	再	ADV	_	_	10	mod	_	Grammar_Target=Yes
+9	三	三	NUM	_	_	8	@m	_	Grammar_Target=Yes
+10	考	考	NOUN	_	_	6	comp:obj	_	_
+11	虑	虑	NOUN	_	_	10	@m	_	_
+12	做	做	VERB	_	_	5	comp:obj	_	_
+13	出	出	VERB	_	_	12	comp:dir	_	_
+14	来	来	VERB	_	_	13	comp:svc@m	_	_
+15	的	的	PART	_	_	5	mod	_	_
+16	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3202
+# structure = Subj. + 简直 + Predicate
+# text = 我 简直 不 明白 他 为什么 这么 傻 ！
+# pinyin = Wǒ jiǎnzhí bù míngbái tā wèishénme zhème shǎ!
+# level = B2
+# structure_verbose = Expressing "simply" with "jianzhi"
+# translation_english = I just don't understand why he's so stupid.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG8OLAE
+1	我	我	PRON	_	Person=1	5	subj	_	_
+2	简	简	ADV	_	_	5	mod	_	Grammar_Target=Yes
+3	直	直	ADV	_	_	2	@m	_	Grammar_Target=Yes
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	_
+5	明	明	VERB	_	_	0	root	_	_
+6	白	白	ADJ	_	_	5	@m	_	_
+7	他	他	PRON	_	Person=3	13	subj	_	_
+8	为	为	PRON	_	_	13	mod	_	_
+9	什	什	PRON	_	_	8	@m	_	_
+10	么	么	PRON	_	_	9	@m	_	_
+11	这	这	ADV	_	_	13	mod	_	_
+12	么	么	ADV	_	_	11	@m	_	_
+13	傻	傻	ADJ	_	_	5	comp:obj	_	_
+14	！	！	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3674
+# structure = 难怪 + [Specific Person / People] ……
+# text = 孩子 把 爸爸 最 喜欢 的 花瓶 打 碎 了，也 难怪 爸爸 为什么 这么 生气 了。
+# pinyin = Háizi bǎ bàba zuì xǐhuan de huāpíng dǎ suì le, yě nánguài bàba wèishénme zhème shēngqì le.
+# level = B2
+# structure_verbose = Using "nanguai" as a verb
+# translation_english = The child smashed his father's favorite vase. You can't blame the father for getting so angry.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGYKH5G
+1	孩	孩	NOUN	_	_	12	subj	_	_
+2	子	子	NOUN	_	_	1	@m	_	_
+3	把	把	ADP	_	_	12	comp:obl	_	_
+4	爸	爸	NOUN	_	_	7	subj	_	_
+5	爸	爸	NOUN	_	_	4	conj:redup@m	_	_
+6	最	最	ADV	_	_	7	mod	_	_
+7	喜	喜	VERB	_	_	9	comp:obj	_	_
+8	欢	欢	VERB	_	_	7	@m	_	_
+9	的	的	PART	_	Case=Gen	10	mod	_	_
+10	花	花	NOUN	_	_	3	comp:obj	_	_
+11	瓶	瓶	NOUN	_	_	10	@m	_	_
+12	打	打	VERB	_	_	0	root	_	_
+13	碎	碎	VERB	_	_	12	comp:res	_	_
+14	了	了	PART	_	_	12	discourse	_	_
+15	，	，	PUNCT	_	_	18	punct	_	_
+16	也	也	SCONJ	_	_	18	cc	_	_
+17	难	难	ADV	_	_	18	mod@m	_	Grammar_Target=Yes
+18	怪	怪	VERB	_	_	12	parataxis	_	Grammar_Target=Yes
+19	爸	爸	NOUN	_	_	26	subj	_	_
+20	爸	爸	NOUN	_	_	19	conj:redup@m	_	_
+21	为	为	PRON	_	_	26	mod	_	_
+22	什	什	PRON	_	_	21	@m	_	_
+23	么	么	PRON	_	_	22	@m	_	_
+24	这	这	ADV	_	_	26	mod	_	_
+25	么	么	ADV	_	_	24	@m	_	_
+26	生	生	VERB	_	_	18	comp:obj	_	_
+27	气	气	NOUN	_	_	26	comp:obj	_	_
+28	了	了	PART	_	_	26	discourse	_	_
+29	。	。	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3696
+# structure = [Verb Phrase 1] + 并 + [Verb Phrase 2]
+# text = 我们 会 和 合作 公司 尽快 沟通 并 解决 这 件 事 。
+# pinyin = Wǒmen huì hé hézuò gōngsī jìnkuài gōutōng bìng jiějué zhè jiàn shì.
+# level = B2
+# structure_verbose = Combining verbs with "bing"
+# translation_english = We will work with the partner company to resolve this matter as soon as possible.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5C89R
+1	我	我	PRON	_	Number=Plur|Person=1	3	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	会	会	AUX	_	_	0	root	_	_
+4	和	和	ADP	_	_	11	comp:obl	_	_
+5	合	合	NOUN	_	_	7	compound	_	_
+6	作	作	NOUN	_	_	5	@m	_	_
+7	公	公	NOUN	_	_	4	comp:obj	_	_
+8	司	司	NOUN	_	_	7	@m	_	_
+9	尽	尽	ADV	_	_	11	mod	_	_
+10	快	快	ADV	_	_	9	@m	_	_
+11	沟	沟	VERB	_	_	3	comp:aux	_	_
+12	通	通	VERB	_	_	11	@m	_	_
+13	并	并	CCONJ	_	_	14	cc	_	Grammar_Target=Yes
+14	解	解	VERB	_	_	11	conj	_	_
+15	决	决	VERB	_	_	14	@m	_	_
+16	这	这	DET	_	_	17	det	_	_
+17	件	件	NOUN	_	_	18	clf	_	_
+18	事	事	NOUN	_	_	11	comp:obj	_	_
+19	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 3765
+# structure = Verb + 着 + Verb + 着 + 就 + Comment + 了
+# text = 我 听着 听着 歌，就 唱 起来 了 。
+# pinyin = Wǒ tīngzhe tīngzhe gē, jiù chàng qǐlái le.
+# level = B2
+# structure_verbose = Using "zhe" when "verbing away"
+# translation_english = As I listened and listened to the songs, I began to sing.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG7AUNJ
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	听	听	VERB	_	_	0	root	_	_
+3	着	着	PART	_	_	2	aspect	_	Grammar_Target=Yes
+4	听	听	VERB	_	_	2	conj	_	_
+5	着	着	VERB	_	_	4	aspect	_	Grammar_Target=Yes
+6	歌	歌	NOUN	_	_	2	comp:obj	_	_
+7	，	，	PUNCT	_	_	9	punct	_	_
+8	就	就	SCONJ	_	_	9	mod	_	Grammar_Target=Yes
+9	唱	唱	VERB	_	_	2	conj	_	_
+10	起	起	VERB	_	_	9	comp:dir	_	_
+11	来	来	VERB	_	_	10	comp:svc@m	_	_
+12	了	了	PART	_	_	9	discourse	_	Grammar_Target=Yes
+13	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 3829
+# structure = 既然 + Fact, (那 +) Rhetorical Question
+# text = 你 既然 不 喜欢 他，为什么 还 想 跟 他 出去？
+# pinyin = Nǐ jìrán bù xǐhuan tā, wèishénme hái xiǎng gēn tā chūqù?
+# level = B2
+# structure_verbose = Expressing "since" with "jiran"
+# translation_english = Since you don't like him, why would you go out with him?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGG4BX9
+1	你	你	PRON	_	Person=2	5	subj	_	_
+2	既	既	ADV	_	_	5	mod	_	Grammar_Target=Yes
+3	然	然	ADV	_	_	2	@m	_	Grammar_Target=Yes
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	_
+5	喜	喜	VERB	_	_	0	root	_	_
+6	欢	欢	VERB	_	_	5	@m	_	_
+7	他	他	PRON	_	Person=3	5	comp:obj	_	_
+8	，	，	PUNCT	_	_	13	punct	_	_
+9	为	为	PRON	_	_	13	mod	_	_
+10	什	什	PRON	_	_	9	@m	_	_
+11	么	么	PRON	_	_	10	@m	_	_
+12	还	还	ADV	_	_	13	mod	_	_
+13	想	想	AUX	_	_	5	conj	_	_
+14	跟	跟	ADP	_	_	16	comp:obl	_	_
+15	他	他	PRON	_	Person=3	14	comp:obj	_	_
+16	出	出	VERB	_	_	13	comp:aux	_	_
+17	去	去	VERB	_	_	16	comp:dir	_	_
+18	？	？	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3831
+# structure = 既然 + Fact, (那 +) Rhetorical Question
+# text = 既然 他 那么 忙，你 为什么 还 去 打扰 他？
+# pinyin = Jìrán tā nàme máng, nǐ wèishénme hái qù dǎrǎo tā?
+# level = B2
+# structure_verbose = Expressing "since" with "jiran"
+# translation_english = Since he's so busy, why would you go bother him?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGG4BX9
+1	既	既	SCONJ	_	_	6	cc	_	Grammar_Target=Yes
+2	然	然	SCONJ	_	_	1	@m	_	Grammar_Target=Yes
+3	他	他	PRON	_	Person=3	6	subj	_	_
+4	那	那	ADV	_	_	6	mod	_	_
+5	么	么	ADV	_	_	4	@m	_	_
+6	忙	忙	ADJ	_	_	0	root	_	_
+7	，	，	PUNCT	_	_	13	punct	_	_
+8	你	你	PRON	_	Person=2	13	subj	_	_
+9	为	为	PRON	_	_	13	mod	_	_
+10	什	什	PRON	_	_	9	@m	_	_
+11	么	么	PRON	_	_	10	@m	_	_
+12	还	还	ADV	_	_	13	mod	_	_
+13	去	去	VERB	_	_	6	parataxis	_	_
+14	打	打	VERB	_	_	13	comp:svc	_	_
+15	扰	扰	NOUN	_	_	14	@m	_	_
+16	他	他	PRON	_	Person=3	14	comp:obj	_	_
+17	？	？	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3832
+# structure = 既然 + Fact, (那 +) Rhetorical Question
+# text = 既然 已经 分手 了，为什么 还 要 见面？
+# pinyin = Jìrán yǐjīng fēnshǒu le, wèishénme hái yào jiànmiàn?
+# level = B2
+# structure_verbose = Expressing "since" with "jiran"
+# translation_english = Since we've already broken up, why would we still meet up?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGG4BX9
+1	既	既	SCONJ	_	_	5	cc	_	Grammar_Target=Yes
+2	然	然	SCONJ	_	_	1	@m	_	Grammar_Target=Yes
+3	已	已	ADV	_	_	5	mod@temp	_	_
+4	经	经	ADV	_	_	3	@m	_	_
+5	分	分	VERB	_	_	0	root	_	_
+6	手	手	NOUN	_	_	5	@m	_	_
+7	了	了	PART	_	_	5	discourse	_	_
+8	，	，	PUNCT	_	_	13	punct	_	_
+9	为	为	PRON	_	_	13	mod	_	_
+10	什	什	PRON	_	_	9	@m	_	_
+11	么	么	PRON	_	_	10	@m	_	_
+12	还	还	ADV	_	_	13	mod	_	_
+13	要	要	AUX	_	_	5	parataxis	_	_
+14	见	见	VERB	_	_	13	comp:aux	_	_
+15	面	面	NOUN	_	_	14	comp:obj	_	_
+16	？	？	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3833
+# structure = 既然 + Fact, (那 +) Rhetorical Question
+# text = 既然 你 男朋友 那么 有钱，那 他 为什么 不 能 大方 一点？
+# pinyin = Jìrán nǐ nánpéngyou nàme yǒuqián, nà tā wèishénme bù néng dàfang yīdiǎn?
+# level = B2
+# structure_verbose = Expressing "since" with "jiran"
+# translation_english = Since your boyfriend is so rich, why can't he be more generous?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGG4BX9
+1	既	既	SCONJ	_	_	9	cc	_	Grammar_Target=Yes
+2	然	然	SCONJ	_	_	1	@m	_	Grammar_Target=Yes
+3	你	你	PRON	_	Person=2	5	mod	_	_
+4	男	男	NOUN	_	_	5	@m	_	_
+5	朋	朋	NOUN	_	_	9	subj	_	_
+6	友	友	NOUN	_	_	5	@m	_	_
+7	那	那	ADV	_	_	9	mod	_	_
+8	么	么	ADV	_	_	7	@m	_	_
+9	有	有	VERB	_	_	0	root	_	_
+10	钱	钱	NOUN	_	_	9	comp:obj	_	_
+11	，	，	PUNCT	_	_	18	punct	_	_
+12	那	那	SCONJ	_	_	18	cc	_	Grammar_Target=Yes
+13	他	他	PRON	_	Person=3	18	subj	_	_
+14	为	为	PRON	_	_	18	mod	_	_
+15	什	什	PRON	_	_	14	@m	_	_
+16	么	么	PRON	_	_	15	@m	_	_
+17	不	不	ADV	_	Polarity=Neg	18	mod	_	_
+18	能	能	AUX	_	_	9	conj	_	_
+19	大	大	ADJ	_	_	18	comp:aux	_	_
+20	方	方	ADJ	_	_	19	@m	_	_
+21	一	一	DET	_	_	22	@m	_	_
+22	点	点	ADV	_	_	19	mod	_	_
+23	？	？	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3839
+# structure = Cause， + 因此 + Effect
+# text = 下个 月 考试， 因此 这个 月 我 没有 出去 玩，在 好好 准备。
+# pinyin = Xiàgè yuè kǎoshì, yīncǐ zhège yuè wǒ méiyǒu chūqù wán, zài hǎohāo zhǔnbèi.
+# level = B2
+# structure_verbose = Expressing "therefore" with "yinci"
+# translation_english = I will have an exam next month, therefore this month I am not going out to play. I am preparing well.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUEFAL
+1	下	下	NOUN	_	_	2	mod	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	月	月	NOUN	_	_	4	mod	_	_
+4	考	考	VERB	_	_	0	root	_	_
+5	试	试	VERB	_	_	4	@m	_	_
+6	，	，	PUNCT	_	_	14	punct	_	_
+7	因	因	SCONJ	_	_	14	cc	_	Grammar_Target=Yes
+8	此	此	SCONJ	_	_	7	@m	_	Grammar_Target=Yes
+9	这	这	DET	_	_	10	det	_	_
+10	个	个	NOUN	_	_	11	clf	_	_
+11	月	月	NOUN	_	_	14	mod@temp	_	_
+12	我	我	PRON	_	Person=1	14	subj	_	_
+13	没	没	ADV	_	_	14	mod	_	_
+14	有	有	VERB	_	_	4	parataxis	_	_
+15	出	出	VERB	_	_	14	comp:obj	_	_
+16	去	去	VERB	_	_	15	comp:svc	_	_
+17	玩	玩	VERB	_	_	16	comp:svc	_	_
+18	，	，	PUNCT	_	_	19	punct	_	_
+19	在	在	VERB	_	_	14	parataxis	_	_
+20	好	好	ADV	_	_	22	mod	_	_
+21	好	好	ADV	_	_	20	conj:redup@m	_	_
+22	准	准	VERB	_	_	19	comp:obj	_	_
+23	备	备	NOUN	_	_	22	@m	_	_
+24	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 3883
+# structure = Subj. + 把 + Obj. + Verb + 起来
+# text = 你 为什么 要 把 我 的 手机 藏 起来 ？
+# level = B2
+# structure_verbose = Advanced uses of direction complement "-qilai"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGSCN01
+1	你	你	PRON	_	Person=2	5	subj	_	_
+2	为	为	PRON	_	_	5	mod	_	_
+3	什	什	PRON	_	_	2	@m	_	_
+4	么	么	PRON	_	_	3	@m	_	_
+5	要	要	AUX	_	_	0	root	_	_
+6	把	把	ADP	_	_	11	comp:obl	_	_
+7	我	我	PRON	_	Person=1	8	comp:obj	_	_
+8	的	的	PART	_	Case=Gen	9	mod	_	_
+9	手	手	NOUN	_	_	6	comp:obj	_	_
+10	机	机	NOUN	_	_	9	@m	_	_
+11	藏	藏	VERB	_	_	5	comp:aux	_	_
+12	起	起	VERB	_	_	11	comp:dir	_	Grammar_Target=Yes
+13	来	来	VERB	_	_	12	comp:svc@m	_	Grammar_Target=Yes
+14	？	？	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3884
+# structure = Subj. + 把 + Obj. + Verb + 起来
+# text = 你 可以 把 手机 拆开 ， 但是 你 能 重新 装 起来 吗 ？
+# level = B2
+# structure_verbose = Advanced uses of direction complement "-qilai"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGSCN01
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	可	可	AUX	_	_	0	root	_	_
+3	以	以	AUX	_	_	2	@m	_	_
+4	把	把	ADP	_	_	7	comp:obl	_	_
+5	手	手	NOUN	_	_	4	comp:obj	_	_
+6	机	机	NOUN	_	_	5	@m	_	_
+7	拆	拆	VERB	_	_	2	comp:aux	_	_
+8	开	开	VERB	_	_	7	@m	_	_
+9	，	，	PUNCT	_	_	13	punct	_	_
+10	但	但	SCONJ	_	_	13	cc	_	_
+11	是	是	SCONJ	_	_	10	@m	_	_
+12	你	你	PRON	_	Person=2	13	subj	_	_
+13	能	能	AUX	_	_	2	conj	_	_
+14	重	重	ADV	_	_	16	mod	_	_
+15	新	新	ADV	_	_	14	@m	_	_
+16	装	装	VERB	_	_	13	comp:aux	_	_
+17	起	起	VERB	_	_	16	comp:dir	_	Grammar_Target=Yes
+18	来	来	VERB	_	_	17	comp:svc@m	_	Grammar_Target=Yes
+19	吗	吗	PART	_	Mood=Inter	13	discourse	_	_
+20	？	？	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 3935
+# structure = ⋯⋯ ，才 ⋯⋯
+# text = 他 锁 上 了 门 才 想起来 没有 带 钥匙。
+# pinyin = Tā suǒ shàng le mén cái xiǎng qǐlái méiyǒu dài yàoshi.
+# level = B2
+# structure_verbose = Expressing "only after" with "cai"
+# translation_english = He didn't realize he had forgotten to bring his key until after he had locked the door.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG9E9A6
+1	他	他	PRON	_	Person=3	2	subj	_	_
+2	锁	锁	VERB	_	_	0	root	_	_
+3	上	上	VERB	_	_	2	comp:res	_	_
+4	了	了	PART	_	_	2	aspect	_	_
+5	门	门	NOUN	_	_	2	comp:obj	_	_
+6	才	才	ADV	_	_	7	mod	_	Grammar_Target=Yes
+7	想	想	VERB	_	_	2	comp:svc	_	_
+8	起	起	ADV	_	_	7	comp:dir	_	_
+9	来	来	VERB	_	_	8	comp:svc@m	_	_
+10	没	没	ADV	_	Polarity=Neg	11	mod	_	_
+11	有	有	VERB	_	_	7	comp:obj	_	_
+12	带	带	NOUN	_	_	11	comp:obj	_	_
+13	钥	钥	NOUN	_	_	12	comp:obj	_	_
+14	匙	匙	NOUN	_	_	13	@m	_	_
+15	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 3943
+# structure = 只有 + Essential Condition + 才 (能) + Desired Outcome
+# text = 只有 妈妈 在 我们 才 能 出去 玩。
+# pinyin = Zhǐyǒu māma zài wǒmen cái néng chūqù wán.
+# level = B2
+# structure_verbose = Expressing "only if" with "zhiyou"
+# translation_english = Only if Mom is here can we go out and play.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGJDV3Y
+1	只	只	ADV	_	_	2	mod@m	_	Grammar_Target=Yes
+2	有	有	VERB	_	_	5	cc	_	Grammar_Target=Yes
+3	妈	妈	NOUN	_	_	5	subj	_	_
+4	妈	妈	NOUN	_	_	3	conj:redup@m	_	_
+5	在	在	ADP	_	_	0	root	_	_
+6	我	我	PRON	_	Number=Plur|Person=1	9	subj	_	_
+7	们	们	PART	_	Number=Plur|Person=1	6	@m	_	_
+8	才	才	ADV	_	_	9	cc	_	Grammar_Target=Yes
+9	能	能	AUX	_	_	5	conj	_	_
+10	出	出	VERB	_	_	9	comp:aux	_	_
+11	去	去	VERB	_	_	10	comp:svc	_	_
+12	玩	玩	VERB	_	_	11	comp:svc	_	_
+13	。	。	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3957
+# structure = Condition, (要) 不然 + Result
+# text = 老师 ，您 要 给 我们 一点 提示 ，要不然 谁 都 想不出 答案 。
+# pinyin = Lǎoshī, nín yào gěi wǒmen yīdiǎn tíshì, yàobùrán shéi dōu xiǎng bù chū dá'àn.
+# level = B2
+# structure_verbose = Expressing "unless" with "chufei"
+# translation_english = Teacher, we need you to give us a little hint. Otherwise, none of us will be able to figure out the answer.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMD0YY
+1	老	老	NOUN	_	_	5	vocative	_	_
+2	师	师	NOUN	_	_	1	@m	_	_
+3	，	，	PUNCT	_	_	1	punct	_	_
+4	您	您	PRON	_	Person=2	5	subj	_	_
+5	要	要	AUX	_	_	0	root	_	_
+6	给	给	ADP	_	_	5	comp:aux	_	_
+7	我	我	PRON	_	Number=Plur|Person=1	6	comp:obj	_	_
+8	们	们	PART	_	Number=Plur|Person=1	7	@m	_	_
+9	一	一	DET	_	_	10	@m	_	_
+10	点	点	DET	_	_	11	det	_	_
+11	提	提	NOUN	_	_	5	comp:obj	_	_
+12	示	示	NOUN	_	_	11	@m	_	_
+13	，	，	PUNCT	_	_	19	punct	_	_
+14	要	要	SCONJ	_	_	19	cc	_	Grammar_Target=Yes
+15	不	不	SCONJ	_	_	14	@m	_	Grammar_Target=Yes
+16	然	然	SCONJ	_	_	15	@m	_	Grammar_Target=Yes
+17	谁	谁	PRON	_	_	19	subj	_	_
+18	都	都	ADV	_	_	19	mod	_	_
+19	想	想	VERB	_	_	5	conj	_	_
+20	不	不	ADV	_	Polarity=Neg	21	mod	_	_
+21	出	出	VERB	_	_	19	comp:res	_	_
+22	答	答	NOUN	_	_	19	comp:obj	_	_
+23	案	案	NOUN	_	_	22	@m	_	_
+24	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3970
+# structure = 即使 ⋯⋯ ，也 ⋯⋯
+# text = 即使 你 没胃口 ，也 要 吃 一点 。
+# pinyin = Jíshǐ nǐ méi wèikǒu, yě yào chī yīdiǎn.
+# level = B2
+# structure_verbose = Expressing "even if…" with "jishi"
+# translation_english = Even if you don't have any appetite, you still need to eat something.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBUXN7
+1	即	即	SCONJ	_	_	4	cc	_	Grammar_Target=Yes
+2	使	使	SCONJ	_	_	1	@m	_	Grammar_Target=Yes
+3	你	你	PRON	_	Person=2	4	subj	_	_
+4	没	没	VERB	_	_	0	root	_	_
+5	胃	胃	NOUN	_	_	4	comp:obj	_	_
+6	口	口	NOUN	_	_	5	@m	_	_
+7	，	，	PUNCT	_	_	9	punct	_	_
+8	也	也	SCONJ	_	_	9	cc	_	_
+9	要	要	AUX	_	_	4	conj	_	_
+10	吃	吃	VERB	_	_	9	comp:aux	_	_
+11	一	一	DET	_	_	12	@m	_	_
+12	点	点	ADV	_	_	10	mod	_	_
+13	。	。	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4006
+# structure = 假如 + Statement + 就 + Result
+# text = 假如 有 一点 机会，我 就 会 辞去 现在 的 工作。
+# pinyin = Jiǎrú yǒu yīdiǎn jīhuì, wǒ jiù huì cíqù xiànzài de gōngzuò.
+# level = B2
+# structure_verbose = Expressing "if… then…" with "jiaru"
+# translation_english = If I just had some other opportunity, I would quit my job.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGHNDX4
+1	假	假	SCONJ	_	_	3	cc	_	Grammar_Target=Yes
+2	如	如	SCONJ	_	_	1	@m	_	Grammar_Target=Yes
+3	有	有	VERB	_	_	0	root	_	_
+4	一	一	DET	_	_	5	det@m	_	_
+5	点	点	DET	_	_	6	clf	_	_
+6	机	机	NOUN	_	_	3	comp:obj	_	_
+7	会	会	NOUN	_	_	6	@m	_	_
+8	，	，	PUNCT	_	_	11	punct	_	_
+9	我	我	PRON	_	Person=1	11	subj	_	_
+10	就	就	SCONJ	_	_	11	cc	_	Grammar_Target=Yes
+11	会	会	AUX	_	_	3	conj	_	_
+12	辞	辞	VERB	_	_	11	comp:aux	_	_
+13	去	去	VERB	_	_	12	comp:res	_	_
+14	现	现	NOUN	_	_	16	comp:obj	_	_
+15	在	在	NOUN	_	_	14	@m	_	_
+16	的	的	PART	_	Case=Gen	17	mod	_	_
+17	工	工	NOUN	_	_	12	comp:obj	_	_
+18	作	作	NOUN	_	_	17	@m	_	_
+19	。	。	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4190
+# structure = 一 + Measure Word + Noun + [也 / 都] + [不 / 没] + Verb
+# text = 为什么 这里 一 个 人 都 没有 ？
+# pinyin = Wèishénme zhèlǐ yī gè rén dōu méiyǒu?
+# level = B2
+# structure_verbose = Expressing "not even one"
+# translation_english = Why is there not a single person here?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUQ861
+1	为	为	PRON	_	_	11	mod	_	_
+2	什	什	PRON	_	_	1	@m	_	_
+3	么	么	PRON	_	_	2	@m	_	_
+4	这	这	DET	_	_	5	det	_	_
+5	里	里	NOUN	_	_	11	mod@loc	_	_
+6	一	一	NUM	_	NumType=Card	7	mod	_	Grammar_Target=Yes
+7	个	个	NOUN	_	_	8	clf	_	_
+8	人	人	NOUN	_	_	11	subj	_	_
+9	都	都	ADV	_	_	11	mod	_	Grammar_Target=Yes
+10	没	没	ADV	_	_	11	mod	_	_
+11	有	有	VERB	_	_	0	root	_	_
+12	？	？	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4194
+# structure = 一 + Measure Word + Noun + [也 / 都] + [不 / 没] + Verb
+# text = 我 一点 消息 都 不 知道 。
+# pinyin = Wǒ yī diǎn xiāoxi dōu bù zhīdào.
+# level = B2
+# structure_verbose = Expressing "not even one"
+# translation_english = I don't know a single thing.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGUQ861
+1	我	我	PRON	_	Person=1	8	subj	_	_
+2	一	一	ADV	_	_	3	@m	_	Grammar_Target=Yes
+3	点	点	DET	_	_	4	det	_	_
+4	消	消	NOUN	_	_	8	comp:obj	_	_
+5	息	息	NOUN	_	_	4	@m	_	_
+6	都	都	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	不	不	ADV	_	Polarity=Neg	8	mod	_	_
+8	知	知	VERB	_	_	0	root	_	_
+9	道	道	VERB	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	8	punct	_	_
 

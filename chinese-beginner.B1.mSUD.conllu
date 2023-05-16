@@ -10,7 +10,7 @@
 2	道	道	NOUN	_	_	1	@m	_	_
 3	好	好	ADJ	_	_	0	root	_	_
 4	极	极	ADV	_	_	3	mod	_	Grammar_Target=Yes
-5	了	了	PART	_	_	4	discourse	_	Grammar_Target=Yes
+5	了	了	PART	_	_	4	discourse@m	_	Grammar_Target=Yes
 6	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 1521
@@ -27,7 +27,7 @@
 4	文	文	NOUN	_	_	3	@m	_	_
 5	棒	棒	ADJ	_	_	0	root	_	_
 6	极	极	ADV	_	_	5	mod	_	Grammar_Target=Yes
-7	了	了	PART	_	_	6	discourse	_	Grammar_Target=Yes
+7	了	了	PART	_	_	6	discourse@m	_	Grammar_Target=Yes
 8	。	。	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1553
@@ -66,7 +66,7 @@
 2	的	的	PART	_	Case=Gen	3	mod	_	_
 3	脸	脸	NOUN	_	_	6	subj	_	_
 4	红	红	ADJ	_	_	6	comp:obj	_	Grammar_Target=Yes
-5	红	红	ADJ	_	_	4	@m	_	Grammar_Target=Yes
+5	红	红	ADJ	_	_	4	conj:redup@m	_	Grammar_Target=Yes
 6	的	的	PART	_	_	0	root	_	Grammar_Target=Yes
 7	。	。	PUNCT	_	_	6	punct	_	_
 
@@ -79,14 +79,14 @@
 # translation_english = The baby's eyes are big.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
 1	宝	宝	NOUN	_	_	3	comp:obj	_	_
-2	宝	宝	NOUN	_	_	1	@m	_	_
+2	宝	宝	NOUN	_	_	1	conj:redup@m	_	_
 3	的	的	PART	_	Case=Gen	4	mod	_	_
 4	眼	眼	NOUN	_	_	0	root	_	_
 5	睛	睛	NOUN	_	_	4	@m	_	_
 6	大	大	ADJ	_	_	8	comp:obj	_	Grammar_Target=Yes
-7	大	大	ADJ	_	_	6	@m	_	Grammar_Target=Yes
+7	大	大	ADJ	_	_	6	conj:redup@m	_	Grammar_Target=Yes
 8	的	的	PART	_	_	4	mod	_	Grammar_Target=Yes
-9	。	。	PUNCT	_	_	8	punct	_	_
+9	。	。	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1595
 # structure = Subj. + 正好 + [Verb Phrase]
@@ -101,7 +101,7 @@
 3	好	好	ADJ	_	_	2	@m	_	Grammar_Target=Yes
 4	也	也	ADV	_	_	8	mod	_	_
 5	在	在	ADP	_	_	8	comp:obl	_	_
-6	这	这	PRON	_	_	5	comp:obj	_	_
+6	这	这	DET	_	_	5	comp:obj	_	_
 7	里	里	NOUN	_	_	6	@m	_	_
 8	实	实	VERB	_	_	0	root	_	_
 9	习	习	VERB	_	_	8	@m	_	_
@@ -115,8 +115,8 @@
 # structure_verbose = Coincidence with "zhenghao"
 # translation_english = You both happen to be single.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUD25J
-1	正	正	ADV	_	_	6	mod	_	Grammar_Target=Yes
-2	好	好	ADJ	_	_	1	@m	_	Grammar_Target=Yes
+1	正	正	ADV	_	_	6	mod@temp	_	Grammar_Target=Yes
+2	好	好	ADV	_	_	1	@m	_	Grammar_Target=Yes
 3	你	你	PRON	_	Number=Plur|Person=3	6	subj	_	_
 4	们	们	PART	_	Number=Plur|Person=3	3	@m	_	_
 5	都	都	ADV	_	_	6	mod	_	_
@@ -140,7 +140,7 @@
 5	他	他	PRON	_	Person=3	4	comp:obj	_	_
 6	，	，	PUNCT	_	_	9	punct	_	_
 7	正	正	ADV	_	_	9	mod	_	Grammar_Target=Yes
-8	好	好	ADJ	_	_	7	@m	_	Grammar_Target=Yes
+8	好	好	ADV	_	_	7	@m	_	Grammar_Target=Yes
 9	可	可	AUX	_	_	4	parataxis	_	_
 10	以	以	AUX	_	_	9	@m	_	_
 11	问	问	VERB	_	_	9	comp:aux	_	_
@@ -205,9 +205,9 @@
 # structure_verbose = Using "lai" as a dummy verb
 # translation_english = Let him do it himself.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG98FZK
-1	让	让	VERB	_	Voice=Cau	0	root	_	_
+1	让	让	VERB	_	_	0	root	_	_
 2	他	他	PRON	_	Person=3	1	comp:obj	_	_
-3	自	自	ADV	_	_	2	conj:appos	_	_
+3	自	自	NOUN	_	_	2	conj:appos	_	_
 4	己	己	NOUN	_	_	3	@m	_	_
 5	来	来	VERB	_	_	1	comp:obj	_	Grammar_Target=Yes
 6	。	。	PUNCT	_	_	1	punct	_	_
@@ -222,12 +222,12 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGMMHTQ
 1	你	你	PRON	_	Person=2	2	subj	_	_
 2	想	想	AUX	_	_	0	root	_	_
-3	把	把	AUX	_	_	2	comp:aux	_	_
+3	把	把	ADP	_	_	8	comp:obl	_	_
 4	这	这	DET	_	_	5	det	_	_
 5	个	个	NOUN	_	_	6	clf	_	_
 6	礼	礼	NOUN	_	_	3	comp:obj	_	_
 7	物	物	NOUN	_	_	6	@m	_	_
-8	送	送	VERB	_	_	3	comp:aux	_	Grammar_Target=Yes
+8	送	送	VERB	_	_	2	comp:aux	_	Grammar_Target=Yes
 9	给	给	ADP	_	_	8	comp:obl	_	Grammar_Target=Yes
 10	谁	谁	PRON	_	_	9	comp:obj	_	_
 11	？	？	PUNCT	_	_	2	punct	_	_
@@ -240,17 +240,17 @@
 # structure_verbose = Verbs followed by "gei"
 # translation_english = Please send all of those pictures to me.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGMMHTQ
-1	请	请	PART	_	_	2	discourse	_	_
-2	把	把	AUX	_	_	0	root	_	_
+1	请	请	AUX	_	_	0	root	_	_
+2	把	把	ADP	_	_	8	comp:obl	_	_
 3	那	那	DET	_	_	4	mod	_	_
 4	些	些	NOUN	_	_	5	clf	_	_
 5	照	照	NOUN	_	_	2	comp:obj	_	_
 6	片	片	NOUN	_	_	5	@m	_	_
 7	都	都	ADV	_	_	8	mod	_	_
-8	发	发	VERB	_	_	2	comp:aux	_	Grammar_Target=Yes
+8	发	发	VERB	_	_	1	comp:aux	_	Grammar_Target=Yes
 9	给	给	ADP	_	_	8	comp:obl	_	Grammar_Target=Yes
 10	我	我	PRON	_	Person=1	9	comp:obj	_	_
-11	。	。	PUNCT	_	_	2	punct	_	_
+11	。	。	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 2470
 # structure = Subj. + Verb + 得 + Complement
@@ -264,7 +264,7 @@
 2	么	么	ADV	_	_	1	@m	_	_
 3	高	高	ADJ	_	_	4	comp:obj	_	_
 4	的	的	PART	_	Case=Gen	5	mod	_	_
-5	山	山	NOUN	_	_	8	mod	_	_
+5	山	山	NOUN	_	_	8	comp:obj	_	_
 6	，	，	PUNCT	_	_	8	punct	_	_
 7	你	你	PRON	_	Person=2	8	subj	_	_
 8	爬	爬	VERB	_	_	0	root	_	_
@@ -356,9 +356,9 @@
 # structure_verbose = Expressing "how about" with "yaobu"
 # translation_english = How about you leave first? I haven't finished yet.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGDFQP7
-1	要	要	ADV	_	_	5	mod	_	Grammar_Target=Yes
-2	不	不	ADV	_	_	1	@m	_	Grammar_Target=Yes
-3	你	你	PRON	_	Person=2	4	subj	_	_
+1	要	要	SCONJ	_	_	5	cc	_	Grammar_Target=Yes
+2	不	不	SCONJ	_	_	1	@m	_	Grammar_Target=Yes
+3	你	你	PRON	_	Person=2	5	subj	_	_
 4	先	先	ADV	_	_	5	mod	_	_
 5	走	走	VERB	_	_	0	root	_	_
 6	吧	吧	PART	_	_	5	discourse	_	_
@@ -408,7 +408,7 @@
 6	的	的	PART	_	Case=Gen	7	mod	_	_
 7	车	车	NOUN	_	_	4	comp:obj	_	_
 8	贵	贵	ADJ	_	_	0	root	_	_
-9	十	十	NOUN	_	_	10	mod	_	_
+9	十	十	NUM	_	NumType=Card	10	mod	_	_
 10	倍	倍	NOUN	_	_	8	mod	_	Grammar_Target=Yes
 11	。	。	PUNCT	_	_	8	punct	_	_
 
@@ -446,11 +446,11 @@
 1	大	大	ADJ	_	_	2	mod	_	_
 2	城	城	NOUN	_	_	4	comp:obj	_	_
 3	市	市	NOUN	_	_	2	@m	_	_
-4	的	的	PART	_	Case=Gen	5	mod	_	_
+4	的	的	PART	_	Case=Gen	7	mod	_	_
 5	工	工	NOUN	_	_	7	compound	_	_
 6	作	作	NOUN	_	_	5	@m	_	_
 7	机	机	NOUN	_	_	14	subj	_	_
-8	会	会	AUX	_	_	7	@m	_	_
+8	会	会	NOUN	_	_	7	@m	_	_
 9	比	比	ADP	_	_	14	comp:obl	_	Grammar_Target=Yes
 10	我	我	PRON	_	Person=1	11	mod	_	_
 11	老	老	NOUN	_	_	9	comp:obj	_	_
@@ -492,7 +492,7 @@
 7	机	机	NOUN	_	_	6	@m	_	_
 8	方	方	ADJ	_	_	0	root	_	_
 9	便	便	ADJ	_	_	8	@m	_	_
-10	很	很	ADV	_	_	11	@m	_	_
+10	很	很	ADV	_	_	11	mod	_	_
 11	多	多	ADJ	_	_	8	mod	_	_
 12	。	。	PUNCT	_	_	8	punct	_	_
 
@@ -510,14 +510,2920 @@
 4	老	老	NOUN	_	_	12	subj	_	_
 5	师	师	NOUN	_	_	4	@m	_	_
 6	比	比	ADP	_	_	12	comp:obl	_	Grammar_Target=Yes
-7	那	那	DET	_	_	8	mod	_	_
+7	那	那	DET	_	_	8	det	_	_
 8	个	个	NOUN	_	_	10	clf	_	_
 9	男	男	NOUN	_	_	10	@m	_	_
 10	老	老	NOUN	_	_	6	comp:obj	_	_
 11	师	师	NOUN	_	_	10	@m	_	_
 12	严	严	ADJ	_	_	0	root	_	_
 13	格	格	ADJ	_	_	12	@m	_	_
-14	得	得	ADV	_	_	12	mod	_	_
+14	得	得	PART	_	_	12	mod	_	_
 15	多	多	ADV	_	_	14	comp:obj	_	_
 16	。	。	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1519
+# structure = Subj. + Adj. + 极了
+# text = 这个 主意 好 极了 。
+# pinyin = Zhège zhǔyi hǎo jíle.
+# level = B1
+# structure_verbose = Adjectives with "-ji le"
+# translation_english = This idea is perfect.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVME5V
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	主	主	NOUN	_	_	5	subj	_	_
+4	意	意	NOUN	_	_	3	@m	_	_
+5	好	好	ADJ	_	_	0	root	_	_
+6	极	极	ADV	_	_	5	mod	_	Grammar_Target=Yes
+7	了	了	PART	_	_	6	discourse@m	_	Grammar_Target=Yes
+8	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1522
+# structure = Subj. + Adj. + 极了
+# text = 婚礼 热闹 极了 。
+# pinyin = Hūnlǐ rènao jíle.
+# level = B1
+# structure_verbose = Adjectives with "-ji le"
+# translation_english = The wedding was very lively.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVME5V
+1	婚	婚	NOUN	_	_	3	subj	_	_
+2	礼	礼	NOUN	_	_	1	@m	_	_
+3	热	热	ADJ	_	_	0	root	_	_
+4	闹	闹	ADJ	_	_	3	@m	_	_
+5	极	极	ADV	_	_	3	mod	_	Grammar_Target=Yes
+6	了	了	PART	_	_	5	discourse@m	_	Grammar_Target=Yes
+7	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 1523
+# structure = Subj. + Adj. + 极了
+# text = 一点 声音 都 没有 ，安静 极了 。
+# pinyin = Yīdiǎn shēngyīn dōu méiyǒu, ānjìng jíle.
+# level = B1
+# structure_verbose = Adjectives with "-ji le"
+# translation_english = There is no sound at all. It's extremely quiet.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVME5V
+1	一	一	NUM	_	_	2	@m	_	_
+2	点	点	DET	_	_	3	clf	_	_
+3	声	声	NOUN	_	_	7	subj	_	_
+4	音	音	NOUN	_	_	3	@m	_	_
+5	都	都	ADV	_	_	7	mod	_	_
+6	没	没	ADV	_	_	7	mod	_	_
+7	有	有	VERB	_	_	0	root	_	_
+8	，	，	PUNCT	_	_	9	punct	_	_
+9	安	安	ADJ	_	_	7	parataxis	_	_
+10	静	静	ADJ	_	_	9	@m	_	_
+11	极	极	ADV	_	_	9	mod	_	Grammar_Target=Yes
+12	了	了	PART	_	_	11	discourse@m	_	Grammar_Target=Yes
+13	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1524
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 最近 不 怎么 忙 。
+# pinyin = Zuìjìn bù zěnme máng.
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = It hasn't been very busy lately.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	最	最	ADV	_	_	6	mod@temp	_	_
+2	近	近	ADV	_	_	1	@m	_	_
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
+4	怎	怎	ADV	_	_	6	mod	_	Grammar_Target=Yes
+5	么	么	ADV	_	_	4	@m	_	Grammar_Target=Yes
+6	忙	忙	ADJ	_	_	0	root	_	_
+7	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1525
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 这里 的 冬天 不 怎么 冷 。
+# pinyin = Zhèlǐ de dōngtiān bù zěnme lěng.
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = It's not very cold here in winter.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	这	这	DET	_	_	3	comp:obj	_	_
+2	里	里	NOUN	_	_	1	@m	_	_
+3	的	的	PART	_	Case=Gen	4	mod	_	_
+4	冬	冬	NOUN	_	_	9	subj	_	_
+5	天	天	NOUN	_	_	4	@m	_	_
+6	不	不	ADV	_	_	7	mod	_	Grammar_Target=Yes
+7	怎	怎	ADV	_	_	9	mod	_	Grammar_Target=Yes
+8	么	么	ADV	_	_	7	@m	_	Grammar_Target=Yes
+9	冷	冷	ADJ	_	_	0	root	_	_
+10	。	。	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1526
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 他们 好像 不 怎么 高兴 。
+# pinyin = Tāmen hǎoxiàng bù zěnme gāoxìng.
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = They don't seem to be very happy.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	他	他	PRON	_	Number=Plur|Person=3	8	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=3	1	@m	_	_
+3	好	好	ADV	_	_	4	mod@m	_	_
+4	像	像	ADV	_	_	8	mod	_	_
+5	不	不	ADV	_	_	6	mod	_	Grammar_Target=Yes
+6	怎	怎	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	么	么	ADV	_	_	6	@m	_	Grammar_Target=Yes
+8	高	高	ADJ	_	_	0	root	_	_
+9	兴	兴	ADJ	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1527
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 这个 学生 不 怎么 努力 。
+# pinyin = Zhège xuéshēng bù zěnme nǔlì.
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = This student isn't very hard-working.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	学	学	NOUN	_	_	8	subj	_	_
+4	生	生	NOUN	_	_	3	@m	_	_
+5	不	不	ADV	_	Polarity=Neg	6	mod	_	Grammar_Target=Yes
+6	怎	怎	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	么	么	ADV	_	_	6	@m	_	Grammar_Target=Yes
+8	努	努	VERB	_	_	0	root	_	_
+9	力	力	NOUN	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1528
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 那 家 餐厅 不 怎么 干净 。
+# pinyin = Nà jiā cāntīng bù zěnme gānjìng.
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = That restaurant isn't very clean.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	那	那	DET	_	_	2	det	_	_
+2	家	家	NOUN	_	_	3	clf	_	_
+3	餐	餐	NOUN	_	_	8	subj	_	_
+4	厅	厅	NOUN	_	_	3	@m	_	_
+5	不	不	ADV	_	_	6	mod	_	Grammar_Target=Yes
+6	怎	怎	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	么	么	ADV	_	_	6	@m	_	Grammar_Target=Yes
+8	干	干	ADJ	_	_	0	root	_	_
+9	净	净	ADJ	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1529
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 这个 老师 不 怎么 专业 。
+# pinyin = Zhège lǎoshī bù zěnme zhuānyè.
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = This teacher isn't very professional.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	老	老	NOUN	_	_	8	subj	_	_
+4	师	师	NOUN	_	_	3	@m	_	_
+5	不	不	ADV	_	_	6	mod	_	Grammar_Target=Yes
+6	怎	怎	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	么	么	ADV	_	_	6	@m	_	Grammar_Target=Yes
+8	专	专	ADJ	_	_	0	root	_	_
+9	业	业	NOUN	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1530
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 你 是 不 是 昨天 睡 得 不 怎么 好 ？
+# pinyin = Nǐ shì bu shì zuótiān shuì de bù zěnme hǎo?
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = Did you not sleep very well last night?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	是	是	VERB	_	_	0	root	_	_
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	_
+4	是	是	VERB	_	_	2	conj	_	_
+5	昨	昨	NOUN	_	_	7	mod@temp	_	_
+6	天	天	NOUN	_	_	5	@m	_	_
+7	睡	睡	VERB	_	_	2	comp:obj	_	_
+8	得	得	PART	_	_	7	mod	_	_
+9	不	不	ADV	_	_	10	mod	_	Grammar_Target=Yes
+10	怎	怎	ADV	_	_	12	mod	_	Grammar_Target=Yes
+11	么	么	ADV	_	_	10	@m	_	Grammar_Target=Yes
+12	好	好	ADJ	_	_	8	comp:obj	_	_
+13	？	？	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 1531
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 我 不 怎么 喜欢 咖啡 。
+# pinyin = Wǒ bù zěnme xǐhuan kāfēi.
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = I'm not very into coffee.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	我	我	PRON	_	Person=1	5	subj	_	_
+2	不	不	ADV	_	_	3	mod	_	Grammar_Target=Yes
+3	怎	怎	ADV	_	_	5	mod	_	Grammar_Target=Yes
+4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes
+5	喜	喜	VERB	_	_	0	root	_	_
+6	欢	欢	VERB	_	_	5	@m	_	_
+7	咖	咖	NOUN	_	_	5	comp:obj	_	_
+8	啡	啡	NOUN	_	_	7	@m	_	_
+9	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1532
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 他 跟 他 父母 长 得 不 怎么 像 。
+# pinyin = Tā gēn tā fùmǔ zhǎng de bù zěnme xiàng.
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = He and his parents don't look very much alike.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	他	他	PRON	_	Person=3	6	subj	_	_
+2	跟	跟	CCONJ	_	_	4	cc	_	_
+3	他	他	PRON	_	Person=3	4	mod	_	_
+4	父	父	NOUN	_	_	1	conj	_	_
+5	母	母	NOUN	_	_	4	@m	_	_
+6	长	长	ADJ	_	_	0	root	_	_
+7	得	得	PART	_	_	6	mod	_	_
+8	不	不	ADV	_	_	9	mod	_	Grammar_Target=Yes
+9	怎	怎	ADV	_	_	11	mod	_	Grammar_Target=Yes
+10	么	么	ADV	_	_	9	@m	_	Grammar_Target=Yes
+11	像	像	ADJ	_	_	7	comp:obj	_	_
+12	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1533
+# structure = Subj. + 不怎么 + Adj. / [Psychological Verb]
+# text = 他 去 美国 一 年 多 了 ，不过 不 怎么 想家 。
+# pinyin = Tā qù Měiguó yì nián duō le, búguò bù zěnme xiǎngjiā.
+# level = B1
+# structure_verbose = Expressing "not very" with "bu zenme"
+# translation_english = He's been in the USA for more than one year, but he's not very homesick.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVYIZT
+1	他	他	PRON	_	Person=3	2	subj	_	_
+2	去	去	VERB	_	_	0	root	_	_
+3	美	美	PROPN	_	_	2	comp:obj	_	_
+4	国	国	PROPN	_	_	3	@m	_	_
+5	一	一	NUM	_	NumType=Card	6	mod	_	_
+6	年	年	NOUN	_	_	2	mod	_	_
+7	多	多	ADJ	_	_	6	mod	_	_
+8	了	了	PART	_	_	2	discourse	_	_
+9	，	，	PUNCT	_	_	15	punct	_	_
+10	不	不	SCONJ	_	_	15	cc	_	_
+11	过	过	SCONJ	_	_	10	@m	_	_
+12	不	不	ADV	_	Polarity=Neg	15	mod	_	Grammar_Target=Yes
+13	怎	怎	ADV	_	_	12	@m	_	Grammar_Target=Yes
+14	么	么	ADV	_	_	13	@m	_	Grammar_Target=Yes
+15	想	想	VERB	_	_	2	parataxis	_	_
+16	家	家	NOUN	_	_	15	comp:obj	_	_
+17	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 1534
+# structure = 全 + Noun + 都 + Predicate
+# text = 我们 全 家 都 去 过 北京 。
+# pinyin = Wǒmen quán jiā dōu qù guo Běijīng.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = Our entire family has been to Beijing.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	我	我	PRON	_	Number=Plur|Person=1	6	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	全	全	ADJ	_	_	4	mod	_	Grammar_Target=Yes
+4	家	家	NOUN	_	_	6	mod	_	_
+5	都	都	ADV	_	_	6	mod	_	Grammar_Target=Yes
+6	去	去	VERB	_	_	0	root	_	_
+7	过	过	PART	_	_	6	aspect	_	_
+8	北	北	PROPN	_	_	6	comp:obj	_	_
+9	京	京	PROPN	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1535
+# structure = 全 + Noun + 都 + Predicate
+# text = 全 公司 的 人 都 不 喜欢 新 老板 。
+# pinyin = Quán gōngsī de rén dōu bù xǐhuan xīn lǎobǎn.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = The whole company doesn't like the new boss.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	全	全	ADJ	_	_	2	mod	_	Grammar_Target=Yes
+2	公	公	NOUN	_	_	4	comp:obj	_	_
+3	司	司	NOUN	_	_	2	@m	_	_
+4	的	的	PART	_	Case=Gen	5	mod	_	_
+5	人	人	NOUN	_	_	8	subj	_	_
+6	都	都	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	不	不	ADV	_	Polarity=Neg	8	mod	_	_
+8	喜	喜	VERB	_	_	0	root	_	_
+9	欢	欢	VERB	_	_	8	@m	_	_
+10	新	新	ADJ	_	_	11	mod	_	_
+11	老	老	NOUN	_	_	8	comp:obj	_	_
+12	板	板	NOUN	_	_	11	@m	_	_
+13	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1536
+# structure = 全 + Noun + 都 + Predicate
+# text = 运动 完 以后 我 全 身 都 是 汗 。
+# pinyin = Yùndòng wán yǐhòu wǒ quán shēn dōu shì hàn.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = My whole body was sweaty after I finished exercising.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	运	运	VERB	_	_	4	comp:obj	_	_
+2	动	动	VERB	_	_	1	@m	_	_
+3	完	完	VERB	_	_	1	comp:res	_	_
+4	以	以	ADP	_	_	10	mod@temp	_	_
+5	后	后	ADP	_	_	4	@m	_	_
+6	我	我	PRON	_	Person=1	8	mod	_	_
+7	全	全	ADV	_	_	8	mod	_	Grammar_Target=Yes
+8	身	身	NOUN	_	_	10	subj	_	_
+9	都	都	ADV	_	_	10	mod	_	Grammar_Target=Yes
+10	是	是	VERB	_	_	0	root	_	_
+11	汗	汗	NOUN	_	_	10	comp:obj	_	_
+12	。	。	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1537
+# structure = 全 + Noun + 都 + Predicate
+# text = 全 校 都 放假 了 。
+# pinyin = Quán xiào dōu fàngjià le.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = The whole school is on break.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	全	全	ADJ	_	_	2	mod	_	Grammar_Target=Yes
+2	校	校	NOUN	_	_	4	subj	_	_
+3	都	都	ADV	_	_	4	mod	_	Grammar_Target=Yes
+4	放	放	VERB	_	_	0	root	_	_
+5	假	假	NOUN	_	_	4	comp:obj	_	_
+6	了	了	PART	_	_	4	discourse	_	_
+7	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1538
+# structure = 全 + Noun + 都 + Predicate
+# text = 这个 地方 全 年 都 很 热 。
+# pinyin = Zhège dìfang quán nián dōu hěn rè.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = This place is hot all year round.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	地	地	NOUN	_	_	9	subj	_	_
+4	方	方	NOUN	_	_	3	@m	_	_
+5	全	全	ADJ	_	_	6	mod	_	Grammar_Target=Yes
+6	年	年	NOUN	_	_	9	mod	_	_
+7	都	都	ADV	_	_	9	mod	_	Grammar_Target=Yes
+8	很	很	ADV	_	_	9	mod	_	_
+9	热	热	ADJ	_	_	0	root	_	_
+10	。	。	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1539
+# structure = Subj. + 全都 + Predicate
+# text = 大家 全 都 到 了。
+# pinyin = Dàjiā quán dōu dào le.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = Everybody has arrived.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	大	大	ADJ	_	_	2	mod@m	_	_
+2	家	家	NOUN	_	_	5	subj	_	_
+3	全	全	ADV	_	_	5	mod	_	Grammar_Target=Yes
+4	都	都	ADV	_	_	5	mod	_	Grammar_Target=Yes
+5	到	到	VERB	_	_	0	root	_	_
+6	了	了	PART	_	_	5	discourse	_	_
+7	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1540
+# structure = Subj. + 全都 + Predicate
+# text = 奶奶 的 头发 全 都 白 了。
+# pinyin = Nǎinai de tóufà quán dōu bái le.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = All of grandma's hair has turned white.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	奶	奶	NOUN	_	_	3	comp:obj	_	_
+2	奶	奶	NOUN	_	_	1	conj:redup@m	_	_
+3	的	的	PART	_	Case=Gen	4	mod	_	_
+4	头	头	NOUN	_	_	8	subj	_	_
+5	发	发	NOUN	_	_	4	@m	_	_
+6	全	全	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	都	都	ADV	_	_	8	mod	_	Grammar_Target=Yes
+8	白	白	ADJ	_	_	0	root	_	_
+9	了	了	PART	_	_	8	discourse	_	_
+10	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1541
+# structure = Subj. + 全都 + Predicate
+# text = 我 妈妈 做 的 菜 全 都 好吃 。
+# pinyin = Wǒ māma zuò de cài quán dōu hǎochī.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = All of the food that my mother makes is tasty.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	我	我	PRON	_	Person=1	2	mod	_	_
+2	妈	妈	NOUN	_	_	4	subj	_	_
+3	妈	妈	NOUN	_	_	2	conj:redup@m	_	_
+4	做	做	VERB	_	_	5	comp:obj	_	_
+5	的	的	PART	_	Case=Gen	6	mod	_	_
+6	菜	菜	NOUN	_	_	10	subj	_	_
+7	全	全	ADV	_	_	10	mod	_	Grammar_Target=Yes
+8	都	都	ADV	_	_	10	mod	_	Grammar_Target=Yes
+9	好	好	ADV	_	_	10	mod	_	_
+10	吃	吃	VERB	_	_	0	root	_	_
+11	。	。	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1542
+# structure = Subj. + 全都 + Predicate
+# text = 作业 全 都 做 完 了 吗 ？
+# pinyin = Zuòyè quán dōu zuò wán le ma?
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = Have you finished all your homework?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	作	作	NOUN	_	_	5	comp:obj	_	_
+2	业	业	NOUN	_	_	1	@m	_	_
+3	全	全	ADV	_	_	5	mod	_	Grammar_Target=Yes
+4	都	都	ADV	_	_	5	mod	_	Grammar_Target=Yes
+5	做	做	VERB	_	_	0	root	_	_
+6	完	完	VERB	_	_	5	comp:res	_	_
+7	了	了	PART	_	_	5	discourse	_	_
+8	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
+9	？	？	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1543
+# structure = Subj. + 全都 + Predicate
+# text = 你 全 都 拿 走 吧。
+# pinyin = Nǐ quán dōu názǒu ba.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = Take them all.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	你	你	PRON	_	Person=2	4	subj	_	_
+2	全	全	ADV	_	_	4	mod	_	Grammar_Target=Yes
+3	都	都	ADV	_	_	4	mod	_	Grammar_Target=Yes
+4	拿	拿	VERB	_	_	0	root	_	_
+5	走	走	VERB	_	_	4	comp:res	_	_
+6	吧	吧	PART	_	_	4	discourse	_	_
+7	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1544
+# structure = Subj. + 全都 + 不 / 没 + Predicate
+# text = 他们 全 都 没 去 。
+# pinyin = Tāmen quán dōu méi qù.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = None of them went.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	他	他	PRON	_	Number=Plur|Person=3	6	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=3	1	@m	_	_
+3	全	全	ADV	_	_	6	mod	_	Grammar_Target=Yes
+4	都	都	ADV	_	_	6	mod	_	Grammar_Target=Yes
+5	没	没	ADV	_	_	6	mod	_	_
+6	去	去	VERB	_	_	0	root	_	_
+7	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1545
+# structure = Subj. + 全都 + 不 / 没 + Predicate
+# text = 这个 周末 我们 全 都 不 在 家 。
+# pinyin = Zhège zhōumò wǒmen quán dōu bú zài jiā.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = None of us will be home this weekend.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	周	周	NOUN	_	_	10	mod@temp	_	_
+4	末	末	NOUN	_	_	3	@m	_	_
+5	我	我	PRON	_	Number=Plur|Person=1	10	subj	_	_
+6	们	们	PART	_	Number=Plur|Person=1	5	@m	_	_
+7	全	全	ADV	_	_	10	mod	_	Grammar_Target=Yes
+8	都	都	ADV	_	_	10	mod	_	Grammar_Target=Yes
+9	不	不	ADV	_	Polarity=Neg	10	mod	_	_
+10	在	在	VERB	_	_	0	root	_	_
+11	家	家	NOUN	_	_	10	comp:obj	_	_
+12	。	。	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1547
+# structure = Subj. + 全都 + 不 / 没 + Predicate
+# text = 这些 菜 全 都 没 熟 。
+# pinyin = Zhèxiē cài quán dōu méi shú.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = None of these dishes is fully cooked.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	这	这	DET	_	_	2	det	_	_
+2	些	些	NOUN	_	_	3	clf	_	_
+3	菜	菜	NOUN	_	_	7	subj	_	_
+4	全	全	ADV	_	_	7	mod	_	Grammar_Target=Yes
+5	都	都	ADV	_	_	7	mod	_	Grammar_Target=Yes
+6	没	没	ADV	_	_	7	mod	_	_
+7	熟	熟	ADJ	_	_	0	root	_	_
+8	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1548
+# structure = Subj. + 全都 + 不 / 没 + Predicate
+# text = 他 的 话 我 全 都 不 相信 。
+# pinyin = Tā de huà wǒ quán dōu bù xiāngxìn.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = I don't believe anything he says.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	他	他	PRON	_	Person=3	2	comp:obj	_	_
+2	的	的	PART	_	Case=Gen	3	mod	_	_
+3	话	话	NOUN	_	_	8	comp:obj	_	_
+4	我	我	PRON	_	Person=1	8	subj	_	_
+5	全	全	ADV	_	_	8	mod	_	Grammar_Target=Yes
+6	都	都	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	不	不	ADV	_	Polarity=Neg	8	mod	_	_
+8	相	相	VERB	_	_	0	root	_	_
+9	信	信	NOUN	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1549
+# structure = Subj. + 不 / 没 + 全都 + Predicate
+# text = 他 说 得 有 道理 ，但 我 不 全 都 同意 。
+# pinyin = Tā shuō de yǒu dàolǐ, dàn wǒ bù quán dōu tóngyì.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = He has a point, but I don't agree with all of it.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	他	他	PRON	_	Person=3	2	subj	_	_
+2	说	说	VERB	_	_	3	comp:obj	_	_
+3	得	得	PART	_	_	4	subj	_	_
+4	有	有	VERB	_	_	0	root	_	_
+5	道	道	NOUN	_	_	4	comp:obj	_	_
+6	理	理	NOUN	_	_	5	@m	_	_
+7	，	，	PUNCT	_	_	13	punct	_	_
+8	但	但	SCONJ	_	_	13	cc	_	_
+9	我	我	PRON	_	Person=1	13	subj	_	_
+10	不	不	ADV	_	_	11	mod	_	_
+11	全	全	ADV	_	_	13	mod	_	Grammar_Target=Yes
+12	都	都	ADV	_	_	13	mod	_	Grammar_Target=Yes
+13	同	同	VERB	_	_	4	conj	_	_
+14	意	意	NOUN	_	_	13	@m	_	_
+15	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1550
+# structure = Subj. + 不 / 没 + 全都 + Predicate
+# text = 菜 太 多 了 ，我们 没 全 都 吃完 。
+# pinyin = Cài tài duō le, wǒmen méi quán dōu chī wán.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = The food was too much. We didn't finish eating it all.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	菜	菜	NOUN	_	_	3	subj	_	_
+2	太	太	ADV	_	_	3	mod	_	_
+3	多	多	ADJ	_	_	0	root	_	_
+4	了	了	PART	_	_	3	discourse	_	_
+5	，	，	PUNCT	_	_	11	punct	_	_
+6	我	我	PRON	_	Number=Plur|Person=1	11	subj	_	_
+7	们	们	PART	_	Number=Plur|Person=1	6	@m	_	_
+8	没	没	ADV	_	_	11	mod	_	_
+9	全	全	ADV	_	_	11	mod	_	Grammar_Target=Yes
+10	都	都	ADV	_	_	11	mod	_	Grammar_Target=Yes
+11	吃	吃	VERB	_	_	3	parataxis	_	_
+12	完	完	VERB	_	_	11	comp:res	_	_
+13	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 1551
+# structure = Subj. + 不 / 没 + 全都 + Predicate
+# text = 昨天 作业 太 多 了 ，我 没 全 都 做完 。
+# pinyin = Zuótiān zuòyè tài duō le, wǒ méi quán dōu zuò wán.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = I had too much homework yesterday. I didn't finish doing it all.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	昨	昨	NOUN	_	_	6	mod@temp	_	_
+2	天	天	NOUN	_	_	1	@m	_	_
+3	作	作	NOUN	_	_	6	subj	_	_
+4	业	业	NOUN	_	_	3	@m	_	_
+5	太	太	ADV	_	_	6	mod	_	_
+6	多	多	ADJ	_	_	0	root	_	_
+7	了	了	PART	_	_	6	discourse	_	_
+8	，	，	PUNCT	_	_	13	punct	_	_
+9	我	我	PRON	_	Person=1	13	subj	_	_
+10	没	没	ADV	_	_	13	mod	_	_
+11	全	全	ADV	_	_	13	mod	_	Grammar_Target=Yes
+12	都	都	ADV	_	_	13	mod	_	Grammar_Target=Yes
+13	做	做	VERB	_	_	6	parataxis	_	_
+14	完	完	VERB	_	_	13	comp:res	_	_
+15	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1552
+# structure = Subj. + 不 / 没 + 全都 + Predicate
+# text = 我 的 家人 没 全 都 来 参加 我 的 婚礼 。
+# pinyin = Wǒ de jiārén méi quán dōu lái cānjiā wǒ de hūnlǐ.
+# level = B1
+# structure_verbose = Indicating the whole with "quan"
+# translation_english = Not all of my family came to my wedding.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCPDSR
+1	我	我	PRON	_	Person=1	2	comp:obj	_	_
+2	的	的	PART	_	Case=Gen	3	mod	_	_
+3	家	家	NOUN	_	_	8	subj	_	_
+4	人	人	NOUN	_	_	3	@m	_	_
+5	没	没	ADV	_	_	8	mod	_	_
+6	全	全	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	都	都	ADV	_	_	8	mod	_	Grammar_Target=Yes
+8	来	来	VERB	_	_	0	root	_	_
+9	参	参	VERB	_	_	8	comp:svc	_	_
+10	加	加	VERB	_	_	9	@m	_	_
+11	我	我	PRON	_	Person=1	12	comp:obj	_	_
+12	的	的	PART	_	Case=Gen	13	mod	_	_
+13	婚	婚	NOUN	_	_	9	comp:obj	_	_
+14	礼	礼	NOUN	_	_	13	@m	_	_
+15	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1556
+# structure = Adj. + Adj. + 的 (+ Noun)
+# text = 今晚 的 月亮 圆 圆 的 。
+# pinyin = Jīnwǎn de yuèliàng yuán yuán de.
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = The moon is round tonight.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	今	今	NOUN	_	_	3	comp:obj	_	_
+2	晚	晚	NOUN	_	_	1	@m	_	_
+3	的	的	PART	_	Case=Gen	4	mod	_	_
+4	月	月	NOUN	_	_	6	subj	_	_
+5	亮	亮	ADJ	_	_	4	@m	_	_
+6	圆	圆	ADJ	_	_	0	root	_	Grammar_Target=Yes
+7	圆	圆	ADJ	_	_	6	conj:redup@m	_	Grammar_Target=Yes
+8	的	的	PART	_	_	6	discourse	_	Grammar_Target=Yes
+9	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1569
+# structure = AABB + 地 + Verb
+# text = 我们 清清楚楚 地 看到 他 跟 一 个 胖 胖 的 男人 上 车 了 。
+# pinyin = Wǒmen qīngqīng-chǔchǔ de kàndào tā gēn yī gè pàng pàng de nánrén shàngchē le.
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = We clearly saw him get in the car with a fat man.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	清	清	ADJ	_	_	7	comp:obj	_	Grammar_Target=Yes
+4	清	清	ADJ	_	_	3	conj:redup@m	_	Grammar_Target=Yes
+5	楚	楚	ADJ	_	_	3	conj@m	_	Grammar_Target=Yes
+6	楚	楚	ADJ	_	_	5	conj:redup@m	_	Grammar_Target=Yes
+7	地	地	PART	_	_	8	mod	_	_
+8	看	看	VERB	_	_	0	root	_	_
+9	到	到	VERB	_	_	8	comp:res	_	_
+10	他	他	PRON	_	Person=3	19	subj	_	_
+11	跟	跟	ADP	_	_	19	comp:obl	_	_
+12	一	一	NUM	_	NumType=Card	13	mod	_	_
+13	个	个	NOUN	_	_	17	clf	_	_
+14	胖	胖	ADJ	_	_	16	comp:obj	_	_
+15	胖	胖	ADJ	_	_	14	conj:redup@m	_	_
+16	的	的	PART	_	Case=Gen	17	mod	_	_
+17	男	男	NOUN	_	_	11	comp:obj	_	_
+18	人	人	NOUN	_	_	17	@m	_	_
+19	上	上	VERB	_	_	8	comp:obj	_	_
+20	车	车	NOUN	_	_	19	comp:obj	_	_
+21	了	了	PART	_	_	19	discourse	_	_
+22	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1570
+# structure = AABB + 地 + Verb
+# text = 我 真 想 舒舒服服 地 躺 在 沙发 上 看 电视 。
+# pinyin = Wǒ zhēn xiǎng shūshū-fūfū de tǎng zài shāfā shàng kàn diànshì.
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = I'd really like to comfortably lie on the couch and watch TV.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	我	我	PRON	_	Person=1	3	subj	_	_
+2	真	真	ADV	_	_	3	mod	_	_
+3	想	想	AUX	_	_	0	root	_	_
+4	舒	舒	ADJ	_	_	8	comp:obj	_	Grammar_Target=Yes
+5	舒	舒	ADJ	_	_	4	conj:redup@m	_	Grammar_Target=Yes
+6	服	服	ADJ	_	_	4	conj@m	_	Grammar_Target=Yes
+7	服	服	ADJ	_	_	6	conj:redup@m	_	Grammar_Target=Yes
+8	地	地	PART	_	_	9	mod	_	_
+9	躺	躺	VERB	_	_	3	comp:aux	_	_
+10	在	在	ADP	_	_	9	comp:obl	_	_
+11	沙	沙	NOUN	_	_	13	comp:obj	_	_
+12	发	发	NOUN	_	_	11	@m	_	_
+13	上	上	ADP	_	_	10	comp:obl	_	_
+14	看	看	VERB	_	_	9	comp:svc	_	_
+15	电	电	NOUN	_	_	14	comp:obj	_	_
+16	视	视	NOUN	_	_	15	@m	_	_
+17	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 1571
+# structure = AABB + 地 + Verb
+# text = 你 妈妈 辛辛苦苦 地 做 了 两 个 小时 的 饭，你 怎么 不 吃 ？
+# pinyin = Nǐ māma xīnxīn-kǔkǔ de zuò le liǎng gè xiǎoshí de fàn, nǐ zěnme bù chī?
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = Your mother labored over this meal for two hours, and you aren't going to eat it?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	你	你	PRON	_	Person=2	2	mod	_	_
+2	妈	妈	NOUN	_	_	9	subj	_	_
+3	妈	妈	NOUN	_	_	2	conj:redup@m	_	_
+4	辛	辛	ADJ	_	_	8	comp:obj	_	Grammar_Target=Yes
+5	辛	辛	ADJ	_	_	4	conj:redup@m	_	Grammar_Target=Yes
+6	苦	苦	ADJ	_	_	4	conj@m	_	Grammar_Target=Yes
+7	苦	苦	ADJ	_	_	6	conj:redup@m	_	Grammar_Target=Yes
+8	地	地	PART	_	_	9	mod	_	_
+9	做	做	VERB	_	_	0	root	_	_
+10	了	了	PART	_	_	9	aspect	_	_
+11	两	两	NUM	_	NumType=Card	12	mod	_	_
+12	个	个	NOUN	_	_	14	clf	_	_
+13	小	小	ADJ	_	_	14	@m	_	_
+14	时	时	NOUN	_	_	15	comp:obj	_	_
+15	的	的	PART	_	Case=Gen	16	mod	_	_
+16	饭	饭	NOUN	_	_	9	comp:obj	_	_
+17	，	，	PUNCT	_	_	22	punct	_	_
+18	你	你	PRON	_	Person=2	22	subj	_	_
+19	怎	怎	ADV	_	_	22	mod	_	_
+20	么	么	ADV	_	_	19	@m	_	_
+21	不	不	ADV	_	Polarity=Neg	22	mod	_	_
+22	吃	吃	VERB	_	_	9	parataxis	_	_
+23	？	？	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1572
+# structure = Subj. + ABAB
+# text = 妹妹 快 过 生日 了 ，我 打算 给 她 办 一 个 生日 派对 ，热闹 热闹 。
+# pinyin = Mèimei kuài guò shēngrì le, wǒ dǎsuàn gěi tā bàn yī gè shēngrì pàiduì, rènao rènao.
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = My little sister's birthday is coming and I plan to throw her a birthday party and have a blast.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	妹	妹	NOUN	_	_	4	subj	_	_
+2	妹	妹	NOUN	_	_	1	conj:redup@m	_	_
+3	快	快	ADJ	_	_	4	mod	_	_
+4	过	过	VERB	_	_	0	root	_	_
+5	生	生	NOUN	_	_	4	comp:obj	_	_
+6	日	日	NOUN	_	_	5	@m	_	_
+7	了	了	PART	_	_	4	discourse	_	_
+8	，	，	PUNCT	_	_	10	punct	_	_
+9	我	我	PRON	_	Person=1	10	subj	_	_
+10	打	打	VERB	_	_	4	parataxis	_	_
+11	算	算	VERB	_	_	10	@m	_	_
+12	给	给	ADP	_	_	14	comp:obl	_	_
+13	她	她	PRON	_	Person=3	12	comp:obj	_	_
+14	办	办	VERB	_	_	10	comp:obj	_	_
+15	一	一	NUM	_	NumType=Card	16	mod	_	_
+16	个	个	NOUN	_	_	19	clf	_	_
+17	生	生	NOUN	_	_	19	compound	_	_
+18	日	日	NOUN	_	_	17	@m	_	_
+19	派	派	NOUN	_	_	14	comp:obj	_	_
+20	对	对	NOUN	_	_	19	@m	_	_
+21	，	，	PUNCT	_	_	22	punct	_	_
+22	热	热	ADJ	_	_	10	parataxis	_	Grammar_Target=Yes
+23	闹	闹	ADJ	_	_	22	conj@m	_	Grammar_Target=Yes
+24	热	热	ADJ	_	_	22	conj:redup@m	_	Grammar_Target=Yes
+25	闹	闹	ADJ	_	_	24	conj@m	_	Grammar_Target=Yes
+26	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1573
+# structure = Subj. + ABAB
+# text = 来 ，喝 点 酒 ，高兴 高兴 。
+# pinyin = Lái, hē diǎn jiǔ, gāoxìng gāoxìng.
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = Come on, have a little wine and enjoy yourself.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	来	来	VERB	_	_	0	root	_	_
+2	，	，	PUNCT	_	_	3	punct	_	_
+3	喝	喝	VERB	_	_	1	parataxis	_	_
+4	点	点	DET	_	_	5	det	_	_
+5	酒	酒	NOUN	_	_	3	comp:obj	_	_
+6	，	，	PUNCT	_	_	7	punct	_	_
+7	高	高	ADJ	_	_	3	parataxis	_	Grammar_Target=Yes
+8	兴	兴	ADJ	_	_	7	conj@m	_	Grammar_Target=Yes
+9	高	高	ADJ	_	_	7	conj:redup@m	_	Grammar_Target=Yes
+10	兴	兴	ADJ	_	_	9	conj@m	_	Grammar_Target=Yes
+11	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 1574
+# structure = Subj. + ABAB
+# text = 到 这里 来 凉快 凉快 。
+# pinyin = Dào zhèlǐ lái liángkuai liángkuai.
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = Come over here and cool off.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	到	到	VERB	_	_	0	root	_	_
+2	这	这	DET	_	_	1	comp:obj	_	_
+3	里	里	NOUN	_	_	2	@m	_	_
+4	来	来	VERB	_	_	1	comp:svc	_	_
+5	凉	凉	ADJ	_	_	4	comp:obj	_	Grammar_Target=Yes
+6	快	快	ADJ	_	_	5	conj@m	_	Grammar_Target=Yes
+7	凉	凉	ADJ	_	_	5	conj:redup@m	_	Grammar_Target=Yes
+8	快	快	ADJ	_	_	7	conj@m	_	Grammar_Target=Yes
+9	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 1575
+# structure = Subj. + ABAB
+# text = 我 想 去 外面 走走 ，安静  一下 。
+# pinyin = Wǒ xiǎng qù wàimiàn zǒuzou, ānjìng yīxià.
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# translation_english = I'd like to take a walk outside, get some quiet time.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	想	想	AUX	_	_	0	root	_	_
+3	去	去	VERB	_	_	2	comp:aux	_	_
+4	外	外	NOUN	_	_	3	comp:obj	_	_
+5	面	面	NOUN	_	_	4	@m	_	_
+6	走	走	VERB	_	_	3	comp:svc	_	_
+7	走	走	VERB	_	_	6	conj:redup@m	_	_
+8	，	，	PUNCT	_	_	9	punct	_	_
+9	安	安	ADJ	_	_	2	parataxis	_	_
+10	静	静	ADJ	_	_	9	conj@m	_	_
+11	一	一	ADV	_	_	12	@m	_	Grammar_Target=Yes
+12	下	下	ADV	_	_	9	mod	_	Grammar_Target=Yes
+13	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 1581
+# structure = Subj. + AB + 一下
+# text = 想 不 想 去 做 个 按摩 ，放松 一下 。
+# level = B1
+# structure_verbose = Reduplication of adjectives
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDHE8S
+1	想	想	AUX	_	_	0	root	_	_
+2	不	不	ADV	_	Polarity=Neg	3	mod	_	_
+3	想	想	AUX	_	_	1	conj	_	_
+4	去	去	VERB	_	_	1	comp:aux	_	_
+5	做	做	VERB	_	_	4	comp:svc	_	_
+6	个	个	NOUN	_	_	7	clf	_	_
+7	按	按	NOUN	_	_	5	comp:obj	_	_
+8	摩	摩	NOUN	_	_	7	@m	_	_
+9	，	，	PUNCT	_	_	10	punct	_	_
+10	放	放	VERB	_	_	4	parataxis	_	Grammar_Target=Yes
+11	松	松	ADJ	_	_	10	@m	_	Grammar_Target=Yes
+12	一	一	ADV	_	_	13	@m	_	Grammar_Target=Yes
+13	下	下	ADV	_	_	10	mod	_	Grammar_Target=Yes
+14	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 1582
+# structure = Subj. + Adj. + 地 + Verb
+# text = 你 要 努力 地 学习 。
+# pinyin = Nǐ yào nǔlì de xuéxí.
+# level = B1
+# structure_verbose = Turning adjectives into adverbs
+# translation_english = You must study hard.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMAFSX
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	要	要	AUX	_	_	0	root	_	_
+3	努	努	ADV	_	_	5	comp:obj	_	Grammar_Target=Yes
+4	力	力	NOUN	_	_	3	@m	_	Grammar_Target=Yes
+5	地	地	PART	_	_	6	mod	_	_
+6	学	学	VERB	_	_	2	comp:aux	_	_
+7	习	习	VERB	_	_	6	@m	_	_
+8	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 1583
+# structure = Subj. + Adj. + 地 + Verb
+# text = 雨天 地 滑 ，慢 慢 地 走 。
+# pinyin = Yǔtiān dì huá, màn màn de zǒu.
+# level = B1
+# structure_verbose = Turning adjectives into adverbs
+# translation_english = The floor is very slippery on rainy days. Walk slowly.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMAFSX
+1	雨	雨	NOUN	_	_	4	mod@temp	_	_
+2	天	天	NOUN	_	_	1	@m	_	_
+3	地	地	PART	_	_	4	subj	_	_
+4	滑	滑	ADJ	_	_	0	root	_	_
+5	，	，	PUNCT	_	_	9	punct	_	_
+6	慢	慢	ADJ	_	_	8	comp:obj	_	Grammar_Target=Yes
+7	慢	慢	ADJ	_	_	6	conj:redup@m	_	Grammar_Target=Yes
+8	地	地	PART	_	_	9	mod	_	_
+9	走	走	VERB	_	_	4	parataxis	_	_
+10	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1584
+# structure = Subj. + Adj. + 地 + Verb
+# text = 他 顺利 地 通过 考试 了。
+# pinyin = tā shùnlì de tōngguò kǎoshì le.
+# level = B1
+# structure_verbose = Turning adjectives into adverbs
+# translation_english = He passed the exam successfully.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMAFSX
+1	他	他	PRON	_	Person=3	5	subj	_	_
+2	顺	顺	ADV	_	_	4	comp:obj	_	Grammar_Target=Yes
+3	利	利	ADJ	_	_	2	@m	_	Grammar_Target=Yes
+4	地	地	PART	_	_	5	mod	_	_
+5	通	通	VERB	_	_	0	root	_	_
+6	过	过	VERB	_	_	5	comp:res@m	_	_
+7	考	考	NOUN	_	_	5	comp:obj	_	_
+8	试	试	NOUN	_	_	7	@m	_	_
+9	了	了	PART	_	_	5	discourse	_	_
+10	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1585
+# structure = Subj. + Adj. + 地 + Verb
+# text = 他 认真 地 对 我 说 ：“我 喜欢 你 。“
+# pinyin = Tā rènzhēn de duì wǒ shuō: "wǒ xǐhuan nǐ."
+# level = B1
+# structure_verbose = Turning adjectives into adverbs
+# translation_english = In all seriousness, he said to me: "I like you."
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMAFSX
+1	他	他	PRON	_	Person=3	7	subj	_	_
+2	认	认	ADJ	_	_	4	comp:obj	_	Grammar_Target=Yes
+3	真	真	ADJ	_	_	2	@m	_	Grammar_Target=Yes
+4	地	地	PART	_	_	7	mod	_	_
+5	对	对	ADP	_	_	7	comp:obl	_	_
+6	我	我	PRON	_	Person=1	5	comp:obj	_	_
+7	说	说	VERB	_	_	0	root	_	_
+8	：	：	PUNCT	_	_	11	punct	_	_
+9	“	“	PUNCT	_	_	11	punct	_	_
+10	我	我	PRON	_	Person=1	11	subj	_	_
+11	喜	喜	VERB	_	_	7	discourse	_	_
+12	欢	欢	VERB	_	_	11	@m	_	_
+13	你	你	PRON	_	Person=2	11	comp:obj	_	_
+14	。	。	PUNCT	_	_	11	punct	_	_
+15	“	“	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1586
+# structure = Subj. + Adj. + 地 + Verb
+# text = 他 热情 地 拥抱 了 我 。
+# pinyin = Tā rèqíng de yōngbào le wǒ.
+# level = B1
+# structure_verbose = Turning adjectives into adverbs
+# translation_english = He gave me a very warm embrace.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMAFSX
+1	他	他	PRON	_	Person=3	5	subj	_	_
+2	热	热	ADJ	_	_	4	comp:obj	_	Grammar_Target=Yes
+3	情	情	NOUN	_	_	2	@m	_	Grammar_Target=Yes
+4	地	地	PART	_	_	5	mod	_	_
+5	拥	拥	VERB	_	_	0	root	_	_
+6	抱	抱	VERB	_	_	5	@m	_	_
+7	了	了	PART	_	_	5	aspect	_	_
+8	我	我	PRON	_	Person=1	5	comp:obj	_	_
+9	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1587
+# structure = Subj. + Adj. + 地 + Verb
+# text = 她 激动 地 对 我 说 “谢谢 ” 。
+# pinyin = Tā jīdòng de duì wǒ shuō "xièxie."
+# level = B1
+# structure_verbose = Turning adjectives into adverbs
+# translation_english = She said "thank you" to me excitedly.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMAFSX
+1	她	她	PRON	_	Person=3	7	subj	_	_
+2	激	激	ADV	_	_	4	comp:obj	_	Grammar_Target=Yes
+3	动	动	ADJ	_	_	2	@m	_	Grammar_Target=Yes
+4	地	地	PART	_	_	7	mod	_	_
+5	对	对	ADP	_	_	7	comp:obl	_	_
+6	我	我	PRON	_	Person=1	5	comp:obj	_	_
+7	说	说	VERB	_	_	0	root	_	_
+8	“	“	PUNCT	_	_	9	punct	_	_
+9	谢	谢	NOUN	_	_	7	comp:obj	_	_
+10	谢	谢	NOUN	_	_	9	conj:redup@m	_	_
+11	”	”	PUNCT	_	_	9	punct	_	_
+12	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1588
+# structure = Subj. + Adj. + 地 + Verb
+# text = 老师 生气 地 看 着 我们 。
+# pinyin = Lǎoshī shēngqì de kàn zhe wǒmen.
+# level = B1
+# structure_verbose = Turning adjectives into adverbs
+# translation_english = The teacher is looking at us angrily.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMAFSX
+1	老	老	NOUN	_	_	6	subj	_	_
+2	师	师	NOUN	_	_	1	@m	_	_
+3	生	生	VERB	_	_	5	comp:obj	_	Grammar_Target=Yes
+4	气	气	NOUN	_	_	3	@m	_	Grammar_Target=Yes
+5	地	地	PART	_	_	6	mod	_	_
+6	看	看	VERB	_	_	0	root	_	_
+7	着	着	PART	_	_	6	aspect	_	_
+8	我	我	PRON	_	Number=Plur|Person=1	6	comp:obj	_	_
+9	们	们	PART	_	Number=Plur|Person=1	8	@m	_	_
+10	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1589
+# structure = Subj. + Adj. + 地 + Verb
+# text = 孩子 们 开心 地 唱 了 起来 。
+# pinyin = Háizi men kāixīn de chàng le qǐlai.
+# level = B1
+# structure_verbose = Turning adjectives into adverbs
+# translation_english = The children started to sing happily.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMAFSX
+1	孩	孩	NOUN	_	_	7	subj	_	_
+2	子	子	NOUN	_	_	1	@m	_	_
+3	们	们	PART	_	Number=Plur|Person=3	1	@m	_	_
+4	开	开	ADJ	_	_	6	comp:obj	_	Grammar_Target=Yes
+5	心	心	NOUN	_	_	4	@m	_	Grammar_Target=Yes
+6	地	地	PART	_	_	7	mod	_	_
+7	唱	唱	VERB	_	_	0	root	_	_
+8	了	了	PART	_	_	7	aspect	_	_
+9	起	起	ADV	_	_	7	comp:dir	_	_
+10	来	来	VERB	_	_	9	@m	_	_
+11	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1626
+# structure = 又 + 不 / 没 + Predicate
+# text = 这些 菜 又 没 坏 ，为什么 要 扔 ？
+# pinyin = Zhèxiē cài yòu méi huài, wèishénme yào rēng?
+# level = B1
+# structure_verbose = Emphasizing negation with "you"
+# translation_english = These dishes haven't gone bad. Why would you throw them away?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGD3C4S
+1	这	这	DET	_	_	2	det	_	_
+2	些	些	NOUN	_	_	3	clf	_	_
+3	菜	菜	NOUN	_	_	6	subj	_	_
+4	又	又	ADV	_	_	6	mod	_	Grammar_Target=Yes
+5	没	没	ADV	_	_	6	mod	_	_
+6	坏	坏	ADJ	_	_	0	root	_	_
+7	，	，	PUNCT	_	_	11	punct	_	_
+8	为	为	PRON	_	_	11	mod	_	_
+9	什	什	PRON	_	_	8	@m	_	_
+10	么	么	PRON	_	_	9	@m	_	_
+11	要	要	AUX	_	_	6	parataxis	_	_
+12	扔	扔	VERB	_	_	11	comp:aux	_	_
+13	？	？	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1645
+# structure = Subj. + 再 + [Verb Phrase]
+# text = 我们 明年 再 来 。
+# pinyin = Wǒmen míngnián zài lái.
+# level = B1
+# structure_verbose = Expressing "again" in the future with "zai"
+# translation_english = We'll come again next year.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGIZQJ2
+1	我	我	PRON	_	Number=Plur|Person=1	6	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	明	明	NOUN	_	_	6	mod	_	_
+4	年	年	NOUN	_	_	3	@m	_	_
+5	再	再	ADV	_	_	6	mod	_	Grammar_Target=Yes
+6	来	来	VERB	_	_	0	root	_	_
+7	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1666
+# structure = 原来 + 的 + Noun
+# text = 你 原来 的 发型 也 很 可爱 。
+# pinyin = Nǐ yuánlái de fàxíng yě hěn kě'ài.
+# level = B1
+# structure_verbose = Expressing "all along" with "yuanlai"
+# translation_english = Your original hairstyle was also very cute.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTKXFR
+1	你	你	PRON	_	Person=2	2	mod	_	_
+2	原	原	VERB	_	_	4	comp:obj	_	Grammar_Target=Yes
+3	来	来	VERB	_	_	2	@m	_	Grammar_Target=Yes
+4	的	的	PART	_	Case=Gen	5	mod	_	_
+5	发	发	NOUN	_	_	9	subj	_	_
+6	型	型	NOUN	_	_	5	@m	_	_
+7	也	也	ADV	_	_	9	mod	_	_
+8	很	很	ADV	_	_	9	mod	_	_
+9	可	可	ADJ	_	_	0	root	_	_
+10	爱	爱	ADJ	_	_	9	@m	_	_
+11	。	。	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1715
+# structure = 都 + Time + 了
+# text = 都 一 个 星期 了 ，还在 下雨 。
+# pinyin = Dōu yī gè xīngqī le, hái zài xiàyǔ.
+# level = B1
+# structure_verbose = Expressing "already" with "dou"
+# translation_english = It's been a week and it's still raining.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGT1CIR
+1	都	都	ADV	_	_	4	mod	_	Grammar_Target=Yes
+2	一	一	NUM	_	NumType=Card	3	mod	_	_
+3	个	个	NOUN	_	_	4	clf	_	_
+4	星	星	NOUN	_	_	0	root	_	_
+5	期	期	NOUN	_	_	4	@m	_	_
+6	了	了	PART	_	_	4	discourse	_	_
+7	，	，	PUNCT	_	_	9	punct	_	_
+8	还	还	ADV	_	_	9	mod	_	_
+9	在	在	VERB	_	_	4	conj	_	_
+10	下	下	VERB	_	_	9	comp:obj	_	_
+11	雨	雨	NOUN	_	_	10	comp:obj	_	_
+12	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1761
+# structure = Subj. + [Point in Time] + 就 + Verb + 了
+# text = 我们 九点 上课 ，他 八点 就 来 了 。
+# pinyin = Wǒmen jiǔ diǎn shàngkè, tā bā diǎn jiù lái le.
+# level = B1
+# structure_verbose = Expressing earliness with "jiu"
+# translation_english = We have class at nine, but he came in at eight.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGKITRZ
+1	我	我	PRON	_	Number=Plur|Person=1	5	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	九	九	NUM	_	NumType=Card	4	mod	_	_
+4	点	点	NOUN	_	_	5	mod@temp	_	_
+5	上	上	VERB	_	_	0	root	_	_
+6	课	课	NOUN	_	_	5	comp:obj	_	_
+7	，	，	PUNCT	_	_	12	punct	_	_
+8	他	他	PRON	_	Person=3	12	subj	_	_
+9	八	八	NUM	_	NumType=Card	10	mod	_	_
+10	点	点	NOUN	_	_	12	mod@temp	_	_
+11	就	就	ADV	_	_	12	mod	_	Grammar_Target=Yes
+12	来	来	VERB	_	_	5	parataxis	_	_
+13	了	了	PART	_	_	12	discourse	_	_
+14	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1820
+# structure = 一 + Measure Word + 一 + Measure Word (+ Noun)
+# text = 别 吵 ，一 个 一 个 说。
+# pinyin = Bié chǎo, yī gè yī gè shuō.
+# level = B1
+# structure_verbose = Expressing "one by one" with "yi"
+# translation_english = Don't argue. Speak one by one.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBC7A0
+1	别	别	AUX	_	_	0	root	_	_
+2	吵	吵	VERB	_	_	1	comp:aux	_	_
+3	，	，	PUNCT	_	_	8	punct	_	_
+4	一	一	NUM	_	NumType=Card	5	mod	_	Grammar_Target=Yes
+5	个	个	NOUN	_	_	8	comp:obj	_	_
+6	一	一	NUM	_	NumType=Card	7	mod	_	Grammar_Target=Yes
+7	个	个	NOUN	_	_	5	conj	_	_
+8	说	说	VERB	_	_	1	parataxis	_	_
+9	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 1823
+# structure = 一 + Measure Word + 一 + Measure Word (+ Noun)
+# text = 别 拿 那么 多 ，一 个 一 个 拿 。
+# pinyin = Bié ná nàme duō, yī gè yī gè ná.
+# level = B1
+# structure_verbose = Expressing "one by one" with "yi"
+# translation_english = Don't carry so much. Carry them one at a time.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBC7A0
+1	别	别	AUX	_	_	0	root	_	_
+2	拿	拿	VERB	_	_	1	comp:aux	_	_
+3	那	那	ADV	_	_	5	mod	_	_
+4	么	么	ADV	_	_	3	@m	_	_
+5	多	多	ADJ	_	_	2	mod	_	_
+6	，	，	PUNCT	_	_	11	punct	_	_
+7	一	一	NUM	_	NumType=Card	8	mod	_	Grammar_Target=Yes
+8	个	个	NOUN	_	_	11	comp:obj	_	_
+9	一	一	NUM	_	NumType=Card	10	mod	_	Grammar_Target=Yes
+10	个	个	NOUN	_	_	8	conj	_	_
+11	拿	拿	VERB	_	_	1	parataxis	_	_
+12	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 1828
+# structure = 一 + [Measure Word] (+ 又) + 一 + [Measure Word]
+# text = 你 为什么 一 遍 又 一 遍 地 听 这 首 歌 ？
+# pinyin = Nǐ wèishénme yī biàn yòu yī biàn de tīng zhè shǒu gē?
+# level = B1
+# structure_verbose = Expressing "one by one" with "yi"
+# translation_english = Why do you listen to this song over and over again?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBC7A0
+1	你	你	PRON	_	Person=2	11	subj	_	_
+2	为	为	PRON	_	_	11	mod	_	_
+3	什	什	PRON	_	_	2	@m	_	_
+4	么	么	PRON	_	_	3	@m	_	_
+5	一	一	NUM	_	_	6	mod	_	Grammar_Target=Yes
+6	遍	遍	NOUN	_	_	10	comp:obj	_	_
+7	又	又	CCONJ	_	_	9	cc	_	_
+8	一	一	NUM	_	NumType=Card	9	mod	_	Grammar_Target=Yes
+9	遍	遍	NOUN	_	_	6	conj:redup	_	_
+10	地	地	PART	_	_	11	mod	_	_
+11	听	听	VERB	_	_	0	root	_	_
+12	这	这	DET	_	_	13	det	_	_
+13	首	首	NOUN	_	_	14	clf	_	_
+14	歌	歌	NOUN	_	_	11	comp:obj	_	_
+15	？	？	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1866
+# structure = 才 + Number + [Measure Word] + Noun
+# text = 你 才 二十 岁 ？
+# pinyin = Nǐ cái èrshí suì?
+# level = B1
+# structure_verbose = Using "cai" for small numbers
+# translation_english = You're only twenty?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGYW5RS
+1	你	你	PRON	_	Person=2	5	subj	_	_
+2	才	才	ADV	_	_	5	mod	_	Grammar_Target=Yes
+3	二	二	NUM	_	NumType=Card	5	mod	_	_
+4	十	十	NUM	_	NumType=Card	3	flat	_	_
+5	岁	岁	NOUN	_	_	0	root	_	_
+6	？	？	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1882
+# structure = Subj. + 也都 + 不 / 没 + Predicate
+# text = 这些 不 贵 ，那些 也 都 不 贵 。
+# pinyin = Zhèxiē bù guì, nàxiē yě dōu bù guì.
+# level = B1
+# structure_verbose = Using "ye" and "dou" together
+# translation_english = These are not expensive. Those aren't expensive, either.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG8GSXY
+1	这	这	DET	_	_	2	det	_	_
+2	些	些	NOUN	_	_	4	subj	_	_
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	_
+4	贵	贵	ADJ	_	_	0	root	_	_
+5	，	，	PUNCT	_	_	11	punct	_	_
+6	那	那	DET	_	_	7	det	_	_
+7	些	些	NOUN	_	_	11	subj	_	_
+8	也	也	ADV	_	_	11	mod	_	Grammar_Target=Yes
+9	都	都	ADV	_	_	11	mod	_	Grammar_Target=Yes
+10	不	不	ADV	_	Polarity=Neg	11	mod	_	Grammar_Target=Yes
+11	贵	贵	ADJ	_	_	4	parataxis	_	_
+12	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1992
+# structure = ⋯⋯ ，另外 ，⋯⋯
+# text = 这个 航班 经常 晚点 。另外 ，他们 的 飞机 餐 也 很 难吃 。
+# pinyin = Zhège hángbān jīngcháng wǎndiǎn. Lìngwài, tāmen de fēijī cān yě hěn nánchī.
+# level = B1
+# structure_verbose = Expressing "in addition" with "lingwai"
+# translation_english = This flight is frequently delayed. In addition, their in-flight food is terrible.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG2KQZI
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	航	航	NOUN	_	_	7	subj	_	_
+4	班	班	NOUN	_	_	3	@m	_	_
+5	经	经	ADV	_	_	7	mod	_	_
+6	常	常	ADV	_	_	5	@m	_	_
+7	晚	晚	VERB	_	_	0	root	_	_
+8	点	点	ADV	_	_	7	mod	_	_
+9	。	。	PUNCT	_	_	7	punct	_	_
+10	另	另	SCONJ	_	_	22	cc	_	Grammar_Target=Yes
+11	外	外	SCONJ	_	_	10	@m	_	Grammar_Target=Yes
+12	，	，	PUNCT	_	_	10	punct	_	_
+13	他	他	PRON	_	Number=Plur|Person=3	15	comp:obj	_	_
+14	们	们	PART	_	Number=Plur|Person=3	13	@m	_	_
+15	的	的	PART	_	Case=Gen	18	mod	_	_
+16	飞	飞	NOUN	_	_	18	compound	_	_
+17	机	机	NOUN	_	_	16	@m	_	_
+18	餐	餐	NOUN	_	_	22	subj	_	_
+19	也	也	ADV	_	_	22	mod	_	_
+20	很	很	ADV	_	_	22	mod	_	_
+21	难	难	ADJ	_	_	22	mod@m	_	_
+22	吃	吃	VERB	_	_	7	conj	_	_
+23	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2002
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 那 件 衣服 太 贵 了 ，我 没 买 。再说 ，我 也 不是 很 喜欢 。
+# pinyin = Nà jiàn yīfu tài guì le, wǒ méi mǎi. Zàishuō, wǒ yě bù shì hěn xǐhuan.
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# translation_english = That piece of clothing is too expensive. I didn't buy it. Besides, I didn't like it so much.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+1	那	那	DET	_	_	2	det	_	_
+2	件	件	NOUN	_	_	3	clf	_	_
+3	衣	衣	NOUN	_	_	6	subj	_	_
+4	服	服	NOUN	_	_	3	@m	_	_
+5	太	太	ADV	_	_	6	mod	_	_
+6	贵	贵	ADJ	_	_	0	root	_	_
+7	了	了	PART	_	_	6	discourse	_	_
+8	，	，	PUNCT	_	_	11	punct	_	_
+9	我	我	PRON	_	Person=1	11	subj	_	_
+10	没	没	ADV	_	Polarity=Neg	11	mod	_	_
+11	买	买	VERB	_	_	6	parataxis	_	_
+12	。	。	PUNCT	_	_	6	punct	_	_
+13	再	再	SCONJ	_	_	19	cc	_	Grammar_Target=Yes
+14	说	说	SCONJ	_	_	13	@m	_	Grammar_Target=Yes
+15	，	，	PUNCT	_	_	13	punct	_	_
+16	我	我	PRON	_	Person=1	19	subj	_	_
+17	也	也	ADV	_	_	19	mod	_	_
+18	不	不	ADV	_	Polarity=Neg	19	mod	_	_
+19	是	是	VERB	_	_	6	conj	_	_
+20	很	很	ADV	_	_	21	mod	_	_
+21	喜	喜	VERB	_	_	19	comp:obj	_	_
+22	欢	欢	VERB	_	_	21	@m	_	_
+23	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2008
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 别 怪 他 。不 是 他 的 错 。再说 ，这 也 不 是 什么 大 事 。
+# pinyin = Bié guài tā. Bù shì tā de cuò. Zàishuō, zhè yě bù shì shénme dà shì.
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# translation_english = Don't blame him. It's not his fault. Besides, it's not even a big deal.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+1	别	别	AUX	_	_	0	root	_	_
+2	怪	怪	VERB	_	_	1	comp:aux	_	_
+3	他	他	PRON	_	Person=3	2	comp:obj	_	_
+4	。	。	PUNCT	_	_	1	punct	_	_
+5	不	不	ADV	_	Polarity=Neg	6	mod	_	_
+6	是	是	VERB	_	_	1	parataxis	_	_
+7	他	他	PRON	_	Person=3	8	comp:obj	_	_
+8	的	的	PART	_	Case=Gen	9	mod	_	_
+9	错	错	NOUN	_	_	6	comp:obj	_	_
+10	。	。	PUNCT	_	_	6	punct	_	_
+11	再	再	SCONJ	_	_	17	cc	_	Grammar_Target=Yes
+12	说	说	SCONJ	_	_	11	@m	_	Grammar_Target=Yes
+13	，	，	PUNCT	_	_	17	punct	_	_
+14	这	这	DET	_	_	17	subj	_	_
+15	也	也	ADV	_	_	17	mod	_	_
+16	不	不	ADV	_	Polarity=Neg	17	mod	_	_
+17	是	是	VERB	_	_	6	conj	_	_
+18	什	什	PRON	_	_	21	mod	_	_
+19	么	么	PART	_	_	18	@m	_	_
+20	大	大	ADJ	_	_	21	@m	_	_
+21	事	事	NOUN	_	_	17	comp:obj	_	_
+22	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 2091
+# structure = Number + 多 + [Measure word] (+ Noun)
+# text = 我 妈妈 已经 五十 多 岁 了。
+# pinyin = Wǒ māma yǐjīng wǔshí duō suì le.
+# level = B1
+# structure_verbose = Indicating a number in excess
+# translation_english = My mother is over fifty.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG004ZK
+1	我	我	PRON	_	Person=1	2	mod	_	_
+2	妈	妈	NOUN	_	_	9	subj	_	_
+3	妈	妈	NOUN	_	_	2	conj:redup@m	_	_
+4	已	已	ADV	_	_	9	mod	_	_
+5	经	经	ADV	_	_	4	@m	_	_
+6	五	五	NUM	_	NumType=Card	9	mod	_	_
+7	十	十	NUM	_	NumType=Card	6	flat	_	_
+8	多	多	NUM	_	NumType=Card	6	mod	_	Grammar_Target=Yes
+9	岁	岁	NOUN	_	_	0	root	_	_
+10	了	了	PART	_	_	9	discourse	_	_
+11	。	。	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2241
+# structure = Subj. + [Causative Verb] + Person + Predicate
+# text = 你 为什么 不 让 我 去 ？
+# pinyin = Nǐ wèishénme bù ràng wǒ qù?
+# level = B1
+# structure_verbose = Causative verbs
+# translation_english = Why won't you let me go?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5T7XC
+1	你	你	PRON	_	Person=2	6	subj	_	_
+2	为	为	PRON	_	_	6	mod	_	_
+3	什	什	PRON	_	_	2	@m	_	_
+4	么	么	PRON	_	_	3	@m	_	_
+5	不	不	ADV	_	Polarity=Neg	6	mod	_	_
+6	让	让	VERB	_	_	0	root	_	Grammar_Target=Yes
+7	我	我	PRON	_	Person=1	6	comp:obj	_	_
+8	去	去	VERB	_	_	6	comp:obj	_	_
+9	？	？	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2250
+# structure = Subj. + [Causative Verb] + Person + Predicate
+# text = 经济 危机 使 很多 公司 倒闭 了 ，也 使 很多 人 失去 了 工作 。
+# pinyin = Jīngjì wēijī shǐ hěn duō gōngsī dǎobì le, yě shǐ hěn duō rén shīqù le gōngzuò.
+# level = B1
+# structure_verbose = Causative verbs
+# translation_english = The financial crisis caused lot of companies to go out of business and also caused many people to lose their jobs.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5T7XC
+1	经	经	ADV	_	_	3	compound	_	_
+2	济	济	NOUN	_	_	1	@m	_	_
+3	危	危	NOUN	_	_	5	subj	_	_
+4	机	机	NOUN	_	_	3	@m	_	_
+5	使	使	VERB	_	_	0	root	_	Grammar_Target=Yes
+6	很	很	ADV	_	_	7	mod	_	_
+7	多	多	ADJ	_	NumType=Card	8	mod	_	_
+8	公	公	NOUN	_	_	10	subj	_	_
+9	司	司	NOUN	_	_	8	@m	_	_
+10	倒	倒	VERB	_	_	5	comp:obj	_	_
+11	闭	闭	VERB	_	_	10	@m	_	_
+12	了	了	PART	_	_	5	discourse	_	_
+13	，	，	PUNCT	_	_	15	punct	_	_
+14	也	也	ADV	_	_	15	mod	_	_
+15	使	使	VERB	_	_	5	conj	_	Grammar_Target=Yes
+16	很	很	ADV	_	_	17	mod	_	_
+17	多	多	ADJ	_	NumType=Card	18	mod	_	_
+18	人	人	NOUN	_	_	19	subj	_	_
+19	失	失	VERB	_	_	15	comp:obj	_	_
+20	去	去	VERB	_	_	19	@m	_	_
+21	了	了	PART	_	_	19	aspect	_	_
+22	工	工	NOUN	_	_	19	comp:obj	_	_
+23	作	作	NOUN	_	_	22	@m	_	_
+24	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2273
+# structure = Subj. + 以为 ⋯⋯
+# text = 不要 以为 他 是 你的 朋友 。
+# pinyin = Bùyào yǐwéi tā shì nǐ de péngyou.
+# level = B1
+# structure_verbose = Expressing "mistakenly think that" with "yiwei"
+# translation_english = Don't think that he's your friend.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGRBC43
+1	不	不	ADV	_	_	2	mod	_	_
+2	要	要	AUX	_	_	0	root	_	_
+3	以	以	VERB	_	_	2	comp:aux	_	Grammar_Target=Yes
+4	为	为	VERB	_	_	3	@m	_	Grammar_Target=Yes
+5	他	他	PRON	_	Person=3	6	subj	_	_
+6	是	是	VERB	_	_	3	comp:obj	_	_
+7	你	你	PRON	_	Person=2	8	comp:obj	_	_
+8	的	的	PART	_	Case=Gen	9	mod	_	_
+9	朋	朋	NOUN	_	_	6	comp:obj	_	_
+10	友	友	NOUN	_	_	9	@m	_	_
+11	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2274
+# structure = Subj. + 以为 ⋯⋯
+# text = 她 是 你 外婆 ？我 以为 是 你 妈妈 。
+# pinyin = Tā shì nǐ wàipó? Wǒ yǐwéi shì nǐ māma.
+# level = B1
+# structure_verbose = Expressing "mistakenly think that" with "yiwei"
+# translation_english = She's your grandma? I thought she was your mother.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGRBC43
+1	她	她	PRON	_	Person=3	2	subj	_	_
+2	是	是	VERB	_	_	0	root	_	_
+3	你	你	PRON	_	Person=2	4	mod	_	_
+4	外	外	NOUN	_	_	2	comp:obj	_	_
+5	婆	婆	NOUN	_	_	4	@m	_	_
+6	？	？	PUNCT	_	_	2	punct	_	_
+7	我	我	PRON	_	Person=1	8	subj	_	_
+8	以	以	VERB	_	_	2	parataxis	_	Grammar_Target=Yes
+9	为	为	VERB	_	_	8	@m	_	Grammar_Target=Yes
+10	是	是	VERB	_	_	8	comp:obj	_	_
+11	你	你	PRON	_	Person=2	12	mod	_	_
+12	妈	妈	NOUN	_	_	10	comp:obj	_	_
+13	妈	妈	NOUN	_	_	12	conj:redup@m	_	_
+14	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2275
+# structure = Subj. + 以为 ⋯⋯
+# text = 你 去 吃 四川 火锅 了 ？我 以为 你 不 爱 吃 辣 。
+# pinyin = Nǐ qù chī  Sìchuān huǒguō le? Wǒ yǐwéi nǐ bù ài chī là.
+# level = B1
+# structure_verbose = Expressing "mistakenly think that" with "yiwei"
+# translation_english = You went to eat Sichuan hotpot? I thought you don't like eating spicy food.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGRBC43
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	去	去	VERB	_	_	0	root	_	_
+3	吃	吃	VERB	_	_	2	comp:svc	_	_
+4	四	四	PROPN	_	_	6	compound	_	_
+5	川	川	PROPN	_	_	4	@m	_	_
+6	火	火	NOUN	_	_	3	comp:obj	_	_
+7	锅	锅	NOUN	_	_	6	@m	_	_
+8	了	了	PART	_	_	2	discourse	_	_
+9	？	？	PUNCT	_	_	2	punct	_	_
+10	我	我	PRON	_	Person=1	11	subj	_	_
+11	以	以	SCONJ	_	_	2	parataxis	_	Grammar_Target=Yes
+12	为	为	SCONJ	_	_	11	@m	_	Grammar_Target=Yes
+13	你	你	PRON	_	Person=2	15	subj	_	_
+14	不	不	ADV	_	Polarity=Neg	15	mod	_	_
+15	爱	爱	VERB	_	_	11	comp:obj	_	_
+16	吃	吃	VERB	_	_	15	comp:svc	_	_
+17	辣	辣	ADJ	_	_	16	comp:obj	_	_
+18	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2277
+# structure = Subj. + 以为 ⋯⋯
+# text = 我 看到 那 张 照片 ，以为 你 有 男朋友 了 。
+# pinyin = Wǒ kàndào nà zhāng zhàopiàn, yǐwéi nǐ yǒu nánpéngyou le.
+# level = B1
+# structure_verbose = Expressing "mistakenly think that" with "yiwei"
+# translation_english = I saw that picture and I thought you had a boyfriend.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGRBC43
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	看	看	VERB	_	_	0	root	_	_
+3	到	到	VERB	_	_	2	comp:res	_	_
+4	那	那	DET	_	_	5	det	_	_
+5	张	张	NOUN	_	_	6	clf	_	_
+6	照	照	NOUN	_	_	2	comp:obj	_	_
+7	片	片	NOUN	_	_	6	@m	_	_
+8	，	，	PUNCT	_	_	9	punct	_	_
+9	以	以	VERB	_	_	2	parataxis	_	Grammar_Target=Yes
+10	为	为	VERB	_	_	9	@m	_	Grammar_Target=Yes
+11	你	你	PRON	_	Person=2	12	subj	_	_
+12	有	有	VERB	_	_	9	comp:obj	_	_
+13	男	男	NOUN	_	_	14	@m	_	_
+14	朋	朋	NOUN	_	_	12	comp:obj	_	_
+15	友	友	NOUN	_	_	14	@m	_	_
+16	了	了	PART	_	_	12	discourse	_	_
+17	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2278
+# structure = 经过 + Event / Time ，⋯⋯
+# text = 经过 自己 的 努力 ，她 考上 了 北京 大学 。
+# pinyin = Jīngguò zìjǐ de nǔlì, tā kǎoshàng le Běijīng Dàxué.
+# level = B1
+# structure_verbose = Expressing "through" with "jingguo"
+# translation_english = Through her own hard work, she was admitted into Peking University.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG11DA8
+1	经	经	VERB	_	_	10	mod	_	Grammar_Target=Yes
+2	过	过	VERB	_	_	1	@m	_	Grammar_Target=Yes
+3	自	自	PRON	_	_	5	comp:obj	_	_
+4	己	己	PRON	_	_	3	@m	_	_
+5	的	的	PART	_	Case=Gen	6	mod	_	_
+6	努	努	NOUN	_	_	1	comp:obj	_	_
+7	力	力	NOUN	_	_	6	@m	_	_
+8	，	，	PUNCT	_	_	1	punct	_	_
+9	她	她	PRON	_	Person=3	10	subj	_	_
+10	考	考	VERB	_	_	0	root	_	_
+11	上	上	VERB	_	_	10	comp:res	_	_
+12	了	了	PART	_	_	10	aspect	_	_
+13	北	北	PROPN	_	_	16	compound	_	_
+14	京	京	PROPN	_	_	13	@m	_	_
+15	大	大	ADJ	_	_	16	@m	_	_
+16	学	学	NOUN	_	_	10	comp:obj	_	_
+17	。	。	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2279
+# structure = 经过 + Event / Time ，⋯⋯
+# text = 经过 两 个 月 的 准备 ，他 顺利 地 通过 了 这 次 面试 。
+# pinyin = Jīngguò liǎng gè yuè de zhǔnbèi, tā shùnlì de tōngguò le zhè cì miànshì.
+# level = B1
+# structure_verbose = Expressing "through" with "jingguo"
+# translation_english = After two months of preparation, he successfully passed the job interview.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG11DA8
+1	经	经	VERB	_	_	14	mod	_	Grammar_Target=Yes
+2	过	过	VERB	_	_	1	@m	_	Grammar_Target=Yes
+3	两	两	NUM	_	NumType=Card	4	mod	_	_
+4	个	个	NOUN	_	_	5	clf	_	_
+5	月	月	NOUN	_	_	6	comp:obj	_	_
+6	的	的	PART	_	Case=Gen	7	mod	_	_
+7	准	准	NOUN	_	_	1	comp:obj	_	_
+8	备	备	NOUN	_	_	7	@m	_	_
+9	，	，	PUNCT	_	_	14	punct	_	_
+10	他	他	PRON	_	Person=3	14	subj	_	_
+11	顺	顺	ADJ	_	_	13	comp:obj	_	_
+12	利	利	ADJ	_	_	11	@m	_	_
+13	地	地	PART	_	_	14	mod	_	_
+14	通	通	VERB	_	_	0	root	_	_
+15	过	过	VERB	_	_	14	comp:res@m	_	_
+16	了	了	PART	_	_	14	aspect	_	_
+17	这	这	DET	_	_	18	det	_	_
+18	次	次	NOUN	_	_	19	clf	_	_
+19	面	面	NOUN	_	_	14	comp:obj	_	_
+20	试	试	NOUN	_	_	19	@m	_	_
+21	。	。	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2280
+# structure = 经过 + Event / Time ，⋯⋯
+# text = 经过 这 几 年 的 发展 ，这个 城市 发生 了 很 大 变化 。
+# pinyin = Jīngguò zhè jǐ nián de fāzhǎn,  zhège chéngshì fāshēng le hěn dà biànhuà.
+# level = B1
+# structure_verbose = Expressing "through" with "jingguo"
+# translation_english = After the last few years of development, this city has changed a lot.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG11DA8
+1	经	经	VERB	_	_	14	mod	_	Grammar_Target=Yes
+2	过	过	VERB	_	_	1	@m	_	Grammar_Target=Yes
+3	这	这	DET	_	_	4	det	_	_
+4	几	几	NUM	_	NumType=Card	5	mod	_	_
+5	年	年	NOUN	_	_	6	comp:obj	_	_
+6	的	的	PART	_	Case=Gen	7	mod	_	_
+7	发	发	NOUN	_	_	1	comp:obj	_	_
+8	展	展	NOUN	_	_	7	@m	_	_
+9	，	，	PUNCT	_	_	14	punct	_	_
+10	这	这	DET	_	_	11	det	_	_
+11	个	个	NOUN	_	_	12	clf	_	_
+12	城	城	NOUN	_	_	14	subj	_	_
+13	市	市	NOUN	_	_	12	@m	_	_
+14	发	发	VERB	_	_	0	root	_	_
+15	生	生	VERB	_	_	14	@m	_	_
+16	了	了	PART	_	_	14	aspect	_	_
+17	很	很	ADV	_	_	18	mod	_	_
+18	大	大	ADJ	_	_	19	mod	_	_
+19	变	变	NOUN	_	_	14	comp:obj	_	_
+20	化	化	NOUN	_	_	19	@m	_	_
+21	。	。	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2287
+# structure = Subj. + 来自 + Place
+# text = 我 来自 中国 。
+# pinyin = Wǒ láizì Zhōngguó.
+# level = B1
+# structure_verbose = Expressing "to come from" with "laizi"
+# translation_english = I come from China.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CEA8
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	来	来	VERB	_	_	0	root	_	Grammar_Target=Yes
+3	自	自	ADP	_	_	2	comp:obl	_	Grammar_Target=Yes
+4	中	中	PROPN	_	_	3	comp:obj	_	_
+5	国	国	PROPN	_	_	4	@m	_	_
+6	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2288
+# structure = Subj. + 来自 + Place
+# text = 这些 书 都 来自 日本 。
+# pinyin =  Zhèxiē shū dōu láizì Rìběn.
+# level = B1
+# structure_verbose = Expressing "to come from" with "laizi"
+# translation_english = These books all come from Japan.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CEA8
+1	这	这	DET	_	_	2	det	_	_
+2	些	些	NOUN	_	_	3	clf	_	_
+3	书	书	NOUN	_	_	5	subj	_	_
+4	都	都	ADV	_	_	5	mod	_	_
+5	来	来	VERB	_	_	0	root	_	Grammar_Target=Yes
+6	自	自	ADP	_	_	5	comp:obl	_	Grammar_Target=Yes
+7	日	日	PROPN	_	_	6	comp:obj	_	_
+8	本	本	PROPN	_	_	7	@m	_	_
+9	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2289
+# structure = Subj. + 来自 + Place
+# text = 我们 公司 的 客户 来自 美国 。
+# pinyin = Wǒmen gōngsī de kèhù láizì Měiguó.
+# level = B1
+# structure_verbose = Expressing "to come from" with "laizi"
+# translation_english = Our company's clients come from the USA.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CEA8
+1	我	我	PRON	_	Number=Plur|Person=1	3	mod	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	公	公	NOUN	_	_	5	comp:obj	_	_
+4	司	司	NOUN	_	_	3	@m	_	_
+5	的	的	PART	_	Case=Gen	6	mod	_	_
+6	客	客	NOUN	_	_	8	subj	_	_
+7	户	户	NOUN	_	_	6	@m	_	_
+8	来	来	VERB	_	_	0	root	_	Grammar_Target=Yes
+9	自	自	ADV	_	_	8	comp:obl	_	Grammar_Target=Yes
+10	美	美	PROPN	_	_	9	comp:obj	_	_
+11	国	国	PROPN	_	_	10	@m	_	_
+12	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2290
+# structure = Subj. + 来自 + Place
+# text = 我的 这个 想法 来自 生活 。
+# pinyin = Wǒ de zhège xiǎngfǎ láizì shēnghuó.
+# level = B1
+# structure_verbose = Expressing "to come from" with "laizi"
+# translation_english = This idea of mine originated from daily life.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CEA8
+1	我	我	PRON	_	Person=1	2	comp:obj	_	_
+2	的	的	PART	_	Case=Gen	5	mod	_	_
+3	这	这	DET	_	_	4	det	_	_
+4	个	个	NOUN	_	_	5	clf	_	_
+5	想	想	NOUN	_	_	7	subj	_	_
+6	法	法	NOUN	_	_	5	@m	_	_
+7	来	来	VERB	_	_	0	root	_	Grammar_Target=Yes
+8	自	自	ADP	_	_	7	comp:obl	_	Grammar_Target=Yes
+9	生	生	ADV	_	_	8	comp:obj	_	_
+10	活	活	VERB	_	_	9	@m	_	_
+11	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2291
+# structure = Subj. + 来自 + Place
+# text = 这 是 来自 政府 的 报告 。
+# pinyin = Zhè shì láizì zhèngfǔ de bàogào.
+# level = B1
+# structure_verbose = Expressing "to come from" with "laizi"
+# translation_english = This is a report from the government.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CEA8
+1	这	这	DET	_	_	2	det	_	_
+2	是	是	VERB	_	_	0	root	_	_
+3	来	来	VERB	_	_	7	comp:obj	_	Grammar_Target=Yes
+4	自	自	ADP	_	_	3	comp:obl	_	Grammar_Target=Yes
+5	政	政	NOUN	_	_	4	comp:obj	_	_
+6	府	府	NOUN	_	_	5	@m	_	_
+7	的	的	PART	_	Case=Gen	8	mod	_	_
+8	报	报	NOUN	_	_	2	comp:obj	_	_
+9	告	告	NOUN	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2292
+# structure = Subj. + 来自 + Place
+# text = 有 些 坏 习惯 来自 迷信 。
+# pinyin = Yǒu xiē huài xíguàn láizì míxìn.
+# level = B1
+# structure_verbose = Expressing "to come from" with "laizi"
+# translation_english = There are some bad habits that originate from superstition.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CEA8
+1	有	有	VERB	_	_	0	root	_	_
+2	些	些	ADV	_	_	4	mod	_	_
+3	坏	坏	ADJ	_	_	4	mod	_	_
+4	习	习	NOUN	_	_	1	comp:obj	_	_
+5	惯	惯	VERB	_	_	4	@m	_	_
+6	来	来	VERB	_	_	1	comp:obj	_	Grammar_Target=Yes
+7	自	自	ADV	_	_	6	comp:obl	_	Grammar_Target=Yes
+8	迷	迷	VERB	_	_	7	comp:obj	_	_
+9	信	信	NOUN	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 2304
+# structure = Subj. + 算 + Adj. + 的
+# text = 在 我们 公司 ，我 算 年轻 的 。
+# pinyin = Zài wǒmen gōngsī, wǒ suàn niánqīng de.
+# level = B1
+# structure_verbose = Making judgments with "suan"
+# translation_english = I'm considered young in our company.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGWDWFN
+1	在	在	ADP	_	_	8	comp:obl	_	_
+2	我	我	PRON	_	Number=Plur|Person=1	4	mod	_	_
+3	们	们	PART	_	Number=Plur|Person=1	2	@m	_	_
+4	公	公	NOUN	_	_	1	comp:obj	_	_
+5	司	司	NOUN	_	_	4	@m	_	_
+6	，	，	PUNCT	_	_	1	punct	_	_
+7	我	我	PRON	_	Person=1	8	subj	_	_
+8	算	算	VERB	_	_	0	root	_	Grammar_Target=Yes
+9	年	年	ADJ	_	_	11	comp:obj	_	_
+10	轻	轻	ADJ	_	_	9	@m	_	_
+11	的	的	PART	_	_	8	comp:obj	_	_
+12	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2305
+# structure = Subj. + 算 + Adj. + 的
+# text = 你 老板 算 大方 的 ，我 老板 更 小气 。
+# pinyin = Nǐ lǎobǎn suàn dàfang de, wǒ lǎobǎn gèng xiǎoqì.
+# level = B1
+# structure_verbose = Making judgments with "suan"
+# translation_english = Your boss could be said to be generous. My boss is even stingier.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGWDWFN
+1	你	你	PRON	_	Person=2	2	mod	_	_
+2	老	老	NOUN	_	_	4	subj	_	_
+3	板	板	NOUN	_	_	2	@m	_	_
+4	算	算	VERB	_	_	0	root	_	Grammar_Target=Yes
+5	大	大	ADJ	_	_	7	comp:obj	_	_
+6	方	方	ADJ	_	_	5	@m	_	_
+7	的	的	PART	_	_	4	comp:obj	_	_
+8	，	，	PUNCT	_	_	13	punct	_	_
+9	我	我	PRON	_	Person=1	10	mod	_	_
+10	老	老	NOUN	_	_	13	subj	_	_
+11	板	板	NOUN	_	_	10	@m	_	_
+12	更	更	ADV	_	_	13	mod	_	_
+13	小	小	ADJ	_	_	4	parataxis	_	_
+14	气	气	NOUN	_	_	13	comp:obj@m	_	_
+15	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 2306
+# structure = Subj. + 不 + 算 + Adj.
+# text = 这 次 考试 不 算 难 。
+# pinyin = Zhè cì kǎoshì bù suàn nán.
+# level = B1
+# structure_verbose = Making judgments with "suan"
+# translation_english = This exam isn't that difficult.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGWDWFN
+1	这	这	DET	_	_	2	det	_	_
+2	次	次	NOUN	_	_	3	clf	_	_
+3	考	考	NOUN	_	_	6	subj	_	_
+4	试	试	NOUN	_	_	3	@m	_	_
+5	不	不	ADV	_	_	6	mod	_	Grammar_Target=Yes
+6	算	算	VERB	_	_	0	root	_	Grammar_Target=Yes
+7	难	难	ADJ	_	_	6	comp:obj	_	_
+8	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2307
+# structure = Subj. + 不 + 算 + Adj.
+# text = 三十 岁 结婚 不 算 晚 。
+# pinyin = Sānshí suì jiéhūn bù suàn wǎn.
+# level = B1
+# structure_verbose = Making judgments with "suan"
+# translation_english = Getting married when you're 30 can't be considered late.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGWDWFN
+1	三	三	NUM	_	NumType=Card	3	mod	_	_
+2	十	十	NUM	_	NumType=Card	1	flat	_	_
+3	岁	岁	NOUN	_	_	4	mod	_	_
+4	结	结	VERB	_	_	7	subj	_	_
+5	婚	婚	NOUN	_	_	4	comp:obj	_	_
+6	不	不	ADV	_	_	7	mod	_	Grammar_Target=Yes
+7	算	算	VERB	_	_	0	root	_	Grammar_Target=Yes
+8	晚	晚	ADJ	_	_	7	comp:obj	_	_
+9	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2311
+# structure = (让 +) Subj. + 来
+# text = 我 来 吧。
+# pinyin = Wǒ lái ba.
+# level = B1
+# structure_verbose = Using "lai" as a dummy verb
+# translation_english = Let me do it.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG98FZK
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	来	来	VERB	_	_	0	root	_	Grammar_Target=Yes
+3	吧	吧	PART	_	_	2	discourse	_	_
+4	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2314
+# structure = (让 +) Subj. + 来
+# text = 你 写 得 好看 ，你 来 吧 。
+# pinyin = Nǐ xiě de hǎokàn, nǐ lái ba.
+# level = B1
+# structure_verbose = Using "lai" as a dummy verb
+# translation_english = You write well. You write it.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG98FZK
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	写	写	VERB	_	_	0	root	_	_
+3	得	得	PART	_	_	2	mod	_	_
+4	好	好	ADV	_	_	5	mod	_	_
+5	看	看	VERB	_	_	3	comp:obj	_	_
+6	，	，	PUNCT	_	_	8	punct	_	_
+7	你	你	PRON	_	Person=2	8	subj	_	_
+8	来	来	VERB	_	_	2	parataxis	_	Grammar_Target=Yes
+9	吧	吧	PART	_	_	8	discourse	_	_
+10	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2315
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 不用 谢 。
+# pinyin = Bùyòng xiè.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = You don't need to thank me.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	不	不	ADV	_	Polarity=Neg	2	mod	_	Grammar_Target=Yes
+2	用	用	VERB	_	_	0	root	_	Grammar_Target=Yes
+3	谢	谢	VERB	_	_	2	comp:obj	_	_
+4	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2316
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 不用 担心 。
+# pinyin = Bùyòng dānxīn.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = You don't need to worry.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	不	不	ADV	_	Polarity=Neg	2	mod	_	Grammar_Target=Yes
+2	用	用	VERB	_	_	0	root	_	Grammar_Target=Yes
+3	担	担	VERB	_	_	2	comp:obj	_	_
+4	心	心	NOUN	_	_	3	@m	_	_
+5	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2317
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 孩子 不用 买 票 。
+# pinyin = Háizi bùyòng mǎi piào.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = Kids don't need to buy tickets.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	孩	孩	NOUN	_	_	4	subj	_	_
+2	子	子	NOUN	_	_	1	@m	_	_
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
+4	用	用	AUX	_	_	0	root	_	Grammar_Target=Yes
+5	买	买	VERB	_	_	4	comp:aux	_	_
+6	票	票	NOUN	_	_	5	comp:obj	_	_
+7	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 2318
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 你 不用 过去 ，她 会 过来 的 。
+# pinyin = Nǐ bùyòng guòqù, tā huì guòlái de.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = You don't need to go over there. She will come here.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	你	你	PRON	_	Person=2	3	subj	_	_
+2	不	不	ADV	_	Polarity=Neg	3	mod	_	Grammar_Target=Yes
+3	用	用	AUX	_	_	0	root	_	Grammar_Target=Yes
+4	过	过	VERB	_	_	3	comp:aux	_	_
+5	去	去	VERB	_	_	4	comp:svc	_	_
+6	，	，	PUNCT	_	_	8	punct	_	_
+7	她	她	PRON	_	Person=3	8	subj	_	_
+8	会	会	AUX	_	_	3	parataxis	_	_
+9	过	过	VERB	_	_	8	comp:aux	_	_
+10	来	来	VERB	_	_	9	comp:svc	_	_
+11	的	的	PART	_	_	8	discourse	_	_
+12	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2319
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 今天 不用 加班 。
+# pinyin = Jīntiān bùyòng jiābān.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = We don't need to work overtime today.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	今	今	NOUN	_	_	4	mod@temp	_	_
+2	天	天	NOUN	_	_	1	@m	_	_
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
+4	用	用	AUX	_	_	0	root	_	Grammar_Target=Yes
+5	加	加	VERB	_	_	4	comp:aux	_	_
+6	班	班	NOUN	_	_	5	comp:obj	_	_
+7	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 2320
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 这 件 事 不用 跟 他 说 。
+# pinyin = Zhè jiàn shì bùyòng gēn tā shuō.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = You don't need to tell him about this.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	这	这	DET	_	_	2	det	_	_
+2	件	件	NOUN	_	_	3	clf	_	_
+3	事	事	NOUN	_	_	8	comp:obj	_	_
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes
+5	用	用	AUX	_	_	0	root	_	Grammar_Target=Yes
+6	跟	跟	ADP	_	_	8	comp:obl	_	_
+7	他	他	PRON	_	Person=3	6	comp:obj	_	_
+8	说	说	VERB	_	_	5	comp:aux	_	_
+9	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2321
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 告诉 他 明天 不用 来 了 。
+# pinyin = Gàosu tā míngtiān bùyòng lái le.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = Tell him that he doesn't need to come tomorrow.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	告	告	VERB	_	_	0	root	_	_
+2	诉	诉	NOUN	_	_	1	@m	_	_
+3	他	他	PRON	_	Person=3	1	comp:obj	_	_
+4	明	明	NOUN	_	_	7	mod@temp	_	_
+5	天	天	NOUN	_	_	4	@m	_	_
+6	不	不	ADV	_	Polarity=Neg	7	mod	_	Grammar_Target=Yes
+7	用	用	AUX	_	_	1	comp:obj	_	Grammar_Target=Yes
+8	来	来	VERB	_	_	7	comp:aux	_	_
+9	了	了	PART	_	_	7	discourse	_	_
+10	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2322
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 买 吧 ，不用 考虑 价钱 。
+# pinyin = Mǎi ba, bùyòng kǎolǜ jiàqián.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = Buy it. You don't need to consider the price.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	买	买	VERB	_	_	0	root	_	_
+2	吧	吧	PART	_	_	1	discourse	_	_
+3	，	，	PUNCT	_	_	5	punct	_	_
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes
+5	用	用	AUX	_	_	1	parataxis	_	Grammar_Target=Yes
+6	考	考	VERB	_	_	5	comp:aux	_	_
+7	虑	虑	VERB	_	_	6	@m	_	_
+8	价	价	NOUN	_	_	6	comp:obj	_	_
+9	钱	钱	NOUN	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 2323
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 今天 人 少，不用 排队 。
+# pinyin = Jīntiān rén shǎo, bùyòng páiduì.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = There aren't many people today. We don't need to wait in line.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	今	今	NOUN	_	_	4	mod@temp	_	_
+2	天	天	NOUN	_	_	1	@m	_	_
+3	人	人	NOUN	_	_	4	subj	_	_
+4	少	少	ADJ	_	_	0	root	_	_
+5	，	，	PUNCT	_	_	7	punct	_	_
+6	不	不	ADV	_	Polarity=Neg	7	mod	_	Grammar_Target=Yes
+7	用	用	VERB	_	_	4	parataxis	_	Grammar_Target=Yes
+8	排	排	NOUN	_	_	7	comp:obj	_	_
+9	队	队	NOUN	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 2324
+# structure = Subj. + 不用 + [Verb Phrase]
+# text = 你们 不用 都 来 ，我们 不 需要 这么 多 人 。
+# pinyin = Nǐmen bùyòng dōu lái, wǒmen bù xūyào zhème duō rén.
+# level = B1
+# structure_verbose = Expressing "don't need to" with "buyong"
+# translation_english = Not all of you need to come. We don't need this many people.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGECD0E
+1	你	你	PRON	_	Number=Plur|Person=3	4	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=3	1	@m	_	_
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
+4	用	用	AUX	_	_	0	root	_	Grammar_Target=Yes
+5	都	都	ADV	_	_	6	mod	_	_
+6	来	来	VERB	_	_	4	comp:aux	_	_
+7	，	，	PUNCT	_	_	11	punct	_	_
+8	我	我	PRON	_	Number=Plur|Person=1	11	subj	_	_
+9	们	们	PART	_	Number=Plur|Person=1	8	@m	_	_
+10	不	不	ADV	_	Polarity=Neg	11	mod	_	_
+11	需	需	AUX	_	_	4	parataxis	_	_
+12	要	要	AUX	_	_	11	@m	_	_
+13	这	这	ADV	_	_	15	mod	_	_
+14	么	么	ADV	_	_	13	@m	_	_
+15	多	多	ADJ	_	NumType=Card	16	mod	_	_
+16	人	人	NOUN	_	_	11	comp:obj	_	_
+17	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 2325
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 我们 得 走 了 。
+# pinyin = Wǒmen děi zǒu le.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = We have to leave now.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	我	我	PRON	_	Number=Plur|Person=1	3	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	得	得	AUX	_	_	0	root	_	Grammar_Target=Yes
+4	走	走	VERB	_	_	3	comp:aux	_	_
+5	了	了	PART	_	_	3	discourse	_	_
+6	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2326
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 时间 不 早 了，我 得 回家 了。
+# pinyin = Shíjiān bù zǎo le, wǒ děi huíjiā le.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = It's getting late. I have to go home.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	时	时	NOUN	_	_	4	subj	_	_
+2	间	间	NOUN	_	_	1	@m	_	_
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	_
+4	早	早	ADJ	_	_	0	root	_	_
+5	了	了	PART	_	_	4	discourse	_	_
+6	，	，	PUNCT	_	_	8	punct	_	_
+7	我	我	PRON	_	Person=1	8	subj	_	_
+8	得	得	AUX	_	_	4	parataxis	_	Grammar_Target=Yes
+9	回	回	VERB	_	_	8	comp:aux	_	_
+10	家	家	NOUN	_	_	9	comp:obj	_	_
+11	了	了	PART	_	_	8	discourse	_	_
+12	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 2327
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 他 是 你 弟弟 ，你 得 帮 他 。
+# pinyin = Tā shì nǐ dìdi, nǐ děi bāng tā.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = He is your younger brother. You must help him.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	他	他	PRON	_	Person=3	2	subj	_	_
+2	是	是	VERB	_	_	0	root	_	_
+3	你	你	PRON	_	Person=2	4	mod	_	_
+4	弟	弟	NOUN	_	_	2	comp:obj	_	_
+5	弟	弟	NOUN	_	_	4	conj:redup@m	_	_
+6	，	，	PUNCT	_	_	8	punct	_	_
+7	你	你	PRON	_	Person=2	8	subj	_	_
+8	得	得	AUX	_	_	2	parataxis	_	Grammar_Target=Yes
+9	帮	帮	VERB	_	_	8	comp:aux	_	_
+10	他	他	PRON	_	Person=3	9	comp:obj	_	_
+11	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2328
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 不好意思 ，你 得 马上 离开 。
+# pinyin = Bù hǎoyìsi, nǐ děi mǎshàng líkāi.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = Excuse me, but you have to leave here right now.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	不	不	ADV	_	_	2	mod	_	_
+2	好	好	ADJ	_	_	3	mod	_	_
+3	意	意	NOUN	_	_	0	root	_	_
+4	思	思	NOUN	_	_	3	@m	_	_
+5	，	，	PUNCT	_	_	7	punct	_	_
+6	你	你	PRON	_	Person=2	7	subj	_	_
+7	得	得	AUX	_	_	3	parataxis	_	Grammar_Target=Yes
+8	马	马	ADV	_	_	10	mod@temp	_	_
+9	上	上	ADV	_	_	8	@m	_	_
+10	离	离	VERB	_	_	7	comp:aux	_	_
+11	开	开	VERB	_	_	10	@m	_	_
+12	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2329
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 在 学校 就 得 听 老师 的 话 。
+# pinyin = Zài xuéxiào jiù děi tīng lǎoshī de huà.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = You have to listen to the teacher at school.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	在	在	ADP	_	_	5	comp:obl	_	_
+2	学	学	NOUN	_	_	1	comp:obj	_	_
+3	校	校	NOUN	_	_	2	@m	_	_
+4	就	就	ADV	_	_	5	mod	_	_
+5	得	得	AUX	_	_	0	root	_	Grammar_Target=Yes
+6	听	听	VERB	_	_	5	comp:aux	_	_
+7	老	老	NOUN	_	_	9	comp:obj	_	_
+8	师	师	NOUN	_	_	7	@m	_	_
+9	的	的	PART	_	Case=Gen	10	mod	_	_
+10	话	话	NOUN	_	_	6	comp:obj	_	_
+11	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2330
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 你 得 先 付钱 再 进去 。
+# pinyin = Nǐ děi xiān fù qián zài jìnqù.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = You need to pay before you go in.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	得	得	AUX	_	_	0	root	_	Grammar_Target=Yes
+3	先	先	ADV	_	_	4	mod	_	_
+4	付	付	VERB	_	_	2	comp:aux	_	_
+5	钱	钱	NOUN	_	_	4	comp:obj	_	_
+6	再	再	ADV	_	_	7	mod	_	_
+7	进	进	VERB	_	_	4	conj	_	_
+8	去	去	VERB	_	_	7	comp:svc	_	_
+9	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2331
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 是 你 的 错 ，你 得 道歉 。
+# pinyin = Shì nǐ de cuò, nǐ děi dàoqiàn.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = It's your fault. You must apologize.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	是	是	VERB	_	_	0	root	_	_
+2	你	你	PRON	_	Person=2	3	comp:obj	_	_
+3	的	的	PART	_	Case=Gen	4	mod	_	_
+4	错	错	NOUN	_	_	1	comp:obj	_	_
+5	，	，	PUNCT	_	_	7	punct	_	_
+6	你	你	PRON	_	Person=2	7	subj	_	_
+7	得	得	AUX	_	_	1	parataxis	_	Grammar_Target=Yes
+8	道	道	VERB	_	_	7	comp:aux	_	_
+9	歉	歉	NOUN	_	_	8	@m	_	_
+10	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 2332
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 他 没有 经验 ，你 得 教教 他 。
+# pinyin = Tā méiyǒu jīngyàn, nǐ děi jiāojiao tā.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = He doesn't have experience. You must teach him.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	他	他	PRON	_	Person=3	3	subj	_	_
+2	没	没	ADV	_	_	3	mod	_	_
+3	有	有	VERB	_	_	0	root	_	_
+4	经	经	NOUN	_	_	3	comp:obj	_	_
+5	验	验	NOUN	_	_	4	@m	_	_
+6	，	，	PUNCT	_	_	8	punct	_	_
+7	你	你	PRON	_	Person=2	8	subj	_	_
+8	得	得	AUX	_	_	3	parataxis	_	Grammar_Target=Yes
+9	教	教	VERB	_	_	8	comp:aux	_	_
+10	教	教	VERB	_	_	9	conj:redup@m	_	_
+11	他	他	PRON	_	Person=3	9	comp:obj	_	_
+12	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2333
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 明天 去 面试 ，你 得 穿 得 正式 一点 。
+# pinyin = Míngtiān qù miànshì, nǐ děi chuān de zhèngshì yīdiǎn.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = You must wear something more formal for tomorrow's job interview.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	明	明	NOUN	_	_	3	mod@temp	_	_
+2	天	天	NOUN	_	_	1	@m	_	_
+3	去	去	VERB	_	_	0	root	_	_
+4	面	面	NOUN	_	_	3	comp:obj	_	_
+5	试	试	NOUN	_	_	4	@m	_	_
+6	，	，	PUNCT	_	_	8	punct	_	_
+7	你	你	PRON	_	Person=2	8	subj	_	_
+8	得	得	AUX	_	_	3	parataxis	_	Grammar_Target=Yes
+9	穿	穿	VERB	_	_	8	comp:aux	_	_
+10	得	得	PART	_	_	9	mod	_	_
+11	正	正	ADJ	_	_	10	comp:obj	_	_
+12	式	式	NOUN	_	_	11	@m	_	_
+13	一	一	ADV	_	_	14	@m	_	_
+14	点	点	ADV	_	_	11	mod	_	_
+15	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2334
+# structure = Subj. + 得 + [Verb Phrase]
+# text = 你 病 得 太 厉害 了，得 去 看 医生。
+# pinyin = Nǐ bìng de tài lìhai le, děi qù kàn yīshēng.
+# level = B1
+# structure_verbose = Expressing "must" with "dei"
+# translation_english = You are really sick. You must go see a doctor.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPXLP9
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	病	病	VERB	_	_	0	root	_	_
+3	得	得	PART	_	_	2	mod	_	_
+4	太	太	ADV	_	_	5	mod	_	_
+5	厉	厉	ADJ	_	_	3	comp:obj	_	_
+6	害	害	ADJ	_	_	5	@m	_	_
+7	了	了	PART	_	_	5	discourse	_	_
+8	，	，	PUNCT	_	_	9	punct	_	_
+9	得	得	AUX	_	_	2	parataxis	_	Grammar_Target=Yes
+10	去	去	VERB	_	_	9	comp:aux	_	_
+11	看	看	VERB	_	_	10	comp:svc	_	_
+12	医	医	NOUN	_	_	11	comp:obj	_	_
+13	生	生	NOUN	_	_	12	@m	_	_
+14	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2346
+# structure = 多 + Verb
+# text = 爷爷 ，你 要 多 出去 走走 。
+# pinyin = Yéye, nǐ yào duō chūqù zǒuzou.
+# level = B1
+# structure_verbose = Doing something more with "duo"
+# translation_english = Gramps, you need to go out and take walks more often.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGLKGZP
+1	爷	爷	NOUN	_	_	5	vocative	_	_
+2	爷	爷	NOUN	_	_	1	conj:redup@m	_	_
+3	，	，	PUNCT	_	_	1	punct	_	_
+4	你	你	PRON	_	Person=2	5	subj	_	_
+5	要	要	AUX	_	_	0	root	_	_
+6	多	多	ADV	_	_	7	mod	_	Grammar_Target=Yes
+7	出	出	VERB	_	_	5	comp:aux	_	_
+8	去	去	VERB	_	_	7	comp:svc	_	_
+9	走	走	VERB	_	_	8	comp:svc	_	_
+10	走	走	VERB	_	_	9	conj:redup@m	_	_
+11	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2347
+# structure = 多 + Verb
+# text = 多 给 他 点 时间 吧 。
+# pinyin = Duō gěi tā diǎn shíjiān ba.
+# level = B1
+# structure_verbose = Doing something more with "duo"
+# translation_english = Give him a little more time.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGLKGZP
+1	多	多	ADV	_	_	2	mod	_	Grammar_Target=Yes
+2	给	给	VERB	_	_	0	root	_	_
+3	他	他	PRON	_	Person=3	2	comp:obj	_	_
+4	点	点	ADV	_	_	5	mod	_	_
+5	时	时	NOUN	_	_	2	comp:obj	_	_
+6	间	间	NOUN	_	_	5	@m	_	_
+7	吧	吧	PART	_	_	2	discourse	_	_
+8	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2348
+# structure = 多 + Verb
+# text = 我 想 多 陪陪 家人 。
+# pinyin = Wǒ xiǎng duō péipei jiārén.
+# level = B1
+# structure_verbose = Doing something more with "duo"
+# translation_english = I want to spend more time with my family.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGLKGZP
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	想	想	AUX	_	_	0	root	_	_
+3	多	多	ADV	_	_	4	mod	_	Grammar_Target=Yes
+4	陪	陪	VERB	_	_	2	comp:aux	_	_
+5	陪	陪	VERB	_	_	4	conj:redup@m	_	_
+6	家	家	NOUN	_	_	4	comp:obj	_	_
+7	人	人	NOUN	_	_	6	@m	_	_
+8	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2349
+# structure = 多 + Verb
+# text = 感冒 的 时候 要 多 喝 水 。
+# pinyin = Gǎnmào de shíhou yào duō hē shuǐ.
+# level = B1
+# structure_verbose = Doing something more with "duo"
+# translation_english = Drink more water when you have a cold.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGLKGZP
+1	感	感	VERB	_	_	3	comp:obj	_	_
+2	冒	冒	NOUN	_	_	1	@m	_	_
+3	的	的	PART	_	Case=Gen	4	mod	_	_
+4	时	时	NOUN	_	_	6	mod@temp	_	_
+5	候	候	NOUN	_	_	4	@m	_	_
+6	要	要	AUX	_	_	0	root	_	_
+7	多	多	ADV	_	_	8	mod	_	Grammar_Target=Yes
+8	喝	喝	VERB	_	_	6	comp:aux	_	_
+9	水	水	NOUN	_	_	8	comp:obj	_	_
+10	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2350
+# structure = 多 + Verb
+# text = 医生 让 我 多 运动 。
+# pinyin = Yīshēng ràng wǒ duō yùndòng.
+# level = B1
+# structure_verbose = Doing something more with "duo"
+# translation_english = The doctor told me to exercise more.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGLKGZP
+1	医	医	NOUN	_	_	3	subj	_	_
+2	生	生	NOUN	_	_	1	@m	_	_
+3	让	让	VERB	_	_	0	root	_	_
+4	我	我	PRON	_	Person=1	6	subj	_	_
+5	多	多	ADJ	_	_	6	mod	_	Grammar_Target=Yes
+6	运	运	VERB	_	_	3	comp:obj	_	_
+7	动	动	NOUN	_	_	6	@m	_	_
+8	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2351
+# structure = 多 + Verb
+# text = 他 比 你 有 经验 ，你 应该 多 向 他 学习 。
+# pinyin = Tā bǐ nǐ yǒu jīngyàn, nǐ yīnggāi duō xiàng tā xuéxí.
+# level = B1
+# structure_verbose = Doing something more with "duo"
+# translation_english = He's more experienced than you. You should learn from him more.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGLKGZP
+1	他	他	PRON	_	Person=3	4	subj	_	_
+2	比	比	ADP	_	_	4	comp:obl	_	_
+3	你	你	PRON	_	Person=2	2	comp:obj	_	_
+4	有	有	VERB	_	_	0	root	_	_
+5	经	经	NOUN	_	_	4	comp:obj	_	_
+6	验	验	NOUN	_	_	5	@m	_	_
+7	，	，	PUNCT	_	_	9	punct	_	_
+8	你	你	PRON	_	Person=2	9	subj	_	_
+9	应	应	AUX	_	_	4	parataxis	_	_
+10	该	该	AUX	_	_	9	@m	_	_
+11	多	多	ADJ	_	_	12	mod	_	Grammar_Target=Yes
+12	向	向	ADP	_	_	14	comp:obl	_	_
+13	他	他	PRON	_	Person=3	12	comp:obj	_	_
+14	学	学	VERB	_	_	9	comp:aux	_	_
+15	习	习	VERB	_	_	14	@m	_	_
+16	。	。	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 2352
+# structure = 多 + Verb
+# text = 想 提高 汉语 口语 ，就要 多 练习 。
+# pinyin = Xiǎng tígāo Hànyǔ kǒuyǔ, jiùyào duō liànxí.
+# level = B1
+# structure_verbose = Doing something more with "duo"
+# translation_english = If you want to improve your spoken Chinese, you need to practice more.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGLKGZP
+1	想	想	AUX	_	_	0	root	_	_
+2	提	提	VERB	_	_	1	comp:aux	_	_
+3	高	高	ADJ	_	_	2	@m	_	_
+4	汉	汉	NOUN	_	_	6	compound	_	_
+5	语	语	NOUN	_	_	4	@m	_	_
+6	口	口	NOUN	_	_	2	comp:obj	_	_
+7	语	语	NOUN	_	_	6	@m	_	_
+8	，	，	PUNCT	_	_	10	punct	_	_
+9	就	就	SCONJ	_	_	10	cc	_	_
+10	要	要	AUX	_	_	1	conj	_	_
+11	多	多	ADV	_	_	12	mod	_	Grammar_Target=Yes
+12	练	练	VERB	_	_	10	comp:aux	_	_
+13	习	习	VERB	_	_	12	@m	_	_
+14	。	。	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 2353
+# structure = Subj. + 正在 / 正 / 在 + Verb + 呢
+# text = 我 正在 吃饭 。
+# pinyin = Wǒ zhèngzài chīfàn.
+# level = B1
+# structure_verbose = Expressing actions in progress (full form)
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGEYQ9O
+1	我	我	PRON	_	Person=1	3	subj	_	_
+2	正	正	ADV	_	_	3	mod	_	Grammar_Target=Yes
+3	在	在	VERB	_	_	0	root	_	Grammar_Target=Yes
+4	吃	吃	VERB	_	_	3	comp:obj	_	_
+5	饭	饭	NOUN	_	_	4	comp:obj	_	_
+6	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2354
+# structure = Subj. + 正在 / 正 / 在 + Verb + 呢
+# text = 我 正 吃 着 饭 呢 。
+# pinyin = Wǒ zhèng chī zhe fàn ne.
+# level = B1
+# structure_verbose = Expressing actions in progress (full form)
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGEYQ9O
+1	我	我	PRON	_	Person=1	3	subj	_	_
+2	正	正	ADV	_	_	3	mod	_	Grammar_Target=Yes
+3	吃	吃	VERB	_	_	0	root	_	_
+4	着	着	PART	_	_	3	aspect	_	_
+5	饭	饭	NOUN	_	_	3	comp:obj	_	_
+6	呢	呢	PART	_	_	3	discourse	_	_
+7	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2355
+# structure = Subj. + 正在 / 正 / 在 + Verb + 呢
+# text = 我 吃 饭 呢。
+# pinyin = Wǒ chīfàn ne.
+# level = B1
+# structure_verbose = Expressing actions in progress (full form)
+# translation_english = I'm eating now.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGEYQ9O
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	吃	吃	VERB	_	_	0	root	_	_
+3	饭	饭	NOUN	_	_	2	comp:obj	_	_
+4	呢	呢	PART	_	_	2	discourse	_	_
+5	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2356
+# structure = Subj. (+ 正) + Verb + 着 + Obj. + 呢
+# text = 我 正在 吃饭 。
+# level = B1
+# structure_verbose = Expressing actions in progress (full form)
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGEYQ9O
+1	我	我	PRON	_	Person=1	3	subj	_	_
+2	正	正	ADV	_	_	3	mod	_	Grammar_Target=Yes
+3	在	在	VERB	_	_	0	root	_	Grammar_Target=Yes
+4	吃	吃	VERB	_	_	3	comp:obj	_	_
+5	饭	饭	NOUN	_	_	4	comp:obj	_	_
+6	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2357
+# structure = Subj. (+ 正) + Verb + 着 + Obj. + 呢
+# text = 我 正 吃 着 饭 呢 。
+# level = B1
+# structure_verbose = Expressing actions in progress (full form)
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGEYQ9O
+1	我	我	PRON	_	Person=1	3	subj	_	_
+2	正	正	ADV	_	_	3	mod	_	Grammar_Target=Yes
+3	吃	吃	VERB	_	_	0	root	_	_
+4	着	着	PART	_	_	3	aspect	_	_
+5	饭	饭	NOUN	_	_	3	comp:obj	_	_
+6	呢	呢	PART	_	_	3	discourse	_	_
+7	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2362
+# structure = Subj. + 不怎么 + Verb
+# text = 他 不怎么 爱 说话 。
+# pinyin = Tā bù zěnme ài shuōhuà.
+# level = B1
+# structure_verbose = Expressing "not often" with "bu zenme"
+# translation_english = He doesn't like to talk much.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5BOGP
+1	他	他	PRON	_	Person=3	5	subj	_	_
+2	不	不	ADV	_	_	3	mod	_	Grammar_Target=Yes
+3	怎	怎	ADV	_	_	5	mod	_	Grammar_Target=Yes
+4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes
+5	爱	爱	VERB	_	_	0	root	_	_
+6	说	说	VERB	_	_	5	comp:aux	_	_
+7	话	话	NOUN	_	_	6	comp:obj	_	_
+8	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2363
+# structure = Subj. + 不怎么 + Verb
+# text = 我 老公 不怎么 运动 。
+# pinyin = Wǒ lǎogōng bù zěnme yùndòng.
+# level = B1
+# structure_verbose = Expressing "not often" with "bu zenme"
+# translation_english = My husband doesn't exercise much.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5BOGP
+1	我	我	PRON	_	Person=1	2	mod	_	_
+2	老	老	NOUN	_	_	7	subj	_	_
+3	公	公	NOUN	_	_	2	@m	_	_
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes
+5	怎	怎	ADV	_	_	7	mod	_	Grammar_Target=Yes
+6	么	么	ADV	_	_	5	@m	_	Grammar_Target=Yes
+7	运	运	VERB	_	_	0	root	_	_
+8	动	动	VERB	_	_	7	@m	_	_
+9	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2364
+# structure = Subj. + 不怎么 + Verb
+# text = 我们 在家 不怎么 看 电视 。
+# pinyin = Wǒmen zài jiā bù zěnme kàn diànshì.
+# level = B1
+# structure_verbose = Expressing "not often" with "bu zenme"
+# translation_english = We don't watch a lot of television at home.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5BOGP
+1	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	在	在	ADP	_	_	8	comp:obl	_	_
+4	家	家	NOUN	_	_	3	comp:obj	_	_
+5	不	不	ADV	_	_	6	mod	_	Grammar_Target=Yes
+6	怎	怎	ADV	_	_	8	mod	_	Grammar_Target=Yes
+7	么	么	ADV	_	_	6	@m	_	Grammar_Target=Yes
+8	看	看	VERB	_	_	0	root	_	_
+9	电	电	NOUN	_	_	8	comp:obj	_	_
+10	视	视	NOUN	_	_	9	@m	_	_
+11	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2365
+# structure = Subj. + 不怎么 + Verb
+# text = 我 儿子 不怎么 吃 零食 。
+# pinyin = Wǒ érzi bù zěnme chī língshí.
+# level = B1
+# structure_verbose = Expressing "not often" with "bu zenme"
+# translation_english = My son doesn't snack much.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5BOGP
+1	我	我	PRON	_	Person=1	2	mod	_	_
+2	儿	儿	NOUN	_	_	7	subj	_	_
+3	子	子	NOUN	_	_	2	@m	_	_
+4	不	不	ADV	_	_	5	mod	_	Grammar_Target=Yes
+5	怎	怎	ADV	_	_	7	mod	_	Grammar_Target=Yes
+6	么	么	ADV	_	_	5	@m	_	Grammar_Target=Yes
+7	吃	吃	VERB	_	_	0	root	_	_
+8	零	零	NUM	_	_	9	@m	_	_
+9	食	食	NOUN	_	_	7	comp:obj	_	_
+10	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2366
+# structure = Subj. + 不怎么 + Verb
+# text = 老板 不怎么 来 办公室 。
+# pinyin = Lǎobǎn bù zěnme lái bàngōngshì.
+# level = B1
+# structure_verbose = Expressing "not often" with "bu zenme"
+# translation_english = My boss doesn't come to the office very often.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5BOGP
+1	老	老	NOUN	_	_	6	subj	_	_
+2	板	板	NOUN	_	_	1	@m	_	_
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
+4	怎	怎	ADV	_	_	6	mod	_	Grammar_Target=Yes
+5	么	么	ADV	_	_	4	@m	_	Grammar_Target=Yes
+6	来	来	VERB	_	_	0	root	_	_
+7	办	办	NOUN	_	_	6	comp:obj	_	_
+8	公	公	NOUN	_	_	7	@m	_	_
+9	室	室	NOUN	_	_	7	@m	_	_
+10	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2367
+# structure = Subj. + 不怎么 + Verb
+# text = 我 不怎么 在 网上 买 东西 。
+# pinyin = Wǒ bù zěnme zài wǎngshàng mǎi dóngxi.
+# level = B1
+# structure_verbose = Expressing "not often" with "bu zenme"
+# translation_english = I don't online shop very often.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5BOGP
+1	我	我	PRON	_	Person=1	8	subj	_	_
+2	不	不	ADV	_	_	3	mod	_	Grammar_Target=Yes
+3	怎	怎	ADV	_	_	8	mod	_	Grammar_Target=Yes
+4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes
+5	在	在	ADP	_	_	8	comp:obl	_	_
+6	网	网	NOUN	_	_	5	comp:obj	_	_
+7	上	上	NOUN	_	_	6	@m	_	_
+8	买	买	VERB	_	_	0	root	_	_
+9	东	东	NOUN	_	_	8	comp:obj	_	_
+10	西	西	NOUN	_	_	9	@m	_	_
+11	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2368
+# structure = Subj. + 不怎么 + Verb
+# text = 他们 不怎么 跟 朋友 出去 玩 。
+# pinyin = Tāmen bù zěnme gēn péngyou chūqù wán.
+# level = B1
+# structure_verbose = Expressing "not often" with "bu zenme"
+# translation_english = They don't often go out with friends.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5BOGP
+1	他	他	PRON	_	Number=Plur|Person=3	9	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=3	1	@m	_	_
+3	不	不	ADV	_	_	4	mod	_	Grammar_Target=Yes
+4	怎	怎	ADV	_	_	9	mod	_	Grammar_Target=Yes
+5	么	么	ADV	_	_	4	@m	_	Grammar_Target=Yes
+6	跟	跟	ADP	_	_	9	comp:obl	_	_
+7	朋	朋	NOUN	_	_	6	comp:obj	_	_
+8	友	友	NOUN	_	_	7	@m	_	_
+9	出	出	VERB	_	_	0	root	_	_
+10	去	去	VERB	_	_	9	comp:svc	_	_
+11	玩	玩	VERB	_	_	10	comp:svc	_	_
+12	。	。	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2369
+# structure = Verb (+ 一直) + 到 + Time / Event
+# text = 你们 要 玩 到 几 点 ？
+# pinyin = Nǐmen yào wán dào jǐ diǎn?
+# level = B1
+# structure_verbose = Expressing "until" with "dao"
+# translation_english = When will you be done playing?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CCAP
+1	你	你	PRON	_	Number=Plur|Person=3	3	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=3	1	@m	_	_
+3	要	要	AUX	_	_	0	root	_	_
+4	玩	玩	VERB	_	_	3	comp:aux	_	_
+5	到	到	ADP	_	_	4	comp:obl	_	Grammar_Target=Yes
+6	几	几	PRON	_	PronType=Int	7	mod	_	_
+7	点	点	NOUN	_	_	5	comp:obj	_	_
+8	？	？	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2370
+# structure = Verb (+ 一直) + 到 + Time / Event
+# text = 我们 在 酒吧 一直 聊 到 半夜 。
+# pinyin = Wǒmen zài jiǔbā yīzhí liáo dào bànyè.
+# level = B1
+# structure_verbose = Expressing "until" with "dao"
+# translation_english = We were chatting in the bar until midnight.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CCAP
+1	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	在	在	ADP	_	_	8	comp:obl	_	_
+4	酒	酒	NOUN	_	_	3	comp:obj	_	_
+5	吧	吧	NOUN	_	_	4	@m	_	_
+6	一	一	ADV	_	_	8	mod	_	_
+7	直	直	ADV	_	_	6	@m	_	_
+8	聊	聊	VERB	_	_	0	root	_	_
+9	到	到	ADP	_	_	8	comp:obl	_	Grammar_Target=Yes
+10	半	半	NOUN	_	_	11	mod	_	_
+11	夜	夜	NOUN	_	_	9	comp:obj	_	_
+12	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2374
+# structure = Verb (+ 一直) + 到 + Time / Event
+# text = 我们 晚上 去 吃火锅 了 ，一直 吃 到 火锅店 关门 。
+# pinyin = Wǒmen wǎnshang qù chī huǒguō le, yīzhí chī dào huǒguō diàn guānmén.
+# level = B1
+# structure_verbose = Expressing "until" with "dao"
+# translation_english = We went to eat hotpot tonight, and we didn't finish until the place was closed.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CCAP
+1	我	我	PRON	_	Number=Plur|Person=1	5	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	晚	晚	NOUN	_	_	5	mod@temp	_	_
+4	上	上	NOUN	_	_	3	@m	_	_
+5	去	去	VERB	_	_	0	root	_	_
+6	吃	吃	VERB	_	_	5	comp:svc	_	_
+7	火	火	NOUN	_	_	6	comp:obj	_	_
+8	锅	锅	NOUN	_	_	7	@m	_	_
+9	了	了	PART	_	_	5	discourse	_	_
+10	，	，	PUNCT	_	_	13	punct	_	_
+11	一	一	ADV	_	_	13	mod@m	_	_
+12	直	直	ADV	_	_	11	@m	_	_
+13	吃	吃	VERB	_	_	5	parataxis	_	_
+14	到	到	VERB	_	_	13	comp:res	_	Grammar_Target=Yes
+15	火	火	NOUN	_	_	17	compound	_	_
+16	锅	锅	NOUN	_	_	15	@m	_	_
+17	店	店	NOUN	_	_	18	subj	_	_
+18	关	关	VERB	_	_	14	comp:obj	_	_
+19	门	门	NOUN	_	_	18	comp:obj	_	_
+20	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2375
+# structure = Verb (+ 一直) + 到 + Time / Event
+# text = 他 昨天 一天 都 在 打游戏 ，一直 打 到 他 妈妈 回家 。
+# pinyin = Tā zuótiān yī tiān dōu zài dǎ yóuxì, yīzhí dǎ dào tā māma huí jiā.
+# level = B1
+# structure_verbose = Expressing "until" with "dao"
+# translation_english = He was playing computer games all day yesterday. He didn't stop until his mother came home.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CCAP
+1	他	他	PRON	_	Person=3	7	subj	_	_
+2	昨	昨	NOUN	_	_	7	mod@m	_	_
+3	天	天	NOUN	_	_	2	@m	_	_
+4	一	一	NUM	_	NumType=Card	5	mod	_	_
+5	天	天	NOUN	_	_	7	mod	_	_
+6	都	都	ADV	_	_	7	mod	_	_
+7	在	在	VERB	_	_	0	root	_	_
+8	打	打	VERB	_	_	7	comp:obj	_	_
+9	游	游	NOUN	_	_	8	comp:obj	_	_
+10	戏	戏	NOUN	_	_	9	@m	_	_
+11	，	，	PUNCT	_	_	14	punct	_	_
+12	一	一	ADV	_	_	14	mod	_	_
+13	直	直	ADV	_	_	12	@m	_	_
+14	打	打	VERB	_	_	7	parataxis	_	_
+15	到	到	VERB	_	_	14	comp:res	_	Grammar_Target=Yes
+16	他	他	PRON	_	Person=3	17	mod	_	_
+17	妈	妈	NOUN	_	_	19	subj	_	_
+18	妈	妈	NOUN	_	_	17	conj:redup@m	_	_
+19	回	回	VERB	_	_	15	comp:obj	_	_
+20	家	家	NOUN	_	_	19	comp:obj	_	_
+21	。	。	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2376
+# structure = [Verb Phrase] (+ 一直) + Verb + 到 + Time / Event
+# text = 你 知 不 知道 我们 等 你 等 到 半夜 ？
+# pinyin = Nǐ zhī bu zhīdào wǒmen děng nǐ děng dào bànyè?
+# level = B1
+# structure_verbose = Expressing "until" with "dao"
+# translation_english = Do you know we waited for you until midnight?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CCAP
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	知	知	VERB	_	_	0	root	_	_
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	_
+4	知	知	VERB	_	_	2	conj:redup	_	_
+5	道	道	VERB	_	_	4	@m	_	_
+6	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	_
+7	们	们	PART	_	Number=Plur|Person=1	6	@m	_	_
+8	等	等	VERB	_	_	2	comp:obj	_	_
+9	你	你	PRON	_	Person=2	8	comp:obj	_	_
+10	等	等	VERB	_	_	8	conj:redup	_	_
+11	到	到	VERB	_	_	10	comp:res	_	Grammar_Target=Yes
+12	半	半	NOUN	_	_	13	mod	_	_
+13	夜	夜	NOUN	_	_	11	comp:obj	_	_
+14	？	？	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2377
+# structure = [Verb Phrase] (+ 一直) + Verb + 到 + Time / Event
+# text = 我 女儿 昨天 晚上 写作业 写 到 十二 点 半 。
+# pinyin = Wǒ nǚ'ér zuótiān wǎnshang xiě zuòyè xiě dào shí'èr diǎn bàn.
+# level = B1
+# structure_verbose = Expressing "until" with "dao"
+# translation_english = My daughter didn't finish her homework until 12:30 last night.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CCAP
+1	我	我	PRON	_	Person=1	2	mod	_	_
+2	女	女	NOUN	_	_	8	subj	_	_
+3	儿	儿	PART	_	_	2	@m	_	_
+4	昨	昨	NOUN	_	_	6	mod	_	_
+5	天	天	NOUN	_	_	4	@m	_	_
+6	晚	晚	NOUN	_	_	8	mod@temp	_	_
+7	上	上	NOUN	_	_	6	@m	_	_
+8	写	写	VERB	_	_	0	root	_	_
+9	作	作	NOUN	_	_	8	comp:obj	_	_
+10	业	业	NOUN	_	_	9	@m	_	_
+11	写	写	VERB	_	_	8	conj:redup	_	_
+12	到	到	VERB	_	_	11	comp:res	_	Grammar_Target=Yes
+13	十	十	NUM	_	NumType=Card	15	mod	_	_
+14	二	二	NUM	_	NumType=Card	13	flat	_	_
+15	点	点	NOUN	_	_	12	comp:obj	_	_
+16	半	半	NOUN	_	_	15	mod	_	_
+17	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2378
+# structure = [Verb Phrase] (+ 一直) + Verb + 到 + Time / Event
+# text = 她 给 男朋友 打电话 打 到 手机 没 电 。
+# pinyin = Tā gěi nánpéngyou dǎ diànhuà dǎ dào shǒujī méi diàn.
+# level = B1
+# structure_verbose = Expressing "until" with "dao"
+# translation_english = She called her boyfriend and they kept talking until her phone was out of battery.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG1CCAP
+1	她	她	PRON	_	Person=3	6	subj	_	_
+2	给	给	ADP	_	_	6	comp:obl	_	_
+3	男	男	NOUN	_	_	4	@m	_	_
+4	朋	朋	NOUN	_	_	2	comp:obj	_	_
+5	友	友	NOUN	_	_	4	@m	_	_
+6	打	打	VERB	_	_	0	root	_	_
+7	电	电	NOUN	_	_	6	comp:obj	_	_
+8	话	话	NOUN	_	_	7	@m	_	_
+9	打	打	VERB	_	_	6	conj:redup	_	_
+10	到	到	VERB	_	_	9	comp:res	_	Grammar_Target=Yes
+11	手	手	NOUN	_	_	13	subj	_	_
+12	机	机	NOUN	_	_	11	@m	_	_
+13	没	没	VERB	_	_	10	comp:obj	_	_
+14	电	电	NOUN	_	_	13	comp:obj	_	_
+15	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2379
+# structure = Verb + Number + Measure Word
+# text = 再 说 一 遍 。
+# pinyin = Zài shuō yī biàn.
+# level = B1
+# structure_verbose = Measure words for verbs
+# translation_english = Say it again.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5AODR
+1	再	再	ADV	_	_	2	mod	_	_
+2	说	说	VERB	_	_	0	root	_	_
+3	一	一	NUM	_	NumType=Card	4	mod	_	_
+4	遍	遍	NOUN	_	_	2	comp:obj	_	Grammar_Target=Yes
+5	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2380
+# structure = Verb + Number + Measure Word
+# text = 你 能 再 读 一 遍 吗 ？
+# pinyin = Nǐ néng zài dú yī biàn ma?
+# level = B1
+# structure_verbose = Measure words for verbs
+# translation_english = Could you please read it again?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5AODR
+1	你	你	PRON	_	Person=2	2	subj	_	_
+2	能	能	AUX	_	_	0	root	_	_
+3	再	再	ADV	_	_	4	mod	_	_
+4	读	读	VERB	_	_	2	comp:aux	_	_
+5	一	一	NUM	_	_	6	@m	_	_
+6	遍	遍	NOUN	_	_	4	comp:obj	_	Grammar_Target=Yes
+7	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
+8	？	？	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2381
+# structure = Verb + Number + Measure Word
+# text = 这个 电影 我 看 过 两 遍 。
+# pinyin = Zhège diànyǐng wǒ kàn guo liǎng biàn.
+# level = B1
+# structure_verbose = Measure words for verbs
+# translation_english = I've seen this movie twice.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5AODR
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	电	电	NOUN	_	_	6	comp:obj	_	_
+4	影	影	NOUN	_	_	3	@m	_	_
+5	我	我	PRON	_	Person=1	6	subj	_	_
+6	看	看	VERB	_	_	0	root	_	_
+7	过	过	PART	_	_	6	aspect	_	_
+8	两	两	NUM	_	NumType=Card	9	mod	_	_
+9	遍	遍	NOUN	_	_	6	comp:obj	_	Grammar_Target=Yes
+10	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2382
+# structure = Verb + Number + Measure Word
+# text = 这个 故事 我 听 她 说 过 一 百 多 遍 了 。
+# pinyin = Zhège gùshi wǒ tīng tā shuō guo yī bǎi duō biàn le.
+# level = B1
+# structure_verbose = Measure words for verbs
+# translation_english = I've heard her tell this story more than one hundred times.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5AODR
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	故	故	NOUN	_	_	6	comp:obj	_	_
+4	事	事	NOUN	_	_	3	@m	_	_
+5	我	我	PRON	_	Person=1	6	subj	_	_
+6	听	听	VERB	_	_	0	root	_	_
+7	她	她	PRON	_	Person=3	8	comp:obj	_	_
+8	说	说	VERB	_	_	6	comp:res	_	_
+9	过	过	PART	_	_	8	aspect	_	_
+10	一	一	NUM	_	NumType=Card	13	mod	_	_
+11	百	百	NUM	_	NumType=Card	10	flat	_	_
+12	多	多	NUM	_	NumType=Card	10	mod	_	_
+13	遍	遍	NOUN	_	_	8	comp:obj	_	Grammar_Target=Yes
+14	了	了	PART	_	_	6	discourse	_	_
+15	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2383
+# structure = Verb + Number + Measure Word
+# text = 我们 去 过 两 次 。
+# pinyin = Wǒme qù guo liǎng cì.
+# level = B1
+# structure_verbose = Measure words for verbs
+# translation_english = We've been there twice.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5AODR
+1	我	我	PRON	_	Number=Plur|Person=1	3	subj	_	_
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
+3	去	去	VERB	_	_	0	root	_	_
+4	过	过	PART	_	_	3	aspect	_	_
+5	两	两	NUM	_	NumType=Card	6	mod	_	_
+6	次	次	NOUN	_	_	3	comp:obj	_	Grammar_Target=Yes
+7	。	。	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2384
+# structure = Verb + Number + Measure Word
+# text = 我 问 了 他 很 多 次 ，可是 他 不 告诉 我 。
+# pinyin = Wǒ wèn le tā hěn duō cì, kěshì tā bù gàosu wǒ.
+# level = B1
+# structure_verbose = Measure words for verbs
+# translation_english = I've asked him about it many times, but he won't tell me.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5AODR
+1	我	我	PRON	_	Person=1	2	subj	_	_
+2	问	问	VERB	_	_	0	root	_	_
+3	了	了	PART	_	_	2	aspect	_	_
+4	他	他	PRON	_	Person=3	2	comp:obj	_	_
+5	很	很	ADV	_	_	6	mod	_	_
+6	多	多	ADJ	_	_	7	mod	_	_
+7	次	次	NOUN	_	_	2	mod	_	Grammar_Target=Yes
+8	，	，	PUNCT	_	_	13	punct	_	_
+9	可	可	SCONJ	_	_	13	cc	_	_
+10	是	是	SCONJ	_	_	9	@m	_	_
+11	他	他	PRON	_	Person=3	13	subj	_	_
+12	不	不	ADV	_	Polarity=Neg	13	mod	_	_
+13	告	告	VERB	_	_	2	conj	_	_
+14	诉	诉	VERB	_	_	13	@m	_	_
+15	我	我	PRON	_	Person=1	13	comp:obj	_	_
+16	。	。	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2633
+# structure = 每次 + Event 1 + 都 + Event 2
+# text = 为什么 每次 我 来 他 都 不 在 ？
+# pinyin = Wèishénme měi cì wǒ lái tā dōu bù zài?
+# level = B1
+# structure_verbose = Expressing "every time" with "mei" and "dou"
+# translation_english = How come he's not here every time I come?
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGXHQEF
+1	为	为	PRON	_	_	11	mod	_	_
+2	什	什	PRON	_	_	1	@m	_	_
+3	么	么	PRON	_	_	2	@m	_	_
+4	每	每	DET	_	_	5	det	_	Grammar_Target=Yes
+5	次	次	NOUN	_	_	7	mod@temp	_	Grammar_Target=Yes
+6	我	我	PRON	_	Person=1	7	subj	_	_
+7	来	来	VERB	_	_	11	mod	_	_
+8	他	他	PRON	_	Person=3	11	subj	_	_
+9	都	都	ADV	_	_	11	mod	_	_
+10	不	不	ADV	_	Polarity=Neg	11	mod	_	_
+11	在	在	VERB	_	_	0	root	_	_
+12	？	？	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2686
+# structure = Subj. + 一点(儿) + 也 / 都 + 不 + Adj.
+# text = 那个 问题 一点儿 也 不 难 。
+# pinyin = Nàge wèntí yīdiǎnr yě bù nán.
+# level = B1
+# structure_verbose = Expressing "not at all" with "yidianr ye bu"
+# translation_english = That question isn't difficult at all.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGRURCZ
+1	那	那	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	问	问	NOUN	_	_	10	subj	_	_
+4	题	题	NOUN	_	_	3	@m	_	_
+5	一	一	ADV	_	_	6	@m	_	Grammar_Target=Yes
+6	点	点	ADV	_	_	10	mod	_	Grammar_Target=Yes
+7	儿	儿	PART	_	_	6	@m	_	Grammar_Target=Yes
+8	也	也	ADV	_	_	10	mod	_	Grammar_Target=Yes
+9	不	不	ADV	_	Polarity=Neg	10	mod	_	Grammar_Target=Yes
+10	难	难	ADJ	_	_	0	root	_	_
+11	。	。	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2768
+# structure = Subj. + Adj. + 多了
+# text = 最近 天气 暖和 多了 。We're both aware of recent weather, obviously.
+# pinyin = Zuìjìn tiānqì nuǎnhuo duō le.
+# level = B1
+# structure_verbose = Expressing "much more" in comparisons
+# translation_english = It's been much warmer lately.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6KUS5
+1	最	最	ADV	_	_	5	mod@temp	_	_
+2	近	近	ADV	_	_	1	@m	_	_
+3	天	天	NOUN	_	_	5	subj	_	_
+4	气	气	NOUN	_	_	3	@m	_	_
+5	暖	暖	ADJ	_	_	0	root	_	_
+6	和	和	ADJ	_	_	5	@m	_	_
+7	多	多	ADV	_	_	5	mod	_	_
+8	了	了	PART	_	_	7	discourse	_	_
+9	。	。	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2785
+# structure = 虽然 ⋯⋯ ，但是 / 可是 ⋯⋯
+# text = 虽然 外面 很 冷 ，可是 里面 很 暖和 。
+# pinyin = Suīrán wàimiàn hěn lěng, kěshì lǐmiàn hěn nuǎnhuo.
+# level = B1
+# structure_verbose = Expressing "although" with "suiran" and "danshi"
+# translation_english = Although it's cold outside, it's warm inside.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGXI560
+1	虽	虽	SCONJ	_	_	6	cc	_	Grammar_Target=Yes
+2	然	然	SCONJ	_	_	1	@m	_	Grammar_Target=Yes
+3	外	外	NOUN	_	_	6	subj	_	_
+4	面	面	NOUN	_	_	3	@m	_	_
+5	很	很	ADV	_	_	6	mod	_	_
+6	冷	冷	ADJ	_	_	0	root	_	_
+7	，	，	PUNCT	_	_	13	punct	_	_
+8	可	可	SCONJ	_	_	13	cc	_	Grammar_Target=Yes
+9	是	是	SCONJ	_	_	8	@m	_	Grammar_Target=Yes
+10	里	里	NOUN	_	_	13	subj	_	_
+11	面	面	NOUN	_	_	10	@m	_	_
+12	很	很	ADV	_	_	13	mod	_	_
+13	暖	暖	ADJ	_	_	6	conj	_	_
+14	和	和	ADJ	_	_	13	@m	_	_
+15	。	。	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2792
+# structure = 虽然 ⋯⋯ ，但是 / 可是 ⋯⋯
+# text = 奶奶 虽然 八十 多 岁 了 ，但是 她 精神 很 好 。
+# pinyin = Nǎinai suīrán bāshí duō suì le, dànshì tā jīngshén hěn hǎo.
+# level = B1
+# structure_verbose = Expressing "although" with "suiran" and "danshi"
+# translation_english = Although grandma is in her eighties, she is energetic.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGXI560
+1	奶	奶	NOUN	_	_	8	subj	_	_
+2	奶	奶	NOUN	_	_	1	conj:redup@m	_	_
+3	虽	虽	SCONJ	_	_	8	cc	_	Grammar_Target=Yes
+4	然	然	SCONJ	_	_	3	@m	_	Grammar_Target=Yes
+5	八	八	NUM	_	NumType=Card	8	mod	_	_
+6	十	十	NUM	_	NumType=Card	5	flat	_	_
+7	多	多	NUM	_	NumType=Card	5	mod	_	_
+8	岁	岁	NOUN	_	_	0	root	_	_
+9	了	了	PART	_	_	8	discourse	_	_
+10	，	，	PUNCT	_	_	17	punct	_	_
+11	但	但	SCONJ	_	_	17	cc	_	Grammar_Target=Yes
+12	是	是	SCONJ	_	_	11	@m	_	Grammar_Target=Yes
+13	她	她	PRON	_	Person=3	14	mod	_	_
+14	精	精	NOUN	_	_	17	subj	_	_
+15	神	神	NOUN	_	_	14	@m	_	_
+16	很	很	ADV	_	_	17	mod	_	_
+17	好	好	ADJ	_	_	8	conj	_	_
+18	。	。	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2800
+# structure = 要么 + Option A ，要么 + Option B
+# text = 要么 看书 ，要么 写 作业 ，不 可以 出去 玩 。
+# pinyin = Yàome kànshū, yàome xiě zuòyè, bù kěyǐ chūqù wán.
+# level = B1
+# structure_verbose = Expressing "either... or..." with "yaome"
+# translation_english = Either read or do your homework. No playing outside.
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG30A60
+1	要	要	CCONJ	_	_	3	cc	_	Grammar_Target=Yes
+2	么	么	CCONJ	_	_	1	@m	_	Grammar_Target=Yes
+3	看	看	VERB	_	_	0	root	_	_
+4	书	书	NOUN	_	_	3	comp:obj	_	_
+5	，	，	PUNCT	_	_	8	punct	_	_
+6	要	要	CCONJ	_	_	8	cc	_	Grammar_Target=Yes
+7	么	么	CCONJ	_	_	6	@m	_	Grammar_Target=Yes
+8	写	写	VERB	_	_	3	conj	_	_
+9	作	作	NOUN	_	_	8	comp:obj	_	_
+10	业	业	NOUN	_	_	9	@m	_	_
+11	，	，	PUNCT	_	_	13	punct	_	_
+12	不	不	ADV	_	Polarity=Neg	13	mod	_	_
+13	可	可	AUX	_	_	3	parataxis	_	_
+14	以	以	AUX	_	_	13	@m	_	_
+15	出	出	VERB	_	_	13	comp:aux	_	_
+16	去	去	VERB	_	_	15	comp:svc	_	_
+17	玩	玩	VERB	_	_	16	comp:svc	_	_
+18	。	。	PUNCT	_	_	3	punct	_	_
 
