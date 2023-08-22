@@ -46,7 +46,7 @@
 2	问	问	VERB	_	_	1	comp:aux	_	Tone=4|Translit=wèn
 3	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 4	们	们	PART	_	Number=Plur|Person=1	3	@m	_	Tone=5|Translit=men
-5	为	为	PRON	_	_	8	mod	_	Tone=4|Translit=wèi
+5	为	为	PRON	_	PronType=Int	8	mod	_	Tone=4|Translit=wèi
 6	什	什	PRON	_	_	5	@m	_	Tone=2|Translit=shén
 7	么	么	PRON	_	_	6	@m	_	Tone=5|Translit=me
 8	去	去	VERB	_	_	2	comp:obj	_	Tone=4|Translit=qù
@@ -323,7 +323,7 @@
 5	理	理	NOUN	_	_	7	subj	_	Tone=3|Translit=lǐ
 6	由	由	NOUN	_	_	5	@m	_	Tone=2|Translit=yóu
 7	是	是	AUX	_	_	2	comp:obj	_	Tone=4|Translit=shì
-8	什	什	PRON	_	_	7	comp:pred	_	Tone=2|Translit=shén
+8	什	什	PRON	_	PronType=Int	7	comp:pred	_	Tone=2|Translit=shén
 9	么	么	PRON	_	_	8	@m	_	Tone=5|Translit=me
 10	，	，	PUNCT	_	_	16	punct	_	Translit=，
 11	总	总	SCONJ	_	_	16	cc	_	Grammar_Target=Yes|Tone=3|Translit=zǒng
@@ -407,7 +407,7 @@
 13	性	性	NOUN	_	_	9	conj	_	Grammar_Target=Yes|Tone=4|Translit=xìng
 14	是	是	AUX	_	_	2	comp:obj	_	Tone=4|Translit=shì
 15	指	指	VERB	_	_	14	comp:pred	_	Tone=3|Translit=zhǐ
-16	什	什	PRON	_	_	15	comp:obj	_	Tone=2|Translit=shén
+16	什	什	PRON	_	PronType=Int	15	comp:obj	_	Tone=2|Translit=shén
 17	么	么	PRON	_	_	16	@m	_	Tone=5|Translit=me
 18	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
 19	？	？	PUNCT	_	_	2	punct	_	Translit=？

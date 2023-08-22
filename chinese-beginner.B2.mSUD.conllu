@@ -29,7 +29,7 @@
 # text_en = Why would you hide my cell phone?
 # translit = Nǐ wèishénme yào bǎ wǒ de shǒujī cáng qǐlái?
 1	你	你	PRON	_	Person=2	5	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-2	为	为	PRON	_	_	5	mod	_	Tone=4|Translit=wèi
+2	为	为	PRON	_	PronType=Int	5	mod	_	Tone=4|Translit=wèi
 3	什	什	PRON	_	_	2	@m	_	Tone=2|Translit=shén
 4	么	么	PRON	_	_	3	@m	_	Tone=5|Translit=me
 5	要	要	AUX	_	_	0	root	_	Tone=4|Translit=yào
@@ -124,8 +124,8 @@
 # translit = Jiālǐ shénme dōu méiyǒu, gāncuì chūqù chī ba.
 1	家	家	NOUN	_	_	7	mod@loc	_	Tone=1|Translit=jiā
 2	里	里	NOUN	_	_	1	@m	_	Tone=3|Translit=lǐ
-3	什	什	NOUN	_	_	7	comp:obj	_	Tone=2|Translit=shén
-4	么	么	NOUN	_	_	3	@m	_	Tone=5|Translit=me
+3	什	什	ADV	_	_	7	comp:obj	_	Tone=2|Translit=shén
+4	么	么	ADV	_	_	3	@m	_	Tone=5|Translit=me
 5	都	都	ADV	_	_	7	mod	_	Tone=1|Translit=dū
 6	没	没	ADV	_	_	7	mod	_	Tone=2|Translit=méi
 7	有	有	VERB	_	_	0	root	_	Tone=3|Translit=yǒu
@@ -155,7 +155,7 @@
 7	不	不	ADV	_	Polarity=Neg	8	mod	_	Tone=4|Translit=bù
 8	对	对	ADJ	_	_	3	comp:obj	_	Tone=4|Translit=dùi
 9	，	，	PUNCT	_	_	14	punct	_	Translit=，
-10	为	为	PRON	_	_	14	mod	_	Tone=4|Translit=wèi
+10	为	为	PRON	_	PronType=Int	14	mod	_	Tone=4|Translit=wèi
 11	什	什	PRON	_	_	10	@m	_	Tone=2|Translit=shén
 12	么	么	PRON	_	_	11	@m	_	Tone=5|Translit=me
 13	还	还	ADV	_	_	14	mod	_	Tone=2|Translit=huán
@@ -206,7 +206,7 @@
 5	明	明	VERB	_	_	0	root	_	Tone=2|Translit=míng
 6	白	白	ADJ	_	_	5	@m	_	Tone=2|Translit=bái
 7	他	他	PRON	_	Person=3	13	subj	_	Tone=1|Translit=tā
-8	为	为	PRON	_	_	13	mod	_	Tone=4|Translit=wèi
+8	为	为	PRON	_	PronType=Int	13	mod	_	Tone=4|Translit=wèi
 9	什	什	PRON	_	_	8	@m	_	Tone=2|Translit=shén
 10	么	么	PRON	_	_	9	@m	_	Tone=5|Translit=me
 11	这	这	ADV	_	_	13	mod	_	Tone=4|Translit=zhè
@@ -242,7 +242,7 @@
 18	怪	怪	VERB	_	_	12	parataxis	_	Grammar_Target=Yes|Tone=4|Translit=guài
 19	爸	爸	NOUN	_	_	26	subj	_	Tone=4|Translit=bà
 20	爸	爸	NOUN	_	_	19	conj:redup@m	_	Tone=4|Translit=bà
-21	为	为	PRON	_	_	26	mod	_	Tone=4|Translit=wèi
+21	为	为	PRON	_	PronType=Int	26	mod	_	Tone=4|Translit=wèi
 22	什	什	PRON	_	_	21	@m	_	Tone=2|Translit=shén
 23	么	么	PRON	_	_	22	@m	_	Tone=5|Translit=me
 24	这	这	ADV	_	_	26	mod	_	Tone=4|Translit=zhè
@@ -318,7 +318,7 @@
 6	欢	欢	VERB	_	_	5	@m	_	Tone=1|Translit=huān
 7	他	他	PRON	_	Person=3	5	comp:obj	_	Tone=1|Translit=tā
 8	，	，	PUNCT	_	_	13	punct	_	Translit=，
-9	为	为	PRON	_	_	13	mod	_	Tone=4|Translit=wèi
+9	为	为	PRON	_	PronType=Int	13	mod	_	Tone=4|Translit=wèi
 10	什	什	PRON	_	_	9	@m	_	Tone=2|Translit=shén
 11	么	么	PRON	_	_	10	@m	_	Tone=5|Translit=me
 12	还	还	ADV	_	_	13	mod	_	Tone=2|Translit=huán
@@ -345,7 +345,7 @@
 6	忙	忙	ADJ	_	_	0	root	_	Tone=2|Translit=máng
 7	，	，	PUNCT	_	_	13	punct	_	Translit=，
 8	你	你	PRON	_	Person=2	13	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-9	为	为	PRON	_	_	13	mod	_	Tone=4|Translit=wèi
+9	为	为	PRON	_	PronType=Int	13	mod	_	Tone=4|Translit=wèi
 10	什	什	PRON	_	_	9	@m	_	Tone=2|Translit=shén
 11	么	么	PRON	_	_	10	@m	_	Tone=5|Translit=me
 12	还	还	ADV	_	_	13	mod	_	Tone=2|Translit=huán
@@ -371,7 +371,7 @@
 6	手	手	NOUN	_	_	5	@m	_	Gloss=hand|Tone=3|Translit=shǒu
 7	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Tone=5|Translit=le
 8	，	，	PUNCT	_	_	13	punct	_	Translit=，
-9	为	为	PRON	_	_	13	mod	_	Tone=4|Translit=wèi
+9	为	为	PRON	_	PronType=Int	13	mod	_	Tone=4|Translit=wèi
 10	什	什	PRON	_	_	9	@m	_	Tone=2|Translit=shén
 11	么	么	PRON	_	_	10	@m	_	Tone=5|Translit=me
 12	还	还	ADV	_	_	13	mod	_	Tone=2|Translit=huán
@@ -401,7 +401,7 @@
 11	，	，	PUNCT	_	_	18	punct	_	Translit=，
 12	那	那	SCONJ	_	_	18	cc	_	Grammar_Target=Yes|Tone=4|Translit=nà
 13	他	他	PRON	_	Person=3	18	subj	_	Tone=1|Translit=tā
-14	为	为	PRON	_	_	18	mod	_	Tone=4|Translit=wèi
+14	为	为	PRON	_	PronType=Int	18	mod	_	Tone=4|Translit=wèi
 15	什	什	PRON	_	_	14	@m	_	Tone=2|Translit=shén
 16	么	么	PRON	_	_	15	@m	_	Tone=5|Translit=me
 17	不	不	ADV	_	Polarity=Neg	18	mod	_	Tone=4|Translit=bù
@@ -542,7 +542,7 @@
 14	要	要	SCONJ	_	_	5	mod	_	Grammar_Target=Yes|Tone=4|Translit=yào
 15	不	不	SCONJ	_	_	14	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
 16	然	然	SCONJ	_	_	15	@m	_	Grammar_Target=Yes|Tone=2|Translit=rán
-17	谁	谁	PRON	_	_	19	subj	_	Tone=2|Translit=shúi
+17	谁	谁	ADV	_	PronType=Int	19	mod	_	Tone=2|Translit=shúi
 18	都	都	ADV	_	_	19	mod	_	Tone=1|Translit=dū
 19	想	想	VERB	_	_	14	comp:obj	_	Tone=3|Translit=xiǎng
 20	不	不	ADV	_	Polarity=Neg	21	mod	_	Tone=4|Translit=bù
@@ -609,7 +609,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUQ861
 # text_en = Why is there not a single person here?
 # translit = Wèishénme zhèlǐ yī gè rén dōu méiyǒu?
-1	为	为	PRON	_	_	11	mod	_	Tone=4|Translit=wèi
+1	为	为	PRON	_	PronType=Int	11	mod	_	Tone=4|Translit=wèi
 2	什	什	PRON	_	_	1	@m	_	Tone=2|Translit=shén
 3	么	么	PRON	_	_	2	@m	_	Tone=5|Translit=me
 4	这	这	DET	_	_	5	det	_	Tone=4|Translit=zhè
@@ -901,7 +901,7 @@
 8	说	说	VERB	_	_	7	comp:aux	_	Tone=1|Translit=shuō
 9	这	这	DET	_	_	10	subj	_	Tone=4|Translit=zhè
 10	是	是	AUX	_	_	8	comp:obj	_	Tone=4|Translit=shì
-11	什	什	PRON	_	_	13	mod	_	Tone=2|Translit=shén
+11	什	什	PRON	_	PronType=Int	13	mod	_	Tone=2|Translit=shén
 12	么	么	PRON	_	_	11	@m	_	Tone=5|Translit=me
 13	秘	秘	NOUN	_	_	10	comp:pred	_	Tone=4|Translit=mì
 14	密	密	NOUN	_	_	13	@m	_	Tone=4|Translit=mì
@@ -1593,7 +1593,7 @@
 7	学	学	NOUN	_	_	4	comp:pred	_	Tone=2|Translit=xué
 8	生	生	NOUN	_	_	7	@m	_	Tone=1|Translit=shēng
 9	，	，	PUNCT	_	_	14	punct	_	Translit=，
-10	怎	怎	PRON	_	_	14	mod	_	Tone=3|Translit=zěn
+10	怎	怎	PRON	_	PronType=Int	14	mod	_	Tone=3|Translit=zěn
 11	么	么	PRON	_	_	10	@m	_	Tone=5|Translit=me
 12	可	可	ADV	_	_	14	parataxis	_	Tone=3|Translit=kě
 13	能	能	AUX	_	_	12	@m	_	Tone=2|Translit=néng
@@ -1988,7 +1988,7 @@
 4	夫	夫	NOUN	_	_	3	comp:pred	_	Tone=1|Translit=fū
 5	妻	妻	NOUN	_	_	4	conj:redup@m	_	Tone=1|Translit=qī
 6	，	，	PUNCT	_	_	13	punct	_	Translit=，
-7	怎	怎	PRON	_	_	13	mod	_	Tone=3|Translit=zěn
+7	怎	怎	PRON	_	PronType=Int	13	mod	_	Tone=3|Translit=zěn
 8	么	么	PRON	_	_	7	@m	_	Tone=5|Translit=me
 9	一	一	ADV	_	_	10	@m	_	Gloss=one|Tone=1|Translit=yī
 10	点	点	ADV	_	_	13	mod	_	Tone=3|Translit=diǎn
@@ -2265,7 +2265,7 @@
 15	手	手	NOUN	_	_	17	subj	_	Gloss=hand|Tone=3|Translit=shǒu
 16	机	机	NOUN	_	_	15	@m	_	Tone=1|Translit=jī
 17	是	是	AUX	_	_	13	comp:obj	_	Tone=4|Translit=shì
-18	什	什	PRON	_	_	17	comp:pred	_	Tone=2|Translit=shén
+18	什	什	PRON	_	PronType=Int	17	comp:pred	_	Tone=2|Translit=shén
 19	么	么	PRON	_	_	18	@m	_	Tone=5|Translit=me
 20	。	。	PUNCT	_	_	13	punct	_	Translit=。
 
@@ -2289,7 +2289,7 @@
 10	子	子	NOUN	_	_	9	@m	_	Tone=5|Translit=zi
 11	呢	呢	PART	_	_	7	discourse	_	Tone=2|Translit=ní
 12	，	，	PUNCT	_	_	17	punct	_	Translit=，
-13	什	什	PRON	_	_	17	comp:obj	_	Tone=2|Translit=shén
+13	什	什	PRON	_	PronType=Int	17	comp:obj	_	Tone=2|Translit=shén
 14	么	么	NOUN	_	_	13	@m	_	Tone=5|Translit=me
 15	都	都	ADV	_	_	17	mod	_	Tone=1|Translit=dū
 16	不	不	ADV	_	Polarity=Neg	17	mod	_	Tone=4|Translit=bù
@@ -2443,7 +2443,7 @@
 2	觉	觉	VERB	_	_	0	root	_	Tone=2|Translit=jué
 3	得	得	VERB	_	_	2	@m	_	Tone=2|Translit=dé
 4	做	做	VERB	_	_	7	mod	_	Tone=4|Translit=zuò
-5	什	什	PRON	_	_	7	mod	_	Tone=2|Translit=shén
+5	什	什	PRON	_	PronType=Int	7	mod	_	Tone=2|Translit=shén
 6	么	么	NOUN	_	_	5	@m	_	Tone=5|Translit=me
 7	事	事	NOUN	_	_	9	subj	_	Tone=4|Translit=shì
 8	情	情	NOUN	_	_	7	@m	_	Tone=2|Translit=qíng
@@ -2643,7 +2643,7 @@
 7	起	起	VERB	_	_	6	comp:dir	_	Grammar_Target=Yes|Tone=3|Translit=qǐ
 8	来	来	VERB	_	_	7	@m	_	Grammar_Target=Yes|Tone=2|Translit=lái
 9	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
-10	多	多	PRON	_	_	9	comp:pred	_	Tone=1|Translit=duō
+10	多	多	PRON	_	PronType=Int	9	comp:pred	_	Tone=1|Translit=duō
 11	少	少	PRON	_	_	10	@m	_	Tone=3|Translit=shǎo
 12	？	？	PUNCT	_	_	9	punct	_	Translit=？
 
@@ -2936,7 +2936,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGXX3NY
 # text_en = I wouldn't marry him even if his father were the president!
 # translit = Nǎpà tā bàba shì zǒngtǒng, wǒ yě bù yào jià gěi tā!
-1	哪	哪	ADV	_	_	2	mod	_	Grammar_Target=Yes|Tone=3|Translit=nǎ
+1	哪	哪	ADV	_	PronType=Int	2	mod	_	Grammar_Target=Yes|Tone=3|Translit=nǎ
 2	怕	怕	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=pà
 3	他	他	PRON	_	Person=3	4	mod	_	Tone=1|Translit=tā
 4	爸	爸	NOUN	_	_	6	subj	_	Tone=4|Translit=bà
@@ -3011,7 +3011,7 @@
 2	管	管	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=3|Translit=guǎn
 3	你	你	PRON	_	Person=2	4	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 4	是	是	AUX	_	_	2	comp:obj	_	Tone=4|Translit=shì
-5	什	什	PRON	_	_	7	mod	_	Tone=2|Translit=shén
+5	什	什	PRON	_	PronType=Int	7	mod	_	Tone=2|Translit=shén
 6	么	么	PRON	_	_	5	@m	_	Tone=5|Translit=me
 7	时	时	NOUN	_	_	9	mod	_	Tone=2|Translit=shí
 8	候	候	NOUN	_	_	7	@m	_	Tone=4|Translit=hòu

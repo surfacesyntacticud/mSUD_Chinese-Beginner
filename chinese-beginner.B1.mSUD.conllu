@@ -229,7 +229,7 @@
 7	物	物	NOUN	_	_	6	@m	_	Tone=4|Translit=wù
 8	送	送	VERB	_	_	2	comp:aux	_	Grammar_Target=Yes|Tone=4|Translit=sòng
 9	给	给	ADP	_	_	8	comp:obl	_	Grammar_Target=Yes|Tone=3|Translit=gěi
-10	谁	谁	PRON	_	_	9	comp:obj	_	Tone=2|Translit=shúi
+10	谁	谁	PRON	_	PronType=Int	9	comp:obj	_	Tone=2|Translit=shúi
 11	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
 # sent_id = 2418
@@ -1228,8 +1228,8 @@
 16	饭	饭	NOUN	_	_	9	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 17	，	，	PUNCT	_	_	22	punct	_	Translit=，
 18	你	你	PRON	_	Person=2	22	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-19	怎	怎	ADV	_	_	22	mod	_	Tone=3|Translit=zěn
-20	么	么	ADV	_	_	19	@m	_	Tone=5|Translit=me
+19	怎	怎	PRON	_	PronType=Int	22	mod	_	Tone=3|Translit=zěn
+20	么	么	PRON	_	_	19	@m	_	Tone=5|Translit=me
 21	不	不	ADV	_	Polarity=Neg	22	mod	_	Tone=4|Translit=bù
 22	吃	吃	VERB	_	_	9	parataxis	_	Tone=1|Translit=chī
 23	？	？	PUNCT	_	_	9	punct	_	Translit=？
@@ -1522,7 +1522,7 @@
 5	没	没	ADV	_	_	6	mod	_	Tone=2|Translit=méi
 6	坏	坏	ADJ	_	_	0	root	_	Tone=4|Translit=huài
 7	，	，	PUNCT	_	_	11	punct	_	Translit=，
-8	为	为	PRON	_	_	11	mod	_	Tone=4|Translit=wèi
+8	为	为	PRON	_	PronType=Int	11	mod	_	Tone=4|Translit=wèi
 9	什	什	PRON	_	_	8	@m	_	Tone=2|Translit=shén
 10	么	么	PRON	_	_	9	@m	_	Tone=5|Translit=me
 11	要	要	AUX	_	_	6	parataxis	_	Tone=4|Translit=yào
@@ -1657,7 +1657,7 @@
 # text_en = Why do you listen to this song over and over again?
 # translit = Nǐ wèishénme yī biàn yòu yī biàn de tīng zhè shǒu gē?
 1	你	你	PRON	_	Person=2	11	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-2	为	为	PRON	_	_	11	mod	_	Tone=4|Translit=wèi
+2	为	为	PRON	_	PronType=Int	11	mod	_	Tone=4|Translit=wèi
 3	什	什	PRON	_	_	2	@m	_	Tone=2|Translit=shén
 4	么	么	PRON	_	_	3	@m	_	Tone=5|Translit=me
 5	一	一	NUM	_	_	6	mod	_	Grammar_Target=Yes|Tone=1|Translit=yī
@@ -1832,7 +1832,7 @@
 # text_en = Why won't you let me go?
 # translit = Nǐ wèishénme bù ràng wǒ qù?
 1	你	你	PRON	_	Person=2	6	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-2	为	为	PRON	_	_	6	mod	_	Tone=4|Translit=wèi
+2	为	为	PRON	_	PronType=Int	6	mod	_	Tone=4|Translit=wèi
 3	什	什	PRON	_	_	2	@m	_	Tone=2|Translit=shén
 4	么	么	PRON	_	_	3	@m	_	Tone=5|Translit=me
 5	不	不	ADV	_	Polarity=Neg	6	mod	_	Tone=4|Translit=bù
@@ -3034,7 +3034,7 @@
 8	家	家	NOUN	_	_	5	comp:obj	_	Tone=1|Translit=jiā
 9	住	住	VERB	_	_	4	comp:aux	_	Tone=4|Translit=zhù
 10	到	到	ADP	_	_	9	comp:obl	_	Grammar_Target=Yes|Tone=4|Translit=dào
-11	什	什	PRON	_	_	13	mod	_	Tone=2|Translit=shén
+11	什	什	PRON	_	PronType=Int	13	mod	_	Tone=2|Translit=shén
 12	么	么	PRON	_	_	11	@m	_	Tone=5|Translit=me
 13	时	时	NOUN	_	_	10	comp:obj	_	Tone=2|Translit=shí
 14	候	候	NOUN	_	_	13	@m	_	Tone=4|Translit=hòu
@@ -3512,7 +3512,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGXHQEF
 # text_en = How come he's not here every time I come?
 # translit = Wèishénme měi cì wǒ lái tā dōu bù zài?
-1	为	为	PRON	_	_	11	mod	_	Tone=4|Translit=wèi
+1	为	为	PRON	_	PronType=Int	11	mod	_	Tone=4|Translit=wèi
 2	什	什	PRON	_	_	1	@m	_	Tone=2|Translit=shén
 3	么	么	PRON	_	_	2	@m	_	Tone=5|Translit=me
 4	每	每	DET	_	_	5	det	_	Grammar_Target=Yes|Tone=3|Translit=měi
@@ -3867,7 +3867,7 @@
 # text_en = How come you're still using that old cell phone?
 # translit = Nǐ zěnme hái zài yòng nàge jiù shǒujī?
 1	你	你	PRON	_	Person=2	5	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-2	怎	怎	PRON	_	_	5	mod	_	Tone=3|Translit=zěn
+2	怎	怎	PRON	_	PronType=Int	5	mod	_	Tone=3|Translit=zěn
 3	么	么	PRON	_	_	2	@m	_	Tone=5|Translit=me
 4	还	还	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=2|Translit=huán
 5	在	在	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=zài
@@ -4442,7 +4442,7 @@
 4	吃	吃	VERB	_	_	0	root	_	Tone=1|Translit=chī
 5	过	过	PART	_	_	4	aspect	_	Gloss=EXP|Tone=4|Translit=guò
 6	，	，	PUNCT	_	_	4	punct	_	Translit=，
-7	怎	怎	PRON	_	_	9	mod	_	Tone=3|Translit=zěn
+7	怎	怎	PRON	_	PronType=Int	9	mod	_	Tone=3|Translit=zěn
 8	么	么	PRON	_	_	7	@m	_	Tone=5|Translit=me
 9	知	知	VERB	_	_	4	parataxis:new	_	Tone=1|Translit=zhī
 10	道	道	VERB	_	_	9	@m	_	Tone=4|Translit=dào
@@ -5213,7 +5213,7 @@
 6	我	我	PRON	_	Person=1	5	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 7	！	！	PUNCT	_	_	4	punct	_	Translit=！
 8	我	我	PRON	_	Person=1	13	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
-9	怎	怎	PRON	_	_	13	mod	_	Tone=3|Translit=zěn
+9	怎	怎	PRON	_	PronType=Int	13	mod	_	Tone=3|Translit=zěn
 10	么	么	PRON	_	_	9	@m	_	Tone=5|Translit=me
 11	那	那	ADV	_	_	13	mod	_	Tone=4|Translit=nà
 12	么	么	ADV	_	_	11	@m	_	Tone=5|Translit=me
@@ -6940,8 +6940,8 @@
 5	发	发	VERB	_	_	0	root	_	Tone=1|Translit=fā
 6	达	达	VERB	_	_	5	@m	_	Tone=2|Translit=dá
 7	，	，	PUNCT	_	_	11	punct	_	Translit=，
-8	什	什	NOUN	_	_	11	subj	_	Tone=2|Translit=shén
-9	么	么	NOUN	_	_	8	@m	_	Tone=5|Translit=me
+8	什	什	ADV	_	_	11	subj	_	Tone=2|Translit=shén
+9	么	么	ADV	_	_	8	@m	_	Tone=5|Translit=me
 10	都	都	ADV	_	_	11	mod	_	Tone=1|Translit=dū
 11	是	是	AUX	_	_	5	parataxis	_	Tone=4|Translit=shì
 12	有	有	VERB	_	_	15	comp:obj	_	Tone=3|Translit=yǒu
@@ -7400,7 +7400,7 @@
 # translit = Jiǔdiàn shéi lái dìng? Háiyǒu, jīpiào mǎi hǎo le ma?
 1	酒	酒	NOUN	_	_	5	comp:obj	_	Tone=3|Translit=jǐu
 2	店	店	NOUN	_	_	1	@m	_	Tone=4|Translit=diàn
-3	谁	谁	PRON	_	_	4	subj	_	Tone=2|Translit=shúi
+3	谁	谁	PRON	_	PronType=Int	4	subj	_	Tone=2|Translit=shúi
 4	来	来	VERB	_	_	0	root	_	Tone=2|Translit=lái
 5	订	订	VERB	_	_	4	comp:svc	_	Tone=4|Translit=dìng
 6	？	？	PUNCT	_	_	4	punct	_	Translit=？
@@ -7596,7 +7596,7 @@
 3	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 4	通	通	VERB	_	_	16	comp:obj	_	Tone=1|Translit=tōng
 5	过	过	VERB	_	_	4	@m	_	Tone=4|Translit=guò
-6	什	什	PRON	_	_	8	mod	_	Tone=2|Translit=shén
+6	什	什	PRON	_	PronType=Int	8	mod	_	Tone=2|Translit=shén
 7	么	么	PRON	_	_	6	@m	_	Tone=5|Translit=me
 8	平	平	NOUN	_	_	4	comp:obj	_	Tone=2|Translit=píng
 9	台	台	NOUN	_	_	8	@m	_	Tone=2|Translit=tái
@@ -7801,7 +7801,7 @@
 3	道	道	VERB	_	_	2	@m	_	Tone=4|Translit=dào
 4	这	这	DET	_	_	5	subj	_	Tone=4|Translit=zhè
 5	是	是	AUX	_	_	2	comp:obj	_	Tone=4|Translit=shì
-6	什	什	PRON	_	_	5	comp:pred	_	Tone=2|Translit=shén
+6	什	什	PRON	_	PronType=Int	5	comp:pred	_	Tone=2|Translit=shén
 7	么	么	PRON	_	_	6	@m	_	Tone=5|Translit=me
 8	吗	吗	PART	_	Mood=Inter	2	discourse	_	Grammar_Target=Yes|Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	2	punct	_	Translit=？
@@ -7986,7 +7986,7 @@
 5	史	史	NOUN	_	_	4	@m	_	Tone=3|Translit=shǐ
 6	上	上	NOUN	_	_	1	comp:obl	_	Tone=4|Translit=shàng
 7	，	，	PUNCT	_	_	1	punct	_	Translit=，
-8	谁	谁	PRON	_	_	9	subj	_	Tone=2|Translit=shúi
+8	谁	谁	PRON	_	PronType=Int	9	subj	_	Tone=2|Translit=shúi
 9	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 10	最	最	ADV	_	_	11	mod	_	Tone=4|Translit=zùi
 11	重	重	ADJ	_	_	13	comp:obj	_	Tone=4|Translit=zhòng
@@ -8113,7 +8113,7 @@
 2	本	本	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=3|Translit=běn
 3	书	书	NOUN	_	_	4	subj	_	Tone=1|Translit=shū
 4	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
-5	谁	谁	PRON	_	_	6	subj	_	Tone=2|Translit=shúi
+5	谁	谁	PRON	_	PronType=Int	6	subj	_	Tone=2|Translit=shúi
 6	借	借	VERB	_	_	9	comp:obj	_	Grammar_Target=Yes|Tone=4|Translit=jiè
 7	给	给	ADP	_	_	6	comp:obl	_	Grammar_Target=Yes|Tone=3|Translit=gěi
 8	你	你	PRON	_	Person=2	7	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
@@ -8806,8 +8806,8 @@
 # text_en = She put spice in everything. Even the soup is spicy.
 # translit = Tā shénme dōu fàng là, lián tāng dōu shì là de.
 1	她	她	PRON	_	Person=3	5	subj	_	Tone=1|Translit=tā
-2	什	什	NOUN	_	_	5	mod	_	Tone=2|Translit=shén
-3	么	么	NOUN	_	_	2	@m	_	Tone=5|Translit=me
+2	什	什	ADV	_	_	5	mod	_	Tone=2|Translit=shén
+3	么	么	ADV	_	_	2	@m	_	Tone=5|Translit=me
 4	都	都	ADV	_	_	5	mod	_	Tone=1|Translit=dū
 5	放	放	VERB	_	_	0	root	_	Tone=4|Translit=fàng
 6	辣	辣	ADJ	_	_	5	comp:obj	_	Tone=4|Translit=là
@@ -8838,7 +8838,7 @@
 8	我	我	PRON	_	Number=Plur|Person=1	10	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 9	们	们	PART	_	Number=Plur|Person=1	8	@m	_	Tone=5|Translit=men
 10	拿	拿	VERB	_	_	3	parataxis	_	Tone=2|Translit=ná
-11	多	多	PRON	_	_	15	mod	_	Grammar_Target=Yes|Tone=1|Translit=duō
+11	多	多	PRON	_	PronType=Int	15	mod	_	Grammar_Target=Yes|Tone=1|Translit=duō
 12	少	少	PRON	_	_	11	@m	_	Grammar_Target=Yes|Tone=3|Translit=shǎo
 13	都	都	ADV	_	_	14	mod	_	Tone=1|Translit=dū
 14	没	没	ADV	_	_	10	mod	_	Tone=2|Translit=méi
@@ -8987,6 +8987,26 @@
 15	人	人	NOUN	_	_	12	comp:obj	_	Tone=2|Translit=rén
 16	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
+# sent_id = 2732
+# structure = A + 有 + B + Verb + 得 + Adj. + 吗 ？
+# text = 你 有 Bolt 跑 得 快 吗 ？
+# level = B1
+# structure_verbose = Expressing comparable degree with "you"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5DG95
+# text_en = Can you run as fast as Bolt does?
+# translit = Nǐ yǒu Bolt pǎo de kuài ma?
+1	你	你	PRON	_	Person=2	7	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	有	有	ADP	_	_	7	comp:obl	_	Grammar_Target=Yes|Tone=3|Translit=yǒu
+3	B	b	PROPN	_	_	2	comp:obj	_	Translit=B
+4	o	o	PROPN	_	_	3	flat:foreign@m	_	Translit=o
+5	l	l	PROPN	_	_	4	flat:foreign@m	_	Translit=l
+6	t	t	PROPN	_	_	5	flat:foreign@m	_	Translit=t
+7	跑	跑	VERB	_	_	0	root	_	Tone=3|Translit=pǎo
+8	得	得	PART	_	_	7	mod	_	Tone=2|Translit=dé
+9	快	快	ADJ	_	_	8	comp:obj	_	Tone=4|Translit=kuài
+10	吗	吗	PART	_	Mood=Inter	7	discourse	_	Tone=5|Translit=ma
+11	？	？	PUNCT	_	_	7	punct	_	Translit=？
+
 # sent_id = 2739
 # structure = 跟 + A + 比 (起来) ，B⋯⋯
 # text = 跟 他 比 ，你 最大 的 优势 是 什么 ？
@@ -9006,7 +9026,7 @@
 9	优	优	NOUN	_	_	11	subj	_	Tone=1|Translit=yōu
 10	势	势	NOUN	_	_	9	@m	_	Tone=4|Translit=shì
 11	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
-12	什	什	PRON	_	_	11	comp:pred	_	Tone=2|Translit=shén
+12	什	什	PRON	_	PronType=Int	11	comp:pred	_	Tone=2|Translit=shén
 13	么	么	PRON	_	_	12	@m	_	Tone=5|Translit=me
 14	？	？	PUNCT	_	_	11	punct	_	Translit=？
 

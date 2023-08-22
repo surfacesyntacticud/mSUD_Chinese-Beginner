@@ -255,7 +255,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGIPYFV
 # text_en = Why don't you like to drink coffee?
 # translit = Wèishénme nǐ bù xǐhuan hē  kāfēi?
-1	为	为	PRON	_	_	6	mod	_	ExtPos=PRON|Tone=4|Translit=wèi
+1	为	为	PRON	_	PronType=Int	6	mod	_	ExtPos=PRON|Tone=4|Translit=wèi
 2	什	什	PRON	_	_	1	@m	_	Tone=2|Translit=shén
 3	么	么	PRON	_	_	2	@m	_	Tone=5|Translit=me
 4	你	你	PRON	_	Person=2	6	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
@@ -2377,7 +2377,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGLRWT8
 # text_en = Who is upstairs?
 # translit = Shéi zài lóushàng?
-1	谁	谁	PRON	_	_	2	subj	_	Tone=2|Translit=shúi
+1	谁	谁	PRON	_	PronType=Int	2	subj	_	Tone=2|Translit=shúi
 2	在	在	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=zài
 3	楼	楼	NOUN	_	_	2	comp:obj	_	Tone=2|Translit=lóu
 4	上	上	NOUN	_	_	3	@m	_	Tone=4|Translit=shàng
@@ -2815,7 +2815,7 @@
 1	那	那	DET	_	_	2	det	_	Tone=4|Translit=nà
 2	个	个	NOUN	_	_	3	subj	_	Gloss=CLF|Tone=4|Translit=gè
 3	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=jiào
-4	什	什	ADV	_	_	3	comp:obj	_	Tone=2|Translit=shén
+4	什	什	ADV	_	PronType=Int	3	comp:obj	_	Tone=2|Translit=shén
 5	么	么	ADV	_	_	4	@m	_	Tone=5|Translit=me
 6	？	？	PUNCT	_	_	3	punct	_	Translit=？
 
@@ -2831,7 +2831,7 @@
 2	爸	爸	NOUN	_	_	4	subj	_	Tone=4|Translit=bà
 3	爸	爸	NOUN	_	_	2	conj:redup@m	_	Tone=4|Translit=bà
 4	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=jiào
-5	什	什	PRON	_	_	4	comp:obj	_	Tone=2|Translit=shén
+5	什	什	PRON	_	PronType=Int	4	comp:obj	_	Tone=2|Translit=shén
 6	么	么	PRON	_	_	5	@m	_	Tone=5|Translit=me
 7	？	？	PUNCT	_	_	4	punct	_	Translit=？
 
@@ -3649,7 +3649,7 @@
 6	你	你	PRON	_	Person=2	7	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 7	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=yào
 8	做	做	VERB	_	_	7	comp:aux	_	Tone=4|Translit=zuò
-9	什	什	ADV	_	_	8	comp:obj	_	Tone=2|Translit=shén
+9	什	什	ADV	_	PronType=Int	8	comp:obj	_	Tone=2|Translit=shén
 10	么	么	PART	_	_	9	@m	_	Tone=5|Translit=me
 11	？	？	PUNCT	_	_	7	punct	_	Translit=？
 
@@ -3993,7 +3993,7 @@
 6	们	们	PART	_	Number=Plur|Person=2	5	@m	_	Tone=5|Translit=men
 7	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=yào
 8	做	做	VERB	_	_	7	comp:aux	_	Tone=4|Translit=zuò
-9	什	什	PRON	_	_	8	comp:obj	_	Tone=2|Translit=shén
+9	什	什	PRON	_	PronType=Int	8	comp:obj	_	Tone=2|Translit=shén
 10	么	么	PRON	_	_	9	@m	_	Tone=5|Translit=me
 11	？	？	PUNCT	_	_	7	punct	_	Translit=？
 
@@ -4007,8 +4007,8 @@
 # translit = Nǐmen zěnme xué Zhōngwén?
 1	你	你	PRON	_	Number=Plur|Person=2	5	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	们	们	PART	_	Number=Plur|Person=2	1	@m	_	Tone=5|Translit=men
-3	怎	怎	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
-4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+3	怎	怎	PRON	_	PronType=Int	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+4	么	么	PRON	_	_	3	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 5	学	学	VERB	_	_	0	root	_	Tone=2|Translit=xué
 6	中	中	NOUN	_	_	5	comp:obj	_	Tone=1|Translit=zhōng
 7	文	文	NOUN	_	_	6	@m	_	Tone=2|Translit=wén
@@ -4023,8 +4023,8 @@
 # text_en = How do you get to work? By metro?
 # translit = Nǐ zěnme shàngbān? Zuò dìtiě ma?
 1	你	你	PRON	_	Person=2	4	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-2	怎	怎	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
-3	么	么	ADV	_	_	2	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+2	怎	怎	PRON	_	PronType=Int	4	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+3	么	么	PRON	_	_	2	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 4	上	上	VERB	_	_	0	root	_	Tone=4|Translit=shàng
 5	班	班	NOUN	_	_	4	comp:obj	_	Tone=1|Translit=bān
 6	？	？	PUNCT	_	_	4	punct	_	Translit=？
@@ -4045,8 +4045,8 @@
 1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	知	知	VERB	_	_	0	root	_	Tone=1|Translit=zhī
 3	道	道	VERB	_	_	2	@m	_	Tone=4|Translit=dào
-4	怎	怎	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
-5	么	么	ADV	_	_	4	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+4	怎	怎	PRON	_	PronType=Int	6	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+5	么	么	PRON	_	_	4	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 6	去	去	VERB	_	_	2	comp:obj	_	Tone=4|Translit=qù
 7	外	外	PROPN	_	_	6	comp:obj	_	Tone=4|Translit=wài
 8	滩	滩	PROPN	_	_	7	@m	_	Tone=1|Translit=tān
@@ -4062,8 +4062,8 @@
 # text_en = How did you know I like to travel?
 # translit = Nǐ zěnme zhīdào wǒ xǐhuan lǚxíng?
 1	你	你	PRON	_	Person=2	4	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-2	怎	怎	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
-3	么	么	ADV	_	_	2	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+2	怎	怎	PRON	_	PronType=Int	4	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+3	么	么	PRON	_	_	2	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 4	知	知	VERB	_	_	0	root	_	Tone=1|Translit=zhī
 5	道	道	VERB	_	_	4	@m	_	Tone=4|Translit=dào
 6	我	我	PRON	_	Person=1	7	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
@@ -4085,7 +4085,7 @@
 2	不	不	ADV	_	Polarity=Neg	3	mod	_	Tone=4|Translit=bù
 3	知	知	VERB	_	_	0	root	_	Tone=1|Translit=zhī
 4	道	道	VERB	_	_	3	@m	_	Tone=4|Translit=dào
-5	怎	怎	PRON	_	_	11	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+5	怎	怎	PRON	_	PronType=Int	11	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
 6	么	么	PRON	_	_	5	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 7	跟	跟	ADP	_	_	11	comp:obl	_	Tone=1|Translit=gēn
 8	女	女	NOUN	_	_	9	@m	_	Tone=3|Translit=nv̌
@@ -4105,8 +4105,8 @@
 # translit = Mángguǒ  zěnme chī?
 1	芒	芒	NOUN	_	_	5	comp:obj	_	Tone=2|Translit=máng
 2	果	果	NOUN	_	_	1	@m	_	Tone=3|Translit=guǒ
-3	怎	怎	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
-4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+3	怎	怎	PRON	_	PronType=Int	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+4	么	么	PRON	_	_	3	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 5	吃	吃	VERB	_	_	0	root	_	Tone=1|Translit=chī
 6	？	？	PUNCT	_	_	5	punct	_	Translit=？
 
@@ -4122,8 +4122,8 @@
 2	P	p	PROPN	_	_	1	flat:foreign@m	_	Translit=P
 3	a	a	PROPN	_	_	2	flat:foreign@m	_	Translit=a
 4	d	d	PROPN	_	_	3	flat:foreign@m	_	Translit=d
-5	怎	怎	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
-6	么	么	ADV	_	_	5	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+5	怎	怎	PRON	_	PronType=Int	7	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+6	么	么	PRON	_	_	5	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 7	用	用	VERB	_	_	0	root	_	Tone=4|Translit=yòng
 8	？	？	PUNCT	_	_	7	punct	_	Translit=？
 
@@ -4137,8 +4137,8 @@
 # translit = Yǔfǎ  zěnme xué?
 1	语	语	NOUN	_	_	5	comp:obj	_	Tone=3|Translit=yǔ
 2	法	法	NOUN	_	_	1	@m	_	Tone=3|Translit=fǎ
-3	怎	怎	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
-4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+3	怎	怎	PRON	_	PronType=Int	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+4	么	么	PRON	_	_	3	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 5	学	学	VERB	_	_	0	root	_	Tone=2|Translit=xué
 6	？	？	PUNCT	_	_	5	punct	_	Translit=？
 
@@ -4153,7 +4153,7 @@
 1	中	中	PROPN	_	_	3	mod	_	Tone=1|Translit=zhōng
 2	国	国	PROPN	_	_	1	@m	_	Tone=2|Translit=guó
 3	菜	菜	NOUN	_	_	6	comp:obj	_	Tone=4|Translit=cài
-4	怎	怎	PRON	_	_	6	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+4	怎	怎	PRON	_	PronType=Int	6	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
 5	么	么	PRON	_	_	4	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 6	做	做	VERB	_	_	0	root	_	Tone=4|Translit=zuò
 7	？	？	PUNCT	_	_	6	punct	_	Translit=？
@@ -4173,8 +4173,8 @@
 5	l	l	PROPN	_	_	4	flat:foreign@m	_	Translit=l
 6	e	e	PROPN	_	_	5	flat:foreign@m	_	Translit=e
 7	"	"	PUNCT	_	_	2	punct	_	Translit="
-8	怎	怎	ADV	_	_	10	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
-9	么	么	ADV	_	_	8	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+8	怎	怎	PRON	_	PronType=Int	10	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
+9	么	么	PRON	_	_	8	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 10	说	说	VERB	_	_	0	root	_	Tone=1|Translit=shuō
 11	？	？	PUNCT	_	_	10	punct	_	Translit=？
 
@@ -4637,7 +4637,7 @@
 # translit = Nà shì shénme cài?
 1	那	那	DET	_	_	2	det	_	Tone=4|Translit=nà
 2	是	是	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=shì
-3	什	什	PRON	_	_	5	mod	_	Tone=2|Translit=shén
+3	什	什	PRON	_	PronType=Int	5	mod	_	Tone=2|Translit=shén
 4	么	么	PRON	_	_	3	@m	_	Tone=5|Translit=me
 5	菜	菜	NOUN	_	_	2	comp:obj	_	Tone=4|Translit=cài
 6	？	？	PUNCT	_	_	2	punct	_	Translit=？
