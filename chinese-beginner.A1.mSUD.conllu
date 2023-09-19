@@ -2815,8 +2815,8 @@
 1	那	那	DET	_	_	2	det	_	Tone=4|Translit=nà
 2	个	个	NOUN	_	_	3	subj	_	Gloss=CLF|Tone=4|Translit=gè
 3	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=jiào
-4	什	什	ADV	_	PronType=Int	3	comp:obj	_	Tone=2|Translit=shén
-5	么	么	ADV	_	_	4	@m	_	Tone=5|Translit=me
+4	什	什	PRON	_	PronType=Int	3	comp:obj	_	Tone=2|Translit=shén
+5	么	么	PRON	_	_	4	@m	_	Tone=5|Translit=me
 6	？	？	PUNCT	_	_	3	punct	_	Translit=？
 
 # sent_id = 194
@@ -3649,8 +3649,8 @@
 6	你	你	PRON	_	Person=2	7	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 7	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=yào
 8	做	做	VERB	_	_	7	comp:aux	_	Tone=4|Translit=zuò
-9	什	什	ADV	_	PronType=Int	8	comp:obj	_	Tone=2|Translit=shén
-10	么	么	PART	_	_	9	@m	_	Tone=5|Translit=me
+9	什	什	PRON	_	PronType=Int	8	comp:obj	_	Tone=2|Translit=shén
+10	么	么	PRON	_	_	9	@m	_	Tone=5|Translit=me
 11	？	？	PUNCT	_	_	7	punct	_	Translit=？
 
 # sent_id = 242
