@@ -2961,7 +2961,7 @@
 # translit = Tā qù shàngkè.
 1	他	他	PRON	_	Person=3	2	subj	_	Tone=1|Translit=tā
 2	去	去	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=qù
-3	上	上	VERB	_	_	2	comp:svc	_	Tone=4|Translit=shàng
+3	上	上	VERB	_	_	2	compound:svc	_	Tone=4|Translit=shàng
 4	课	课	NOUN	_	_	3	comp:obj	_	Tone=4|Translit=kè
 5	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
@@ -2992,7 +2992,7 @@
 1	我	我	PRON	_	Number=Plur|Person=1	3	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	Tone=5|Translit=men
 3	去	去	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=qù
-4	吃	吃	VERB	_	_	3	comp:svc	_	Tone=1|Translit=chī
+4	吃	吃	VERB	_	_	3	compound:svc	_	Tone=1|Translit=chī
 5	饭	饭	NOUN	_	_	4	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 6	吧	吧	PART	_	_	3	discourse	_	Tone=5|Translit=ba
 7	。	。	PUNCT	_	_	3	punct	_	Translit=。
@@ -3010,7 +3010,7 @@
 3	我	我	PRON	_	Number=Plur|Person=1	5	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 4	们	们	PART	_	Number=Plur|Person=1	3	@m	_	Tone=5|Translit=men
 5	去	去	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=qù
-6	买	买	VERB	_	_	5	comp:svc	_	Tone=3|Translit=mǎi
+6	买	买	VERB	_	_	5	compound:svc	_	Tone=3|Translit=mǎi
 7	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 206
@@ -3627,7 +3627,7 @@
 7	去	去	VERB	_	_	6	comp:aux	_	Tone=4|Translit=qù
 8	她	她	PRON	_	Person=3	9	mod	_	Tone=1|Translit=tā
 9	家	家	NOUN	_	_	7	comp:obj	_	Tone=1|Translit=jiā
-10	吃	吃	VERB	_	_	7	comp:svc	_	Tone=1|Translit=chī
+10	吃	吃	VERB	_	_	7	compound:svc	_	Tone=1|Translit=chī
 11	晚	晚	ADJ	_	_	12	mod	_	Tone=3|Translit=wǎn
 12	饭	饭	NOUN	_	_	10	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 13	吗	吗	PART	_	Mood=Inter	6	discourse	_	Tone=5|Translit=ma
@@ -3781,7 +3781,7 @@
 6	以	以	AUX	_	_	5	@m	_	Grammar_Target=Yes|Tone=3|Translit=yǐ
 7	出	出	VERB	_	_	5	comp:aux	_	Tone=1|Translit=chū
 8	去	去	VERB	_	_	7	comp:dir	_	Tone=4|Translit=qù
-9	玩	玩	VERB	_	_	8	comp:svc	_	Tone=2|Translit=wán
+9	玩	玩	VERB	_	_	8	compound:svc	_	Tone=2|Translit=wán
 10	吗	吗	PART	_	Mood=Inter	5	discourse	_	Tone=5|Translit=ma
 11	？	？	PUNCT	_	_	5	punct	_	Translit=？
 
@@ -4964,7 +4964,7 @@
 # translit = Wǒ qù mǎi kāfēi, nǐ yào bu yào?
 1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 2	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-3	买	买	VERB	_	_	2	comp:svc	_	Tone=3|Translit=mǎi
+3	买	买	VERB	_	_	2	compound:svc	_	Tone=3|Translit=mǎi
 4	咖	咖	NOUN	_	_	3	comp:obj	_	Tone=1|Translit=kā
 5	啡	啡	NOUN	_	_	4	@m	_	Tone=1|Translit=fēi
 6	，	，	PUNCT	_	_	2	punct	_	Translit=，
@@ -5537,7 +5537,7 @@
 1	周	周	NOUN	_	_	3	mod@temp	_	Tone=1|Translit=zhōu
 2	末	末	NOUN	_	_	1	@m	_	Tone=4|Translit=mò
 3	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-4	看	看	VERB	_	_	3	comp:svc	_	Tone=4|Translit=kàn
+4	看	看	VERB	_	_	3	compound:svc	_	Tone=4|Translit=kàn
 5	电	电	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=diàn
 6	影	影	NOUN	_	_	5	@m	_	Tone=3|Translit=yǐng
 7	，	，	PUNCT	_	_	8	punct	_	Translit=，

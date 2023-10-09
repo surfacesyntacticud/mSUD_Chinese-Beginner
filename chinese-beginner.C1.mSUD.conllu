@@ -53,7 +53,7 @@
 9	K	k	PROPN	_	_	8	comp:obj	_	Translit=K
 10	T	t	PROPN	_	_	9	flat:foreign@m	_	Translit=T
 11	V	v	PROPN	_	_	10	flat:foreign@m	_	Translit=V
-12	唱	唱	VERB	_	_	8	comp:svc	_	Tone=4|Translit=chàng
+12	唱	唱	VERB	_	_	8	compound:svc	_	Tone=4|Translit=chàng
 13	歌	歌	NOUN	_	_	12	comp:obj	_	Tone=1|Translit=gē
 14	，	，	PUNCT	_	_	15	punct	_	Translit=，
 15	热	热	ADJ	_	_	1	parataxis	_	Tone=4|Translit=rè
@@ -93,7 +93,7 @@
 4	作	作	NOUN	_	_	3	@m	_	Tone=4|Translit=zuò
 5	表	表	NOUN	_	_	7	subj	_	Tone=3|Translit=biǎo
 6	现	现	VERB	_	_	5	@m	_	Tone=4|Translit=xiàn
-7	让	让	VERB	_	_	0	root@m	_	Tone=4|Translit=ràng
+7	让	让	VERB	_	_	0	root	_	Tone=4|Translit=ràng
 8	领	领	VERB	_	_	11	subj	_	Tone=3|Translit=lǐng
 9	导	导	NOUN	_	_	8	@m	_	Tone=3|Translit=dǎo
 10	很	很	ADV	_	_	11	mod	_	Grammar_Target=Yes|Tone=3|Translit=hěn

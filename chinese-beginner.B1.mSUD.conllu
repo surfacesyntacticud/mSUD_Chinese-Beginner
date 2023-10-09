@@ -115,7 +115,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUD25J
 # text_en = You both happen to be single.
 # translit = Zhènghǎo nǐmen dōu shì dānshēn.
-1	正	正	ADV	_	_	6	mod@temp	_	Grammar_Target=Yes|Tone=4|Translit=zhèng
+1	正	正	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=zhèng
 2	好	好	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=3|Translit=hǎo
 3	你	你	PRON	_	Number=Plur|Person=2	6	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 4	们	们	PART	_	Number=Plur|Person=2	3	@m	_	Tone=5|Translit=men
@@ -884,7 +884,7 @@
 3	全	全	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=2|Translit=quán
 4	都	都	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
 5	到	到	VERB	_	_	0	root	_	Tone=4|Translit=dào
-6	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Tone=5|Translit=le
+6	了	了	PART	_	_	5	aspect	_	Gloss=PRF|Tone=5|Translit=le
 7	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 1540
@@ -1042,20 +1042,20 @@
 # text_en = He has a point, but I don't agree with all of it.
 # translit = Tā shuō de yǒu dàolǐ, dàn wǒ bù quán dōu tóngyì.
 1	他	他	PRON	_	Person=3	2	subj	_	Tone=1|Translit=tā
-2	说	说	VERB	_	_	0	root	_	Tone=1|Translit=shuō
+2	说	说	VERB	_	_	8	mod	_	Tone=1|Translit=shuō
 3	得	得	PART	_	_	2	mod	_	Tone=2|Translit=dé
 4	有	有	VERB	_	_	3	comp:obj	_	Tone=3|Translit=yǒu
 5	道	道	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=dào
 6	理	理	NOUN	_	_	5	@m	_	Tone=3|Translit=lǐ
-7	，	，	PUNCT	_	_	13	punct	_	Translit=，
-8	但	但	SCONJ	_	_	13	cc	_	Tone=4|Translit=dàn
+7	，	，	PUNCT	_	_	2	punct	_	Translit=，
+8	但	但	SCONJ	_	_	0	root	_	Tone=4|Translit=dàn
 9	我	我	PRON	_	Person=1	13	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 10	不	不	ADV	_	_	11	mod	_	Tone=4|Translit=bù
 11	全	全	ADV	_	_	13	mod	_	Grammar_Target=Yes|Tone=2|Translit=quán
 12	都	都	ADV	_	_	13	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
-13	同	同	VERB	_	_	2	conj	_	Tone=2|Translit=tóng
+13	同	同	VERB	_	_	8	comp:obj	_	Tone=2|Translit=tóng
 14	意	意	NOUN	_	_	13	@m	_	Tone=4|Translit=yì
-15	。	。	PUNCT	_	_	2	punct	_	Translit=。
+15	。	。	PUNCT	_	_	8	punct	_	Translit=。
 
 # sent_id = 1550
 # structure = Subj. + 不 / 没 + 全都 + Predicate
@@ -1119,7 +1119,7 @@
 6	全	全	ADV	_	_	8	mod	_	Grammar_Target=Yes|Tone=2|Translit=quán
 7	都	都	ADV	_	_	8	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
 8	来	来	VERB	_	_	0	root	_	Tone=2|Translit=lái
-9	参	参	VERB	_	_	8	comp:svc	_	Tone=1|Translit=cān
+9	参	参	VERB	_	_	8	compound:svc	_	Tone=1|Translit=cān
 10	加	加	VERB	_	_	9	@m	_	Tone=1|Translit=jiā
 11	我	我	PRON	_	Person=1	12	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 12	的	的	PART	_	Case=Gen	13	mod	_	Tone=5|Translit=de
@@ -1173,7 +1173,7 @@
 18	人	人	NOUN	_	_	17	@m	_	Tone=2|Translit=rén
 19	上	上	VERB	_	_	8	comp:obj	_	Tone=4|Translit=shàng
 20	车	车	NOUN	_	_	19	comp:obj	_	Tone=1|Translit=chē
-21	了	了	PART	_	_	19	aspect	_	Gloss=PRF|Tone=5|Translit=le
+21	了	了	PART	_	_	8	discourse	_	Gloss=PRF|Tone=5|Translit=le
 22	。	。	PUNCT	_	_	8	punct	_	Translit=。
 
 # sent_id = 1570
@@ -1197,7 +1197,7 @@
 11	沙	沙	NOUN	_	_	13	mod	_	Tone=1|Translit=shā
 12	发	发	NOUN	_	_	11	@m	_	Tone=1|Translit=fā
 13	上	上	NOUN	_	_	10	comp:obl	_	Tone=4|Translit=shàng
-14	看	看	VERB	_	_	9	comp:svc	_	Tone=4|Translit=kàn
+14	看	看	VERB	_	_	9	compound:svc	_	Tone=4|Translit=kàn
 15	电	电	NOUN	_	_	14	comp:obj	_	Tone=4|Translit=diàn
 16	视	视	NOUN	_	_	15	@m	_	Tone=4|Translit=shì
 17	。	。	PUNCT	_	_	3	punct	_	Translit=。
@@ -1300,7 +1300,7 @@
 1	到	到	VERB	_	_	0	root	_	Tone=4|Translit=dào
 2	这	这	DET	_	_	1	comp:obj	_	Tone=4|Translit=zhè
 3	里	里	NOUN	_	_	2	@m	_	Tone=3|Translit=lǐ
-4	来	来	VERB	_	_	1	comp:svc	_	Tone=2|Translit=lái
+4	来	来	VERB	_	_	1	compound:svc	_	Tone=2|Translit=lái
 5	凉	凉	ADJ	_	_	4	comp:obj	_	Grammar_Target=Yes|Tone=2|Translit=liáng
 6	快	快	ADJ	_	_	5	conj@m	_	Grammar_Target=Yes|Tone=4|Translit=kuài
 7	凉	凉	ADJ	_	_	5	conj:redup@m	_	Grammar_Target=Yes|Tone=2|Translit=liáng
@@ -1320,7 +1320,7 @@
 3	去	去	VERB	_	_	2	comp:aux	_	Tone=4|Translit=qù
 4	外	外	NOUN	_	_	3	comp:obj	_	Tone=4|Translit=wài
 5	面	面	NOUN	_	_	4	@m	_	Tone=4|Translit=miàn
-6	走	走	VERB	_	_	3	comp:svc	_	Tone=3|Translit=zǒu
+6	走	走	VERB	_	_	3	compound:svc	_	Tone=3|Translit=zǒu
 7	走	走	VERB	_	_	6	conj:redup@m	_	Tone=3|Translit=zǒu
 8	，	，	PUNCT	_	_	9	punct	_	Translit=，
 9	安	安	ADJ	_	_	2	parataxis	_	Tone=1|Translit=ān
@@ -1339,7 +1339,7 @@
 2	不	不	ADV	_	Polarity=Neg	3	mod	_	Tone=4|Translit=bù
 3	想	想	AUX	_	_	1	conj	_	Tone=3|Translit=xiǎng
 4	去	去	VERB	_	_	1	comp:aux	_	Tone=4|Translit=qù
-5	做	做	VERB	_	_	4	comp:svc	_	Tone=4|Translit=zuò
+5	做	做	VERB	_	_	4	compound:svc	_	Tone=4|Translit=zuò
 6	个	个	NOUN	_	_	7	clf	_	Gloss=CLF|Tone=4|Translit=gè
 7	按	按	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=àn
 8	摩	摩	NOUN	_	_	7	@m	_	Tone=2|Translit=mó
@@ -1395,7 +1395,7 @@
 # text_en = He passed the exam successfully.
 # translit = tā shùnlì de tōngguò kǎoshì le.
 1	他	他	PRON	_	Person=3	5	subj	_	Tone=1|Translit=tā
-2	顺	顺	ADV	_	_	4	comp:obj	_	Grammar_Target=Yes|Tone=4|Translit=shùn
+2	顺	顺	ADJ	_	_	4	comp:obj	_	Grammar_Target=Yes|Tone=4|Translit=shùn
 3	利	利	ADJ	_	_	2	@m	_	Grammar_Target=Yes|Tone=4|Translit=lì
 4	地	地	PART	_	_	5	mod	_	Tone=4|Translit=dì
 5	通	通	VERB	_	_	0	root	_	Tone=1|Translit=tōng
@@ -1927,7 +1927,7 @@
 # translit = Nǐ qù chī  Sìchuān huǒguō le? Wǒ yǐwéi nǐ bù ài chī là.
 1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-3	吃	吃	VERB	_	_	2	comp:svc	_	Tone=1|Translit=chī
+3	吃	吃	VERB	_	_	2	compound:svc	_	Tone=1|Translit=chī
 4	四	四	PROPN	_	_	6	mod	_	Tone=4|Translit=sì
 5	川	川	PROPN	_	_	4	@m	_	Tone=1|Translit=chuān
 6	火	火	NOUN	_	_	3	comp:obj	_	Tone=3|Translit=huǒ
@@ -1940,7 +1940,7 @@
 13	你	你	PRON	_	Person=2	15	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 14	不	不	ADV	_	Polarity=Neg	15	mod	_	Tone=4|Translit=bù
 15	爱	爱	VERB	_	_	11	comp:obj	_	Tone=4|Translit=ài
-16	吃	吃	VERB	_	_	15	comp:svc	_	Tone=1|Translit=chī
+16	吃	吃	VERB	_	_	15	compound:svc	_	Tone=1|Translit=chī
 17	辣	辣	ADJ	_	_	16	comp:obj	_	Tone=4|Translit=là
 18	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
@@ -2658,7 +2658,7 @@
 8	，	，	PUNCT	_	_	9	punct	_	Translit=，
 9	得	得	AUX	_	_	2	parataxis	_	Grammar_Target=Yes|Tone=2|Translit=dé
 10	去	去	VERB	_	_	9	comp:aux	_	Tone=4|Translit=qù
-11	看	看	VERB	_	_	10	comp:svc	_	Tone=4|Translit=kàn
+11	看	看	VERB	_	_	10	compound:svc	_	Tone=4|Translit=kàn
 12	医	医	NOUN	_	_	11	comp:obj	_	Tone=4|Translit=yì
 13	生	生	NOUN	_	_	12	@m	_	Tone=1|Translit=shēng
 14	。	。	PUNCT	_	_	2	punct	_	Translit=。
@@ -2679,7 +2679,7 @@
 6	多	多	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=1|Translit=duō
 7	出	出	VERB	_	_	5	comp:aux	_	Tone=1|Translit=chū
 8	去	去	VERB	_	_	7	comp:dir	_	Tone=4|Translit=qù
-9	走	走	VERB	_	_	8	comp:svc	_	Tone=3|Translit=zǒu
+9	走	走	VERB	_	_	8	compound:svc	_	Tone=3|Translit=zǒu
 10	走	走	VERB	_	_	9	conj:redup@m	_	Tone=3|Translit=zǒu
 11	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -2857,7 +2857,7 @@
 3	怎	怎	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
 4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 5	爱	爱	VERB	_	_	0	root	_	Tone=4|Translit=ài
-6	说	说	VERB	_	_	5	comp:aux	_	Tone=1|Translit=shuō
+6	说	说	VERB	_	_	5	comp:obj	_	Tone=1|Translit=shuō
 7	话	话	NOUN	_	_	6	comp:obj	_	Tone=4|Translit=huà
 8	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -2975,7 +2975,7 @@
 8	友	友	NOUN	_	_	7	@m	_	Tone=3|Translit=yǒu
 9	出	出	VERB	_	_	0	root	_	Tone=1|Translit=chū
 10	去	去	VERB	_	_	9	comp:dir	_	Tone=4|Translit=qù
-11	玩	玩	VERB	_	_	10	comp:svc	_	Tone=2|Translit=wán
+11	玩	玩	VERB	_	_	10	compound:svc	_	Tone=2|Translit=wán
 12	。	。	PUNCT	_	_	9	punct	_	Translit=。
 
 # sent_id = 2369
@@ -3102,7 +3102,7 @@
 3	晚	晚	NOUN	_	_	5	mod@temp	_	Tone=3|Translit=wǎn
 4	上	上	NOUN	_	_	3	@m	_	Tone=4|Translit=shàng
 5	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-6	吃	吃	VERB	_	_	5	comp:svc	_	Tone=1|Translit=chī
+6	吃	吃	VERB	_	_	5	compound:svc	_	Tone=1|Translit=chī
 7	火	火	NOUN	_	_	6	comp:obj	_	Tone=3|Translit=huǒ
 8	锅	锅	NOUN	_	_	7	@m	_	Tone=1|Translit=guō
 9	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Tone=5|Translit=le
@@ -3638,7 +3638,7 @@
 14	以	以	AUX	_	_	13	@m	_	Tone=3|Translit=yǐ
 15	出	出	VERB	_	_	13	comp:aux	_	Tone=1|Translit=chū
 16	去	去	VERB	_	_	15	comp:dir	_	Tone=4|Translit=qù
-17	玩	玩	VERB	_	_	16	comp:svc	_	Tone=2|Translit=wán
+17	玩	玩	VERB	_	_	16	compound:svc	_	Tone=2|Translit=wán
 18	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
 # sent_id = 1546
@@ -3758,7 +3758,7 @@
 9	圾	圾	NOUN	_	_	8	@m	_	Tone=2|Translit=jí
 10	我	我	PRON	_	Person=1	11	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 11	来	来	VERB	_	_	4	parataxis:new	_	Tone=2|Translit=lái
-12	扔	扔	VERB	_	_	11	comp:svc	_	Tone=1|Translit=rēng
+12	扔	扔	VERB	_	_	11	compound:svc	_	Tone=1|Translit=rēng
 13	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
 14	。	。	PUNCT	_	_	11	punct	_	Translit=。
 
@@ -4018,7 +4018,7 @@
 10	还	还	ADV	_	_	12	mod	_	Grammar_Target=Yes|Tone=2|Translit=huán
 11	是	是	ADV	_	_	10	@m	_	Grammar_Target=Yes|Tone=4|Translit=shì
 12	来	来	VERB	_	_	7	comp:obj	_	Tone=2|Translit=lái
-13	上	上	VERB	_	_	12	comp:svc	_	Tone=4|Translit=shàng
+13	上	上	VERB	_	_	12	compound:svc	_	Tone=4|Translit=shàng
 14	课	课	NOUN	_	_	13	comp:obj	_	Tone=4|Translit=kè
 15	了	了	PART	_	_	12	aspect	_	Gloss=PRF|Tone=5|Translit=le
 16	。	。	PUNCT	_	_	3	punct	_	Translit=。
@@ -4058,7 +4058,7 @@
 # translit = Diànyǐng yǐjīng kāishǐ le, nǐ hái méi chūmén?
 1	电	电	NOUN	_	_	5	subj	_	Tone=4|Translit=diàn
 2	影	影	NOUN	_	_	1	@m	_	Tone=3|Translit=yǐng
-3	已	已	ADV	_	_	5	mod	_	Tone=3|Translit=yǐ
+3	已	已	ADV	_	_	5	mod@temp	_	Tone=3|Translit=yǐ
 4	经	经	ADV	_	_	3	@m	_	Tone=1|Translit=jīng
 5	开	开	VERB	_	_	0	root	_	Tone=1|Translit=kāi
 6	始	始	NOUN	_	_	5	@m	_	Tone=3|Translit=shǐ
@@ -4422,7 +4422,7 @@
 6	忙	忙	ADJ	_	_	0	root	_	Tone=2|Translit=máng
 7	，	，	PUNCT	_	_	6	punct	_	Translit=，
 8	来	来	VERB	_	_	6	parataxis:new	_	Tone=2|Translit=lái
-9	帮	帮	VERB	_	_	8	comp:svc	_	Tone=1|Translit=bāng
+9	帮	帮	VERB	_	_	8	compound:svc	_	Tone=1|Translit=bāng
 10	我	我	PRON	_	Person=1	9	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 11	一	一	ADV	_	_	12	@m	_	Gloss=one|Tone=1|Translit=yī
 12	下	下	ADV	_	_	9	mod	_	Tone=4|Translit=xià
@@ -4974,7 +4974,7 @@
 2	又	又	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=4|Translit=yòu
 3	没	没	ADV	_	Polarity=Neg	4	mod	_	Tone=2|Translit=méi
 4	来	来	VERB	_	_	0	root	_	Tone=2|Translit=lái
-5	上	上	VERB	_	_	4	comp:svc	_	Tone=4|Translit=shàng
+5	上	上	VERB	_	_	4	compound:svc	_	Tone=4|Translit=shàng
 6	课	课	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=kè
 7	。	。	PUNCT	_	_	4	punct	_	Translit=。
 
@@ -6099,7 +6099,7 @@
 2	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
 3	机	机	NOUN	_	_	2	comp:obj	_	Tone=1|Translit=jī
 4	场	场	NOUN	_	_	3	@m	_	Tone=2|Translit=cháng
-5	接	接	VERB	_	_	2	comp:svc	_	Tone=1|Translit=jiē
+5	接	接	VERB	_	_	2	compound:svc	_	Tone=1|Translit=jiē
 6	他	他	PRON	_	Person=3	5	comp:obj	_	Tone=1|Translit=tā
 7	，	，	PUNCT	_	_	11	punct	_	Translit=，
 8	结	结	VERB	ADV	_	11	mod	_	Grammar_Target=Yes|Tone=2|Translit=jié
@@ -6147,7 +6147,7 @@
 5	朋	朋	NOUN	_	_	4	comp:obj	_	Tone=2|Translit=péng
 6	友	友	NOUN	_	_	5	@m	_	Tone=3|Translit=yǒu
 7	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-8	喝	喝	VERB	_	_	7	comp:svc	_	Tone=1|Translit=hē
+8	喝	喝	VERB	_	_	7	compound:svc	_	Tone=1|Translit=hē
 9	酒	酒	NOUN	_	_	8	comp:obj	_	Tone=3|Translit=jǐu
 10	，	，	PUNCT	_	_	13	punct	_	Translit=，
 11	结	结	VERB	ADV	_	13	mod	_	Grammar_Target=Yes|Tone=2|Translit=jié
@@ -6637,10 +6637,10 @@
 1	她	她	PRON	_	Person=3	8	subj	_	Tone=1|Translit=tā
 2	十	十	NUM	_	NumType=Card	4	mod	_	Tone=2|Translit=shí
 3	八	八	NUM	_	NumType=Card	2	flat	_	Tone=1|Translit=bā
-4	岁	岁	NOUN	_	_	8	mod	_	Tone=4|Translit=sùi
+4	岁	岁	NOUN	_	_	8	mod@temp	_	Tone=4|Translit=sùi
 5	就	就	ADV	_	_	8	mod	_	Grammar_Target=Yes|Tone=4|Translit=jìu
-6	大	大	ADJ	_	_	7	@m	_	Tone=4|Translit=dà
-7	学	学	NOUN	_	_	8	mod	_	Tone=2|Translit=xué
+6	大	大	ADJ	_	_	7	mod@m	_	Tone=4|Translit=dà
+7	学	学	NOUN	_	_	8	mod@loc	_	Tone=2|Translit=xué
 8	毕	毕	VERB	_	_	0	root	_	Tone=4|Translit=bì
 9	业	业	NOUN	_	_	8	@m	_	Tone=4|Translit=yè
 10	了	了	PART	_	_	8	discourse	_	Gloss=PRF|Tone=5|Translit=le
@@ -6676,11 +6676,11 @@
 1	他	他	PRON	_	Person=3	6	subj	_	Tone=1|Translit=tā
 2	十	十	NUM	_	NumType=Card	3	mod	_	Tone=2|Translit=shí
 3	分	分	NOUN	_	_	6	mod@temp	_	Tone=1|Translit=fēn
-4	钟	钟	NOUN	_	_	3	mod	_	Tone=1|Translit=zhōng
+4	钟	钟	NOUN	_	_	3	@m	_	Tone=1|Translit=zhōng
 5	就	就	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=jìu
 6	做	做	VERB	_	_	0	root	_	Tone=4|Translit=zuò
 7	完	完	VERB	_	_	6	comp:res	_	Tone=2|Translit=wán
-8	了	了	PART	_	_	6	discourse	_	Gloss=PRF|Tone=5|Translit=le
+8	了	了	PART	_	_	6	aspect	_	Gloss=PRF|Tone=5|Translit=le
 9	。	。	PUNCT	_	_	6	punct	_	Translit=。
 
 # sent_id = 1767
@@ -6962,10 +6962,10 @@
 7	。	。	PUNCT	_	_	4	punct	_	Translit=。
 8	我	我	PRON	_	Person=1	10	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 9	快	快	ADV	_	_	10	mod	_	Tone=4|Translit=kuài
-10	饿	饿	ADJ	_	_	4	parataxis	_	Tone=4|Translit=è
-11	死	死	VERB	_	_	10	mod	_	Tone=3|Translit=sǐ
-12	了	了	PART	_	_	11	discourse	_	Gloss=PRF|Tone=5|Translit=le
-13	。	。	PUNCT	_	_	4	punct	_	Translit=。
+10	饿	饿	ADJ	_	_	4	parataxis:new	_	Tone=4|Translit=è
+11	死	死	ADV	_	_	10	mod	_	Tone=3|Translit=sǐ
+12	了	了	PART	_	_	10	discourse	_	Gloss=PRF|Tone=5|Translit=le
+13	。	。	PUNCT	_	_	10	punct	_	Translit=。
 
 # sent_id = 1782
 # structure = Subj. + 终于 + Predicate + 了
@@ -7210,7 +7210,7 @@
 8	个	个	NOUN	_	_	9	clf	_	Gloss=CLF|Tone=4|Translit=gè
 9	电	电	NOUN	_	_	7	comp:obj	_	Tone=4|Translit=diàn
 10	话	话	NOUN	_	_	9	@m	_	Tone=4|Translit=huà
-11	问	问	VERB	_	_	7	comp:svc	_	Tone=4|Translit=wèn
+11	问	问	VERB	_	_	7	compound:svc	_	Tone=4|Translit=wèn
 12	一	一	ADV	_	_	13	@m	_	Gloss=one|Tone=1|Translit=yī
 13	下	下	ADV	_	_	11	mod	_	Tone=4|Translit=xià
 14	。	。	PUNCT	_	_	7	punct	_	Translit=。
@@ -7319,8 +7319,8 @@
 2	好	好	ADJ	_	_	1	@m	_	Grammar_Target=Yes|Tone=3|Translit=hǎo
 3	不	不	ADV	_	Polarity=Neg	4	mod	_	Tone=4|Translit=bù
 4	要	要	AUX	_	_	0	root	_	Tone=4|Translit=yào
-5	这	这	DET	_	_	6	det	_	Tone=4|Translit=zhè
-6	样	样	NOUN	_	_	7	mod	_	Tone=2|Translit=yáng
+5	这	这	DET	_	_	6	det@m	_	Tone=4|Translit=zhè
+6	样	样	NOUN	ADV	_	7	mod	_	Tone=2|Translit=yáng
 7	说	说	VERB	_	_	4	comp:aux	_	Tone=1|Translit=shuō
 8	。	。	PUNCT	_	_	4	punct	_	Translit=。
 
@@ -7396,8 +7396,8 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG1F4D1
 # text_en = Doing it this way is not right.
 # translit = Zhèyàng zuò bù duì.
-1	这	这	DET	_	_	2	det	_	Grammar_Target=Yes|Tone=4|Translit=zhè
-2	样	样	NOUN	_	_	3	mod	_	Grammar_Target=Yes|Tone=2|Translit=yáng
+1	这	这	DET	_	_	2	det@m	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+2	样	样	NOUN	ADV	_	3	mod	_	Grammar_Target=Yes|Tone=2|Translit=yáng
 3	做	做	VERB	_	_	5	subj	_	Tone=4|Translit=zuò
 4	不	不	ADV	_	Polarity=Neg	5	mod	_	Tone=4|Translit=bù
 5	对	对	ADJ	_	_	0	root	_	Tone=4|Translit=dùi
@@ -7411,8 +7411,8 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG1F4D1
 # text_en = It's not polite to say this.
 # translit = Zhèyàng shuō bù lǐmào.
-1	这	这	DET	_	_	2	det	_	Grammar_Target=Yes|Tone=4|Translit=zhè
-2	样	样	NOUN	_	_	3	mod	_	Grammar_Target=Yes|Tone=2|Translit=yáng
+1	这	这	DET	_	_	2	det@m	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+2	样	样	NOUN	ADV	_	3	mod	_	Grammar_Target=Yes|Tone=2|Translit=yáng
 3	说	说	VERB	_	_	5	subj	_	Tone=1|Translit=shuō
 4	不	不	ADV	_	Polarity=Neg	5	mod	_	Tone=4|Translit=bù
 5	礼	礼	ADJ	_	_	0	root	_	Tone=3|Translit=lǐ
@@ -8969,6 +8969,303 @@
 13	吗	吗	PART	_	Mood=Inter	10	discourse	_	Tone=5|Translit=ma
 14	？	？	PUNCT	_	_	3	punct	_	Translit=？
 
+# sent_id = 1881
+# structure = Subj. + 也都 + 不 / 没 + Predicate
+# text = 我们 也 都  没 吃饭 ，一起 去 吧 。
+# level = B1
+# structure_verbose = Using "ye" and "dou" together
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG8GSXY
+# text_en = We all haven't eaten either. Let's go together.
+# translit = Wǒmen yě dōu méi chīfàn, yīqǐ qù ba.
+1	我	我	PRON	_	Number=Plur|Person=1	6	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	Tone=5|Translit=men
+3	也	也	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=3|Translit=yě
+4	都	都	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
+5	没	没	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=2|Translit=méi
+6	吃	吃	VERB	_	_	0	root	_	Tone=1|Translit=chī
+7	饭	饭	NOUN	_	_	6	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
+8	，	，	PUNCT	_	_	11	punct	_	Translit=，
+9	一	一	ADV	_	_	10	@m	_	Gloss=one|Tone=1|Translit=yī
+10	起	起	ADV	_	_	11	mod	_	Tone=3|Translit=qǐ
+11	去	去	VERB	_	_	6	parataxis	_	Tone=4|Translit=qù
+12	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
+13	。	。	PUNCT	_	_	6	punct	_	Translit=。
+
+# sent_id = 1883
+# structure = Subj. + 也都 + 不 / 没 + Predicate
+# text = 我 不 喜欢 蝙蝠侠 ，我 的 朋友 也 都 不  喜欢 他 。
+# level = B1
+# structure_verbose = Using "ye" and "dou" together
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG8GSXY
+# text_en = I don't like Batman. My friends don't like him, either.
+# translit = Wǒ bù xǐhuan Biānfú-xiá, wǒ de péngyou yě dōu bù xǐhuan tā.
+1	我	我	PRON	_	Person=1	3	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	不	不	ADV	_	Polarity=Neg	3	mod	_	Tone=4|Translit=bù
+3	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+4	欢	欢	VERB	_	_	3	@m	_	Tone=1|Translit=huān
+5	蝙	蝙	NOUN	_	_	7	mod@m	_	Tone=1|Translit=biān
+6	蝠	蝠	NOUN	_	_	5	@m	_	Tone=2|Translit=fú
+7	侠	侠	NOUN	PROPN	_	3	comp:obj	_	Tone=2|Translit=xiá
+8	，	，	PUNCT	_	_	16	punct	_	Translit=，
+9	我	我	PRON	_	Person=1	10	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+10	的	的	PART	_	Case=Gen	11	mod	_	Tone=5|Translit=de
+11	朋	朋	NOUN	_	_	16	subj	_	Tone=2|Translit=péng
+12	友	友	NOUN	_	_	11	@m	_	Tone=3|Translit=yǒu
+13	也	也	ADV	_	_	16	mod	_	Grammar_Target=Yes|Tone=3|Translit=yě
+14	都	都	ADV	_	_	16	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
+15	不	不	ADV	_	Polarity=Neg	16	mod	_	Grammar_Target=Yes|Tone=4|Translit=bù
+16	喜	喜	VERB	_	_	3	parataxis	_	Tone=3|Translit=xǐ
+17	欢	欢	VERB	_	_	16	@m	_	Tone=1|Translit=huān
+18	他	他	PRON	_	Person=3	16	comp:obj	_	Tone=1|Translit=tā
+19	。	。	PUNCT	_	_	3	punct	_	Translit=。
+
+# sent_id = 1884
+# structure = Subj. + 也都 + 不 / 没 + Predicate
+# text = 你 觉得 你 不 容易 ？我们 也 都 不 容易 。
+# level = B1
+# structure_verbose = Using "ye" and "dou" together
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG8GSXY
+# text_en = You're saying it isn't easy for you? It isn't easy for us, either.
+# translit = Nǐ juéde nǐ bù róngyì? Wǒmen yě dōu bù róngyì.
+1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	觉	觉	VERB	_	_	0	root	_	Tone=2|Translit=jué
+3	得	得	VERB	_	_	2	@m	_	Tone=2|Translit=dé
+4	你	你	PRON	_	Person=2	6	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+5	不	不	ADV	_	Polarity=Neg	6	mod	_	Tone=4|Translit=bù
+6	容	容	ADJ	_	_	2	comp:obj	_	Tone=2|Translit=róng
+7	易	易	ADJ	_	_	6	@m	_	Tone=4|Translit=yì
+8	？	？	PUNCT	_	_	2	punct	_	Translit=？
+9	我	我	PRON	_	Number=Plur|Person=1	14	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+10	们	们	PART	_	Number=Plur|Person=1	9	@m	_	Tone=5|Translit=men
+11	也	也	ADV	_	_	14	mod	_	Grammar_Target=Yes|Tone=3|Translit=yě
+12	都	都	ADV	_	_	14	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
+13	不	不	ADV	_	Polarity=Neg	14	mod	_	Grammar_Target=Yes|Tone=4|Translit=bù
+14	容	容	ADJ	_	_	2	parataxis	_	Tone=2|Translit=róng
+15	易	易	ADJ	_	_	14	@m	_	Tone=4|Translit=yì
+16	。	。	PUNCT	_	_	2	punct	_	Translit=。
+
+# sent_id = 1885
+# structure = Subj. + 也都 + 不 / 没 + Predicate
+# text = 我 没 去 过 美国 ，我 的 家人 也 都 没 去 过 。
+# level = B1
+# structure_verbose = Using "ye" and "dou" together
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG8GSXY
+# text_en = I've never been to the USA. My family has never been there, either.
+# translit = Wǒ méi qù guo Měiguó, wǒ de jiārén yě dōu méi qù guo.
+1	我	我	PRON	_	Person=1	3	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	没	没	ADV	_	Polarity=Neg	3	mod	_	Tone=2|Translit=méi
+3	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
+4	过	过	PART	_	_	3	aspect	_	Gloss=EXP|Tone=4|Translit=guò
+5	美	美	PROPN	_	_	3	comp:obj	_	Tone=3|Translit=měi
+6	国	国	PROPN	_	_	5	@m	_	Tone=2|Translit=guó
+7	，	，	PUNCT	_	_	15	punct	_	Translit=，
+8	我	我	PRON	_	Person=1	9	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+9	的	的	PART	_	Case=Gen	10	mod	_	Tone=5|Translit=de
+10	家	家	NOUN	_	_	15	subj	_	Tone=1|Translit=jiā
+11	人	人	NOUN	_	_	10	@m	_	Tone=2|Translit=rén
+12	也	也	ADV	_	_	15	mod	_	Grammar_Target=Yes|Tone=3|Translit=yě
+13	都	都	ADV	_	_	15	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
+14	没	没	ADV	_	_	15	mod	_	Grammar_Target=Yes|Tone=2|Translit=méi
+15	去	去	VERB	_	_	3	parataxis	_	Tone=4|Translit=qù
+16	过	过	PART	_	_	15	aspect	_	Gloss=EXP|Tone=4|Translit=guò
+17	。	。	PUNCT	_	_	3	punct	_	Translit=。
+
+# sent_id = 1886
+# structure = Subj. + 那么 / 这么 + Adj.
+# text = 他 说得 这么 快 ，你们 听 得 懂 吗 ？
+# level = B1
+# structure_verbose = Adjectives with "name" and "zheme"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNKKP6
+# text_en = He speaks so fast. Can you guys understand?
+# translit = Tā shuō de zhème kuài,  nǐmen tīng de dǒng ma?
+1	他	他	PRON	_	Person=3	2	subj	_	Tone=1|Translit=tā
+2	说	说	VERB	_	_	0	root	_	Tone=1|Translit=shuō
+3	得	得	PART	_	_	2	mod	_	Tone=2|Translit=dé
+4	这	这	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+5	么	么	ADV	_	_	4	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+6	快	快	ADJ	_	_	3	comp:obj	_	Tone=4|Translit=kuài
+7	，	，	PUNCT	_	_	10	punct	_	Translit=，
+8	你	你	PRON	_	Number=Plur|Person=2	10	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+9	们	们	PART	_	Number=Plur|Person=2	8	@m	_	Tone=5|Translit=men
+10	听	听	VERB	_	_	2	parataxis	_	Tone=1|Translit=tīng
+11	得	得	ADV	_	_	12	mod	_	Tone=2|Translit=dé
+12	懂	懂	VERB	_	_	10	comp:res	_	Tone=3|Translit=dǒng
+13	吗	吗	PART	_	Mood=Inter	10	discourse	_	Tone=5|Translit=ma
+14	？	？	PUNCT	_	_	2	punct	_	Translit=？
+
+# sent_id = 1887
+# structure = Subj. + 那么 / 这么 + Adj.
+# text = 我 没 想到 这个 考试 这么 难 。
+# level = B1
+# structure_verbose = Adjectives with "name" and "zheme"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNKKP6
+# text_en = I didn't expect this exam would be this difficult.
+# translit = Wǒ méi xiǎng dào zhège kǎoshì zhème nán.
+1	我	我	PRON	_	Person=1	3	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	没	没	ADV	_	Polarity=Neg	3	mod	_	Tone=2|Translit=méi
+3	想	想	VERB	_	_	0	root	_	Tone=3|Translit=xiǎng
+4	到	到	VERB	_	_	3	comp:res	_	Tone=4|Translit=dào
+5	这	这	DET	_	_	6	det	_	Tone=4|Translit=zhè
+6	个	个	NOUN	_	_	7	clf	_	Gloss=CLF|Tone=4|Translit=gè
+7	考	考	NOUN	_	_	11	subj	_	Tone=3|Translit=kǎo
+8	试	试	NOUN	_	_	7	@m	_	Tone=4|Translit=shì
+9	这	这	ADV	_	_	11	mod	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+10	么	么	ADV	_	_	9	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+11	难	难	ADJ	_	_	4	comp:obj	_	Tone=2|Translit=nán
+12	。	。	PUNCT	_	_	3	punct	_	Translit=。
+
+# sent_id = 1888
+# structure = Subj. + 那么 / 这么 + Adj.
+# text = 雨 这么 大，明天 再 去 吧 。
+# level = B1
+# structure_verbose = Adjectives with "name" and "zheme"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNKKP6
+# text_en = The rain is so heavy. How about we go tomorrow?
+# translit = Yǔ zhème dà, míngtiān zài qù ba.
+1	雨	雨	NOUN	_	_	4	subj	_	Tone=3|Translit=yǔ
+2	这	这	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+3	么	么	ADV	_	_	2	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+4	大	大	ADJ	_	_	0	root	_	Tone=4|Translit=dà
+5	，	，	PUNCT	_	_	9	punct	_	Translit=，
+6	明	明	NOUN	_	_	9	mod@temp	_	Tone=2|Translit=míng
+7	天	天	NOUN	_	_	6	@m	_	Tone=1|Translit=tiān
+8	再	再	ADV	_	_	9	mod	_	Tone=4|Translit=zài
+9	去	去	VERB	_	_	4	parataxis	_	Tone=4|Translit=qù
+10	吧	吧	PART	_	_	9	discourse	_	Tone=5|Translit=ba
+11	。	。	PUNCT	_	_	4	punct	_	Translit=。
+
+# sent_id = 1889
+# structure = Subj. + 那么 / 这么 + Adj.
+# text = 你 那么 聪明 ，一定 能 猜到 。
+# level = B1
+# structure_verbose = Adjectives with "name" and "zheme"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNKKP6
+# text_en = You're so smart. You can definitely guess it.
+# translit = Nǐ nàme cōngming, yīdìng néng cāi dào.
+1	你	你	PRON	_	Person=2	4	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	那	那	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+3	么	么	ADV	_	_	2	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+4	聪	聪	ADJ	_	_	0	root	_	Tone=1|Translit=cōng
+5	明	明	ADJ	_	_	4	@m	_	Tone=2|Translit=míng
+6	，	，	PUNCT	_	_	9	punct	_	Translit=，
+7	一	一	ADV	_	_	8	@m	_	Tone=1|Translit=yī
+8	定	定	ADV	_	_	9	mod	_	Tone=4|Translit=dìng
+9	能	能	AUX	_	_	4	parataxis	_	Tone=2|Translit=néng
+10	猜	猜	VERB	_	_	9	comp:aux	_	Tone=1|Translit=cāi
+11	到	到	VERB	_	_	10	comp:res	_	Tone=4|Translit=dào
+12	。	。	PUNCT	_	_	4	punct	_	Translit=。
+
+# sent_id = 1890
+# structure = Subj. + 那么 / 这么 + Adj.
+# text = 老板 那么 忙 ，肯定 没 时间 。
+# level = B1
+# structure_verbose = Adjectives with "name" and "zheme"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNKKP6
+# text_en = The boss is so busy. He definitely won't have time for this.
+# translit = Lǎobǎn nàme máng, kěndìng méi shíjiān.
+1	老	老	NOUN	_	_	5	subj	_	Tone=3|Translit=lǎo
+2	板	板	NOUN	_	_	1	@m	_	Tone=3|Translit=bǎn
+3	那	那	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+5	忙	忙	ADJ	_	_	0	root	_	Tone=2|Translit=máng
+6	，	，	PUNCT	_	_	9	punct	_	Translit=，
+7	肯	肯	ADV	_	_	9	mod	_	Tone=3|Translit=kěn
+8	定	定	ADJ	_	_	7	@m	_	Tone=4|Translit=dìng
+9	没	没	VERB	_	Polarity=Neg	5	parataxis	_	Tone=2|Translit=méi
+10	时	时	NOUN	_	_	9	comp:obj	_	Tone=2|Translit=shí
+11	间	间	NOUN	_	_	10	@m	_	Tone=1|Translit=jiān
+12	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 1891
+# structure = Subj. + 那么 / 这么 + Adj.
+# text = 今天 怎么 这么 冷 ？
+# level = B1
+# structure_verbose = Adjectives with "name" and "zheme"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNKKP6
+# text_en = Why is it so cold today?
+# translit = Jīntiān zěnme zhème lěng?
+1	今	今	NOUN	_	_	7	mod@temp	_	Tone=1|Translit=jīn
+2	天	天	NOUN	_	_	1	@m	_	Tone=1|Translit=tiān
+3	怎	怎	PRON	_	_	7	mod	_	Tone=3|Translit=zěn
+4	么	么	PRON	_	_	3	@m	_	Tone=5|Translit=me
+5	这	这	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+6	么	么	ADV	_	_	5	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+7	冷	冷	ADJ	_	_	0	root	_	Tone=3|Translit=lěng
+8	？	？	PUNCT	_	_	7	punct	_	Translit=？
+
+# sent_id = 1892
+# structure = Subj. + 那么 / 这么 + Adj.
+# text = 你 怎么 这么 没 礼貌 ？
+# level = B1
+# structure_verbose = Adjectives with "name" and "zheme"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNKKP6
+# text_en = How can you be this impolite?
+# translit = Nǐ zěnme zhème méi lǐmào?
+1	你	你	PRON	_	Person=2	6	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	怎	怎	PRON	_	PronType=Int	6	mod	_	Tone=3|Translit=zěn
+3	么	么	PRON	_	_	2	@m	_	Tone=5|Translit=me
+4	这	这	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+5	么	么	ADV	_	_	4	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+6	没	没	VERB	_	_	0	root	_	Tone=2|Translit=méi
+7	礼	礼	NOUN	_	_	6	comp:obj	_	Tone=3|Translit=lǐ
+8	貌	貌	NOUN	_	_	7	@m	_	Tone=4|Translit=mào
+9	？	？	PUNCT	_	_	6	punct	_	Translit=？
+
+# sent_id = 1893
+# structure = Subj. + 那么 / 这么 + Adj.
+# text = 这个 外国人 怎么 会 了解 那么 多 中国 历史 ？
+# level = B1
+# structure_verbose = Adjectives with "name" and "zheme"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNKKP6
+# text_en = How could this foreigner know that much about Chinese history?
+# translit = Zhège wàiguórén zěnme huì  liǎojiě nàme duō Zhōngguó lìshǐ?
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	个	个	NOUN	_	_	5	clf	_	Gloss=CLF|Tone=4|Translit=gè
+3	外	外	NOUN	_	_	5	mod@m	_	Tone=4|Translit=wài
+4	国	国	NOUN	_	_	3	@m	_	Tone=2|Translit=guó
+5	人	人	NOUN	_	_	8	subj	_	Tone=2|Translit=rén
+6	怎	怎	PRON	_	PronType=Int	8	mod	_	Tone=3|Translit=zěn
+7	么	么	PRON	_	_	6	@m	_	Tone=5|Translit=me
+8	会	会	AUX	_	_	0	root	_	Tone=4|Translit=hùi
+9	了	了	VERB	_	_	8	comp:aux	_	Tone=5|Translit=le
+10	解	解	VERB	_	_	9	@m	_	Tone=3|Translit=jiě
+11	那	那	ADV	_	_	13	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+12	么	么	ADV	_	_	11	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+13	多	多	ADJ	_	NumType=Card	16	mod	_	Tone=1|Translit=duō
+14	中	中	PROPN	_	_	16	mod	_	Tone=1|Translit=zhōng
+15	国	国	PROPN	_	_	14	@m	_	Tone=2|Translit=guó
+16	历	历	NOUN	_	_	9	comp:obj	_	Tone=4|Translit=lì
+17	史	史	NOUN	_	_	16	@m	_	Tone=3|Translit=shǐ
+18	？	？	PUNCT	_	_	8	punct	_	Translit=？
+
+# sent_id = 1894
+# structure = Subj. + 那么 / 这么 + Adj.
+# text = 中国 人口 这么  多 ，当然 会 有 很 多 社会 问题 。
+# level = B1
+# structure_verbose = Adjectives with "name" and "zheme"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNKKP6
+# text_en = China has such a big  population. Of course there will be many social problems.
+# translit = Zhōngguó rénkǒu zhème  duō, dāngrán huì yǒu hěn duō shèhuì wèntí.
+1	中	中	PROPN	_	_	3	mod	_	Tone=1|Translit=zhōng
+2	国	国	PROPN	_	_	1	@m	_	Tone=2|Translit=guó
+3	人	人	NOUN	_	_	7	subj	_	Tone=2|Translit=rén
+4	口	口	NOUN	_	_	3	@m	_	Tone=3|Translit=kǒu
+5	这	这	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+6	么	么	ADV	_	_	5	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+7	多	多	ADJ	_	_	0	root	_	Tone=1|Translit=duō
+8	，	，	PUNCT	_	_	11	punct	_	Translit=，
+9	当	当	ADV	_	_	11	mod	_	Tone=1|Translit=dāng
+10	然	然	ADV	_	_	9	@m	_	Tone=2|Translit=rán
+11	会	会	AUX	_	_	7	parataxis	_	Tone=4|Translit=hùi
+12	有	有	VERB	_	_	11	comp:aux	_	Tone=3|Translit=yǒu
+13	很	很	ADV	_	_	14	mod	_	Tone=3|Translit=hěn
+14	多	多	ADJ	_	NumType=Card	17	mod	_	Tone=1|Translit=duō
+15	社	社	NOUN	_	_	17	mod	_	Tone=4|Translit=shè
+16	会	会	NOUN	_	_	15	@m	_	Tone=4|Translit=hùi
+17	问	问	NOUN	_	_	12	comp:obj	_	Tone=4|Translit=wèn
+18	题	题	NOUN	_	_	17	@m	_	Tone=2|Translit=tí
+19	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
 # sent_id = 1895
 # structure = Subj. + 那么 / 这么 + Adj.
 # text = 科技 那么 发达 ，什么 都 是 有 可能 的 。
@@ -8994,6 +9291,171 @@
 15	的	的	PART	_	_	11	comp:pred	_	Tone=5|Translit=de
 16	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
+# sent_id = 1896
+# structure = 挺 + Adj. + 的
+# text = 这个 老师 挺 年轻 的 。
+# level = B1
+# structure_verbose = Expressing "quite" with "ting"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDF1F7
+# text_en = This teacher is quite young.
+# translit = Zhège lǎoshī tǐng niánqīng de.
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
+3	老	老	NOUN	_	_	6	subj	_	Tone=3|Translit=lǎo
+4	师	师	NOUN	_	_	3	@m	_	Tone=1|Translit=shī
+5	挺	挺	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=3|Translit=tǐng
+6	年	年	NOUN	_	_	0	root	_	Gloss=year|Tone=2|Translit=nián
+7	轻	轻	ADJ	_	_	6	@m	_	Tone=1|Translit=qīng
+8	的	的	PART	_	_	6	discourse	_	Tone=5|Translit=de
+9	。	。	PUNCT	_	_	6	punct	_	Translit=。
+
+# sent_id = 1897
+# structure = 挺 + Adj. + 的
+# text = 你 男朋友 挺 帅 的 。
+# level = B1
+# structure_verbose = Expressing "quite" with "ting"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDF1F7
+# text_en = Your boyfriend is pretty handsome.
+# translit = Nǐ nánpéngyou tǐng shuài de.
+1	你	你	PRON	_	Person=2	3	mod	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	男	男	NOUN	_	_	3	@m	_	Tone=2|Translit=nán
+3	朋	朋	NOUN	_	_	6	subj	_	Tone=2|Translit=péng
+4	友	友	NOUN	_	_	3	@m	_	Tone=3|Translit=yǒu
+5	挺	挺	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=3|Translit=tǐng
+6	帅	帅	ADJ	_	_	0	root	_	Gloss=handsome|Tone=4|Translit=shuài
+7	的	的	PART	_	_	6	discourse	_	Tone=5|Translit=de
+8	。	。	PUNCT	_	_	6	punct	_	Translit=。
+
+# sent_id = 1898
+# structure = 挺 + Adj. + 的
+# text = 最近 大家 都 挺 忙 的 。
+# level = B1
+# structure_verbose = Expressing "quite" with "ting"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDF1F7
+# text_en = We've all been quite busy lately.
+# translit = Zuìjìn dàjiā dōu tǐng máng de.
+1	最	最	ADV	_	_	7	mod@temp	_	Tone=4|Translit=zùi
+2	近	近	ADV	_	_	1	@m	_	Tone=4|Translit=jìn
+3	大	大	ADJ	_	_	4	mod@m	_	Tone=4|Translit=dà
+4	家	家	NOUN	_	_	7	subj	_	Tone=1|Translit=jiā
+5	都	都	ADV	_	_	7	mod	_	Tone=1|Translit=dū
+6	挺	挺	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=3|Translit=tǐng
+7	忙	忙	ADJ	_	_	0	root	_	Tone=2|Translit=máng
+8	的	的	PART	_	_	7	discourse	_	Tone=5|Translit=de
+9	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
+# sent_id = 1899
+# structure = 挺 + Adj. + 的
+# text = 这 件 衣服 大小 挺 合适 的 。
+# level = B1
+# structure_verbose = Expressing "quite" with "ting"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDF1F7
+# text_en = The size of this piece of clothing is quite suitable.
+# translit = Zhè jiàn yīfu dàxiǎo tǐng héshì de.
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	件	件	NOUN	_	_	3	clf	_	Tone=4|Translit=jiàn
+3	衣	衣	NOUN	_	_	5	mod	_	Tone=1|Translit=yī
+4	服	服	NOUN	_	_	3	@m	_	Tone=2|Translit=fú
+5	大	大	ADJ	NOUN	_	8	subj	_	Tone=4|Translit=dà
+6	小	小	ADJ	_	_	5	@m	_	Tone=3|Translit=xiǎo
+7	挺	挺	ADV	_	_	8	mod	_	Grammar_Target=Yes|Tone=3|Translit=tǐng
+8	合	合	ADJ	_	_	0	root	_	Tone=2|Translit=hé
+9	适	适	ADJ	_	_	8	@m	_	Tone=4|Translit=shì
+10	的	的	PART	_	_	8	discourse	_	Tone=5|Translit=de
+11	。	。	PUNCT	_	_	8	punct	_	Translit=。
+
+# sent_id = 1900
+# structure = 挺 + Adj. + 的
+# text = 他 家 不是 挺 有钱 的 吗 ？
+# level = B1
+# structure_verbose = Expressing "quite" with "ting"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDF1F7
+# text_en = Isn't his family rather rich?
+# translit = Tā jiā bù shì tǐng yǒuqián de ma?
+1	他	他	PRON	_	Person=3	2	mod	_	Tone=1|Translit=tā
+2	家	家	NOUN	_	_	4	subj	_	Tone=1|Translit=jiā
+3	不	不	ADV	_	Polarity=Neg	4	mod	_	Tone=4|Translit=bù
+4	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
+5	挺	挺	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=3|Translit=tǐng
+6	有	有	VERB	ADJ	_	8	comp:obj	_	Tone=3|Translit=yǒu
+7	钱	钱	NOUN	_	_	6	comp:obj@m	_	Tone=2|Translit=qián
+8	的	的	PART	_	Case=Gen	4	comp:pred	_	Tone=5|Translit=de
+9	吗	吗	PART	_	Mood=Inter	4	discourse	_	Tone=5|Translit=ma
+10	？	？	PUNCT	_	_	4	punct	_	Translit=？
+
+# sent_id = 1901
+# structure = 挺 + [Verb Phrase] + 的
+# text = 我们 都 挺 想 你 的 。
+# level = B1
+# structure_verbose = Expressing "quite" with "ting"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDF1F7
+# text_en = We all quite miss you.
+# translit = Wǒmen dōu tǐng xiǎng nǐ de.
+1	我	我	PRON	_	Number=Plur|Person=1	5	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	Tone=5|Translit=men
+3	都	都	ADV	_	_	5	mod	_	Tone=1|Translit=dū
+4	挺	挺	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=tǐng
+5	想	想	VERB	_	_	0	root	_	Tone=3|Translit=xiǎng
+6	你	你	PRON	_	Person=2	5	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
+7	的	的	PART	_	Case=Gen	5	discourse	_	Tone=5|Translit=de
+8	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 1902
+# structure = 挺 + [Verb Phrase] + 的
+# text = 我 挺 喜欢 这 份 工作 的 。
+# level = B1
+# structure_verbose = Expressing "quite" with "ting"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDF1F7
+# text_en = I quite like this job.
+# translit = Wǒ tǐng xǐhuan zhè fèn gōngzuò de.
+1	我	我	PRON	_	Person=1	3	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	挺	挺	ADV	_	_	3	mod	_	Grammar_Target=Yes|Tone=3|Translit=tǐng
+3	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+4	欢	欢	VERB	_	_	3	@m	_	Tone=1|Translit=huān
+5	这	这	DET	_	_	6	det	_	Tone=4|Translit=zhè
+6	份	份	NOUN	_	_	7	clf	_	Gloss=CLF|Tone=4|Translit=fèn
+7	工	工	NOUN	_	_	3	comp:obj	_	Tone=1|Translit=gōng
+8	作	作	NOUN	_	_	7	@m	_	Tone=4|Translit=zuò
+9	的	的	PART	_	Case=Gen	3	discourse	_	Tone=5|Translit=de
+10	。	。	PUNCT	_	_	3	punct	_	Translit=。
+
+# sent_id = 1903
+# structure = 挺 + [Verb Phrase] + 的
+# text = 我 女儿 挺 怕 她 爸爸 的 。
+# level = B1
+# structure_verbose = Expressing "quite" with "ting"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDF1F7
+# text_en = My daughter is quite afraid of her father.
+# translit = Wǒ nǚ'ér tǐng pà tā bàba de.
+1	我	我	PRON	_	Person=1	2	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	女	女	NOUN	_	_	5	subj	_	Tone=3|Translit=nv̌
+3	儿	儿	NOUN	_	_	2	@m	_	Tone=2|Translit=ér
+4	挺	挺	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=tǐng
+5	怕	怕	VERB	_	_	0	root	_	Tone=4|Translit=pà
+6	她	她	PRON	_	Person=3	7	mod	_	Tone=1|Translit=tā
+7	爸	爸	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=bà
+8	爸	爸	NOUN	_	_	7	conj:redup@m	_	Tone=4|Translit=bà
+9	的	的	PART	_	Case=Gen	5	discourse	_	Tone=5|Translit=de
+10	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 1904
+# structure = 挺 + [Verb Phrase] + 的
+# text = 那 件 事 我 挺 后悔 的 。
+# level = B1
+# structure_verbose = Expressing "quite" with "ting"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDF1F7
+# text_en = I rather regret that incident.
+# translit = Nà jiàn shì wǒ tǐng hòuhuǐ de.
+1	那	那	DET	_	_	2	det	_	Tone=4|Translit=nà
+2	件	件	NOUN	_	_	3	clf	_	Tone=4|Translit=jiàn
+3	事	事	NOUN	_	_	7	comp:obj	_	Tone=4|Translit=shì
+4	我	我	PRON	_	Person=1	7	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+5	挺	挺	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=3|Translit=tǐng
+6	后	后	NOUN	_	_	7	@m	_	Tone=4|Translit=hòu
+7	悔	悔	VERB	_	_	0	root	_	Tone=3|Translit=hǔi
+8	的	的	PART	_	_	7	discourse	_	Tone=5|Translit=de
+9	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
 # sent_id = 1905
 # structure = 挺 + [Verb Phrase] + 的
 # text = 你 不 是 挺 爱 他 的 吗 ？怎么 分手 了 ？
@@ -9017,6 +9479,283 @@
 13	手	手	NOUN	_	_	12	@m	_	Gloss=hand|Tone=3|Translit=shǒu
 14	了	了	PART	_	_	12	discourse	_	Gloss=PRF|Tone=5|Translit=le
 15	？	？	PUNCT	_	_	3	punct	_	Translit=？
+
+# sent_id = 1907
+# structure = Subj. + 比较 + Adj.
+# text = 我 觉得 这个 价格 比较 贵 。
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+# text_en = I think this price is rather expensive.
+# translit = Wǒ juéde zhège jiàgé bǐjiào guì.
+1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	觉	觉	VERB	_	_	0	root	_	Tone=2|Translit=jué
+3	得	得	VERB	_	_	2	@m	_	Tone=2|Translit=dé
+4	这	这	DET	_	_	5	det	_	Tone=4|Translit=zhè
+5	个	个	NOUN	_	_	6	clf	_	Gloss=CLF|Tone=4|Translit=gè
+6	价	价	NOUN	_	_	10	subj	_	Tone=4|Translit=jià
+7	格	格	NOUN	_	_	6	@m	_	Tone=2|Translit=gé
+8	比	比	ADV	_	_	10	mod	_	Grammar_Target=Yes|Tone=3|Translit=bǐ
+9	较	较	ADV	_	_	8	@m	_	Grammar_Target=Yes|Tone=4|Translit=jiào
+10	贵	贵	ADJ	_	_	2	comp:obj	_	Tone=4|Translit=gùi
+11	。	。	PUNCT	_	_	2	punct	_	Translit=。
+
+# sent_id = 1908
+# structure = Subj. + 比较 + Adj.
+# text = 我 家 离 市中心 比较 近 。
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+# text_en = My place is relatively close to downtown.
+# translit = Wǒ jiā lí shìzhōngxīn bǐjiào jìn.
+1	我	我	PRON	_	Person=1	2	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	家	家	NOUN	_	_	9	subj	_	Tone=1|Translit=jiā
+3	离	离	ADP	_	_	9	comp:obl	_	Tone=2|Translit=lí
+4	市	市	NOUN	_	_	5	mod@m	_	Tone=4|Translit=shì
+5	中	中	NOUN	_	_	3	comp:obj	_	Tone=1|Translit=zhōng
+6	心	心	NOUN	_	_	5	@m	_	Tone=1|Translit=xīn
+7	比	比	ADV	_	_	9	mod	_	Grammar_Target=Yes|Tone=3|Translit=bǐ
+8	较	较	ADV	_	_	7	@m	_	Grammar_Target=Yes|Tone=4|Translit=jiào
+9	近	近	ADJ	_	_	0	root	_	Tone=4|Translit=jìn
+10	。	。	PUNCT	_	_	9	punct	_	Translit=。
+
+# sent_id = 1910
+# structure = Subj. + 比较 + Adj.
+# text = 你 上班 坐 地铁 比较 方便 吧 ？
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+# text_en = To get to work, it's quite convenient for you to take the subway, right?
+# translit = Nǐ shàngbān zuò dìtiě bǐjiào fāngbiàn ba?
+1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	上	上	VERB	_	_	9	subj	_	Tone=4|Translit=shàng
+3	班	班	NOUN	_	_	2	comp:obj	_	Tone=1|Translit=bān
+4	坐	坐	VERB	_	_	2	mod	_	Tone=4|Translit=zuò
+5	地	地	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=dì
+6	铁	铁	NOUN	_	_	5	@m	_	Tone=3|Translit=tiě
+7	比	比	ADV	_	_	9	mod	_	Grammar_Target=Yes|Tone=3|Translit=bǐ
+8	较	较	ADV	_	_	7	@m	_	Grammar_Target=Yes|Tone=4|Translit=jiào
+9	方	方	ADJ	_	_	0	root	_	Tone=1|Translit=fāng
+10	便	便	ADJ	_	_	9	@m	_	Tone=4|Translit=biàn
+11	吧	吧	PART	_	_	9	discourse	_	Tone=5|Translit=ba
+12	？	？	PUNCT	_	_	9	punct	_	Translit=？
+
+# sent_id = 1912
+# structure = Subj. + 比较 + [Verb Phrase]
+# text = 你 比较 喜欢 用 Gmail 还是 Hotmail ？Note that for this phrase, the translation is a totally different verb.
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+# text_en = Do you prefer to use Gmail or Hotmail?
+# translit = Nǐ bǐjiào xǐhuan yòng Gmail háishì Hotmail?
+1	你	你	PRON	_	Person=2	4	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	比	比	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=3|Translit=bǐ
+3	较	较	ADV	_	_	2	@m	_	Grammar_Target=Yes|Tone=4|Translit=jiào
+4	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+5	欢	欢	VERB	_	_	4	@m	_	Tone=1|Translit=huān
+6	用	用	VERB	_	_	4	comp:obj	_	Tone=4|Translit=yòng
+7	G	g	PROPN	_	_	6	comp:obj	_	Translit=G
+8	m	m	PROPN	_	_	7	flat:foreign@m	_	Translit=m
+9	a	a	PROPN	_	_	8	flat:foreign@m	_	Translit=a
+10	i	i	PROPN	_	_	9	flat:foreign@m	_	Translit=i
+11	l	l	PROPN	_	_	10	flat:foreign@m	_	Translit=l
+12	还	还	CCONJ	_	_	14	cc	_	Tone=2|Translit=huán
+13	是	是	CCONJ	_	_	12	@m	_	Tone=4|Translit=shì
+14	H	h	PROPN	_	_	7	conj	_	Translit=H
+15	o	o	PROPN	_	_	14	flat:foreign@m	_	Translit=o
+16	t	t	PROPN	_	_	15	flat:foreign@m	_	Translit=t
+17	m	m	PROPN	_	_	16	flat:foreign@m	_	Translit=m
+18	a	a	PROPN	_	_	17	flat:foreign@m	_	Translit=a
+19	i	i	PROPN	_	_	18	flat:foreign@m	_	Translit=i
+20	l	l	PROPN	_	_	19	flat:foreign@m	_	Translit=l
+21	？	？	PUNCT	_	_	4	punct	_	Translit=？
+
+# sent_id = 1913
+# structure = Subj. + 比较 + [Verb Phrase]
+# text = 我 父母 比较 反对 我 找 外国 男朋友 。
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+# text_en = My parents rather object to me seeking a foreign boyfriend.
+# translit = Wǒ fùmǔ bǐjiào fǎnduì wǒ zhǎo wàiguó nánpéngyou.
+1	我	我	PRON	_	Person=1	2	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	父	父	NOUN	_	_	6	subj	_	Tone=4|Translit=fù
+3	母	母	NOUN	_	_	2	@m	_	Tone=3|Translit=mǔ
+4	比	比	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=3|Translit=bǐ
+5	较	较	ADV	_	_	4	@m	_	Grammar_Target=Yes|Tone=4|Translit=jiào
+6	反	反	ADJ	_	_	0	root	_	Tone=3|Translit=fǎn
+7	对	对	ADP	_	_	6	@m	_	Tone=4|Translit=dùi
+8	我	我	PRON	_	Person=1	9	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+9	找	找	VERB	_	_	6	comp:obj	_	Tone=3|Translit=zhǎo
+10	外	外	NOUN	_	_	13	mod	_	Tone=4|Translit=wài
+11	国	国	NOUN	_	_	10	@m	_	Tone=2|Translit=guó
+12	男	男	NOUN	_	_	13	@m	_	Tone=2|Translit=nán
+13	朋	朋	NOUN	_	_	9	comp:obj	_	Tone=2|Translit=péng
+14	友	友	NOUN	_	_	13	@m	_	Tone=3|Translit=yǒu
+15	。	。	PUNCT	_	_	6	punct	_	Translit=。
+
+# sent_id = 1914
+# structure = Subj. + 比较 + [Verb Phrase]
+# text = 民众 比较 支持 新 的 就业 政策 。
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+# text_en = The public rather supports the new employment policy.
+# translit = Mínzhòng bǐjiào zhīchí xīn de jiùyè zhèngcè.
+1	民	民	NOUN	_	_	5	subj	_	Tone=2|Translit=mín
+2	众	众	NOUN	_	_	1	@m	_	Tone=4|Translit=zhòng
+3	比	比	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=bǐ
+4	较	较	ADV	_	_	3	@m	_	Grammar_Target=Yes|Tone=4|Translit=jiào
+5	支	支	VERB	_	_	0	root	_	Tone=1|Translit=zhī
+6	持	持	VERB	_	_	5	@m	_	Tone=2|Translit=chí
+7	新	新	ADJ	_	_	8	comp:obj	_	Tone=1|Translit=xīn
+8	的	的	PART	_	Case=Gen	11	mod	_	Tone=5|Translit=de
+9	就	就	NOUN	_	_	11	mod	_	Tone=4|Translit=jìu
+10	业	业	NOUN	_	_	9	@m	_	Tone=4|Translit=yè
+11	政	政	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=zhèng
+12	策	策	NOUN	_	_	11	@m	_	Tone=4|Translit=cè
+13	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 1915
+# structure = Subj. + 比较 + [Verb Phrase]
+# text = 老板 通常 比较 关注 结果 ，不 是 过程 。
+# level = B1
+# structure_verbose = Expressing "rather" with "bijiao"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG72HKP
+# text_en = The boss usually pays more attention to results and not process.
+# translit = Lǎobǎn tōngcháng bǐjiào guānzhù jiéguǒ, bù shì guòchéng.
+1	老	老	NOUN	_	_	7	subj	_	Tone=3|Translit=lǎo
+2	板	板	NOUN	_	_	1	@m	_	Tone=3|Translit=bǎn
+3	通	通	ADV	_	_	7	mod	_	Tone=1|Translit=tōng
+4	常	常	ADV	_	_	3	@m	_	Tone=2|Translit=cháng
+5	比	比	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=3|Translit=bǐ
+6	较	较	ADV	_	_	5	@m	_	Grammar_Target=Yes|Tone=4|Translit=jiào
+7	关	关	VERB	_	_	0	root	_	Tone=1|Translit=guān
+8	注	注	VERB	_	_	7	@m	_	Tone=4|Translit=zhù
+9	结	结	NOUN	_	_	7	comp:obj	_	Tone=2|Translit=jié
+10	果	果	NOUN	_	_	9	@m	_	Tone=3|Translit=guǒ
+11	，	，	PUNCT	_	_	13	punct	_	Translit=，
+12	不	不	ADV	_	_	13	mod	_	Tone=4|Translit=bù
+13	是	是	AUX	_	_	7	parataxis	_	Tone=4|Translit=shì
+14	过	过	NOUN	_	_	13	comp:pred	_	Tone=4|Translit=guò
+15	程	程	NOUN	_	_	14	@m	_	Tone=2|Translit=chéng
+16	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
+# sent_id = 1916
+# structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
+# text = 我 奶奶 不 吃 肉 ，只 吃 蔬菜 、豆腐 什么的 。
+# level = B1
+# structure_verbose = Ending a non-exhaustive list with "shenme de"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDIDAC
+# text_en = My grandma doesn't eat meat. She only eats vegetables, tofu, and so on.
+# translit = Wǒ nǎinai bù chī ròu, zhǐ chī shūcài, dòufu shénme de.
+1	我	我	PRON	_	Person=1	2	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	奶	奶	NOUN	_	_	5	subj	_	Tone=3|Translit=nǎi
+3	奶	奶	NOUN	_	_	2	conj:redup@m	_	Tone=3|Translit=nǎi
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	Tone=4|Translit=bù
+5	吃	吃	VERB	_	_	0	root	_	Tone=1|Translit=chī
+6	肉	肉	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=ròu
+7	，	，	PUNCT	_	_	9	punct	_	Translit=，
+8	只	只	ADV	_	_	9	mod	_	Tone=3|Translit=zhǐ
+9	吃	吃	VERB	_	_	5	parataxis	_	Tone=1|Translit=chī
+10	蔬	蔬	NOUN	_	_	9	comp:obj	_	Tone=1|Translit=shū
+11	菜	菜	NOUN	_	_	10	@m	_	Tone=4|Translit=cài
+12	、	、	PUNCT	_	_	13	punct	_	Translit=、
+13	豆	豆	NOUN	_	_	10	conj	_	Tone=4|Translit=dòu
+14	腐	腐	NOUN	_	_	13	@m	_	Tone=3|Translit=fǔ
+15	什	什	PRON	_	_	17	fixed@m	_	Grammar_Target=Yes|Tone=2|Translit=shén
+16	么	么	PRON	_	_	15	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+17	的	的	PART	_	_	13	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
+18	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 1917
+# structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
+# text = 养狗 很 麻烦 ，你 要 喂 它 ，给 它 洗澡 ，跟 它 玩 什么的 。
+# level = B1
+# structure_verbose = Ending a non-exhaustive list with "shenme de"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDIDAC
+# text_en = Having a dog is too much trouble. You need to feed it, give it a bath, play with it, and so on.
+# translit = Yǎng gǒu hěn máfan, nǐ yào wèi tā, gěi tā xǐzǎo, gēn tā wán shénme de.
+1	养	养	VERB	_	_	4	subj	_	Tone=3|Translit=yǎng
+2	狗	狗	NOUN	_	_	1	comp:obj	_	Tone=3|Translit=gǒu
+3	很	很	ADV	_	_	4	mod	_	Tone=3|Translit=hěn
+4	麻	麻	ADJ	_	_	0	root	_	Tone=2|Translit=má
+5	烦	烦	ADJ	_	_	4	@m	_	Tone=2|Translit=fán
+6	，	，	PUNCT	_	_	4	punct	_	Translit=，
+7	你	你	PRON	_	Person=2	8	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+8	要	要	AUX	_	_	4	parataxis:new	_	Tone=4|Translit=yào
+9	喂	喂	VERB	_	_	8	comp:aux	_	Tone=4|Translit=wèi
+10	它	它	PART	_	_	9	comp:obj	_	Tone=1|Translit=tā
+11	，	，	PUNCT	_	_	12	punct	_	Translit=，
+12	给	给	ADP	_	_	14	comp:obl	_	Tone=3|Translit=gěi
+13	它	它	PRON	_	_	12	comp:obj	_	Tone=1|Translit=tā
+14	洗	洗	VERB	_	_	8	conj	_	Tone=3|Translit=xǐ
+15	澡	澡	NOUN	_	_	14	comp:obj	_	Tone=3|Translit=zǎo
+16	，	，	PUNCT	_	_	19	punct	_	Translit=，
+17	跟	跟	ADP	_	_	19	comp:obl	_	Tone=1|Translit=gēn
+18	它	它	PRON	_	_	17	comp:obj	_	Tone=1|Translit=tā
+19	玩	玩	VERB	_	_	14	conj	_	Tone=2|Translit=wán
+20	什	什	PRON	_	_	22	fixed@m	_	Grammar_Target=Yes|Tone=2|Translit=shén
+21	么	么	PRON	_	_	20	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+22	的	的	PART	_	_	19	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
+23	。	。	PUNCT	_	_	8	punct	_	Translit=。
+
+# sent_id = 1918
+# structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
+# text = 数学 、物理 、化学 什么的 ，我 都 不 感兴趣 。
+# level = B1
+# structure_verbose = Ending a non-exhaustive list with "shenme de"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDIDAC
+# text_en = Math, physics, chemistry, and so on. I'm not interested in any of them.
+# translit = Shùxué, wùlǐ, huàxué shénme de, wǒ dōu bù gǎnxìngqù.
+1	数	数	NOUN	_	_	16	comp:obj	_	Tone=4|Translit=shù
+2	学	学	NOUN	_	_	1	@m	_	Tone=2|Translit=xué
+3	、	、	PUNCT	_	_	4	punct	_	Translit=、
+4	物	物	NOUN	_	_	1	conj	_	Tone=4|Translit=wù
+5	理	理	NOUN	_	_	4	@m	_	Tone=3|Translit=lǐ
+6	、	、	PUNCT	_	_	7	punct	_	Translit=、
+7	化	化	NOUN	_	_	4	conj	_	Tone=4|Translit=huà
+8	学	学	NOUN	_	_	7	@m	_	Tone=2|Translit=xué
+9	什	什	PRON	_	_	11	fixed@m	_	Grammar_Target=Yes|Tone=2|Translit=shén
+10	么	么	PRON	_	_	9	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+11	的	的	PART	_	Case=Gen	7	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
+12	，	，	PUNCT	_	_	16	punct	_	Translit=，
+13	我	我	PRON	_	Person=1	16	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+14	都	都	ADV	_	_	16	mod	_	Tone=1|Translit=dū
+15	不	不	ADV	_	Polarity=Neg	16	mod	_	Tone=4|Translit=bù
+16	感	感	VERB	_	_	0	root	_	Tone=3|Translit=gǎn
+17	兴	兴	NOUN	_	_	16	comp:obj	_	Tone=1|Translit=xīng
+18	趣	趣	NOUN	_	_	17	@m	_	Tone=4|Translit=qù
+19	。	。	PUNCT	_	_	16	punct	_	Translit=。
+
+# sent_id = 1919
+# structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
+# text = 我 喜欢 实用 的 礼物 ，手表 、衣服 、书 什么的 。
+# level = B1
+# structure_verbose = Ending a non-exhaustive list with "shenme de"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDIDAC
+# text_en = I like practical presents: watches, clothes, books, and so on.
+# translit = Wǒ xǐhuan shíyòng de lǐwù, shǒubiǎo, yīfu, shū shénme de.
+1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+3	欢	欢	VERB	_	_	2	@m	_	Tone=1|Translit=huān
+4	实	实	ADJ	_	_	6	comp:obj	_	Tone=2|Translit=shí
+5	用	用	VERB	_	_	4	@m	_	Tone=4|Translit=yòng
+6	的	的	PART	_	Case=Gen	7	mod	_	Tone=5|Translit=de
+7	礼	礼	NOUN	_	_	2	comp:obj	_	Tone=3|Translit=lǐ
+8	物	物	NOUN	_	_	7	@m	_	Tone=4|Translit=wù
+9	，	，	PUNCT	_	_	10	punct	_	Translit=，
+10	手	手	NOUN	_	_	7	conj	_	Gloss=hand|Tone=3|Translit=shǒu
+11	表	表	NOUN	_	_	10	@m	_	Tone=3|Translit=biǎo
+12	、	、	PUNCT	_	_	13	punct	_	Translit=、
+13	衣	衣	NOUN	_	_	10	conj	_	Tone=1|Translit=yī
+14	服	服	NOUN	_	_	13	@m	_	Tone=2|Translit=fú
+15	、	、	PUNCT	_	_	16	punct	_	Translit=、
+16	书	书	NOUN	_	_	13	conj	_	Tone=1|Translit=shū
+17	什	什	PRON	_	_	19	fixed@m	_	Grammar_Target=Yes|Tone=2|Translit=shén
+18	么	么	PRON	_	_	17	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+19	的	的	PART	_	Case=Gen	16	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
+20	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 1920
 # structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
@@ -9044,6 +9783,204 @@
 16	的	的	PART	_	_	12	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
 17	。	。	PUNCT	_	_	8	punct	_	Translit=。
 
+# sent_id = 1921
+# structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
+# text = 明天 去 野餐 ，我们 要 不 要 买 一些 水果、零食 什么的 ？
+# level = B1
+# structure_verbose = Ending a non-exhaustive list with "shenme de"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDIDAC
+# text_en = We are going on picnic tomorrow. Shall we buy some fruits, snacks, and so on?
+# translit = Míngtiān qù yěcān, wǒmen yào bu yào mǎi yīxiē shuǐguǒ, língshí shénme de?
+1	明	明	NOUN	_	_	3	mod@temp	_	Tone=2|Translit=míng
+2	天	天	NOUN	_	_	1	@m	_	Tone=1|Translit=tiān
+3	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
+4	野	野	NOUN	_	_	3	comp:obj	_	Tone=3|Translit=yě
+5	餐	餐	NOUN	_	_	4	@m	_	Tone=1|Translit=cān
+6	，	，	PUNCT	_	_	9	punct	_	Translit=，
+7	我	我	PRON	_	Number=Plur|Person=1	9	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+8	们	们	PART	_	Number=Plur|Person=1	7	@m	_	Tone=5|Translit=men
+9	要	要	AUX	_	_	3	parataxis	_	Tone=4|Translit=yào
+10	不	不	ADV	_	Polarity=Neg	11	mod	_	Tone=4|Translit=bù
+11	要	要	AUX	_	_	9	conj	_	Tone=4|Translit=yào
+12	买	买	VERB	_	_	11	comp:aux	_	Tone=3|Translit=mǎi
+13	一	一	NUM	_	_	14	mod	_	Tone=1|Translit=yī
+14	些	些	NOUN	_	_	15	clf	_	Gloss=CLF|Tone=1|Translit=xiē
+15	水	水	NOUN	_	_	12	comp:obj	_	Tone=3|Translit=shǔi
+16	果	果	NOUN	_	_	15	@m	_	Tone=3|Translit=guǒ
+17	、	、	PUNCT	_	_	19	punct	_	Translit=、
+18	零	零	ADV	_	_	19	mod	_	Tone=2|Translit=líng
+19	食	食	VERB	_	_	12	conj	_	Tone=2|Translit=shí
+20	什	什	PRON	_	_	22	fixed@m	_	Grammar_Target=Yes|Tone=2|Translit=shén
+21	么	么	PRON	_	_	20	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+22	的	的	PART	_	_	19	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
+23	？	？	PUNCT	_	_	3	punct	_	Translit=？
+
+# sent_id = 1922
+# structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
+# text = 跑步、游泳 、篮球 什么的 ，这些 运动 他 都 喜欢 。
+# level = B1
+# structure_verbose = Ending a non-exhaustive list with "shenme de"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDIDAC
+# text_en = Running, swimming, basketball, and so on. He likes all these sports.
+# translit = Pǎobù, yóuyǒng, lánqiú shénme de, zhèxiē yùndòng tā dōu xǐhuan.
+1	跑	跑	NOUN	_	_	15	conj:appos	_	Tone=3|Translit=pǎo
+2	步	步	NOUN	_	_	1	@m	_	Tone=4|Translit=bù
+3	、	、	PUNCT	_	_	4	punct	_	Translit=、
+4	游	游	NOUN	_	_	1	conj	_	Tone=2|Translit=yóu
+5	泳	泳	NOUN	_	_	4	@m	_	Tone=3|Translit=yǒng
+6	、	、	PUNCT	_	_	7	punct	_	Translit=、
+7	篮	篮	NOUN	_	_	4	conj	_	Tone=2|Translit=lán
+8	球	球	NOUN	_	_	7	@m	_	Tone=2|Translit=qíu
+9	什	什	PRON	_	_	11	fixed@m	_	Grammar_Target=Yes|Tone=2|Translit=shén
+10	么	么	PRON	_	_	9	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+11	的	的	PART	_	_	7	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
+12	，	，	PUNCT	_	_	1	punct	_	Translit=，
+13	这	这	DET	_	_	14	det	_	Tone=4|Translit=zhè
+14	些	些	NOUN	_	_	15	clf	_	Gloss=CLF|Tone=1|Translit=xiē
+15	运	运	NOUN	_	_	19	comp:obj	_	Tone=4|Translit=yùn
+16	动	动	NOUN	_	_	15	@m	_	Tone=4|Translit=dòng
+17	他	他	PRON	_	Person=3	19	subj	_	Tone=1|Translit=tā
+18	都	都	ADV	_	_	19	mod	_	Tone=1|Translit=dū
+19	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+20	欢	欢	VERB	_	_	19	@m	_	Tone=1|Translit=huān
+21	。	。	PUNCT	_	_	19	punct	_	Translit=。
+
+# sent_id = 1923
+# structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
+# text = 长城 、故宫 什么的 ，都 是 北京 很 有名 的 景点 。
+# level = B1
+# structure_verbose = Ending a non-exhaustive list with "shenme de"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDIDAC
+# text_en = The Great Wall, the Forbidden City, and so on. They're all very famous tourist attractions in Beijing.
+# translit = Chángchéng, Gùgōng shénme de, dōu shì Běijīng hěn yǒumíng de jǐngdiǎn.
+1	长	长	PROPN	_	_	2	mod@m	_	Tone=2|Translit=cháng
+2	城	城	PROPN	_	_	11	subj	_	Tone=2|Translit=chéng
+3	、	、	PUNCT	_	_	4	punct	_	Translit=、
+4	故	故	PROPN	_	_	2	conj	_	Tone=4|Translit=gù
+5	宫	宫	PROPN	_	_	4	@m	_	Tone=1|Translit=gōng
+6	什	什	NOUN	_	_	8	fixed@m	_	Grammar_Target=Yes|Tone=2|Translit=shén
+7	么	么	NOUN	_	_	6	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+8	的	的	PART	_	Case=Gen	4	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
+9	，	，	PUNCT	_	_	8	punct	_	Translit=，
+10	都	都	ADV	_	_	11	mod	_	Tone=1|Translit=dū
+11	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
+12	北	北	PROPN	_	_	18	mod@loc	_	Tone=3|Translit=běi
+13	京	京	PROPN	_	_	12	@m	_	Tone=1|Translit=jīng
+14	很	很	ADV	_	_	15	mod	_	Tone=3|Translit=hěn
+15	有	有	VERB	ADJ	_	17	comp:obj	_	Tone=3|Translit=yǒu
+16	名	名	NOUN	_	_	15	comp:obj	_	Tone=2|Translit=míng
+17	的	的	PART	_	Case=Gen	18	mod	_	Tone=5|Translit=de
+18	景	景	NOUN	_	_	11	comp:pred	_	Tone=3|Translit=jǐng
+19	点	点	NOUN	_	_	18	@m	_	Tone=3|Translit=diǎn
+20	。	。	PUNCT	_	_	11	punct	_	Translit=。
+
+# sent_id = 1924
+# structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
+# text = 一个人 住 ，洗衣服 、做饭 什么的 都 要 自己 做 。
+# level = B1
+# structure_verbose = Ending a non-exhaustive list with "shenme de"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDIDAC
+# text_en = When you live alone, laundry, cooking, and so on all need to be done yourself.
+# translit = Yīgèrén zhù, xǐ yīfu, zuòfàn shénme de dōu yào zìjǐ zuò.
+1	一	一	NUM	_	NumType=Card	2	mod	_	Tone=1|Translit=yī
+2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
+3	人	人	NOUN	_	_	4	subj	_	Tone=2|Translit=rén
+4	住	住	VERB	_	_	0	root	_	Tone=4|Translit=zhù
+5	，	，	PUNCT	_	_	16	punct	_	Translit=，
+6	洗	洗	VERB	_	_	19	comp:obj	_	Tone=3|Translit=xǐ
+7	衣	衣	NOUN	_	_	6	comp:obj	_	Tone=1|Translit=yī
+8	服	服	NOUN	_	_	7	@m	_	Tone=2|Translit=fú
+9	、	、	PUNCT	_	_	10	punct	_	Translit=、
+10	做	做	VERB	_	_	6	conj	_	Tone=4|Translit=zuò
+11	饭	饭	NOUN	_	_	10	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
+12	什	什	PRON	_	_	14	fixed@m	_	Grammar_Target=Yes|Tone=2|Translit=shén
+13	么	么	PRON	_	_	12	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+14	的	的	PART	_	Case=Gen	10	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
+15	都	都	ADV	_	_	16	mod	_	Tone=1|Translit=dū
+16	要	要	AUX	_	_	4	parataxis	_	Tone=4|Translit=yào
+17	自	自	PRON	ADV	_	19	mod	_	Tone=4|Translit=zì
+18	己	己	PRON	_	_	17	@m	_	Tone=3|Translit=jǐ
+19	做	做	VERB	_	_	16	comp:aux	_	Tone=4|Translit=zuò
+20	。	。	PUNCT	_	_	4	punct	_	Translit=。
+
+# sent_id = 1925
+# structure = Noun 1, Noun 2 (+ Noun 3) + 什么的
+# text = 电视 、洗衣机 什么的 ，我 爸爸 都 会 修 。
+# level = B1
+# structure_verbose = Ending a non-exhaustive list with "shenme de"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDIDAC
+# text_en = Televisions, washing machines, and so on. My father can fix all those.
+# translit = Diànshì, xǐyījī shénme de, wǒ bàba dōu huì xiū.
+1	电	电	NOUN	_	_	16	comp:obj	_	Tone=4|Translit=diàn
+2	视	视	NOUN	_	_	1	@m	_	Tone=4|Translit=shì
+3	、	、	PUNCT	_	_	4	punct	_	Translit=、
+4	洗	洗	NOUN	_	_	1	conj	_	Tone=3|Translit=xǐ
+5	衣	衣	NOUN	_	_	4	@m	_	Tone=1|Translit=yī
+6	机	机	NOUN	_	_	4	@m	_	Tone=1|Translit=jī
+7	什	什	PRON	_	_	9	fixed@m	_	Grammar_Target=Yes|Tone=2|Translit=shén
+8	么	么	PRON	_	_	7	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+9	的	的	PART	_	Case=Gen	4	conj	_	Grammar_Target=Yes|Tone=5|Translit=de
+10	，	，	PUNCT	_	_	15	punct	_	Translit=，
+11	我	我	PRON	_	Person=1	12	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+12	爸	爸	NOUN	_	_	15	subj	_	Tone=4|Translit=bà
+13	爸	爸	NOUN	_	_	12	conj:redup@m	_	Tone=4|Translit=bà
+14	都	都	ADV	_	_	15	mod	_	Tone=1|Translit=dū
+15	会	会	AUX	_	_	0	root	_	Tone=4|Translit=hùi
+16	修	修	VERB	_	_	15	comp:aux	_	Tone=1|Translit=xīu
+17	。	。	PUNCT	_	_	15	punct	_	Translit=。
+
+# sent_id = 1926
+# structure = 像 ⋯⋯ 之类的 + [Category]
+# text = 我 家 附近 有 很 多 像 KFC 之类的 快餐 店 。
+# level = B1
+# structure_verbose = Expressing "stuff like that" with "zhileide"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPY23Z
+# text_en = There are many fast-food restaurants in my neighborhood, like KFC and others like it.
+# translit = Wǒ jiā fùjìn yǒu hěn duō xiàng KFC zhī lèi de kuàicān diàn.
+1	我	我	PRON	_	Person=1	2	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	家	家	NOUN	_	_	3	mod	_	Tone=1|Translit=jiā
+3	附	附	NOUN	_	_	5	mod@loc	_	Tone=4|Translit=fù
+4	近	近	ADV	_	_	3	@m	_	Tone=4|Translit=jìn
+5	有	有	VERB	_	_	0	root	_	Tone=3|Translit=yǒu
+6	很	很	ADV	_	_	7	mod	_	Tone=3|Translit=hěn
+7	多	多	ADJ	_	NumType=Card	17	mod	_	Tone=1|Translit=duō
+8	像	像	ADP	_	_	14	comp:obj	_	Tone=4|Translit=xiàng
+9	K	k	PROPN	_	_	8	comp:obj	_	Translit=K
+10	F	f	PROPN	_	_	9	flat:foreign@m	_	Translit=F
+11	C	c	PROPN	_	_	10	flat:foreign@m	_	Translit=C
+12	之	之	PRON	_	_	13	det@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+13	类	类	NOUN	_	_	9	conj	_	Grammar_Target=Yes|Tone=4|Translit=lèi
+14	的	的	PART	_	Case=Gen	17	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
+15	快	快	ADJ	_	_	17	mod@m	_	Tone=4|Translit=kuài
+16	餐	餐	NOUN	_	_	15	@m	_	Tone=1|Translit=cān
+17	店	店	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=diàn
+18	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 1927
+# structure = 像 ⋯⋯ 之类的 + [Category]
+# text = 你 喜欢《星球大战》之类的 电影 吗 ？
+# level = B1
+# structure_verbose = Expressing "stuff like that" with "zhileide"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPY23Z
+# text_en = Do you like movies like Star Wars?
+# translit = Nǐ xǐhuan "Xīngqiú Dà Zhàn" zhī lèi de diànyǐng ma?
+1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+3	欢	欢	VERB	_	_	2	@m	_	Tone=1|Translit=huān
+4	《	《	PUNCT	_	_	8	punct	_	Translit=《
+5	星	星	NOUN	_	_	6	mod@m	_	Tone=1|Translit=xīng
+6	球	球	NOUN	_	_	8	mod@m	_	Tone=2|Translit=qíu
+7	大	大	ADJ	_	_	8	mod@m	_	Tone=4|Translit=dà
+8	战	战	NOUN	_	_	12	comp:obj	_	Tone=4|Translit=zhàn
+9	》	》	PUNCT	_	_	8	punct	_	Translit=》
+10	之	之	PRON	_	_	11	det@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+11	类	类	NOUN	_	_	8	conj	_	Grammar_Target=Yes|Tone=4|Translit=lèi
+12	的	的	PART	_	Case=Gen	13	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
+13	电	电	NOUN	_	_	2	comp:obj	_	Tone=4|Translit=diàn
+14	影	影	NOUN	_	_	13	@m	_	Tone=3|Translit=yǐng
+15	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
+16	？	？	PUNCT	_	_	2	punct	_	Translit=？
+
 # sent_id = 1928
 # structure = 像 ⋯⋯ 之类的 + [Category]
 # text = 我 没 看 过 像 吸血鬼 之类的 故事 。
@@ -9066,6 +10003,55 @@
 12	故	故	NOUN	_	_	3	comp:obj	_	Tone=4|Translit=gù
 13	事	事	NOUN	_	_	12	@m	_	Tone=4|Translit=shì
 14	。	。	PUNCT	_	_	3	punct	_	Translit=。
+
+# sent_id = 1929
+# structure = 像 ⋯⋯ 之类的 + [Category]
+# text = 你们 公司 谁 负责 管理 之类的 工作 ？
+# level = B1
+# structure_verbose = Expressing "stuff like that" with "zhileide"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPY23Z
+# text_en = In your company, who is in charge of management and stuff like that?
+# translit = Nǐmen gōngsī shéi fùzé guǎnlǐ zhī lèi de gōngzuò?
+1	你	你	PRON	_	Number=Plur|Person=2	3	mod	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	们	们	PART	_	Number=Plur|Person=2	1	@m	_	Tone=5|Translit=men
+3	公	公	NOUN	_	_	6	mod@loc	_	Tone=1|Translit=gōng
+4	司	司	NOUN	_	_	3	@m	_	Tone=1|Translit=sī
+5	谁	谁	PRON	_	PronType=Int	6	subj	_	Tone=2|Translit=shúi
+6	负	负	VERB	_	_	0	root	_	Tone=4|Translit=fù
+7	责	责	VERB	_	_	6	@m	_	Tone=2|Translit=zé
+8	管	管	VERB	_	_	12	comp:obj	_	Tone=3|Translit=guǎn
+9	理	理	NOUN	_	_	8	@m	_	Tone=3|Translit=lǐ
+10	之	之	PRON	_	_	11	det@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+11	类	类	NOUN	_	_	8	conj	_	Grammar_Target=Yes|Tone=4|Translit=lèi
+12	的	的	PART	_	Case=Gen	13	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
+13	工	工	NOUN	_	_	6	comp:obj	_	Tone=1|Translit=gōng
+14	作	作	NOUN	_	_	13	@m	_	Tone=4|Translit=zuò
+15	？	？	PUNCT	_	_	6	punct	_	Translit=？
+
+# sent_id = 1930
+# structure = 像 ⋯⋯ 之类的 + [Category]
+# text = 她 很 适合 做 像 市场 推广 之类的 工作 。
+# level = B1
+# structure_verbose = Expressing "stuff like that" with "zhileide"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPY23Z
+# text_en = She's very suitable for jobs like marketing and similar.
+# translit = Tā hěn shìhé zuò xiàng shìchǎng tuīguǎng zhī lèi de gōngzuò.
+1	她	她	PRON	_	Person=3	3	subj	_	Tone=1|Translit=tā
+2	很	很	ADV	_	_	3	mod	_	Tone=3|Translit=hěn
+3	适	适	VERB	_	_	0	root	_	Tone=4|Translit=shì
+4	合	合	VERB	_	_	3	@m	_	Tone=2|Translit=hé
+5	做	做	VERB	_	_	3	comp:obj	_	Tone=4|Translit=zuò
+6	像	像	ADP	_	_	13	comp:obj	_	Tone=4|Translit=xiàng
+7	市	市	NOUN	_	_	9	mod	_	Tone=4|Translit=shì
+8	场	场	NOUN	_	_	7	@m	_	Tone=2|Translit=cháng
+9	推	推	VERB	_	_	6	comp:obj	_	Tone=1|Translit=tūi
+10	广	广	ADJ	_	_	9	@m	_	Tone=3|Translit=guǎng
+11	之	之	PRON	_	_	12	det@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+12	类	类	NOUN	_	_	9	conj	_	Grammar_Target=Yes|Tone=4|Translit=lèi
+13	的	的	PART	_	Case=Gen	14	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
+14	工	工	NOUN	_	_	5	comp:obj	_	Tone=1|Translit=gōng
+15	作	作	NOUN	_	_	14	@m	_	Tone=4|Translit=zuò
+16	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
 # sent_id = 1931
 # structure = 像 ⋯⋯ 之类的 + [Category]
@@ -9101,6 +10087,238 @@
 24	牌	牌	NOUN	_	_	23	@m	_	Tone=2|Translit=pái
 25	。	。	PUNCT	_	_	7	punct	_	Translit=。
 
+# sent_id = 1932
+# structure = 像 ⋯⋯ 之类的 + [Category]
+# text = 年轻 人 很 喜欢 用 像 支付宝 之类的 电子 支付 方式 。
+# level = B1
+# structure_verbose = Expressing "stuff like that" with "zhileide"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPY23Z
+# text_en = Young people love using electronic methods of payment like Alipay and similar.
+# translit = Niánqīng rén hěn xǐhuan yòng xiàng Zhīfùbǎo zhī lèi de diànzǐ zhīfù fāngshì.
+1	年	年	ADJ	_	_	3	mod	_	Gloss=year|Tone=2|Translit=nián
+2	轻	轻	ADJ	_	_	1	@m	_	Tone=1|Translit=qīng
+3	人	人	NOUN	_	_	5	subj	_	Tone=2|Translit=rén
+4	很	很	ADV	_	_	5	mod	_	Tone=3|Translit=hěn
+5	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+6	欢	欢	VERB	_	_	5	@m	_	Tone=1|Translit=huān
+7	用	用	VERB	_	_	5	comp:obj	_	Tone=4|Translit=yòng
+8	像	像	ADP	_	_	14	comp:obj	_	Tone=4|Translit=xiàng
+9	支	支	NOUN	PROPN	_	11	mod@m	_	Tone=1|Translit=zhī
+10	付	付	NOUN	_	_	9	@m	_	Tone=4|Translit=fù
+11	宝	宝	NOUN	PROPN	_	8	comp:obj	_	Tone=3|Translit=bǎo
+12	之	之	PRON	_	_	13	det@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+13	类	类	NOUN	_	_	11	conj	_	Grammar_Target=Yes|Tone=4|Translit=lèi
+14	的	的	PART	_	Case=Gen	19	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
+15	电	电	NOUN	_	_	17	mod	_	Tone=4|Translit=diàn
+16	子	子	NOUN	_	_	15	@m	_	Tone=5|Translit=zi
+17	支	支	NOUN	_	_	19	mod	_	Tone=1|Translit=zhī
+18	付	付	NOUN	_	_	17	@m	_	Tone=4|Translit=fù
+19	方	方	NOUN	_	_	7	comp:obj	_	Tone=1|Translit=fāng
+20	式	式	NOUN	_	_	19	@m	_	Tone=4|Translit=shì
+21	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 1933
+# structure = 像 ⋯⋯ 之类的 + [Category]
+# text = 很多 中国 老人 喜欢 广场舞 、太极 之类的 运动 。
+# level = B1
+# structure_verbose = Expressing "stuff like that" with "zhileide"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPY23Z
+# text_en = Many old Chinese people are fond of exercises like plaza dancing, tai chi, and stuff like that.
+# translit = Hěn duō Zhōngguó lǎorén xǐhuan guǎngchǎng wǔ, Tàijí zhī lèi de yùndòng.
+1	很	很	ADV	_	_	2	mod	_	Tone=3|Translit=hěn
+2	多	多	ADJ	_	NumType=Card	5	mod	_	Tone=1|Translit=duō
+3	中	中	PROPN	_	_	5	mod	_	Tone=1|Translit=zhōng
+4	国	国	PROPN	_	_	3	@m	_	Tone=2|Translit=guó
+5	老	老	NOUN	_	_	7	subj	_	Tone=3|Translit=lǎo
+6	人	人	NOUN	_	_	5	@m	_	Tone=2|Translit=rén
+7	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+8	欢	欢	VERB	_	_	7	@m	_	Tone=1|Translit=huān
+9	广	广	ADJ	_	_	11	mod@m	_	Tone=3|Translit=guǎng
+10	场	场	NOUN	_	_	9	@m	_	Tone=2|Translit=cháng
+11	舞	舞	NOUN	_	_	17	comp:obj	_	Tone=3|Translit=wǔ
+12	、	、	PUNCT	_	_	13	punct	_	Translit=、
+13	太	太	NOUN	_	_	11	conj	_	Tone=4|Translit=tài
+14	极	极	NOUN	_	_	13	@m	_	Tone=2|Translit=jí
+15	之	之	PRON	_	_	16	det@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+16	类	类	NOUN	_	_	13	conj	_	Grammar_Target=Yes|Tone=4|Translit=lèi
+17	的	的	PART	_	Case=Gen	18	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
+18	运	运	NOUN	_	_	7	comp:obj	_	Tone=4|Translit=yùn
+19	动	动	NOUN	_	_	18	@m	_	Tone=4|Translit=dòng
+20	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
+# sent_id = 1934
+# structure = 像 ⋯⋯ 之类的 + [Category]
+# text = 我们 学校 很 少 办 才艺 比赛 之类的 活动 。
+# level = B1
+# structure_verbose = Expressing "stuff like that" with "zhileide"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPY23Z
+# text_en = Our school rarely holds activities like talent shows or similar.
+# translit = Wǒmen xuéxiào hěnshǎo bàn cáiyì bǐsài zhī lèi de huódòng.
+1	我	我	PRON	_	Number=Plur|Person=1	3	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	Tone=5|Translit=men
+3	学	学	NOUN	_	_	7	subj	_	Tone=2|Translit=xué
+4	校	校	NOUN	_	_	3	@m	_	Tone=4|Translit=xiào
+5	很	很	ADV	_	_	6	mod	_	Tone=3|Translit=hěn
+6	少	少	ADJ	_	_	7	mod	_	Tone=3|Translit=shǎo
+7	办	办	VERB	_	_	0	root	_	Tone=4|Translit=bàn
+8	才	才	NOUN	_	_	10	mod	_	Tone=2|Translit=cái
+9	艺	艺	NOUN	_	_	8	@m	_	Tone=4|Translit=yì
+10	比	比	NOUN	_	_	14	comp:obj	_	Tone=3|Translit=bǐ
+11	赛	赛	NOUN	_	_	10	@m	_	Tone=4|Translit=sài
+12	之	之	PRON	_	_	13	det@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+13	类	类	NOUN	_	_	10	conj	_	Grammar_Target=Yes|Tone=4|Translit=lèi
+14	的	的	PART	_	Case=Gen	15	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
+15	活	活	NOUN	_	_	7	comp:obj	_	Tone=2|Translit=huó
+16	动	动	NOUN	_	_	15	@m	_	Tone=4|Translit=dòng
+17	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
+# sent_id = 1935
+# structure = 像 ⋯⋯ 之类的 + [Category]
+# text = 中国 女孩 会 怎么 回应 像 “你 真 漂亮” 之类的 话 ？
+# level = B1
+# structure_verbose = Expressing "stuff like that" with "zhileide"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPY23Z
+# text_en = How would Chinese girls respond to lines like, "you are really pretty" and the like?
+# translit = Zhōngguó nǚhái huì zěnme huíyìng xiàng"nǐ zhēn piàoliang"zhī lèi de huà?
+1	中	中	PROPN	_	_	4	mod	_	Tone=1|Translit=zhōng
+2	国	国	PROPN	_	_	1	@m	_	Tone=2|Translit=guó
+3	女	女	NOUN	_	_	4	mod	_	Tone=3|Translit=nv̌
+4	孩	孩	NOUN	_	_	5	subj	_	Tone=2|Translit=hái
+5	会	会	AUX	_	_	0	root	_	Tone=4|Translit=hùi
+6	怎	怎	PRON	_	_	8	mod	_	Tone=3|Translit=zěn
+7	么	么	PRON	_	_	6	@m	_	Tone=5|Translit=me
+8	回	回	VERB	_	_	5	comp:aux	_	Tone=2|Translit=húi
+9	应	应	VERB	_	_	8	@m	_	Tone=4|Translit=yìng
+10	像	像	ADP	_	_	19	comp:obj	_	Tone=4|Translit=xiàng
+11	“	“	PUNCT	_	_	14	punct	_	Translit=“
+12	你	你	PRON	_	Person=2	14	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+13	真	真	ADV	_	_	14	mod	_	Tone=1|Translit=zhēn
+14	漂	漂	ADJ	_	_	10	comp:obj	_	Tone=1|Translit=piāo
+15	亮	亮	ADJ	_	_	14	@m	_	Tone=4|Translit=liàng
+16	”	”	ADJ	_	_	14	@m	_	Translit=”
+17	之	之	PRON	_	_	18	det@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+18	类	类	NOUN	_	_	14	conj	_	Grammar_Target=Yes|Tone=4|Translit=lèi
+19	的	的	PART	_	Case=Gen	20	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
+20	话	话	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=huà
+21	？	？	PUNCT	_	_	5	punct	_	Translit=？
+
+# sent_id = 1946
+# structure = A1，A2 ⋯⋯ 等 / 等等
+# text = 西瓜、菠萝、葡萄 等等 ，我 都 喜欢  吃 。
+# level = B1
+# structure_verbose = Non-exhaustive lists with "dengdeng"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGF763H
+# text_en = Watermelons, pineapples, grapes, and so on... I like them all.
+# translit = Xīguā, bōluó, pútao, děngděng,  wǒ dōu xǐhuan chī.
+1	西	西	NOUN	_	_	16	comp:obj	_	Tone=1|Translit=xī
+2	瓜	瓜	NOUN	_	_	1	@m	_	Tone=1|Translit=guā
+3	、	、	PUNCT	_	_	4	punct	_	Translit=、
+4	菠	菠	NOUN	_	_	1	conj	_	Tone=1|Translit=bō
+5	萝	萝	NOUN	_	_	4	@m	_	Tone=2|Translit=luó
+6	、	、	PUNCT	_	_	7	punct	_	Translit=、
+7	葡	葡	NOUN	_	_	4	conj	_	Tone=2|Translit=pú
+8	萄	萄	NOUN	_	_	7	@m	_	Tone=2|Translit=táo
+9	等	等	PART	_	_	7	conj	_	Grammar_Target=Yes|Tone=3|Translit=děng
+10	等	等	PART	_	_	9	@m	_	Grammar_Target=Yes|Tone=3|Translit=děng
+11	，	，	PUNCT	_	_	14	punct	_	Translit=，
+12	我	我	PRON	_	Person=1	14	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+13	都	都	ADV	_	_	14	mod	_	Tone=1|Translit=dū
+14	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+15	欢	欢	VERB	_	_	14	@m	_	Tone=1|Translit=huān
+16	吃	吃	VERB	_	_	14	comp:obj	_	Tone=1|Translit=chī
+17	。	。	PUNCT	_	_	14	punct	_	Translit=。
+
+# sent_id = 1947
+# structure = A1，A2 ⋯⋯ 等 / 等等
+# text = 我 爸爸 很 喜欢 运动 ，比如 跑步、游泳、打羽毛球 等等 。
+# level = B1
+# structure_verbose = Non-exhaustive lists with "dengdeng"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGF763H
+# text_en = My father likes different sports, for example, running, swimming, playing badminton, etc.
+# translit = Wǒ bàba hěn xǐhuan yùndòng, bǐrú pǎobù, yóuyǒng, dǎ yǔmáoqiú, děngděng.
+1	我	我	PRON	_	Person=1	2	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	爸	爸	NOUN	_	_	5	subj	_	Tone=4|Translit=bà
+3	爸	爸	NOUN	_	_	2	conj:redup@m	_	Tone=4|Translit=bà
+4	很	很	ADV	_	_	5	mod	_	Tone=3|Translit=hěn
+5	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+6	欢	欢	VERB	_	_	5	@m	_	Tone=1|Translit=huān
+7	运	运	VERB	_	_	5	comp:obj	_	Tone=4|Translit=yùn
+8	动	动	NOUN	_	_	7	@m	_	Tone=4|Translit=dòng
+9	，	，	PUNCT	_	_	10	punct	_	Translit=，
+10	比	比	SCONJ	_	_	7	mod	_	Tone=3|Translit=bǐ
+11	如	如	SCONJ	_	_	10	@m	_	Tone=2|Translit=rú
+12	跑	跑	VERB	_	_	10	comp:obj	_	Tone=3|Translit=pǎo
+13	步	步	NOUN	_	_	12	@m	_	Tone=4|Translit=bù
+14	、	、	PUNCT	_	_	15	punct	_	Translit=、
+15	游	游	VERB	_	_	12	conj	_	Tone=2|Translit=yóu
+16	泳	泳	NOUN	_	_	15	@m	_	Tone=3|Translit=yǒng
+17	、	、	PUNCT	_	_	18	punct	_	Translit=、
+18	打	打	VERB	_	_	15	conj	_	Tone=3|Translit=dǎ
+19	羽	羽	NOUN	_	_	18	comp:obj	_	Tone=3|Translit=yǔ
+20	毛	毛	NOUN	_	_	19	@m	_	Tone=2|Translit=máo
+21	球	球	NOUN	_	_	19	@m	_	Tone=2|Translit=qíu
+22	等	等	PART	_	_	18	conj	_	Grammar_Target=Yes|Tone=3|Translit=děng
+23	等	等	PART	_	_	22	@m	_	Grammar_Target=Yes|Tone=3|Translit=děng
+24	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 1949
+# structure = A1，A2 ⋯⋯ 等 / 等等
+# text = 我们 公司 有 市场部、设计部、技术部 等等 。
+# level = B1
+# structure_verbose = Non-exhaustive lists with "dengdeng"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGF763H
+# text_en = Our company has a marketing department, design department, technology department, etc.
+# translit = Wǒmen gōngsī yǒu shìchǎng bù, shèjì bù, jìshù bù děngděng.
+1	我	我	PRON	_	Number=Plur|Person=1	3	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	Tone=5|Translit=men
+3	公	公	NOUN	_	_	5	subj	_	Tone=1|Translit=gōng
+4	司	司	NOUN	_	_	3	@m	_	Tone=1|Translit=sī
+5	有	有	VERB	_	_	0	root	_	Tone=3|Translit=yǒu
+6	市	市	NOUN	_	_	8	mod	_	Tone=4|Translit=shì
+7	场	场	NOUN	_	_	6	@m	_	Tone=2|Translit=cháng
+8	部	部	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=bù
+9	、	、	PUNCT	_	_	12	punct	_	Translit=、
+10	设	设	NOUN	_	_	12	mod	_	Tone=4|Translit=shè
+11	计	计	NOUN	_	_	10	@m	_	Tone=4|Translit=jì
+12	部	部	NOUN	_	_	8	conj	_	Tone=4|Translit=bù
+13	、	、	PUNCT	_	_	16	punct	_	Translit=、
+14	技	技	NOUN	_	_	16	mod	_	Tone=4|Translit=jì
+15	术	术	NOUN	_	_	14	@m	_	Tone=2|Translit=zhú
+16	部	部	NOUN	_	_	12	conj	_	Tone=4|Translit=bù
+17	等	等	PART	_	_	16	conj	_	Grammar_Target=Yes|Tone=3|Translit=děng
+18	等	等	PART	_	_	17	conj:redup@m	_	Grammar_Target=Yes|Tone=3|Translit=děng
+19	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 1950
+# structure = A1，A2 ⋯⋯ 等 / 等等
+# text = 联合国 的 工作 语言 有 英语、法语、西班牙语 等 。
+# level = B1
+# structure_verbose = Non-exhaustive lists with "dengdeng"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGF763H
+# text_en = The working languages of the UN are English, French, Spanish, etc.
+# translit = Liánhéguó de gōngzuò yǔyán yǒu Yīngyǔ, Fǎyǔ, Xībānyáyǔ děng.
+1	联	联	NOUN	_	_	3	mod@m	_	Tone=2|Translit=lián
+2	合	合	NOUN	_	_	1	@m	_	Tone=2|Translit=hé
+3	国	国	NOUN	PROPN	_	4	comp:obj	_	Tone=2|Translit=guó
+4	的	的	PART	_	Case=Gen	7	mod	_	Tone=5|Translit=de
+5	工	工	NOUN	_	_	7	mod	_	Tone=1|Translit=gōng
+6	作	作	NOUN	_	_	5	@m	_	Tone=4|Translit=zuò
+7	语	语	NOUN	_	_	9	subj	_	Tone=3|Translit=yǔ
+8	言	言	NOUN	_	_	7	@m	_	Tone=2|Translit=yán
+9	有	有	VERB	_	_	0	root	_	Tone=3|Translit=yǒu
+10	英	英	NOUN	_	_	11	mod@m	_	Tone=1|Translit=yīng
+11	语	语	NOUN	_	_	9	comp:obj	_	Tone=3|Translit=yǔ
+12	、	、	PUNCT	_	_	14	punct	_	Translit=、
+13	法	法	NOUN	_	_	14	mod@m	_	Tone=3|Translit=fǎ
+14	语	语	NOUN	_	_	11	conj	_	Tone=3|Translit=yǔ
+15	、	、	PUNCT	_	_	19	punct	_	Translit=、
+16	西	西	PROPN	_	_	19	mod@m	_	Tone=1|Translit=xī
+17	班	班	PROPN	_	_	16	flat@m	_	Tone=1|Translit=bān
+18	牙	牙	PROPN	_	_	17	flat@m	_	Tone=2|Translit=yá
+19	语	语	NOUN	_	_	14	conj	_	Tone=3|Translit=yǔ
+20	等	等	PART	_	_	19	conj	_	Grammar_Target=Yes|Tone=3|Translit=děng
+21	。	。	PUNCT	_	_	9	punct	_	Translit=。
+
 # sent_id = 1951
 # structure = A1，A2 ⋯⋯ 等 + [Category] + Predicate
 # text = 长城、故宫 等 景点 都 是 北京 有名 的 景点 。
@@ -9127,6 +10345,34 @@
 16	景	景	NOUN	_	_	10	comp:pred	_	Tone=3|Translit=jǐng
 17	点	点	NOUN	_	_	16	@m	_	Tone=3|Translit=diǎn
 18	。	。	PUNCT	_	_	10	punct	_	Translit=。
+
+# sent_id = 1952
+# structure = A1，A2 ⋯⋯ 等 + [Category] + Predicate
+# text = 北京、上海、广州 等 城市 的 经济 都 很 发达 。
+# level = B1
+# structure_verbose = Non-exhaustive lists with "dengdeng"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGF763H
+# text_en = Beijing, Shanghai, Guangzhou and so on are economically developed cities.
+# translit = Běijīng, Shànghǎi, Guǎngzhōu děng chéngshì de jīngjì dōu hěn fādá.
+1	北	北	PROPN	_	_	10	mod	_	Tone=3|Translit=běi
+2	京	京	PROPN	_	_	1	@m	_	Tone=1|Translit=jīng
+3	、	、	CCONJ	_	_	4	punct	_	Translit=、
+4	上	上	PROPN	_	_	1	conj	_	Tone=4|Translit=shàng
+5	海	海	PROPN	_	_	4	@m	_	Tone=3|Translit=hǎi
+6	、	、	CCONJ	_	_	7	cc	_	Translit=、
+7	广	广	PROPN	_	_	4	conj	_	Tone=3|Translit=guǎng
+8	州	州	PROPN	_	_	7	@m	_	Tone=1|Translit=zhōu
+9	等	等	PART	_	_	7	conj	_	Grammar_Target=Yes|Tone=3|Translit=děng
+10	城	城	NOUN	_	_	12	comp:obj	_	Tone=2|Translit=chéng
+11	市	市	NOUN	_	_	10	@m	_	Tone=4|Translit=shì
+12	的	的	PART	_	Case=Gen	13	mod	_	Tone=5|Translit=de
+13	经	经	NOUN	_	_	17	subj	_	Tone=1|Translit=jīng
+14	济	济	NOUN	_	_	13	@m	_	Tone=4|Translit=jì
+15	都	都	ADV	_	_	17	mod	_	Tone=1|Translit=dū
+16	很	很	ADV	_	_	17	mod	_	Tone=3|Translit=hěn
+17	发	发	ADJ	_	_	0	root	_	Tone=1|Translit=fā
+18	达	达	ADJ	_	_	17	@m	_	Tone=2|Translit=dá
+19	。	。	PUNCT	_	_	17	punct	_	Translit=。
 
 # sent_id = 1953
 # structure = A1，A2 ⋯⋯ 等 + [Category] + Predicate
@@ -9183,6 +10429,39 @@
 18	家	家	NOUN	_	_	17	@m	_	Tone=1|Translit=jiā
 19	。	。	PUNCT	_	_	13	punct	_	Translit=。
 
+# sent_id = 1955
+# structure = A1，A2 ⋯⋯ 等 + [Category] + Predicate
+# text = 食品 安全、空气 污染、人工 智能 等 话题 都是 热点 话题 。
+# level = B1
+# structure_verbose = Non-exhaustive lists with "dengdeng"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGF763H
+# text_en = Food safety, air pollution, artificial intelligence, and so on are all hot topics.
+# translit = Shípǐn ānquán, kōngqì wūrǎn, réngōng zhìnéng děng huàtí dōu shì rèdiǎn huàtí.
+1	食	食	NOUN	_	_	3	mod	_	Tone=2|Translit=shí
+2	品	品	NOUN	_	_	1	@m	_	Tone=3|Translit=pǐn
+3	安	安	ADJ	NOUN	_	16	mod	_	Tone=1|Translit=ān
+4	全	全	ADJ	_	_	3	@m	_	Tone=2|Translit=quán
+5	、	、	PUNCT	_	_	8	punct	_	Translit=、
+6	空	空	NOUN	_	_	8	mod	_	Tone=1|Translit=kōng
+7	气	气	NOUN	_	_	6	@m	_	Tone=4|Translit=qì
+8	污	污	NOUN	_	_	3	conj	_	Tone=1|Translit=wū
+9	染	染	NOUN	_	_	8	@m	_	Tone=3|Translit=rǎn
+10	、	、	PUNCT	_	_	14	punct	_	Translit=、
+11	人	人	NOUN	_	_	14	@m	_	Tone=2|Translit=rén
+12	工	工	NOUN	_	_	11	@m	_	Tone=1|Translit=gōng
+13	智	智	NOUN	_	_	14	@m	_	Tone=4|Translit=zhì
+14	能	能	NOUN	_	_	8	conj	_	Tone=2|Translit=néng
+15	等	等	VERB	_	_	14	conj	_	Gloss=wait|Grammar_Target=Yes|Tone=3|Translit=děng
+16	话	话	NOUN	_	_	19	subj	_	Tone=4|Translit=huà
+17	题	题	NOUN	_	_	16	@m	_	Tone=2|Translit=tí
+18	都	都	ADV	_	_	19	mod	_	Tone=1|Translit=dū
+19	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
+20	热	热	ADJ	_	_	22	mod	_	Tone=4|Translit=rè
+21	点	点	NOUN	_	_	20	@m	_	Tone=3|Translit=diǎn
+22	话	话	NOUN	_	_	19	comp:pred	_	Tone=4|Translit=huà
+23	题	题	NOUN	_	_	22	@m	_	Tone=2|Translit=tí
+24	。	。	PUNCT	_	_	19	punct	_	Translit=。
+
 # sent_id = 1956
 # structure = ⋯⋯ ，不过 ⋯⋯
 # text = 这 件 衣服 我 很 喜欢 ，不过 有点 贵 。
@@ -9207,6 +10486,84 @@
 14	贵	贵	ADJ	_	_	10	comp:obj	_	Tone=4|Translit=gùi
 15	。	。	PUNCT	_	_	7	punct	_	Translit=。
 
+# sent_id = 1957
+# structure = ⋯⋯ ，不过 ⋯⋯
+# text = 这 家 餐厅 我 没 去 过 ，不过 我 听说 还 不错 。
+# level = B1
+# structure_verbose = A softer "but" with "buguo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
+# text_en = I've never been to this restaurant, but I heard it's pretty good.
+# translit = Zhè jiā cāntīng wǒ méi qù guo, bùguò wǒ tīngshuō hái bùcuò.
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	家	家	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=1|Translit=jiā
+3	餐	餐	NOUN	_	_	7	comp:obj	_	Tone=1|Translit=cān
+4	厅	厅	NOUN	_	_	3	@m	_	Tone=1|Translit=tīng
+5	我	我	PRON	_	Person=1	7	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+6	没	没	ADV	_	Polarity=Neg	7	mod	_	Tone=2|Translit=méi
+7	去	去	VERB	_	_	10	mod	_	Tone=4|Translit=qù
+8	过	过	PART	_	_	7	aspect	_	Gloss=EXP|Tone=4|Translit=guò
+9	，	，	PUNCT	_	_	7	punct	_	Translit=，
+10	不	不	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bù
+11	过	过	SCONJ	_	_	10	@m	_	Grammar_Target=Yes|Tone=4|Translit=guò
+12	我	我	PRON	_	Person=1	13	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+13	听	听	VERB	_	_	10	comp:obj	_	Tone=1|Translit=tīng
+14	说	说	VERB	_	_	13	comp:obj	_	Tone=1|Translit=shuō
+15	还	还	ADV	_	_	17	mod	_	Tone=2|Translit=huán
+16	不	不	ADV	_	Polarity=Neg	17	mod	_	Tone=4|Translit=bù
+17	错	错	ADJ	_	_	14	comp:obj	_	Tone=4|Translit=cuò
+18	。	。	PUNCT	_	_	10	punct	_	Translit=。
+
+# sent_id = 1958
+# structure = ⋯⋯ ，不过 ⋯⋯
+# text = 这个 学生 很 聪明 ，不过 有点 懒 。
+# level = B1
+# structure_verbose = A softer "but" with "buguo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
+# text_en = This student is very smart, but he's a little lazy.
+# translit = Zhège xuéshēng hěn cōngming, bùguò yǒudiǎn lǎn.
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
+3	学	学	NOUN	_	_	6	subj	_	Tone=2|Translit=xué
+4	生	生	NOUN	_	_	3	@m	_	Tone=1|Translit=shēng
+5	很	很	ADV	_	_	6	mod	_	Tone=3|Translit=hěn
+6	聪	聪	ADJ	_	_	0	root	_	Tone=1|Translit=cōng
+7	明	明	ADJ	_	_	6	@m	_	Tone=2|Translit=míng
+8	，	，	PUNCT	_	_	9	punct	_	Translit=，
+9	不	不	SCONJ	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=bù
+10	过	过	SCONJ	_	_	9	@m	_	Grammar_Target=Yes|Tone=4|Translit=guò
+11	有	有	VERB	ADV	_	13	mod	_	Tone=3|Translit=yǒu
+12	点	点	ADV	_	_	11	@m	_	Tone=3|Translit=diǎn
+13	懒	懒	ADJ	_	_	9	comp:obj	_	Tone=3|Translit=lǎn
+14	。	。	PUNCT	_	_	6	punct	_	Translit=。
+
+# sent_id = 1959
+# structure = ⋯⋯ ，不过 ⋯⋯
+# text = 那儿 的 天气 不 太 好 ，不过 我们 玩 得 很 开心 。
+# level = B1
+# structure_verbose = A softer "but" with "buguo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
+# text_en = The weather there was not very good, but we had a lot of fun.
+# translit = Nàr de tiānqì bù tài hǎo, bùguò wǒmen wán de hěn kāixīn.
+1	那	那	DET	_	_	3	comp:obj	_	Tone=4|Translit=nà
+2	儿	儿	PART	_	_	1	@m	_	Tone=2|Translit=ér
+3	的	的	PART	_	Case=Gen	4	mod	_	Tone=5|Translit=de
+4	天	天	NOUN	_	_	8	subj	_	Tone=1|Translit=tiān
+5	气	气	NOUN	_	_	4	@m	_	Tone=4|Translit=qì
+6	不	不	ADV	_	_	7	mod	_	Tone=4|Translit=bù
+7	太	太	ADV	_	_	8	mod	_	Tone=4|Translit=tài
+8	好	好	ADJ	_	_	10	mod	_	Tone=3|Translit=hǎo
+9	，	，	PUNCT	_	_	8	punct	_	Translit=，
+10	不	不	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bù
+11	过	过	SCONJ	_	_	10	@m	_	Grammar_Target=Yes|Tone=4|Translit=guò
+12	我	我	PRON	_	Number=Plur|Person=1	14	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+13	们	们	PART	_	Number=Plur|Person=1	12	@m	_	Tone=5|Translit=men
+14	玩	玩	VERB	_	_	10	comp:obj	_	Tone=2|Translit=wán
+15	得	得	PART	_	_	14	mod	_	Tone=2|Translit=dé
+16	很	很	ADV	_	_	17	mod	_	Tone=3|Translit=hěn
+17	开	开	ADJ	_	_	15	comp:obj	_	Tone=1|Translit=kāi
+18	心	心	NOUN	_	_	17	@m	_	Tone=1|Translit=xīn
+19	。	。	PUNCT	_	_	10	punct	_	Translit=。
+
 # sent_id = 1960
 # structure = ⋯⋯ ，不过 ⋯⋯
 # text = 他 是 东北 人 ，不过 他 没有 口音 。
@@ -9229,6 +10586,129 @@
 12	口	口	NOUN	_	_	11	comp:obj	_	Tone=3|Translit=kǒu
 13	音	音	NOUN	_	_	12	@m	_	Tone=1|Translit=yīn
 14	。	。	PUNCT	_	_	2	punct	_	Translit=。
+
+# sent_id = 1961
+# structure = ⋯⋯ ，不过 ⋯⋯
+# text = 他 说 得 不错 ，不过 不 认识 汉字 。
+# level = B1
+# structure_verbose = A softer "but" with "buguo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
+# text_en = He can speak well, but he doesn't know any Chinese characters.
+# translit = Tā shuō de bùcuò, bùguò bù rènshi Hànzì.
+1	他	他	PRON	_	Person=3	2	subj	_	Tone=1|Translit=tā
+2	说	说	VERB	_	_	7	mod	_	Tone=1|Translit=shuō
+3	得	得	PART	_	_	2	mod	_	Tone=2|Translit=dé
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	Tone=4|Translit=bù
+5	错	错	ADJ	_	_	3	comp:obj	_	Tone=4|Translit=cuò
+6	，	，	PUNCT	_	_	2	punct	_	Translit=，
+7	不	不	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bù
+8	过	过	SCONJ	_	_	7	@m	_	Grammar_Target=Yes|Tone=4|Translit=guò
+9	不	不	ADV	_	Polarity=Neg	10	mod	_	Tone=4|Translit=bù
+10	认	认	VERB	_	_	7	comp:obj	_	Tone=4|Translit=rèn
+11	识	识	VERB	_	_	10	@m	_	Tone=4|Translit=shì
+12	汉	汉	NOUN	_	_	10	comp:obj	_	Tone=4|Translit=hàn
+13	字	字	NOUN	_	_	12	@m	_	Tone=4|Translit=zì
+14	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
+# sent_id = 1962
+# structure = ⋯⋯ ，不过 ⋯⋯
+# text = 我 的 钱包 丢 了 ，不过 没 丢 什么 重要 的 东西 。
+# level = B1
+# structure_verbose = A softer "but" with "buguo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
+# text_en = I lost my wallet, but I didn't lose anything important.
+# translit = Wǒ de qiánbāo diū le, bùguò méi diū shénme zhòngyào de dōngxi.
+1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	的	的	PART	_	Case=Gen	3	mod	_	Tone=5|Translit=de
+3	钱	钱	NOUN	_	_	5	comp:obj	_	Tone=2|Translit=qián
+4	包	包	NOUN	_	_	3	@m	_	Tone=1|Translit=bāo
+5	丢	丢	VERB	_	_	8	mod	_	Tone=1|Translit=dīu
+6	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Tone=5|Translit=le
+7	，	，	PUNCT	_	_	5	punct	_	Translit=，
+8	不	不	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bù
+9	过	过	SCONJ	_	_	8	@m	_	Grammar_Target=Yes|Tone=4|Translit=guò
+10	没	没	ADV	_	Polarity=Neg	11	mod	_	Tone=2|Translit=méi
+11	丢	丢	VERB	_	_	8	comp:obj	_	Tone=1|Translit=dīu
+12	什	什	PRON	_	PronType=Int	17	mod	_	Tone=2|Translit=shén
+13	么	么	PRON	_	_	12	@m	_	Tone=5|Translit=me
+14	重	重	ADJ	_	_	16	comp:obj	_	Tone=4|Translit=zhòng
+15	要	要	ADJ	_	_	14	@m	_	Tone=4|Translit=yào
+16	的	的	PART	_	Case=Gen	17	mod	_	Tone=5|Translit=de
+17	东	东	NOUN	_	_	11	comp:obj	_	Tone=1|Translit=dōng
+18	西	西	NOUN	_	_	17	@m	_	Tone=1|Translit=xī
+19	。	。	PUNCT	_	_	8	punct	_	Translit=。
+
+# sent_id = 1963
+# structure = ⋯⋯ ，不过 ⋯⋯
+# text = 刚 来 的 时候 很 想 家 ，不过 现在 习惯 了 。
+# level = B1
+# structure_verbose = A softer "but" with "buguo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
+# text_en = I was homesick when I first got here, but I'm used to it now.
+# translit = Gāng lái de shíhou hěn xiǎng jiā, bùguò xiànzài xíguàn le.
+1	刚	刚	ADV	_	_	2	mod	_	Tone=1|Translit=gāng
+2	来	来	VERB	_	_	3	comp:obj	_	Tone=2|Translit=lái
+3	的	的	PART	_	Case=Gen	4	mod	_	Tone=5|Translit=de
+4	时	时	NOUN	_	_	7	mod@temp	_	Tone=2|Translit=shí
+5	候	候	NOUN	_	_	4	@m	_	Tone=4|Translit=hòu
+6	很	很	ADV	_	_	7	mod	_	Tone=3|Translit=hěn
+7	想	想	VERB	_	_	10	mod	_	Tone=3|Translit=xiǎng
+8	家	家	NOUN	_	_	7	comp:obj	_	Tone=1|Translit=jiā
+9	，	，	PUNCT	_	_	7	punct	_	Translit=，
+10	不	不	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bù
+11	过	过	SCONJ	_	_	10	@m	_	Grammar_Target=Yes|Tone=4|Translit=guò
+12	现	现	ADV	_	_	14	mod@temp	_	Tone=4|Translit=xiàn
+13	在	在	ADV	_	_	12	@m	_	Tone=4|Translit=zài
+14	习	习	VERB	_	_	10	comp:obj	_	Tone=2|Translit=xí
+15	惯	惯	VERB	_	_	14	@m	_	Tone=4|Translit=guàn
+16	了	了	PART	_	_	14	discourse	_	Gloss=PRF|Tone=5|Translit=le
+17	。	。	PUNCT	_	_	10	punct	_	Translit=。
+
+# sent_id = 1964
+# structure = ⋯⋯ ，不过 ⋯⋯
+# text = 你 可以 参加 ，不过 有 个 条件 。
+# level = B1
+# structure_verbose = A softer "but" with "buguo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
+# text_en = You can participate, but there is a condition.
+# translit = Nǐ kěyǐ cānjiā, bùguò yǒu gè tiáojiàn.
+1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	可	可	AUX	_	_	7	mod	_	Tone=3|Translit=kě
+3	以	以	AUX	_	_	2	@m	_	Tone=3|Translit=yǐ
+4	参	参	VERB	_	_	2	comp:aux	_	Tone=1|Translit=cān
+5	加	加	VERB	_	_	4	@m	_	Tone=1|Translit=jiā
+6	，	，	PUNCT	_	_	2	punct	_	Translit=，
+7	不	不	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bù
+8	过	过	SCONJ	_	_	7	@m	_	Grammar_Target=Yes|Tone=4|Translit=guò
+9	有	有	VERB	_	_	7	comp:obj	_	Tone=3|Translit=yǒu
+10	个	个	NOUN	_	_	11	clf	_	Gloss=CLF|Tone=4|Translit=gè
+11	条	条	NOUN	_	_	9	comp:obj	_	Tone=2|Translit=tiáo
+12	件	件	NOUN	_	_	11	@m	_	Tone=4|Translit=jiàn
+13	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
+# sent_id = 1965
+# structure = ⋯⋯ ，不过 ⋯⋯
+# text = 他 还 在 考虑 ，不过 我 已经 决定 了。
+# level = B1
+# structure_verbose = A softer "but" with "buguo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
+# text_en = He's still considering it, but I've already decided.
+# translit = Tā hái zài kǎolǜ, bùguò wǒ yǐjīng juédìng le.
+1	他	他	PRON	_	Person=3	3	subj	_	Tone=1|Translit=tā
+2	还	还	ADV	_	_	3	mod	_	Tone=2|Translit=huán
+3	在	在	AUX	_	_	7	mod	_	Tone=4|Translit=zài
+4	考	考	VERB	_	_	3	comp:aux	_	Tone=3|Translit=kǎo
+5	虑	虑	NOUN	_	_	4	@m	_	Tone=4|Translit=lv̀
+6	，	，	PUNCT	_	_	3	punct	_	Translit=，
+7	不	不	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bù
+8	过	过	SCONJ	_	_	7	@m	_	Grammar_Target=Yes|Tone=4|Translit=guò
+9	我	我	PRON	_	Person=1	12	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+10	已	已	ADV	_	_	12	mod	_	Tone=3|Translit=yǐ
+11	经	经	ADV	_	_	10	@m	_	Tone=1|Translit=jīng
+12	决	决	VERB	_	_	7	comp:obj	_	Tone=2|Translit=jué
+13	定	定	VERB	_	_	12	@m	_	Tone=4|Translit=dìng
+14	了	了	PART	_	_	12	discourse	_	Gloss=PRF|Tone=5|Translit=le
+15	。	。	PUNCT	_	_	7	punct	_	Translit=。
 
 # sent_id = 1966
 # structure = Reason / Situation ，要不 + Suggestion
@@ -9255,6 +10735,83 @@
 15	儿	儿	PART	_	_	14	@m	_	Tone=2|Translit=ér
 16	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
 17	。	。	PUNCT	_	_	11	punct	_	Translit=。
+
+# sent_id = 1967
+# structure = Reason / Situation ，要不 + Suggestion
+# text = 要不 我们 一起 去 吧 ，一个人 去 没 意思 。
+# level = B1
+# structure_verbose = Expressing "how about" with "yaobu"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDFQP7
+# text_en = How about we go together? It's no fun to go by myself.
+# translit = Yàobù wǒmen yīqǐ qù ba, yīgèrén qù méi yìsi.
+1	要	要	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=4|Translit=yào
+2	不	不	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+3	我	我	PRON	_	Number=Plur|Person=1	7	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+4	们	们	PART	_	Number=Plur|Person=1	3	@m	_	Tone=5|Translit=men
+5	一	一	ADV	_	_	6	@m	_	Gloss=one|Tone=1|Translit=yī
+6	起	起	ADV	_	_	7	mod	_	Tone=3|Translit=qǐ
+7	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
+8	吧	吧	PART	_	_	7	discourse	_	Tone=5|Translit=ba
+9	，	，	PUNCT	_	_	7	punct	_	Translit=，
+10	一	一	NUM	_	NumType=Card	11	mod	_	Tone=1|Translit=yī
+11	个	个	NOUN	_	_	12	clf	_	Gloss=CLF|Tone=4|Translit=gè
+12	人	人	NOUN	_	_	13	mod	_	Tone=2|Translit=rén
+13	去	去	VERB	_	_	14	subj	_	Tone=4|Translit=qù
+14	没	没	VERB	_	_	7	parataxis:new	_	Tone=2|Translit=méi
+15	意	意	NOUN	_	_	14	comp:obj	_	Tone=4|Translit=yì
+16	思	思	NOUN	_	_	15	@m	_	Tone=1|Translit=sī
+17	。	。	PUNCT	_	_	14	punct	_	Translit=。
+
+# sent_id = 1968
+# structure = Reason / Situation ，要不 + Suggestion
+# text = 这个 星期 我 比较 忙 ，要不 下 个 星期 见 ？
+# level = B1
+# structure_verbose = Expressing "how about" with "yaobu"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDFQP7
+# text_en = I'm pretty busy this week. How about we meet up next week?
+# translit = Zhège xīngqī wǒ bǐjiào máng, yàobù xià gè xīngqī jiàn?
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
+3	星	星	NOUN	_	_	8	mod@temp	_	Tone=1|Translit=xīng
+4	期	期	NOUN	_	_	3	@m	_	Tone=1|Translit=qī
+5	我	我	PRON	_	Person=1	8	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+6	比	比	VERB	ADV	_	8	mod	_	Tone=3|Translit=bǐ
+7	较	较	VERB	_	_	6	@m	_	Tone=4|Translit=jiào
+8	忙	忙	ADJ	_	_	0	root	_	Tone=2|Translit=máng
+9	，	，	PUNCT	_	_	8	punct	_	Translit=，
+10	要	要	ADV	_	_	16	mod	_	Grammar_Target=Yes|Tone=4|Translit=yào
+11	不	不	ADV	_	_	10	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+12	下	下	ADV	_	_	14	mod	_	Tone=4|Translit=xià
+13	个	个	NOUN	_	_	14	clf	_	Gloss=CLF|Tone=4|Translit=gè
+14	星	星	NOUN	_	_	16	mod@temp	_	Tone=1|Translit=xīng
+15	期	期	NOUN	_	_	14	@m	_	Tone=1|Translit=qī
+16	见	见	VERB	_	_	8	parataxis:new	_	Tone=4|Translit=jiàn
+17	？	？	PUNCT	_	_	16	punct	_	Translit=？
+
+# sent_id = 1969
+# structure = Reason / Situation ，要不 + Suggestion
+# text = 要不 我们 换 个 地方 吧 ，这里 太 吵 了 。
+# level = B1
+# structure_verbose = Expressing "how about" with "yaobu"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDFQP7
+# text_en = How about we go to somewhere else? It's too loud here.
+# translit = Yàobù wǒmen huàn gè dìfang ba, zhèlǐ tài chǎo le.
+1	要	要	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=4|Translit=yào
+2	不	不	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+3	我	我	PRON	_	Number=Plur|Person=1	5	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+4	们	们	PART	_	Number=Plur|Person=1	3	@m	_	Tone=5|Translit=men
+5	换	换	VERB	_	_	0	root	_	Tone=4|Translit=huàn
+6	个	个	NOUN	_	_	7	clf	_	Gloss=CLF|Tone=4|Translit=gè
+7	地	地	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=dì
+8	方	方	NOUN	_	_	7	@m	_	Tone=1|Translit=fāng
+9	吧	吧	PART	_	_	5	discourse	_	Tone=5|Translit=ba
+10	，	，	PUNCT	_	_	5	punct	_	Translit=，
+11	这	这	DET	_	_	14	mod@loc	_	Tone=4|Translit=zhè
+12	里	里	NOUN	_	_	11	@m	_	Tone=3|Translit=lǐ
+13	太	太	ADV	_	_	14	mod	_	Tone=4|Translit=tài
+14	吵	吵	ADJ	_	_	5	parataxis:new	_	Tone=3|Translit=chǎo
+15	了	了	PART	_	_	14	discourse	_	Gloss=PRF|Tone=5|Translit=le
+16	。	。	PUNCT	_	_	14	punct	_	Translit=。
 
 # sent_id = 1971
 # structure = Reason / Situation ，要不 + Suggestion
@@ -9293,7 +10850,7 @@
 7	我	我	PRON	_	Person=1	8	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 8	开	开	VERB	_	_	3	parataxis	_	Tone=1|Translit=kāi
 9	车	车	NOUN	_	_	8	comp:obj	_	Tone=1|Translit=chē
-10	送	送	VERB	_	_	8	comp:svc	_	Tone=4|Translit=sòng
+10	送	送	VERB	_	_	8	compound:svc	_	Tone=4|Translit=sòng
 11	你	你	PRON	_	Person=2	10	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
 12	去	去	VERB	_	_	10	comp:dir	_	Tone=4|Translit=qù
 13	？	？	PUNCT	_	_	3	punct	_	Translit=？
@@ -9446,7 +11003,7 @@
 2	店	店	NOUN	_	_	1	@m	_	Tone=4|Translit=diàn
 3	谁	谁	PRON	_	PronType=Int	4	subj	_	Tone=2|Translit=shúi
 4	来	来	VERB	_	_	0	root	_	Tone=2|Translit=lái
-5	订	订	VERB	_	_	4	comp:svc	_	Tone=4|Translit=dìng
+5	订	订	VERB	_	_	4	compound:svc	_	Tone=4|Translit=dìng
 6	？	？	PUNCT	_	_	4	punct	_	Translit=？
 7	还	还	ADV	_	_	12	mod	_	Grammar_Target=Yes|Tone=2|Translit=huán
 8	有	有	VERB	_	_	7	@m	_	Grammar_Target=Yes|Tone=3|Translit=yǒu
@@ -9672,6 +11229,619 @@
 21	趣	趣	NOUN	_	_	20	@m	_	Tone=4|Translit=qù
 22	。	。	PUNCT	_	_	19	punct	_	Translit=。
 
+# sent_id = 1994
+# structure = ⋯⋯ ，另外 ，⋯⋯
+# text = 幼儿园 提供 午餐 。另外 ，每天 下午 还 有 点心 和 水果 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "lingwai"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG2KQZI
+# text_en = The kindergarten provides lunch. In addition, there are also snacks and fruit every afternoon.
+# translit = Yòuéryuán tígōng wǔcān. Lìngwài, měi tiān xiàwǔ hái yǒu diǎnxin hé shuǐguǒ.
+1	幼	幼	NOUN	_	_	3	mod@m	_	Tone=4|Translit=yòu
+2	儿	儿	NOUN	_	_	1	@m	_	Tone=2|Translit=ér
+3	园	园	NOUN	_	_	4	subj	_	Tone=2|Translit=yuán
+4	提	提	VERB	_	_	0	root	_	Tone=2|Translit=tí
+5	供	供	VERB	_	_	4	@m	_	Tone=1|Translit=gōng
+6	午	午	NOUN	_	_	7	mod@m	_	Tone=3|Translit=wǔ
+7	餐	餐	NOUN	_	_	4	comp:obj	_	Tone=1|Translit=cān
+8	。	。	PUNCT	_	_	4	punct	_	Translit=。
+9	另	另	ADV	_	_	17	mod	_	Grammar_Target=Yes|Tone=4|Translit=lìng
+10	外	外	NOUN	_	_	9	@m	_	Grammar_Target=Yes|Tone=4|Translit=wài
+11	，	，	PUNCT	_	_	9	punct	_	Translit=，
+12	每	每	DET	_	_	13	det	_	Tone=3|Translit=měi
+13	天	天	NOUN	_	_	14	mod@freq	_	Tone=1|Translit=tiān
+14	下	下	NOUN	_	_	17	mod@temp	_	Tone=4|Translit=xià
+15	午	午	NOUN	_	_	14	@m	_	Tone=3|Translit=wǔ
+16	还	还	ADV	_	_	17	mod	_	Tone=2|Translit=huán
+17	有	有	VERB	_	_	4	parataxis:new	_	Tone=3|Translit=yǒu
+18	点	点	NOUN	_	_	17	comp:obj	_	Tone=3|Translit=diǎn
+19	心	心	NOUN	_	_	18	@m	_	Tone=1|Translit=xīn
+20	和	和	CCONJ	_	_	21	cc	_	Tone=2|Translit=hé
+21	水	水	NOUN	_	_	18	conj	_	Tone=3|Translit=shǔi
+22	果	果	NOUN	_	_	21	@m	_	Tone=3|Translit=guǒ
+23	。	。	PUNCT	_	_	17	punct	_	Translit=。
+
+# sent_id = 1995
+# structure = 另外 + [Verb Phrase]
+# text = 今天 我 没 空 ，能 不 能 另外 安排 时间 ？
+# level = B1
+# structure_verbose = Expressing "in addition" with "lingwai"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG2KQZI
+# text_en = I don't have time today. Can you schedule it another time?
+# translit = Jīntiān wǒ méi kòng, néng bu néng lìngwài ānpái shíjiān?
+1	今	今	NOUN	_	_	4	mod@temp	_	Tone=1|Translit=jīn
+2	天	天	NOUN	_	_	1	@m	_	Tone=1|Translit=tiān
+3	我	我	PRON	_	Person=1	4	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+4	没	没	VERB	_	_	0	root	_	Tone=2|Translit=méi
+5	空	空	NOUN	_	_	4	comp:obj	_	Tone=1|Translit=kōng
+6	，	，	PUNCT	_	_	7	punct	_	Translit=，
+7	能	能	AUX	_	_	4	parataxis	_	Tone=2|Translit=néng
+8	不	不	ADV	_	Polarity=Neg	9	mod	_	Tone=4|Translit=bù
+9	能	能	AUX	_	_	7	conj	_	Tone=2|Translit=néng
+10	另	另	ADV	_	_	12	mod	_	Grammar_Target=Yes|Tone=4|Translit=lìng
+11	外	外	NOUN	_	_	10	@m	_	Grammar_Target=Yes|Tone=4|Translit=wài
+12	安	安	VERB	_	_	7	comp:aux	_	Tone=1|Translit=ān
+13	排	排	VERB	_	_	12	@m	_	Tone=2|Translit=pái
+14	时	时	NOUN	_	_	12	comp:obj	_	Tone=2|Translit=shí
+15	间	间	NOUN	_	_	14	@m	_	Tone=1|Translit=jiān
+16	？	？	PUNCT	_	_	4	punct	_	Translit=？
+
+# sent_id = 1996
+# structure = 另外 + [Verb Phrase]
+# text = 在 我家 开会 不 方便 ，我们 另外 找 地方 吧 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "lingwai"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG2KQZI
+# text_en = It's not very convenient to have a meeting at my place. Let's find some other place.
+# translit = Zài wǒ jiā kāi huì bù fāngbiàn, wǒmen lìngwài zhǎo dìfang ba.
+1	在	在	ADP	_	_	4	comp:obl	_	Tone=4|Translit=zài
+2	我	我	PRON	_	Person=1	3	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+3	家	家	NOUN	_	_	1	comp:obj	_	Tone=1|Translit=jiā
+4	开	开	VERB	_	_	7	subj	_	Tone=1|Translit=kāi
+5	会	会	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=hùi
+6	不	不	ADV	_	_	7	mod	_	Tone=4|Translit=bù
+7	方	方	ADJ	_	_	0	root	_	Tone=1|Translit=fāng
+8	便	便	ADJ	_	_	7	@m	_	Tone=4|Translit=biàn
+9	，	，	PUNCT	_	_	7	punct	_	Translit=，
+10	我	我	PRON	_	Number=Plur|Person=1	14	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+11	们	们	PART	_	Number=Plur|Person=1	10	@m	_	Tone=5|Translit=men
+12	另	另	ADV	_	_	14	mod	_	Grammar_Target=Yes|Tone=4|Translit=lìng
+13	外	外	NOUN	_	_	12	@m	_	Grammar_Target=Yes|Tone=4|Translit=wài
+14	找	找	VERB	_	_	7	parataxis:new	_	Tone=3|Translit=zhǎo
+15	地	地	NOUN	_	_	14	comp:obj	_	Tone=4|Translit=dì
+16	方	方	NOUN	_	_	15	@m	_	Tone=1|Translit=fāng
+17	吧	吧	PART	_	_	14	discourse	_	Tone=5|Translit=ba
+18	。	。	PUNCT	_	_	14	punct	_	Translit=。
+
+# sent_id = 1997
+# structure = 另外 + [Verb Phrase]
+# text = 这个 项目 他们 做 得 不 好 ，我 建议 你们 另外 找 人 来 做 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "lingwai"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG2KQZI
+# text_en = They aren't doing a good job on this project. I suggest you find some other people to do it.
+# translit = Zhège xiàngmù tāmen zuò de bu hǎo, wǒ jiànyì nǐmen lìngwài zhǎo rén lái zuò.
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
+3	项	项	NOUN	_	_	7	comp:obj	_	Tone=4|Translit=xiàng
+4	目	目	NOUN	_	_	3	@m	_	Tone=4|Translit=mù
+5	他	他	PRON	_	Number=Plur|Person=3	7	subj	_	Tone=1|Translit=tā
+6	们	们	PART	_	Number=Plur|Person=3	5	@m	_	Tone=5|Translit=men
+7	做	做	VERB	_	_	0	root	_	Tone=4|Translit=zuò
+8	得	得	PART	_	_	7	mod	_	Tone=2|Translit=dé
+9	不	不	ADV	_	_	10	mod	_	Tone=4|Translit=bù
+10	好	好	ADJ	_	_	8	comp:obj	_	Tone=3|Translit=hǎo
+11	，	，	PUNCT	_	_	7	punct	_	Translit=，
+12	我	我	PRON	_	Person=1	13	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+13	建	建	VERB	_	_	7	parataxis:new	_	Tone=4|Translit=jiàn
+14	议	议	VERB	_	_	13	@m	_	Tone=4|Translit=yì
+15	你	你	PRON	_	Number=Plur|Person=2	19	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+16	们	们	PART	_	Number=Plur|Person=2	15	@m	_	Tone=5|Translit=men
+17	另	另	ADV	_	_	19	mod	_	Grammar_Target=Yes|Tone=4|Translit=lìng
+18	外	外	NOUN	_	_	17	@m	_	Grammar_Target=Yes|Tone=4|Translit=wài
+19	找	找	VERB	_	_	13	comp:obj	_	Tone=3|Translit=zhǎo
+20	人	人	NOUN	_	_	19	comp:obj	_	Tone=2|Translit=rén
+21	来	来	SCONJ	_	_	19	mod	_	Tone=2|Translit=lái
+22	做	做	VERB	_	_	21	comp:obj	_	Tone=4|Translit=zuò
+23	。	。	PUNCT	_	_	13	punct	_	Translit=。
+
+# sent_id = 1998
+# structure = 另外 + [Verb Phrase]
+# text = 这里 是 VIP 室 ，要 另外 付费 才 能 用 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "lingwai"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG2KQZI
+# text_en = This is the VIP room. You will have to pay extra in order to use it.
+# translit = Zhèlǐ shì VIP shì, yào lìngwài fùfèi cái néng yòng.
+1	这	这	DET	_	_	3	subj	_	Tone=4|Translit=zhè
+2	里	里	NOUN	_	_	1	@m	_	Tone=3|Translit=lǐ
+3	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
+4	V	v	PROPN	_	_	7	mod	_	Translit=V
+5	I	i	PROPN	_	_	4	flat:foreign@m	_	Translit=I
+6	P	p	PROPN	_	_	5	flat:foreign@m	_	Translit=P
+7	室	室	NOUN	_	_	3	comp:pred	_	Tone=4|Translit=shì
+8	，	，	PUNCT	_	_	9	punct	_	Translit=，
+9	要	要	AUX	_	_	3	parataxis	_	Tone=4|Translit=yào
+10	另	另	ADV	_	_	12	mod	_	Grammar_Target=Yes|Tone=4|Translit=lìng
+11	外	外	NOUN	_	_	10	@m	_	Grammar_Target=Yes|Tone=4|Translit=wài
+12	付	付	VERB	_	_	9	comp:aux	_	Tone=4|Translit=fù
+13	费	费	NOUN	_	_	12	comp:obj	_	Tone=4|Translit=fèi
+14	才	才	ADV	_	_	15	mod	_	Tone=2|Translit=cái
+15	能	能	AUX	_	_	9	conj	_	Tone=2|Translit=néng
+16	用	用	VERB	_	_	15	comp:aux	_	Tone=4|Translit=yòng
+17	。	。	PUNCT	_	_	3	punct	_	Translit=。
+
+# sent_id = 1999
+# structure = 另外 + [Verb Phrase]
+# text = 如果 学生 觉得 不 难 ，老师 可以  另外 加 一些 学习 内容 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "lingwai"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG2KQZI
+# text_en = If the students don't find it difficult, the teacher can add more study material.
+# translit = Rúguǒ xuéshēng juéde bù nán, lǎoshī kěyǐ lìngwài jiā yīxiē xuéxí nèiróng.
+1	如	如	SCONJ	_	_	12	mod	_	Tone=2|Translit=rú
+2	果	果	SCONJ	_	_	1	@m	_	Tone=3|Translit=guǒ
+3	学	学	NOUN	_	_	5	subj	_	Tone=2|Translit=xué
+4	生	生	NOUN	_	_	3	@m	_	Tone=1|Translit=shēng
+5	觉	觉	VERB	_	_	1	comp:obj	_	Tone=2|Translit=jué
+6	得	得	VERB	_	_	5	@m	_	Tone=2|Translit=dé
+7	不	不	ADV	_	Polarity=Neg	8	mod	_	Tone=4|Translit=bù
+8	难	难	ADJ	_	_	5	comp:obj	_	Tone=2|Translit=nán
+9	，	，	PUNCT	_	_	1	punct	_	Translit=，
+10	老	老	NOUN	_	_	12	subj	_	Tone=3|Translit=lǎo
+11	师	师	NOUN	_	_	10	@m	_	Tone=1|Translit=shī
+12	可	可	AUX	_	_	0	root	_	Tone=3|Translit=kě
+13	以	以	AUX	_	_	12	@m	_	Tone=3|Translit=yǐ
+14	另	另	ADV	_	_	16	mod	_	Grammar_Target=Yes|Tone=4|Translit=lìng
+15	外	外	NOUN	_	_	14	@m	_	Grammar_Target=Yes|Tone=4|Translit=wài
+16	加	加	VERB	_	_	12	comp:aux	_	Tone=1|Translit=jiā
+17	一	一	NUM	_	_	18	mod	_	Tone=1|Translit=yī
+18	些	些	NOUN	_	_	21	clf	_	Gloss=CLF|Tone=1|Translit=xiē
+19	学	学	VERB	_	_	21	mod	_	Tone=2|Translit=xué
+20	习	习	VERB	_	_	19	@m	_	Tone=2|Translit=xí
+21	内	内	NOUN	_	_	16	comp:obj	_	Tone=4|Translit=nèi
+22	容	容	NOUN	_	_	21	@m	_	Tone=2|Translit=róng
+23	。	。	PUNCT	_	_	12	punct	_	Translit=。
+
+# sent_id = 2000
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 这么 晚 ，别 走 了。再说 ，外面 正在 下雪 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+# text_en = It's so late. Stay. Besides, it's snowing outside.
+# translit = Zhème wǎn, bié zǒu le. Zàishuō, wàimiàn zhèngzài xiàxuě.
+1	这	这	ADV	_	_	3	mod	_	Tone=4|Translit=zhè
+2	么	么	ADV	_	_	1	@m	_	Tone=5|Translit=me
+3	晚	晚	ADJ	_	_	0	root	_	Tone=3|Translit=wǎn
+4	，	，	PUNCT	_	_	3	punct	_	Translit=，
+5	别	别	AUX	_	_	3	parataxis	_	Tone=2|Translit=bié
+6	走	走	VERB	_	_	5	comp:aux	_	Tone=3|Translit=zǒu
+7	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Tone=5|Translit=le
+8	。	。	PUNCT	_	_	3	punct	_	Translit=。
+9	再	再	ADV	_	_	15	mod	_	Grammar_Target=Yes|Tone=4|Translit=zài
+10	说	说	VERB	_	_	9	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+11	，	，	PUNCT	_	_	9	punct	_	Translit=，
+12	外	外	NOUN	_	_	15	mod@loc	_	Tone=4|Translit=wài
+13	面	面	NOUN	_	_	12	@m	_	Tone=4|Translit=miàn
+14	正	正	ADV	_	_	15	mod	_	Tone=4|Translit=zhèng
+15	在	在	AUX	_	_	3	parataxis:new	_	Tone=4|Translit=zài
+16	下	下	VERB	_	_	15	comp:aux	_	Tone=4|Translit=xià
+17	雪	雪	NOUN	_	_	16	comp:obj	_	Tone=3|Translit=xuě
+18	。	。	PUNCT	_	_	15	punct	_	Translit=。
+
+# sent_id = 2001
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 他 喜欢 ，就 让 他 去 吧 。再说 ，他 在 家 也 没 事 干 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+# text_en = He likes it. Just let him go. Besides, he's got nothing to do at home.
+# translit = Tā xǐhuan, jiù ràng tā qù ba. Zàishuō, tā zài jiā yě méi shì gàn.
+1	他	他	PRON	_	Person=3	2	subj	_	Tone=1|Translit=tā
+2	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+3	欢	欢	VERB	_	_	2	@m	_	Tone=1|Translit=huān
+4	，	，	PUNCT	_	_	6	punct	_	Translit=，
+5	就	就	ADV	_	_	6	mod	_	Tone=4|Translit=jìu
+6	让	让	VERB	_	_	2	conj	_	Tone=4|Translit=ràng
+7	他	他	PRON	_	Person=3	8	subj	_	Tone=1|Translit=tā
+8	去	去	VERB	_	_	6	comp:obj	_	Tone=4|Translit=qù
+9	吧	吧	PART	_	_	6	discourse	_	Tone=5|Translit=ba
+10	。	。	PUNCT	_	_	2	punct	_	Translit=。
+11	再	再	ADV	_	_	18	cc	_	Grammar_Target=Yes|Tone=4|Translit=zài
+12	说	说	VERB	_	_	11	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+13	，	，	PUNCT	_	_	11	punct	_	Translit=，
+14	他	他	PRON	_	Person=3	18	subj	_	Tone=1|Translit=tā
+15	在	在	ADP	_	_	18	mod@loc	_	Tone=4|Translit=zài
+16	家	家	NOUN	_	_	15	comp:obj	_	Tone=1|Translit=jiā
+17	也	也	ADV	_	_	18	mod	_	Tone=3|Translit=yě
+18	没	没	VERB	_	_	2	parataxis:new	_	Tone=2|Translit=méi
+19	事	事	NOUN	_	_	18	comp:obj	_	Tone=4|Translit=shì
+20	干	干	VERB	_	_	19	comp:obj	_	Tone=1|Translit=gān
+21	。	。	PUNCT	_	_	18	punct	_	Translit=。
+
+# sent_id = 2003
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 对不起 ，我 没 时间 。再说 ，我 也 没 兴趣 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+# text_en = Sorry, I don't have time for this. Besides, I'm not interested.
+# translit = Duìbuqǐ, wǒ méi shíjiān. Zàishuō, wǒ yě méi xìngqù.
+1	对	对	ADJ	INTJ	_	6	discourse	_	Tone=4|Translit=dùi
+2	不	不	ADV	_	_	1	@m	_	Tone=4|Translit=bù
+3	起	起	VERB	_	_	1	@m	_	Tone=3|Translit=qǐ
+4	，	，	PUNCT	_	_	1	punct	_	Translit=，
+5	我	我	PRON	_	Person=1	6	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+6	没	没	VERB	_	_	0	root	_	Tone=2|Translit=méi
+7	时	时	NOUN	_	_	6	comp:obj	_	Tone=2|Translit=shí
+8	间	间	NOUN	_	_	7	@m	_	Tone=1|Translit=jiān
+9	。	。	PUNCT	_	_	6	punct	_	Translit=。
+10	再	再	ADV	_	_	15	mod	_	Grammar_Target=Yes|Tone=4|Translit=zài
+11	说	说	VERB	_	_	10	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+12	，	，	PUNCT	_	_	10	punct	_	Translit=，
+13	我	我	PRON	_	Person=1	15	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+14	也	也	ADV	_	_	15	mod	_	Tone=3|Translit=yě
+15	没	没	VERB	_	_	6	parataxis:new	_	Tone=2|Translit=méi
+16	兴	兴	NOUN	_	_	15	comp:obj	_	Tone=1|Translit=xīng
+17	趣	趣	NOUN	_	_	16	@m	_	Tone=4|Translit=qù
+18	。	。	PUNCT	_	_	15	punct	_	Translit=。
+
+# sent_id = 2004
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 别 吃 了 ，你 已经 吃 了 五 个 了 。再说 ，我们 还 没 吃 呢 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+# text_en = Stop eating. You've already eaten five. Besides, the rest of us haven't eaten yet.
+# translit = Bié chī le, nǐ yǐjīng chī le wǔ gè le. Zàishuō, wǒmen hái méi chī ne.
+1	别	别	AUX	_	_	0	root	_	Tone=2|Translit=bié
+2	吃	吃	VERB	_	_	1	comp:aux	_	Tone=1|Translit=chī
+3	了	了	PART	_	_	1	discourse	_	Gloss=PRF|Tone=5|Translit=le
+4	，	，	PUNCT	_	_	8	punct	_	Translit=，
+5	你	你	PRON	_	Person=2	8	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+6	已	已	ADV	_	_	8	mod@temp	_	Tone=3|Translit=yǐ
+7	经	经	ADV	_	_	6	@m	_	Tone=1|Translit=jīng
+8	吃	吃	VERB	_	_	1	parataxis	_	Tone=1|Translit=chī
+9	了	了	PART	_	_	8	aspect	_	Gloss=PFV|Tone=5|Translit=le
+10	五	五	NUM	_	NumType=Card	11	mod	_	Tone=3|Translit=wǔ
+11	个	个	NOUN	_	_	8	comp:obj	_	Gloss=CLF|Tone=4|Translit=gè
+12	了	了	PART	_	_	8	discourse	_	Gloss=PRF|Tone=5|Translit=le
+13	。	。	PUNCT	_	_	1	punct	_	Translit=。
+14	再	再	ADV	_	_	21	mod	_	Grammar_Target=Yes|Tone=4|Translit=zài
+15	说	说	VERB	_	_	14	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+16	，	，	PUNCT	_	_	14	punct	_	Translit=，
+17	我	我	PRON	_	Number=Plur|Person=1	21	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+18	们	们	PART	_	Number=Plur|Person=1	17	@m	_	Tone=5|Translit=men
+19	还	还	ADV	_	_	21	mod	_	Tone=2|Translit=huán
+20	没	没	ADV	_	_	21	mod	_	Tone=2|Translit=méi
+21	吃	吃	VERB	_	_	1	parataxis:new	_	Tone=1|Translit=chī
+22	呢	呢	PART	_	_	21	discourse	_	Tone=2|Translit=ní
+23	。	。	PUNCT	_	_	21	punct	_	Translit=。
+
+# sent_id = 2005
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 住 我 家 吧 ，可以 省 点 钱 。再说 ，孩子 们 也 可以 一起 玩 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+# text_en = Stay with me. You can save some money. Besides, the kids can play together.
+# translit = Zhù wǒ jiā ba,  kěyǐ shěng diǎn qián. Zàishuō, háizi men yě kěyǐ yīqǐ wán.
+1	住	住	VERB	_	_	0	root	_	Tone=4|Translit=zhù
+2	我	我	PRON	_	Person=1	3	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
+3	家	家	NOUN	_	_	1	comp:obj	_	Tone=1|Translit=jiā
+4	吧	吧	PART	_	_	1	discourse	_	Tone=5|Translit=ba
+5	，	，	PUNCT	_	_	6	punct	_	Translit=，
+6	可	可	AUX	_	_	1	parataxis	_	Tone=3|Translit=kě
+7	以	以	AUX	_	_	6	@m	_	Tone=3|Translit=yǐ
+8	省	省	VERB	_	_	6	comp:aux	_	Tone=3|Translit=shěng
+9	点	点	ADV	_	_	10	mod	_	Tone=3|Translit=diǎn
+10	钱	钱	NOUN	_	_	8	comp:obj	_	Tone=2|Translit=qián
+11	。	。	PUNCT	_	_	6	punct	_	Translit=。
+12	再	再	ADV	_	_	19	mod	_	Grammar_Target=Yes|Tone=4|Translit=zài
+13	说	说	VERB	_	_	12	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+14	，	，	PUNCT	_	_	12	punct	_	Translit=，
+15	孩	孩	NOUN	_	_	19	subj	_	Tone=2|Translit=hái
+16	子	子	NOUN	_	_	15	@m	_	Tone=5|Translit=zi
+17	们	们	PART	_	Number=Plur|Person=3	15	@m	_	Tone=5|Translit=men
+18	也	也	ADV	_	_	19	mod	_	Tone=3|Translit=yě
+19	可	可	AUX	_	_	1	parataxis:new	_	Tone=3|Translit=kě
+20	以	以	AUX	_	_	19	@m	_	Tone=3|Translit=yǐ
+21	一	一	ADV	_	_	22	@m	_	Gloss=one|Tone=1|Translit=yī
+22	起	起	ADV	_	_	23	mod	_	Tone=3|Translit=qǐ
+23	玩	玩	VERB	_	_	19	comp:aux	_	Tone=2|Translit=wán
+24	。	。	PUNCT	_	_	19	punct	_	Translit=。
+
+# sent_id = 2006
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 我 不 想 干 了 。 天天 加班 ，再说 ，我 在 这儿 也 没有 未来 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+# text_en = I don't want to do this anymore. I work overtime every day. Besides, I don't even have a future here.
+# translit = Wǒ bù xiǎng gàn le. Tiāntiān jiābān, zàishuō, wǒ zài zhèr yě méiyǒu wèilái.
+1	我	我	PRON	_	Person=1	3	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	不	不	ADV	_	Polarity=Neg	3	mod	_	Tone=4|Translit=bù
+3	想	想	AUX	_	_	0	root	_	Tone=3|Translit=xiǎng
+4	干	干	VERB	_	_	3	comp:aux	_	Tone=1|Translit=gān
+5	了	了	PART	_	_	3	discourse	_	Gloss=PRF|Tone=5|Translit=le
+6	。	。	PUNCT	_	_	3	punct	_	Translit=。
+7	天	天	NOUN	_	_	9	mod@freq	_	Tone=1|Translit=tiān
+8	天	天	NOUN	_	_	7	@m	_	Tone=1|Translit=tiān
+9	加	加	VERB	_	_	3	parataxis:new	_	Tone=1|Translit=jiā
+10	班	班	NOUN	_	_	9	comp:obj	_	Tone=1|Translit=bān
+11	，	，	PUNCT	_	_	21	punct	_	Translit=，
+12	再	再	ADV	_	_	21	mod	_	Grammar_Target=Yes|Tone=4|Translit=zài
+13	说	说	VERB	_	_	12	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+14	，	，	PUNCT	_	_	12	punct	_	Translit=，
+15	我	我	PRON	_	Person=1	21	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+16	在	在	ADP	_	_	21	comp:obl	_	Tone=4|Translit=zài
+17	这	这	DET	_	_	16	comp:obj	_	Tone=4|Translit=zhè
+18	儿	儿	PART	_	_	17	@m	_	Tone=2|Translit=ér
+19	也	也	ADV	_	_	21	mod	_	Tone=3|Translit=yě
+20	没	没	ADV	_	_	21	mod	_	Tone=2|Translit=méi
+21	有	有	VERB	_	_	9	parataxis	_	Tone=3|Translit=yǒu
+22	未	未	NOUN	_	_	21	comp:obj	_	Tone=4|Translit=wèi
+23	来	来	NOUN	_	_	22	@m	_	Tone=2|Translit=lái
+24	。	。	PUNCT	_	_	9	punct	_	Translit=。
+
+# sent_id = 2007
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 明天 去 买 吧 ，今天 太 累 了 。再说 ，超市 也 快 关门 了 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+# text_en = Let's go and buy it tomorrow. I'm too tired today. Besides, the supermarket is about to close.
+# translit = Míngtiān qù mǎi ba, jīntiān tài lèi le. Zàishuō, chāoshì yě kuài guānmén le.
+1	明	明	NOUN	_	_	3	mod@temp	_	Tone=2|Translit=míng
+2	天	天	NOUN	_	_	1	@m	_	Tone=1|Translit=tiān
+3	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
+4	买	买	VERB	_	_	3	compound:svc	_	Tone=3|Translit=mǎi
+5	吧	吧	PART	_	_	3	discourse	_	Tone=5|Translit=ba
+6	，	，	PUNCT	_	_	10	punct	_	Translit=，
+7	今	今	NOUN	_	_	10	mod@temp	_	Tone=1|Translit=jīn
+8	天	天	NOUN	_	_	7	@m	_	Tone=1|Translit=tiān
+9	太	太	ADV	_	_	10	mod	_	Tone=4|Translit=tài
+10	累	累	ADJ	_	_	3	parataxis	_	Tone=4|Translit=lèi
+11	了	了	PART	_	_	10	discourse	_	Gloss=PRF|Tone=5|Translit=le
+12	。	。	PUNCT	_	_	3	punct	_	Translit=。
+13	再	再	ADV	_	_	20	mod	_	Grammar_Target=Yes|Tone=4|Translit=zài
+14	说	说	VERB	_	_	13	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+15	，	，	PUNCT	_	_	20	punct	_	Translit=，
+16	超	超	NOUN	_	_	20	subj	_	Tone=1|Translit=chāo
+17	市	市	NOUN	_	_	16	@m	_	Tone=4|Translit=shì
+18	也	也	ADV	_	_	20	mod	_	Tone=3|Translit=yě
+19	快	快	ADV	_	_	20	mod	_	Tone=4|Translit=kuài
+20	关	关	VERB	_	_	3	parataxis:new	_	Tone=1|Translit=guān
+21	门	门	NOUN	_	_	20	comp:obj	_	Tone=2|Translit=mén
+22	了	了	PART	_	_	20	discourse	_	Gloss=PRF|Tone=5|Translit=le
+23	。	。	PUNCT	_	_	20	punct	_	Translit=。
+
+# sent_id = 2009
+# structure = ⋯⋯ ，再说 ，⋯⋯
+# text = 这个 项目 的 风险 太 大 了 。再说 ，现在 很 难 找到 投资 。
+# level = B1
+# structure_verbose = Expressing "in addition" with "zaishuo"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGATDLX
+# text_en = This project is too risky. Besides, it's very hard to find investment now.
+# translit = Zhège xiàngmù de fēngxiǎn tài dà le. Zàishuō, xiànzài hěn nán zhǎodào tóuzī.
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
+3	项	项	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=xiàng
+4	目	目	NOUN	_	_	3	@m	_	Tone=4|Translit=mù
+5	的	的	PART	_	Case=Gen	6	mod	_	Tone=5|Translit=de
+6	风	风	NOUN	_	_	9	subj	_	Tone=1|Translit=fēng
+7	险	险	NOUN	_	_	6	@m	_	Tone=3|Translit=xiǎn
+8	太	太	ADV	_	_	9	mod	_	Tone=4|Translit=tài
+9	大	大	ADJ	_	_	0	root	_	Tone=4|Translit=dà
+10	了	了	PART	_	_	9	discourse	_	Gloss=PRF|Tone=5|Translit=le
+11	。	。	PUNCT	_	_	9	punct	_	Translit=。
+12	再	再	ADV	_	_	19	mod	_	Grammar_Target=Yes|Tone=4|Translit=zài
+13	说	说	VERB	_	_	12	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+14	，	，	PUNCT	_	_	19	punct	_	Translit=，
+15	现	现	NOUN	_	_	19	mod@temp	_	Tone=4|Translit=xiàn
+16	在	在	NOUN	_	_	15	@m	_	Tone=4|Translit=zài
+17	很	很	ADV	_	_	18	mod	_	Tone=3|Translit=hěn
+18	难	难	ADV	_	_	19	mod	_	Tone=2|Translit=nán
+19	找	找	VERB	_	_	9	parataxis:new	_	Tone=3|Translit=zhǎo
+20	到	到	VERB	_	_	19	comp:res	_	Tone=4|Translit=dào
+21	投	投	NOUN	_	_	19	comp:obj	_	Tone=2|Translit=tóu
+22	资	资	NOUN	_	_	21	@m	_	Tone=1|Translit=zī
+23	。	。	PUNCT	_	_	19	punct	_	Translit=。
+
+# sent_id = 2010
+# structure = Situation ，那么 + Suggestion / Decision
+# text = 他 不 听 ，那 我 应该 怎么办 ？
+# level = B1
+# structure_verbose = Expressing "then…" with "name"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGX298Z
+# text_en = He won't listen. So what should I do?
+# translit = Tā bù tīng, nà wǒ yīnggāi zěnme bàn?
+1	他	他	PRON	_	Person=3	3	subj	_	Tone=1|Translit=tā
+2	不	不	ADV	_	Polarity=Neg	3	mod	_	Tone=4|Translit=bù
+3	听	听	VERB	_	_	0	root	_	Tone=1|Translit=tīng
+4	，	，	PUNCT	_	_	3	punct	_	Translit=，
+5	那	那	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+6	我	我	PRON	_	Person=1	7	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+7	应	应	AUX	_	_	3	parataxis	_	Tone=4|Translit=yìng
+8	该	该	AUX	_	_	7	@m	_	Tone=1|Translit=gāi
+9	怎	怎	PRON	_	_	11	mod	_	Tone=3|Translit=zěn
+10	么	么	PRON	_	_	9	@m	_	Tone=5|Translit=me
+11	办	办	VERB	_	_	7	comp:aux	_	Tone=4|Translit=bàn
+12	？	？	PUNCT	_	_	3	punct	_	Translit=？
+
+# sent_id = 2011
+# structure = Situation ，那么 + Suggestion / Decision
+# text = 你 说 这个 办法 不行 ，那 你 有 别的 办法 吗 ？
+# level = B1
+# structure_verbose = Expressing "then…" with "name"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGX298Z
+# text_en = You said this idea is not going to work. So do you have any other ideas?
+# translit = Nǐ shuō zhège bànfǎ bù xíng, nà nǐ yǒu bié de bànfǎ ma?
+1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	说	说	VERB	_	_	0	root	_	Tone=1|Translit=shuō
+3	这	这	DET	_	_	4	det	_	Tone=4|Translit=zhè
+4	个	个	NOUN	_	_	5	clf	_	Gloss=CLF|Tone=4|Translit=gè
+5	办	办	NOUN	_	_	8	subj	_	Tone=4|Translit=bàn
+6	法	法	NOUN	_	_	5	@m	_	Tone=3|Translit=fǎ
+7	不	不	ADV	_	Polarity=Neg	8	mod	_	Tone=4|Translit=bù
+8	行	行	ADJ	_	_	2	comp:obj	_	Tone=2|Translit=xíng
+9	，	，	PUNCT	_	_	12	punct	_	Translit=，
+10	那	那	ADV	_	_	12	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+11	你	你	PRON	_	Person=2	12	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+12	有	有	VERB	_	_	2	parataxis	_	Tone=3|Translit=yǒu
+13	别	别	ADJ	_	_	14	comp:obj	_	Tone=2|Translit=bié
+14	的	的	PART	_	Case=Gen	15	mod	_	Tone=5|Translit=de
+15	办	办	NOUN	_	_	12	comp:obj	_	Tone=4|Translit=bàn
+16	法	法	NOUN	_	_	15	@m	_	Tone=3|Translit=fǎ
+17	吗	吗	PART	_	Mood=Inter	12	discourse	_	Tone=5|Translit=ma
+18	？	？	PUNCT	_	_	2	punct	_	Translit=？
+
+# sent_id = 2012
+# structure = Situation ，那么 + Suggestion / Decision
+# text = 大家 都 到 了 ，那么 我们 开始 吧 。
+# level = B1
+# structure_verbose = Expressing "then…" with "name"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGX298Z
+# text_en = Everybody is here, so let's begin.
+# translit = Dàjiā dōu dào le, nàme wǒmen kāishǐ ba.
+1	大	大	ADJ	_	_	2	mod@m	_	Tone=4|Translit=dà
+2	家	家	NOUN	_	_	4	subj	_	Tone=1|Translit=jiā
+3	都	都	ADV	_	_	4	mod	_	Tone=1|Translit=dū
+4	到	到	VERB	_	_	0	root	_	Tone=4|Translit=dào
+5	了	了	PART	_	_	4	discourse	_	Gloss=PRF|Tone=5|Translit=le
+6	，	，	PUNCT	_	_	11	punct	_	Translit=，
+7	那	那	ADV	_	_	11	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+8	么	么	PART	_	_	7	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+9	我	我	PRON	_	Number=Plur|Person=1	11	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+10	们	们	PART	_	Number=Plur|Person=1	9	@m	_	Tone=5|Translit=men
+11	开	开	VERB	_	_	4	parataxis	_	Tone=1|Translit=kāi
+12	始	始	NOUN	_	_	11	@m	_	Tone=3|Translit=shǐ
+13	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
+14	。	。	PUNCT	_	_	4	punct	_	Translit=。
+
+# sent_id = 2013
+# structure = Situation ，那么 + Suggestion / Decision
+# text = 雨 停 了 ，那 我们 走 吧 。
+# level = B1
+# structure_verbose = Expressing "then…" with "name"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGX298Z
+# text_en = The rain has stopped, so let's leave.
+# translit = Yǔ tíng le, nà wǒmen zǒu ba.
+1	雨	雨	NOUN	_	_	2	subj	_	Tone=3|Translit=yǔ
+2	停	停	VERB	_	_	0	root	_	Tone=2|Translit=tíng
+3	了	了	PART	_	_	2	discourse	_	Gloss=PRF|Tone=5|Translit=le
+4	，	，	PUNCT	_	_	2	punct	_	Translit=，
+5	那	那	ADV	_	_	8	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+6	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+7	们	们	PART	_	Number=Plur|Person=1	6	@m	_	Tone=5|Translit=men
+8	走	走	VERB	_	_	2	parataxis	_	Tone=3|Translit=zǒu
+9	吧	吧	PART	_	_	8	discourse	_	Tone=5|Translit=ba
+10	。	。	PUNCT	_	_	2	punct	_	Translit=。
+
+# sent_id = 2014
+# structure = Situation ，那么 + Suggestion / Decision
+# text = 你 说 得 有 道理 ，那么 就 这么 办 吧 。
+# level = B1
+# structure_verbose = Expressing "then…" with "name"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGX298Z
+# text_en = What you said makes sense, so let's just do that.
+# translit = Nǐ shuō de yǒu dàolǐ, nàme jiù zhème bàn ba.
+1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	说	说	VERB	_	_	0	root	_	Tone=1|Translit=shuō
+3	得	得	PART	_	_	2	mod	_	Tone=2|Translit=dé
+4	有	有	VERB	_	_	3	comp:obj	_	Tone=3|Translit=yǒu
+5	道	道	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=dào
+6	理	理	NOUN	_	_	5	@m	_	Tone=3|Translit=lǐ
+7	，	，	PUNCT	_	_	2	punct	_	Translit=，
+8	那	那	ADV	_	_	13	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+9	么	么	PART	_	_	8	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+10	就	就	ADV	_	_	13	mod	_	Tone=4|Translit=jìu
+11	这	这	ADV	_	_	13	mod	_	Tone=4|Translit=zhè
+12	么	么	ADV	_	_	11	@m	_	Tone=5|Translit=me
+13	办	办	VERB	_	_	2	parataxis	_	Tone=4|Translit=bàn
+14	吧	吧	PART	_	_	13	discourse	_	Tone=5|Translit=ba
+15	。	。	PUNCT	_	_	2	punct	_	Translit=。
+
+# sent_id = 2015
+# structure = Situation ，那么 + Suggestion / Decision
+# text = 他 学 过 十 年 中文 ？那 他 的 中文 说 得 很 好 吧 ？
+# level = B1
+# structure_verbose = Expressing "then…" with "name"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGX298Z
+# text_en = He's studied Chinese for ten years? So he must speak Chinese really well, then?
+# translit = Tā xué guo shí nián Zhōngwén? Nà tā de Zhōngwén shuō de hěn hǎo ba?
+1	他	他	PRON	_	Person=3	2	subj	_	Tone=1|Translit=tā
+2	学	学	VERB	_	_	0	root	_	Tone=2|Translit=xué
+3	过	过	PART	_	_	2	aspect	_	Gloss=EXP|Tone=4|Translit=guò
+4	十	十	NUM	_	NumType=Card	5	mod	_	Tone=2|Translit=shí
+5	年	年	NOUN	_	_	2	mod	_	Gloss=year|Tone=2|Translit=nián
+6	中	中	NOUN	_	_	2	comp:obj	_	Tone=1|Translit=zhōng
+7	文	文	NOUN	_	_	6	@m	_	Tone=2|Translit=wén
+8	？	？	PUNCT	_	_	2	punct	_	Translit=？
+9	那	那	ADV	_	_	14	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+10	他	他	PRON	_	Person=3	11	comp:obj	_	Tone=1|Translit=tā
+11	的	的	PART	_	Case=Gen	12	mod	_	Tone=5|Translit=de
+12	中	中	NOUN	_	_	14	subj	_	Tone=1|Translit=zhōng
+13	文	文	NOUN	_	_	12	@m	_	Tone=2|Translit=wén
+14	说	说	VERB	_	_	2	parataxis:new	_	Tone=1|Translit=shuō
+15	得	得	PART	_	_	14	mod	_	Tone=2|Translit=dé
+16	很	很	ADV	_	_	17	mod	_	Tone=3|Translit=hěn
+17	好	好	ADJ	_	_	15	comp:obj	_	Tone=3|Translit=hǎo
+18	吧	吧	PART	_	_	14	discourse	_	Tone=5|Translit=ba
+19	？	？	PUNCT	_	_	14	punct	_	Translit=？
+
+# sent_id = 2016
+# structure = Situation ，那么 + Suggestion / Decision
+# text = 他 表现 不错 ，那么 让 他 通过 吧 。
+# level = B1
+# structure_verbose = Expressing "then…" with "name"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGX298Z
+# text_en = He performed well, so let's let him pass.
+# translit = Tā biǎoxiàn bùcuò, nàme ràng tā tōngguò ba.
+1	他	他	PRON	_	Person=3	2	mod	_	Tone=1|Translit=tā
+2	表	表	VERB	_	_	0	root	_	Tone=3|Translit=biǎo
+3	现	现	VERB	_	_	2	@m	_	Tone=4|Translit=xiàn
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	Tone=4|Translit=bù
+5	错	错	ADJ	_	_	2	mod	_	Tone=4|Translit=cuò
+6	，	，	PUNCT	_	_	2	punct	_	Translit=，
+7	那	那	ADV	_	_	9	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+8	么	么	PART	_	_	7	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+9	让	让	VERB	_	_	2	parataxis:new	_	Tone=4|Translit=ràng
+10	他	他	PRON	_	Person=3	11	subj	_	Tone=1|Translit=tā
+11	通	通	VERB	_	_	9	comp:obj	_	Tone=1|Translit=tōng
+12	过	过	VERB	_	_	11	comp:dir	_	Tone=4|Translit=guò
+13	吧	吧	PART	_	_	9	discourse	_	Tone=5|Translit=ba
+14	。	。	PUNCT	_	_	9	punct	_	Translit=。
+
+# sent_id = 2017
+# structure = Situation ，那么 + Suggestion / Decision
+# text = 会议 时间 已经 确定 了 ，那 你 快点 去 安排 吧 。
+# level = B1
+# structure_verbose = Expressing "then…" with "name"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGX298Z
+# text_en = The meeting time has been set, so please arrange it soon.
+# translit = Huìyì shíjiān yǐjīng quèdìng le, nà nǐ kuài diǎn qù ānpái ba.
+1	会	会	NOUN	_	_	3	mod	_	Tone=4|Translit=hùi
+2	议	议	NOUN	_	_	1	@m	_	Tone=4|Translit=yì
+3	时	时	NOUN	_	_	8	subj	_	Tone=2|Translit=shí
+4	间	间	NOUN	_	_	3	@m	_	Tone=1|Translit=jiān
+5	已	已	ADV	_	_	8	mod	_	Tone=3|Translit=yǐ
+6	经	经	ADV	_	_	5	@m	_	Tone=1|Translit=jīng
+7	确	确	ADJ	_	_	8	mod@m	_	Tone=4|Translit=què
+8	定	定	VERB	_	_	0	root	_	Tone=4|Translit=dìng
+9	了	了	PART	_	_	8	discourse	_	Gloss=PRF|Tone=5|Translit=le
+10	，	，	PUNCT	_	_	15	punct	_	Translit=，
+11	那	那	ADV	_	_	15	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+12	你	你	PRON	_	Person=2	15	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+13	快	快	ADJ	_	_	15	mod	_	Tone=4|Translit=kuài
+14	点	点	NOUN	_	_	13	mod	_	Tone=3|Translit=diǎn
+15	去	去	VERB	_	_	8	parataxis	_	Tone=4|Translit=qù
+16	安	安	NOUN	_	_	15	comp:obj	_	Tone=1|Translit=ān
+17	排	排	NOUN	_	_	16	@m	_	Tone=2|Translit=pái
+18	吧	吧	PART	_	_	15	discourse	_	Tone=5|Translit=ba
+19	。	。	PUNCT	_	_	8	punct	_	Translit=。
+
 # sent_id = 2018
 # structure = Situation ，那么 + Suggestion / Decision
 # text = 他们 没有 提前 通知 我们 ，那么 这 是 他们 的 责任 。
@@ -9702,6 +11872,83 @@
 20	任	任	NOUN	_	_	19	@m	_	Tone=4|Translit=rèn
 21	。	。	PUNCT	_	_	4	punct	_	Translit=。
 
+# sent_id = 2019
+# structure = Situation ，那么 + Suggestion / Decision
+# text = 实现 这个 目标 应该 不 难 ，那么 我们 一起 努力 吧 。
+# level = B1
+# structure_verbose = Expressing "then…" with "name"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGX298Z
+# text_en = It shouldn't be difficult to reach this goal, so let's all really make an effort.
+# translit = Shíxiàn zhège mùbiāo yīnggāi bù nán, nàme wǒmen yīqǐ nǔlì ba.
+1	实	实	VERB	_	_	7	subj	_	Tone=2|Translit=shí
+2	现	现	VERB	_	_	1	@m	_	Tone=4|Translit=xiàn
+3	这	这	DET	_	_	4	det	_	Tone=4|Translit=zhè
+4	个	个	NOUN	_	_	5	clf	_	Gloss=CLF|Tone=4|Translit=gè
+5	目	目	NOUN	_	_	1	comp:obj	_	Tone=4|Translit=mù
+6	标	标	NOUN	_	_	5	@m	_	Tone=1|Translit=biāo
+7	应	应	AUX	_	_	0	root	_	Tone=4|Translit=yìng
+8	该	该	AUX	_	_	7	@m	_	Tone=1|Translit=gāi
+9	不	不	ADV	_	Polarity=Neg	10	mod	_	Tone=4|Translit=bù
+10	难	难	ADJ	_	_	7	comp:aux	_	Tone=2|Translit=nán
+11	，	，	PUNCT	_	_	7	punct	_	Translit=，
+12	那	那	ADV	_	_	18	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+13	么	么	PART	_	_	12	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
+14	我	我	PRON	_	Number=Plur|Person=1	18	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+15	们	们	PART	_	Number=Plur|Person=1	14	@m	_	Tone=5|Translit=men
+16	一	一	ADV	_	_	17	@m	_	Gloss=one|Tone=1|Translit=yī
+17	起	起	ADV	_	_	18	mod	_	Tone=3|Translit=qǐ
+18	努	努	VERB	_	_	7	parataxis:new	_	Tone=3|Translit=nǔ
+19	力	力	NOUN	_	_	18	@m	_	Tone=4|Translit=lì
+20	吧	吧	PART	_	_	18	discourse	_	Tone=5|Translit=ba
+21	。	。	PUNCT	_	_	18	punct	_	Translit=。
+
+# sent_id = 2020
+# structure = 通过 / 用 + Method + 来 + [Verb Phrase]
+# text = 用 这 种 方法 来 赚钱 ，真 丢人 。
+# level = B1
+# structure_verbose = Using "lai" to connect two verb phrases
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBZ578
+# text_en = It's shameful to earn money in this way.
+# translit = Yòng zhè zhǒng fāngfǎ lái zhuànqián, zhēn diūrén.
+1	用	用	VERB	_	_	11	subj	_	Tone=4|Translit=yòng
+2	这	这	DET	_	_	3	det	_	Tone=4|Translit=zhè
+3	种	种	NOUN	_	_	4	clf	_	Gloss=CLF|Tone=3|Translit=zhǒng
+4	方	方	NOUN	_	_	1	comp:obj	_	Tone=1|Translit=fāng
+5	法	法	NOUN	_	_	4	@m	_	Tone=3|Translit=fǎ
+6	来	来	ADP	_	_	1	comp:obl	_	Grammar_Target=Yes|Tone=2|Translit=lái
+7	赚	赚	VERB	_	_	6	comp:obj	_	Tone=4|Translit=zhuàn
+8	钱	钱	NOUN	_	_	7	comp:obj	_	Tone=2|Translit=qián
+9	，	，	PUNCT	_	_	11	punct	_	Translit=，
+10	真	真	ADV	_	_	11	mod	_	Tone=1|Translit=zhēn
+11	丢	丢	VERB	ADJ	_	0	root	_	Tone=1|Translit=dīu
+12	人	人	NOUN	_	_	11	comp:obj	_	Tone=2|Translit=rén
+13	。	。	PUNCT	_	_	11	punct	_	Translit=。
+
+# sent_id = 2021
+# structure = 通过 / 用 + Method + 来 + [Verb Phrase]
+# text = 很 多 年轻 人 用 手机 APP 来 点 外卖 。
+# level = B1
+# structure_verbose = Using "lai" to connect two verb phrases
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBZ578
+# text_en = A lot of young people use apps on their cell phones to order food.
+# translit = Hěn duō niánqīng rén yòng shǒujī APP lái diǎn wàimài.
+1	很	很	ADV	_	_	2	mod	_	Tone=3|Translit=hěn
+2	多	多	ADJ	_	NumType=Card	5	mod	_	Tone=1|Translit=duō
+3	年	年	ADJ	_	_	5	mod@m	_	Gloss=year|Tone=2|Translit=nián
+4	轻	轻	ADJ	_	_	3	@m	_	Tone=1|Translit=qīng
+5	人	人	NOUN	_	_	6	subj	_	Tone=2|Translit=rén
+6	用	用	VERB	_	_	0	root	_	Tone=4|Translit=yòng
+7	手	手	NOUN	_	_	9	mod	_	Gloss=hand|Tone=3|Translit=shǒu
+8	机	机	NOUN	_	_	7	@m	_	Tone=1|Translit=jī
+9	A	a	PROPN	_	_	6	comp:obj	_	Translit=A
+10	P	p	PROPN	_	_	9	flat:foreign@m	_	Translit=P
+11	P	p	PROPN	_	_	10	flat:foreign@m	_	Translit=P
+12	来	来	ADP	_	_	6	comp:obl	_	Grammar_Target=Yes|Tone=2|Translit=lái
+13	点	点	VERB	_	_	12	comp:obj	_	Tone=3|Translit=diǎn
+14	外	外	NOUN	_	_	13	comp:obj	_	Tone=4|Translit=wài
+15	卖	卖	NOUN	_	_	14	@m	_	Tone=4|Translit=mài
+16	。	。	PUNCT	_	_	6	punct	_	Translit=。
+
 # sent_id = 2022
 # structure = 通过 / 用 + Method + 来 + [Verb Phrase]
 # text = 父母 不 应该 经常 用 钱 来 奖励 孩子 。
@@ -9720,11 +11967,56 @@
 8	用	用	VERB	_	_	4	comp:aux	_	Tone=4|Translit=yòng
 9	钱	钱	NOUN	_	_	8	comp:obj	_	Tone=2|Translit=qián
 10	来	来	VERB	_	_	8	comp:dir	_	Grammar_Target=Yes|Tone=2|Translit=lái
-11	奖	奖	VERB	_	_	10	comp:svc	_	Tone=3|Translit=jiǎng
+11	奖	奖	VERB	_	_	10	compound:svc	_	Tone=3|Translit=jiǎng
 12	励	励	VERB	_	_	11	@m	_	Tone=4|Translit=lì
 13	孩	孩	NOUN	_	_	11	comp:obj	_	Tone=2|Translit=hái
 14	子	子	NOUN	_	_	13	@m	_	Tone=5|Translit=zi
 15	。	。	PUNCT	_	_	4	punct	_	Translit=。
+
+# sent_id = 2023
+# structure = 通过 / 用 + Method + 来 + [Verb Phrase]
+# text = 用 这个 APP 来 学 汉字 更 容易 。
+# level = B1
+# structure_verbose = Using "lai" to connect two verb phrases
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBZ578
+# text_en = It's easier to use this app to study Chinese characters.
+# translit = Yòng zhège APP lái xué Hànzì gèng róngyì.
+1	用	用	VERB	_	_	12	subj	_	Tone=4|Translit=yòng
+2	这	这	DET	_	_	3	det	_	Tone=4|Translit=zhè
+3	个	个	NOUN	_	_	4	clf	_	Gloss=CLF|Tone=4|Translit=gè
+4	A	a	PROPN	_	_	1	comp:obj	_	Translit=A
+5	P	p	PROPN	_	_	4	flat:foreign@m	_	Translit=P
+6	P	p	PROPN	_	_	5	flat:foreign@m	_	Translit=P
+7	来	来	ADP	_	_	1	comp:obl	_	Grammar_Target=Yes|Tone=2|Translit=lái
+8	学	学	VERB	_	_	7	comp:obj	_	Tone=2|Translit=xué
+9	汉	汉	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=hàn
+10	字	字	NOUN	_	_	9	@m	_	Tone=4|Translit=zì
+11	更	更	ADV	_	_	12	mod	_	Tone=4|Translit=gèng
+12	容	容	ADJ	_	_	0	root	_	Tone=2|Translit=róng
+13	易	易	ADJ	_	_	12	@m	_	Tone=4|Translit=yì
+14	。	。	PUNCT	_	_	12	punct	_	Translit=。
+
+# sent_id = 2024
+# structure = 通过 / 用 + Method + 来 + [Verb Phrase]
+# text = 你 可以 通过 微信 来 关注  我们 。
+# level = B1
+# structure_verbose = Using "lai" to connect two verb phrases
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBZ578
+# text_en = You can follow us on WeChat.
+# translit = Nǐ kěyǐ tōngguò Wēixìn lái guānzhù wǒmen.
+1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	可	可	AUX	_	_	0	root	_	Tone=3|Translit=kě
+3	以	以	AUX	_	_	2	@m	_	Tone=3|Translit=yǐ
+4	通	通	VERB	ADP	_	2	comp:obj	_	Tone=1|Translit=tōng
+5	过	过	VERB	_	_	4	@m	_	Tone=4|Translit=guò
+6	微	微	NOUN	_	_	4	comp:obj	_	Tone=1|Translit=wēi
+7	信	信	NOUN	_	_	6	@m	_	Tone=4|Translit=xìn
+8	来	来	ADP	_	_	4	comp:obl	_	Grammar_Target=Yes|Tone=2|Translit=lái
+9	关	关	VERB	_	_	8	comp:obj	_	Tone=1|Translit=guān
+10	注	注	VERB	_	_	9	@m	_	Tone=4|Translit=zhù
+11	我	我	PRON	_	Number=Plur|Person=1	9	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+12	们	们	PART	_	Number=Plur|Person=1	11	@m	_	Tone=5|Translit=men
+13	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 2025
 # structure = 通过 / 用 + Method + 来 + [Verb Phrase]
@@ -9746,11 +12038,34 @@
 10	网	网	NOUN	_	_	6	comp:obj	_	Tone=3|Translit=wǎng
 11	站	站	NOUN	_	_	10	@m	_	Tone=4|Translit=zhàn
 12	来	来	VERB	_	_	16	comp:obj	_	Grammar_Target=Yes|Tone=2|Translit=lái
-13	找	找	VERB	_	_	12	comp:svc	_	Tone=3|Translit=zhǎo
+13	找	找	VERB	_	_	12	compound:svc	_	Tone=3|Translit=zhǎo
 14	工	工	NOUN	_	_	13	comp:obj	_	Tone=1|Translit=gōng
 15	作	作	NOUN	_	_	14	@m	_	Tone=4|Translit=zuò
 16	的	的	PART	_	_	5	comp:pred	_	Tone=5|Translit=de
 17	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 2026
+# structure = 通过 / 用 + Method + 来 + [Verb Phrase]
+# text = 商店 经常 通过 打折 来 吸引 顾客 。
+# level = B1
+# structure_verbose = Using "lai" to connect two verb phrases
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBZ578
+# text_en = Shops often use discounts to attract customers.
+# translit = Shāngdiàn jīngcháng tōngguò dǎzhé lái xīyǐn gùkè.
+1	商	商	NOUN	_	_	5	subj	_	Tone=1|Translit=shāng
+2	店	店	NOUN	_	_	1	@m	_	Tone=4|Translit=diàn
+3	经	经	ADV	_	_	5	mod@freq	_	Tone=1|Translit=jīng
+4	常	常	ADV	_	_	3	@m	_	Tone=2|Translit=cháng
+5	通	通	VERB	ADP	_	0	root	_	Tone=1|Translit=tōng
+6	过	过	VERB	_	_	5	@m	_	Tone=4|Translit=guò
+7	打	打	VERB	_	_	5	comp:obj	_	Gloss=hit|Tone=3|Translit=dǎ
+8	折	折	NOUN	_	_	7	@m	_	Tone=2|Translit=zhé
+9	来	来	ADP	_	_	5	comp:obl	_	Grammar_Target=Yes|Tone=2|Translit=lái
+10	吸	吸	VERB	_	_	9	comp:obj	_	Tone=1|Translit=xī
+11	引	引	VERB	_	_	10	@m	_	Tone=3|Translit=yǐn
+12	顾	顾	NOUN	_	_	10	comp:obj	_	Tone=4|Translit=gù
+13	客	客	NOUN	_	_	12	@m	_	Tone=4|Translit=kè
+14	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 2027
 # structure = 通过 / 用 + Method + 来 + [Verb Phrase]
@@ -9769,14 +12084,463 @@
 7	么	么	PRON	_	_	6	@m	_	Tone=5|Translit=me
 8	平	平	NOUN	_	_	4	comp:obj	_	Tone=2|Translit=píng
 9	台	台	NOUN	_	_	8	@m	_	Tone=2|Translit=tái
-10	来	来	VERB	_	_	4	comp:svc	_	Grammar_Target=Yes|Tone=2|Translit=lái
-11	推	推	VERB	_	_	10	comp:svc	_	Tone=1|Translit=tūi
+10	来	来	VERB	_	_	4	compound:svc	_	Grammar_Target=Yes|Tone=2|Translit=lái
+11	推	推	VERB	_	_	10	compound:svc	_	Tone=1|Translit=tūi
 12	广	广	ADJ	_	_	11	@m	_	Tone=3|Translit=guǎng
 13	新	新	ADJ	_	_	14	mod	_	Tone=1|Translit=xīn
 14	产	产	NOUN	_	_	11	comp:obj	_	Tone=3|Translit=chǎn
 15	品	品	NOUN	_	_	14	@m	_	Tone=3|Translit=pǐn
 16	的	的	PART	_	_	3	comp:pred	_	Tone=5|Translit=de
 17	？	？	PUNCT	_	_	3	punct	_	Translit=？
+
+# sent_id = 2028
+# structure = 通过 / 用 + Method + 来 + [Verb Phrase]
+# text = 我们 需要 通过 培训 来 提高 服务 质量 。
+# level = B1
+# structure_verbose = Using "lai" to connect two verb phrases
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBZ578
+# text_en = We need to improve our service quality through training.
+# translit = Wǒmen xūyào tōngguò péixùn lái tígāo fúwù zhìliàng.
+1	我	我	PRON	_	Number=Plur|Person=1	3	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	Tone=5|Translit=men
+3	需	需	AUX	_	_	0	root	_	Tone=1|Translit=xū
+4	要	要	AUX	_	_	3	@m	_	Tone=4|Translit=yào
+5	通	通	VERB	ADP	_	3	comp:aux	_	Tone=1|Translit=tōng
+6	过	过	VERB	_	_	5	@m	_	Tone=4|Translit=guò
+7	培	培	NOUN	_	_	5	comp:obj	_	Tone=2|Translit=péi
+8	训	训	NOUN	_	_	7	@m	_	Tone=4|Translit=xùn
+9	来	来	ADP	_	_	5	comp:obl	_	Grammar_Target=Yes|Tone=2|Translit=lái
+10	提	提	VERB	_	_	9	comp:obj	_	Tone=2|Translit=tí
+11	高	高	ADJ	_	_	10	@m	_	Gloss=tall|Tone=1|Translit=gāo
+12	服	服	NOUN	_	_	14	mod	_	Tone=2|Translit=fú
+13	务	务	NOUN	_	_	12	@m	_	Tone=4|Translit=wù
+14	质	质	NOUN	_	_	10	comp:obj	_	Tone=2|Translit=zhí
+15	量	量	NOUN	_	_	14	@m	_	Tone=4|Translit=liàng
+16	。	。	PUNCT	_	_	3	punct	_	Translit=。
+
+# sent_id = 2029
+# structure = 通过 / 用 + Method + 来 + [Verb Phrase]
+# text = 双方 都 希望 通过 谈判 来 解决 问题 。
+# level = B1
+# structure_verbose = Using "lai" to connect two verb phrases
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGBZ578
+# text_en = Both sides hope to work out the issues through negotiation.
+# translit = Shuāngfāng dōu xīwàng tōngguò tánpàn lái jiějué wèntí.
+1	双	双	NOUN	_	_	2	mod	_	Tone=1|Translit=shuāng
+2	方	方	NOUN	_	_	4	subj	_	Tone=1|Translit=fāng
+3	都	都	ADV	_	_	4	mod	_	Tone=1|Translit=dū
+4	希	希	VERB	_	_	0	root	_	Tone=1|Translit=xī
+5	望	望	VERB	_	_	4	@m	_	Tone=4|Translit=wàng
+6	通	通	VERB	ADP	_	4	comp:obj	_	Tone=1|Translit=tōng
+7	过	过	VERB	_	_	6	@m	_	Tone=4|Translit=guò
+8	谈	谈	NOUN	_	_	6	comp:obj	_	Tone=2|Translit=tán
+9	判	判	NOUN	_	_	8	@m	_	Tone=4|Translit=pàn
+10	来	来	ADP	_	_	6	comp:obl	_	Grammar_Target=Yes|Tone=2|Translit=lái
+11	解	解	VERB	_	_	10	comp:obj	_	Tone=3|Translit=jiě
+12	决	决	VERB	_	_	11	@m	_	Tone=2|Translit=jué
+13	问	问	NOUN	_	_	11	comp:obj	_	Tone=4|Translit=wèn
+14	题	题	NOUN	_	_	13	@m	_	Tone=2|Translit=tí
+15	。	。	PUNCT	_	_	4	punct	_	Translit=。
+
+# sent_id = 2030
+# structure = Subj + MW + MW + Predicate
+# text = 公司 的 员工 个 个 都 很 好。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Gōngsī de yuángōng gè gè dōu hěn hǎo.
+1	公	公	NOUN	_	_	3	comp:obj	_	Tone=1|Translit=gōng
+2	司	司	NOUN	_	_	1	@m	_	Tone=1|Translit=sī
+3	的	的	PART	_	Case=Gen	4	mod	_	Tone=5|Translit=de
+4	员	员	NOUN	_	_	10	subj	_	Tone=2|Translit=yuán
+5	工	工	NOUN	_	_	4	@m	_	Tone=1|Translit=gōng
+6	个	个	NOUN	ADV	_	10	mod	_	Grammar_Target=Yes|Tone=4|Translit=gè
+7	个	个	NOUN	_	_	6	conj:redup@m	_	Grammar_Target=Yes|Tone=4|Translit=gè
+8	都	都	ADV	_	_	10	mod	_	Tone=1|Translit=dū
+9	很	很	ADV	_	_	10	mod	_	Tone=3|Translit=hěn
+10	好	好	ADJ	_	_	0	root	_	Tone=3|Translit=hǎo
+11	。	。	PUNCT	_	_	10	punct	_	Translit=。
+
+# sent_id = 2031
+# structure = Subj + MW + MW + Predicate
+# text = 他们 个 个 都 不 喜欢 打 游戏 。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Tāmen gè gèdōu bù xǐhuan dǎ yóuxì.
+1	他	他	PRON	_	Number=Plur|Person=3	7	subj	_	Tone=1|Translit=tā
+2	们	们	PART	_	Number=Plur|Person=3	1	@m	_	Tone=5|Translit=men
+3	个	个	NOUN	ADV	_	7	mod	_	Grammar_Target=Yes|Tone=4|Translit=gè
+4	个	个	NOUN	_	_	3	conj:redup@m	_	Grammar_Target=Yes|Tone=4|Translit=gè
+5	都	都	ADV	_	_	7	mod	_	Tone=1|Translit=dū
+6	不	不	ADV	_	Polarity=Neg	7	mod	_	Tone=4|Translit=bù
+7	喜	喜	VERB	_	_	0	root	_	Tone=3|Translit=xǐ
+8	欢	欢	VERB	_	_	7	@m	_	Tone=1|Translit=huān
+9	打	打	VERB	_	_	7	comp:obj	_	Gloss=hit|Tone=3|Translit=dǎ
+10	游	游	NOUN	_	_	9	comp:obj	_	Tone=2|Translit=yóu
+11	戏	戏	NOUN	_	_	10	@m	_	Tone=4|Translit=xì
+12	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
+# sent_id = 2032
+# structure = Subj + MW + MW + Predicate
+# text = 这个 星期 他 天 天 给 我 打 电话 。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Zhège xīngqī tātiān tiān gěi wǒ dǎ diànhuà.
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
+3	星	星	NOUN	_	_	10	mod@temp	_	Tone=1|Translit=xīng
+4	期	期	NOUN	_	_	3	@m	_	Tone=1|Translit=qī
+5	他	他	PRON	_	Person=3	10	subj	_	Tone=1|Translit=tā
+6	天	天	NOUN	ADV	_	10	mod@freq	_	Grammar_Target=Yes|Tone=1|Translit=tiān
+7	天	天	NOUN	_	_	6	conj:redup@m	_	Grammar_Target=Yes|Tone=1|Translit=tiān
+8	给	给	ADP	_	_	10	comp:obl	_	Tone=3|Translit=gěi
+9	我	我	PRON	_	Person=1	8	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+10	打	打	VERB	_	_	0	root	_	Gloss=hit|Tone=3|Translit=dǎ
+11	电	电	NOUN	_	_	10	comp:obj	_	Tone=4|Translit=diàn
+12	话	话	NOUN	_	_	11	@m	_	Tone=4|Translit=huà
+13	。	。	PUNCT	_	_	10	punct	_	Translit=。
+
+# sent_id = 2033
+# structure = Subj + MW + MW + Predicate
+# text = 我 天 天 走路 去 公司 。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Wǒ tiān tiān zǒulù qù gōngsī.
+1	我	我	PRON	_	Person=1	4	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	天	天	NOUN	ADV	_	4	mod@freq	_	Grammar_Target=Yes|Tone=1|Translit=tiān
+3	天	天	NOUN	_	_	2	conj:redup@m	_	Grammar_Target=Yes|Tone=1|Translit=tiān
+4	走	走	VERB	_	_	0	root	_	Tone=3|Translit=zǒu
+5	路	路	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=lù
+6	去	去	VERB	_	_	4	comp:dir	_	Tone=4|Translit=qù
+7	公	公	NOUN	_	_	6	comp:obj	_	Tone=1|Translit=gōng
+8	司	司	NOUN	_	_	7	@m	_	Tone=1|Translit=sī
+9	。	。	PUNCT	_	_	4	punct	_	Translit=。
+
+# sent_id = 2034
+# structure = Subj + MW + MW + Predicate
+# text = 现在 家 家 都 有 手机 。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Xiànzài jiā jiā dōu yǒu shǒujī.
+1	现	现	NOUN	_	_	6	mod@temp	_	Tone=4|Translit=xiàn
+2	在	在	NOUN	_	_	1	@m	_	Tone=4|Translit=zài
+3	家	家	NOUN	_	_	6	subj	_	Grammar_Target=Yes|Tone=1|Translit=jiā
+4	家	家	NOUN	_	_	3	conj:redup@m	_	Grammar_Target=Yes|Tone=1|Translit=jiā
+5	都	都	ADV	_	_	6	mod	_	Tone=1|Translit=dū
+6	有	有	VERB	_	_	0	root	_	Tone=3|Translit=yǒu
+7	手	手	NOUN	_	_	6	comp:obj	_	Gloss=hand|Tone=3|Translit=shǒu
+8	机	机	NOUN	_	_	7	@m	_	Tone=1|Translit=jī
+9	。	。	PUNCT	_	_	6	punct	_	Translit=。
+
+# sent_id = 2035
+# structure = Subj + MW + MW + Predicate
+# text = 这里 的 公司 家 家 都 用 苹果 电脑 。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Zhèlǐ de gōngsī jiā jiā dōu yòng Píngguǒ diànnǎo.
+1	这	这	DET	_	_	3	comp:obj	_	Tone=4|Translit=zhè
+2	里	里	NOUN	_	_	1	@m	_	Tone=3|Translit=lǐ
+3	的	的	PART	_	Case=Gen	4	mod	_	Tone=5|Translit=de
+4	公	公	NOUN	_	_	9	mod@loc	_	Tone=1|Translit=gōng
+5	司	司	NOUN	_	_	4	@m	_	Tone=1|Translit=sī
+6	家	家	NOUN	_	_	9	subj	_	Grammar_Target=Yes|Tone=1|Translit=jiā
+7	家	家	NOUN	_	_	6	conj:redup@m	_	Grammar_Target=Yes|Tone=1|Translit=jiā
+8	都	都	ADV	_	_	9	mod	_	Tone=1|Translit=dū
+9	用	用	VERB	_	_	0	root	_	Tone=4|Translit=yòng
+10	苹	苹	PROPN	_	_	12	mod	_	Tone=2|Translit=píng
+11	果	果	PROPN	_	_	10	@m	_	Tone=3|Translit=guǒ
+12	电	电	NOUN	_	_	9	comp:obj	_	Tone=4|Translit=diàn
+13	脑	脑	NOUN	_	_	12	@m	_	Tone=3|Translit=nǎo
+14	。	。	PUNCT	_	_	9	punct	_	Translit=。
+
+# sent_id = 2036
+# structure = Subj + MW + MW + Predicate
+# text = 我 的 衣服 件 件 都 很 好看。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Wǒ de yīfu jiàn jiàn dōu hěn hǎokàn.
+1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	的	的	PART	_	Case=Gen	3	mod	_	Tone=5|Translit=de
+3	衣	衣	NOUN	_	_	9	subj	_	Tone=1|Translit=yī
+4	服	服	NOUN	_	_	3	@m	_	Tone=2|Translit=fú
+5	件	件	NOUN	_	_	3	conj:appos	_	Grammar_Target=Yes|Tone=4|Translit=jiàn
+6	件	件	NOUN	_	_	5	conj:redup@m	_	Grammar_Target=Yes|Tone=4|Translit=jiàn
+7	都	都	ADV	_	_	9	mod	_	Tone=1|Translit=dū
+8	很	很	ADV	_	_	9	mod	_	Tone=3|Translit=hěn
+9	好	好	ADJ	_	_	0	root	_	Tone=3|Translit=hǎo
+10	看	看	VERB	_	_	9	comp:obj	_	Tone=4|Translit=kàn
+11	。	。	PUNCT	_	_	9	punct	_	Translit=。
+
+# sent_id = 2037
+# structure = Subj + MW + MW + Predicate
+# text = 这 家 店 的 书 本 本 都 很 贵 。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Zhè jiā diàn de shū běn běn  dōu hěn guì.
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	家	家	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=1|Translit=jiā
+3	店	店	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=diàn
+4	的	的	PART	_	Case=Gen	5	mod	_	Tone=5|Translit=de
+5	书	书	NOUN	_	_	10	subj	_	Tone=1|Translit=shū
+6	本	本	NOUN	_	_	5	conj:appos	_	Grammar_Target=Yes|Tone=3|Translit=běn
+7	本	本	NOUN	_	_	6	conj:redup@m	_	Grammar_Target=Yes|Tone=3|Translit=běn
+8	都	都	ADV	_	_	10	mod	_	Tone=1|Translit=dū
+9	很	很	ADV	_	_	10	mod	_	Tone=3|Translit=hěn
+10	贵	贵	ADJ	_	_	0	root	_	Tone=4|Translit=gùi
+11	。	。	PUNCT	_	_	10	punct	_	Translit=。
+
+# sent_id = 2038
+# structure = Subj + MW + MW + Predicate
+# text = 她 次 次 都 打车 来 。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Tā cì cì dōu dǎchē lái.
+1	她	她	PRON	_	Person=3	5	subj	_	Tone=1|Translit=tā
+2	次	次	NOUN	ADV	_	5	mod	_	Grammar_Target=Yes|Tone=4|Translit=cì
+3	次	次	NOUN	_	_	2	conj:redup@m	_	Grammar_Target=Yes|Tone=4|Translit=cì
+4	都	都	ADV	_	_	5	mod	_	Tone=1|Translit=dū
+5	打	打	VERB	_	_	0	root	_	Gloss=hit|Tone=3|Translit=dǎ
+6	车	车	NOUN	_	_	5	comp:obj	_	Tone=1|Translit=chē
+7	来	来	VERB	_	_	5	comp:dir	_	Tone=2|Translit=lái
+8	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 2039
+# structure = Subj + MW + MW + Predicate
+# text = 这些 小狗 只 只 都 很 可爱。
+# level = B1
+# structure_verbose = Reduplication of measure words
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG6120A
+# translit = Zhèxiē xiǎogǒu  zhī zhī dōu hěn kěài.
+1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+2	些	些	NOUN	_	_	4	clf	_	Gloss=CLF|Tone=1|Translit=xiē
+3	小	小	ADJ	_	_	4	mod	_	Tone=3|Translit=xiǎo
+4	狗	狗	NOUN	_	_	9	subj	_	Tone=3|Translit=gǒu
+5	只	只	NOUN	_	_	4	conj:appos	_	Grammar_Target=Yes|Tone=3|Translit=zhǐ
+6	只	只	NOUN	_	_	5	conj:redup@m	_	Grammar_Target=Yes|Tone=3|Translit=zhǐ
+7	都	都	ADV	_	_	9	mod	_	Tone=1|Translit=dū
+8	很	很	ADV	_	_	9	mod	_	Tone=3|Translit=hěn
+9	可	可	VERB	ADJ	_	0	root	_	Tone=3|Translit=kě
+10	爱	爱	VERB	_	_	9	@m	_	Tone=4|Translit=ài
+11	。	。	PUNCT	_	_	9	punct	_	Translit=。
+
+# sent_id = 2040
+# structure = Event + 之前 / 之后 ，⋯⋯
+# text = 来 中国 之前 ，我 的 汉语 很 一般 。
+# level = B1
+# structure_verbose = Expressing "before" and "after" with "zhiqian" and "zhihou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTD3L3
+# text_en = Before I came to China, my Chinese was really mediocre.
+# translit = Lái Zhōngguó zhīqián, wǒ de Hànyǔ hěn yībān.
+1	来	来	VERB	_	_	4	mod	_	Tone=2|Translit=lái
+2	中	中	PROPN	_	_	1	comp:obj	_	Tone=1|Translit=zhōng
+3	国	国	PROPN	_	_	2	@m	_	Tone=2|Translit=guó
+4	之	之	PART	_	_	12	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+5	前	前	NOUN	_	_	4	@m	_	Grammar_Target=Yes|Tone=2|Translit=qián
+6	，	，	PUNCT	_	_	4	punct	_	Translit=，
+7	我	我	PRON	_	Person=1	8	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+8	的	的	PART	_	Case=Gen	9	mod	_	Tone=5|Translit=de
+9	汉	汉	NOUN	_	_	12	subj	_	Tone=4|Translit=hàn
+10	语	语	NOUN	_	_	9	@m	_	Tone=3|Translit=yǔ
+11	很	很	ADV	_	_	12	mod	_	Tone=3|Translit=hěn
+12	一	一	NUM	ADJ	_	0	root	_	Tone=1|Translit=yī
+13	般	般	NOUN	_	_	12	@m	_	Tone=1|Translit=bān
+14	。	。	PUNCT	_	_	12	punct	_	Translit=。
+
+# sent_id = 2041
+# structure = Event + 之前 / 之后 ，⋯⋯
+# text = 下班 之后 给 我  打 个 电话 。
+# level = B1
+# structure_verbose = Expressing "before" and "after" with "zhiqian" and "zhihou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTD3L3
+# text_en = Give me a call after you get off work.
+# translit = Xiàbān zhīhòu gěi wǒ dǎ gè diànhuà.
+1	下	下	VERB	_	_	3	mod	_	Tone=4|Translit=xià
+2	班	班	NOUN	_	_	1	comp:obj	_	Tone=1|Translit=bān
+3	之	之	PART	_	_	7	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+4	后	后	NOUN	_	_	3	@m	_	Grammar_Target=Yes|Tone=4|Translit=hòu
+5	给	给	ADP	_	_	7	comp:obl	_	Tone=3|Translit=gěi
+6	我	我	PRON	_	Person=1	5	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+7	打	打	VERB	_	_	0	root	_	Gloss=hit|Tone=3|Translit=dǎ
+8	个	个	NOUN	_	_	9	clf	_	Gloss=CLF|Tone=4|Translit=gè
+9	电	电	NOUN	_	_	7	comp:obj	_	Tone=4|Translit=diàn
+10	话	话	NOUN	_	_	9	@m	_	Tone=4|Translit=huà
+11	。	。	PUNCT	_	_	7	punct	_	Translit=。
+
+# sent_id = 2042
+# structure = Event + 之前 / 之后 ，⋯⋯
+# text = 吃 完 饭 之后 去 看 电影 吧 ？
+# level = B1
+# structure_verbose = Expressing "before" and "after" with "zhiqian" and "zhihou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTD3L3
+# text_en = What about going to the movies after eating dinner?
+# translit = Chī wán fàn zhīhòu qù kàn diànyǐng ba?
+1	吃	吃	VERB	_	_	4	mod	_	Tone=1|Translit=chī
+2	完	完	VERB	_	_	1	comp:res	_	Tone=2|Translit=wán
+3	饭	饭	NOUN	_	_	1	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
+4	之	之	PART	_	_	6	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+5	后	后	NOUN	_	_	4	@m	_	Grammar_Target=Yes|Tone=4|Translit=hòu
+6	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
+7	看	看	VERB	_	_	6	compound:svc	_	Tone=4|Translit=kàn
+8	电	电	NOUN	_	_	7	comp:obj	_	Tone=4|Translit=diàn
+9	影	影	NOUN	_	_	8	@m	_	Tone=3|Translit=yǐng
+10	吧	吧	PART	_	_	6	discourse	_	Tone=5|Translit=ba
+11	？	？	PUNCT	_	_	6	punct	_	Translit=？
+
+# sent_id = 2043
+# structure = Event + 之前 / 之后 ，⋯⋯
+# text = 出国 之前 ，他 和 女朋友 分手了 。
+# level = B1
+# structure_verbose = Expressing "before" and "after" with "zhiqian" and "zhihou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTD3L3
+# text_en = Before he went abroad, he broke up with his girlfriend.
+# translit = Chūguó zhīqián, tā hé nǚpéngyou fēnshǒu le.
+1	出	出	VERB	_	_	3	mod	_	Tone=1|Translit=chū
+2	国	国	NOUN	_	_	1	comp:obj	_	Tone=2|Translit=guó
+3	之	之	PART	_	_	11	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+4	前	前	NOUN	_	_	3	@m	_	Grammar_Target=Yes|Tone=2|Translit=qián
+5	，	，	PUNCT	_	_	3	punct	_	Translit=，
+6	他	他	PRON	_	Person=3	11	subj	_	Tone=1|Translit=tā
+7	和	和	ADP	_	_	11	comp:obl	_	Tone=2|Translit=hé
+8	女	女	NOUN	_	_	9	@m	_	Tone=3|Translit=nv̌
+9	朋	朋	NOUN	_	_	7	comp:obj	_	Tone=2|Translit=péng
+10	友	友	NOUN	_	_	9	@m	_	Tone=3|Translit=yǒu
+11	分	分	VERB	_	_	0	root	_	Tone=1|Translit=fēn
+12	手	手	NOUN	_	_	11	@m	_	Gloss=hand|Tone=3|Translit=shǒu
+13	了	了	PART	_	_	11	discourse	_	Gloss=PRF|Tone=5|Translit=le
+14	。	。	PUNCT	_	_	11	punct	_	Translit=。
+
+# sent_id = 2044
+# structure = Event + 之前 / 之后 ，⋯⋯
+# text = 她 每天 放学 之后 都 要 去 上 钢琴 课 。
+# level = B1
+# structure_verbose = Expressing "before" and "after" with "zhiqian" and "zhihou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTD3L3
+# text_en = She needs to go to piano lessons every day after school.
+# translit = Tā měi tiān fàngxué zhīhòu dōu yào qù shàng gāngqín kè.
+1	她	她	PRON	_	Person=3	9	subj	_	Tone=1|Translit=tā
+2	每	每	DET	_	_	3	det	_	Tone=3|Translit=měi
+3	天	天	NOUN	_	_	4	mod@freq	_	Tone=1|Translit=tiān
+4	放	放	VERB	_	_	6	mod	_	Tone=4|Translit=fàng
+5	学	学	NOUN	_	_	4	comp:obj	_	Tone=2|Translit=xué
+6	之	之	PART	_	_	9	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+7	后	后	NOUN	_	_	6	@m	_	Grammar_Target=Yes|Tone=4|Translit=hòu
+8	都	都	ADV	_	_	9	mod	_	Tone=1|Translit=dū
+9	要	要	AUX	_	_	0	root	_	Tone=4|Translit=yào
+10	去	去	VERB	_	_	9	comp:aux	_	Tone=4|Translit=qù
+11	上	上	VERB	_	_	10	compound:svc	_	Tone=4|Translit=shàng
+12	钢	钢	NOUN	_	_	14	mod	_	Tone=1|Translit=gāng
+13	琴	琴	NOUN	_	_	12	@m	_	Tone=2|Translit=qín
+14	课	课	NOUN	_	_	11	comp:obj	_	Tone=4|Translit=kè
+15	。	。	PUNCT	_	_	9	punct	_	Translit=。
+
+# sent_id = 2045
+# structure = ⋯⋯ ，之前 / 之后 ⋯⋯
+# text = 他 在 英国 读 完 了 大学 ，之后 回 上海 了 。
+# level = B1
+# structure_verbose = Expressing "before" and "after" with "zhiqian" and "zhihou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTD3L3
+# text_en = He finished university in England. Afterwards, he returned to Shanghai.
+# translit = Tā zài Yīngguó dú wán le dàxué, zhīhòu huí Shànghǎi le.
+1	他	他	PRON	_	Person=3	5	subj	_	Tone=1|Translit=tā
+2	在	在	ADP	_	_	5	comp:obl	_	Tone=4|Translit=zài
+3	英	英	PROPN	_	_	2	comp:obj	_	Tone=1|Translit=yīng
+4	国	国	PROPN	_	_	3	@m	_	Tone=2|Translit=guó
+5	读	读	VERB	_	_	0	root	_	Tone=2|Translit=dú
+6	完	完	VERB	_	_	5	comp:res	_	Tone=2|Translit=wán
+7	了	了	PART	_	_	5	aspect	_	Gloss=PFV|Tone=5|Translit=le
+8	大	大	ADJ	_	_	9	mod@m	_	Tone=4|Translit=dà
+9	学	学	NOUN	_	_	5	comp:obj	_	Tone=2|Translit=xué
+10	，	，	PUNCT	_	_	13	punct	_	Translit=，
+11	之	之	PART	ADV	_	13	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+12	后	后	NOUN	_	_	11	@m	_	Grammar_Target=Yes|Tone=4|Translit=hòu
+13	回	回	VERB	_	_	5	parataxis	_	Tone=2|Translit=húi
+14	上	上	PROPN	_	_	13	comp:obj	_	Tone=4|Translit=shàng
+15	海	海	PROPN	_	_	14	@m	_	Tone=3|Translit=hǎi
+16	了	了	PART	_	_	13	discourse	_	Gloss=PRF|Tone=5|Translit=le
+17	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 2046
+# structure = ⋯⋯ ，之前 / 之后 ⋯⋯
+# text = 她 当 汉语 老师 四 年 多 了 ，之前 是 教 英语 的 。
+# level = B1
+# structure_verbose = Expressing "before" and "after" with "zhiqian" and "zhihou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTD3L3
+# text_en = She's been a Chinese teacher for more than four years. She used to be an English teacher.
+# translit = Tā dāng Hànyǔ lǎoshī sì nián duō le, zhīqián shì jiāo Yīngyǔ de.
+1	她	她	PRON	_	Person=3	2	subj	_	Tone=1|Translit=tā
+2	当	当	VERB	_	_	0	root	_	Tone=1|Translit=dāng
+3	汉	汉	NOUN	_	_	5	mod	_	Tone=4|Translit=hàn
+4	语	语	NOUN	_	_	3	@m	_	Tone=3|Translit=yǔ
+5	老	老	NOUN	_	_	2	comp:pred	_	Tone=3|Translit=lǎo
+6	师	师	NOUN	_	_	5	@m	_	Tone=1|Translit=shī
+7	四	四	NUM	_	NumType=Card	8	mod	_	Tone=4|Translit=sì
+8	年	年	NOUN	_	_	2	mod	_	Gloss=year|Tone=2|Translit=nián
+9	多	多	ADJ	_	_	8	mod	_	Tone=1|Translit=duō
+10	了	了	PART	_	_	2	discourse	_	Gloss=PRF|Tone=5|Translit=le
+11	，	，	PUNCT	_	_	14	punct	_	Translit=，
+12	之	之	PART	ADV	_	14	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+13	前	前	NOUN	_	_	12	@m	_	Grammar_Target=Yes|Tone=2|Translit=qián
+14	是	是	AUX	_	_	2	parataxis	_	Tone=4|Translit=shì
+15	教	教	VERB	_	_	18	comp:obj	_	Tone=4|Translit=jiào
+16	英	英	NOUN	_	_	15	comp:obj	_	Tone=1|Translit=yīng
+17	语	语	NOUN	_	_	16	@m	_	Tone=3|Translit=yǔ
+18	的	的	PART	_	_	14	comp:pred	_	Tone=5|Translit=de
+19	。	。	PUNCT	_	_	2	punct	_	Translit=。
+
+# sent_id = 2047
+# structure = ⋯⋯ ，之前 / 之后 ⋯⋯
+# text = 老板 刚刚 回来 ，之前 在 休假 。
+# level = B1
+# structure_verbose = Expressing "before" and "after" with "zhiqian" and "zhihou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTD3L3
+# text_en = The boss just came back. He was on vacation before.
+# translit = Lǎobǎn gānggāng huílái, zhīqián zài xiūjià.
+1	老	老	NOUN	_	_	5	subj	_	Tone=3|Translit=lǎo
+2	板	板	NOUN	_	_	1	@m	_	Tone=3|Translit=bǎn
+3	刚	刚	ADV	_	_	5	mod@temp	_	Tone=1|Translit=gāng
+4	刚	刚	ADV	_	_	3	conj:redup@m	_	Tone=1|Translit=gāng
+5	回	回	VERB	_	_	0	root	_	Tone=2|Translit=húi
+6	来	来	VERB	_	_	5	comp:dir	_	Tone=2|Translit=lái
+7	，	，	PUNCT	_	_	10	punct	_	Translit=，
+8	之	之	PART	ADV	_	10	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+9	前	前	NOUN	_	_	8	@m	_	Grammar_Target=Yes|Tone=2|Translit=qián
+10	在	在	AUX	_	_	5	parataxis	_	Tone=4|Translit=zài
+11	休	休	VERB	_	_	10	comp:aux	_	Tone=1|Translit=xīu
+12	假	假	NOUN	_	_	11	@m	_	Tone=3|Translit=jiǎ
+13	。	。	PUNCT	_	_	5	punct	_	Translit=。
+
+# sent_id = 2048
+# structure = ⋯⋯ ，之前 / 之后 ⋯⋯
+# text = 我们 都 不 知道 ，他 之前 什么 也 没 说 。
+# level = B1
+# structure_verbose = Expressing "before" and "after" with "zhiqian" and "zhihou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGTD3L3
+# text_en = None of us knew. He didn't say anything before.
+# translit = Wǒmen dōu bù zhīdào, tā zhīqián shénme yě méi shuō.
+1	我	我	PRON	_	Number=Plur|Person=1	5	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	Tone=5|Translit=men
+3	都	都	ADV	_	_	5	mod	_	Tone=1|Translit=dū
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	Tone=4|Translit=bù
+5	知	知	VERB	_	_	0	root	_	Tone=1|Translit=zhī
+6	道	道	VERB	_	_	5	@m	_	Tone=4|Translit=dào
+7	，	，	PUNCT	_	_	15	punct	_	Translit=，
+8	他	他	PRON	_	Person=3	15	subj	_	Tone=1|Translit=tā
+9	之	之	PART	ADV	_	15	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+10	前	前	NOUN	_	_	9	@m	_	Grammar_Target=Yes|Tone=2|Translit=qián
+11	什	什	PRON	_	PronType=Int	15	comp:obj	_	Tone=2|Translit=shén
+12	么	么	PRON	_	_	11	@m	_	Tone=5|Translit=me
+13	也	也	ADV	_	_	15	mod	_	Tone=3|Translit=yě
+14	没	没	ADV	_	_	15	mod	_	Tone=2|Translit=méi
+15	说	说	VERB	_	_	5	parataxis	_	Tone=1|Translit=shuō
+16	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 2052
 # structure = Time / Event + 以来 ，⋯⋯
@@ -9939,7 +12703,7 @@
 9	从	从	ADV	_	_	11	mod	_	Tone=2|Translit=cóng
 10	没	没	ADV	_	_	9	@m	_	Tone=2|Translit=méi
 11	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-12	看	看	VERB	_	_	11	comp:svc	_	Tone=4|Translit=kàn
+12	看	看	VERB	_	_	11	compound:svc	_	Tone=4|Translit=kàn
 13	过	过	PART	_	_	12	aspect	_	Gloss=EXP|Tone=4|Translit=guò
 14	孩	孩	NOUN	_	_	12	comp:obj	_	Tone=2|Translit=hái
 15	子	子	NOUN	_	_	14	@m	_	Tone=5|Translit=zi
@@ -10400,7 +13164,7 @@
 13	去	去	VERB	_	_	7	parataxis	_	Tone=4|Translit=qù
 14	上	上	PROPN	_	_	13	comp:obj	_	Tone=4|Translit=shàng
 15	海	海	PROPN	_	_	14	@m	_	Tone=3|Translit=hǎi
-16	做	做	VERB	_	_	13	comp:svc	_	Tone=4|Translit=zuò
+16	做	做	VERB	_	_	13	compound:svc	_	Tone=4|Translit=zuò
 17	生	生	NOUN	_	_	16	comp:obj	_	Tone=1|Translit=shēng
 18	意	意	NOUN	_	_	17	@m	_	Tone=4|Translit=yì
 19	了	了	PART	_	_	13	discourse	_	Gloss=PRF|Tone=5|Translit=le
@@ -11079,6 +13843,26 @@
 23	友	友	NOUN	_	_	22	@m	_	Tone=3|Translit=yǒu
 24	。	。	PUNCT	_	_	8	punct	_	Translit=。
 
+# sent_id = 2407
+# structure = Subj. + Verb + 给 + Recipient + Obj.
+# text = 昨天 有 人 送 给 我 一 束 花 。
+# level = B1
+# structure_verbose = Verbs followed by "gei"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGMMHTQ
+# text_en = Yesterday someone gave me a bouquet of flowers.
+# translit = Zuótiān  yǒu rén sòng gěi wǒ yī shù huā.
+1	昨	昨	NOUN	_	_	3	mod@temp	_	Tone=2|Translit=zuó
+2	天	天	NOUN	_	_	1	@m	_	Tone=1|Translit=tiān
+3	有	有	VERB	_	_	0	root	_	Tone=3|Translit=yǒu
+4	人	人	NOUN	_	_	3	comp:obj	_	Tone=2|Translit=rén
+5	送	送	VERB	_	_	3	comp:cleft	_	Grammar_Target=Yes|Tone=4|Translit=sòng
+6	给	给	ADP	_	_	5	comp:obl	_	Grammar_Target=Yes|Tone=3|Translit=gěi
+7	我	我	PRON	_	Person=1	6	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+8	一	一	NUM	_	_	9	mod	_	Tone=1|Translit=yī
+9	束	束	NOUN	_	_	10	clf	_	Tone=4|Translit=shù
+10	花	花	NOUN	_	_	5	comp:obj	_	Tone=1|Translit=huā
+11	。	。	PUNCT	_	_	3	punct	_	Translit=。
+
 # sent_id = 2410
 # structure = Subj. + Verb + 给 + Recipient + Obj.
 # text = 这 本 书 是 谁 借 给 你 的 ？
@@ -11540,7 +14324,7 @@
 1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 2	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=shì
 3	来	来	VERB	_	_	5	comp:obj	_	Tone=2|Translit=lái
-4	玩	玩	VERB	_	_	3	comp:svc	_	Tone=2|Translit=wán
+4	玩	玩	VERB	_	_	3	compound:svc	_	Tone=2|Translit=wán
 5	的	的	PART	_	Case=Gen	2	comp:pred	_	Grammar_Target=Yes|Tone=5|Translit=de
 6	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
@@ -11557,7 +14341,7 @@
 3	都	都	ADV	_	_	4	mod	_	Tone=1|Translit=dū
 4	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=shì
 5	去	去	VERB	_	_	8	comp:obj	_	Tone=4|Translit=qù
-6	出	出	VERB	_	_	5	comp:svc	_	Tone=1|Translit=chū
+6	出	出	VERB	_	_	5	compound:svc	_	Tone=1|Translit=chū
 7	差	差	NOUN	_	_	6	comp:obj	_	Tone=4|Translit=chà
 8	的	的	PART	_	_	4	comp:pred	_	Grammar_Target=Yes|Tone=5|Translit=de
 9	。	。	PUNCT	_	_	4	punct	_	Translit=。
@@ -11575,7 +14359,7 @@
 3	都	都	ADV	_	_	4	mod	_	Tone=1|Translit=dū
 4	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=shì
 5	来	来	VERB	_	_	8	comp:obj	_	Tone=2|Translit=lái
-6	实	实	VERB	_	_	5	comp:svc	_	Tone=2|Translit=shí
+6	实	实	VERB	_	_	5	compound:svc	_	Tone=2|Translit=shí
 7	习	习	NOUN	_	_	6	@m	_	Tone=2|Translit=xí
 8	的	的	PART	_	Case=Gen	4	comp:pred	_	Grammar_Target=Yes|Tone=5|Translit=de
 9	。	。	PUNCT	_	_	4	punct	_	Translit=。
@@ -11593,7 +14377,7 @@
 3	的	的	PART	_	_	2	@m	_	Tone=5|Translit=de
 4	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=shì
 5	来	来	VERB	_	_	9	comp:obj	_	Tone=2|Translit=lái
-6	帮	帮	VERB	_	_	5	comp:svc	_	Tone=1|Translit=bāng
+6	帮	帮	VERB	_	_	5	compound:svc	_	Tone=1|Translit=bāng
 7	我	我	PRON	_	Number=Plur|Person=1	5	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 8	们	们	PART	_	Number=Plur|Person=1	7	@m	_	Tone=5|Translit=men
 9	的	的	PART	_	Case=Gen	4	comp:pred	_	Grammar_Target=Yes|Tone=5|Translit=de
@@ -11613,12 +14397,12 @@
 3	不	不	ADV	_	Polarity=Neg	4	mod	_	Tone=4|Translit=bù
 4	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=shì
 5	去	去	VERB	_	_	7	comp:obj	_	Tone=4|Translit=qù
-6	玩	玩	VERB	_	_	5	comp:svc	_	Tone=2|Translit=wán
+6	玩	玩	VERB	_	_	5	compound:svc	_	Tone=2|Translit=wán
 7	的	的	PART	_	Case=Gen	4	comp:pred	_	Grammar_Target=Yes|Tone=5|Translit=de
 8	，	，	PUNCT	_	_	9	punct	_	Translit=，
 9	是	是	VERB	_	_	4	parataxis	_	Grammar_Target=Yes|Tone=4|Translit=shì
 10	去	去	VERB	_	_	9	comp:obj	_	Tone=4|Translit=qù
-11	做	做	VERB	_	_	10	comp:svc	_	Tone=4|Translit=zuò
+11	做	做	VERB	_	_	10	compound:svc	_	Tone=4|Translit=zuò
 12	调	调	NOUN	_	_	11	comp:obj	_	Tone=4|Translit=diào
 13	查	查	NOUN	_	_	12	@m	_	Tone=2|Translit=chá
 14	的	的	PART	_	_	10	discourse	_	Grammar_Target=Yes|Tone=5|Translit=de
@@ -11637,8 +14421,8 @@
 3	菜	菜	NOUN	_	_	4	subj	_	Tone=4|Translit=cài
 4	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=shì
 5	用	用	VERB	_	_	9	comp:obj	_	Tone=4|Translit=yòng
-6	来	来	VERB	_	_	5	comp:svc	_	Tone=2|Translit=lái
-7	做	做	VERB	_	_	6	comp:svc	_	Tone=4|Translit=zuò
+6	来	来	VERB	_	_	5	compound:svc	_	Tone=2|Translit=lái
+7	做	做	VERB	_	_	6	compound:svc	_	Tone=4|Translit=zuò
 8	汤	汤	NOUN	_	_	7	comp:obj	_	Tone=1|Translit=tāng
 9	的	的	PART	_	Case=Gen	4	comp:pred	_	Grammar_Target=Yes|Tone=5|Translit=de
 10	。	。	PUNCT	_	_	4	punct	_	Translit=。
@@ -11799,7 +14583,7 @@
 8	不	不	ADV	_	Polarity=Neg	9	mod	_	Tone=4|Translit=bù
 9	是	是	VERB	_	_	2	parataxis	_	Grammar_Target=Yes|Tone=4|Translit=shì
 10	用	用	VERB	_	_	9	comp:obj	_	Tone=4|Translit=yòng
-11	来	来	VERB	_	_	10	comp:svc	_	Tone=2|Translit=lái
+11	来	来	VERB	_	_	10	compound:svc	_	Tone=2|Translit=lái
 12	省	省	VERB	_	_	11	comp:obj	_	Tone=3|Translit=shěng
 13	的	的	PART	_	_	10	discourse	_	Grammar_Target=Yes|Tone=5|Translit=de
 14	。	。	PUNCT	_	_	2	punct	_	Translit=。

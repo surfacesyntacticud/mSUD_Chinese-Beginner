@@ -71,7 +71,7 @@
 18	不	不	ADV	_	Polarity=Neg	19	mod	_	Tone=4|Translit=bù
 19	要	要	AUX	_	_	14	conj	_	Tone=4|Translit=yào
 20	去	去	VERB	_	_	19	comp:aux	_	Tone=4|Translit=qù
-21	麻	麻	NOUN	_	_	20	comp:svc	_	Tone=2|Translit=má
+21	麻	麻	NOUN	_	_	20	compound:svc	_	Tone=2|Translit=má
 22	烦	烦	NOUN	_	_	21	@m	_	Tone=2|Translit=fán
 23	人	人	NOUN	_	_	24	mod	_	Tone=2|Translit=rén
 24	家	家	NOUN	_	_	21	comp:obj	_	Tone=1|Translit=jiā
@@ -134,7 +134,7 @@
 10	脆	脆	ADV	_	_	9	@m	_	Grammar_Target=Yes|Tone=4|Translit=cùi
 11	出	出	VERB	_	_	7	parataxis	_	Tone=1|Translit=chū
 12	去	去	VERB	_	_	11	comp:dir	_	Tone=4|Translit=qù
-13	吃	吃	VERB	_	_	12	comp:svc	_	Tone=1|Translit=chī
+13	吃	吃	VERB	_	_	12	compound:svc	_	Tone=1|Translit=chī
 14	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
 15	。	。	PUNCT	_	_	7	punct	_	Translit=。
 
@@ -350,7 +350,7 @@
 11	么	么	PRON	_	_	10	@m	_	Tone=5|Translit=me
 12	还	还	ADV	_	_	13	mod	_	Tone=2|Translit=huán
 13	去	去	VERB	_	_	6	parataxis	_	Tone=4|Translit=qù
-14	打	打	VERB	_	_	13	comp:svc	_	Gloss=hit|Tone=3|Translit=dǎ
+14	打	打	VERB	_	_	13	compound:svc	_	Gloss=hit|Tone=3|Translit=dǎ
 15	扰	扰	NOUN	_	_	14	@m	_	Tone=3|Translit=rǎo
 16	他	他	PRON	_	Person=3	14	comp:obj	_	Tone=1|Translit=tā
 17	？	？	PUNCT	_	_	6	punct	_	Translit=？
@@ -436,7 +436,7 @@
 14	有	有	AUX	_	_	4	parataxis	_	Tone=3|Translit=yǒu
 15	出	出	VERB	_	_	14	comp:aux	_	Tone=1|Translit=chū
 16	去	去	VERB	_	_	15	comp:dir	_	Tone=4|Translit=qù
-17	玩	玩	VERB	_	_	16	comp:svc	_	Tone=2|Translit=wán
+17	玩	玩	VERB	_	_	16	compound:svc	_	Tone=2|Translit=wán
 18	，	，	PUNCT	_	_	19	punct	_	Translit=，
 19	在	在	AUX	_	_	14	parataxis	_	Tone=4|Translit=zài
 20	好	好	ADV	_	_	22	mod	_	Tone=3|Translit=hǎo
@@ -515,7 +515,7 @@
 9	能	能	AUX	_	_	5	conj	_	Tone=2|Translit=néng
 10	出	出	VERB	_	_	9	comp:aux	_	Tone=1|Translit=chū
 11	去	去	VERB	_	_	10	comp:dir	_	Tone=4|Translit=qù
-12	玩	玩	VERB	_	_	11	comp:svc	_	Tone=2|Translit=wán
+12	玩	玩	VERB	_	_	11	compound:svc	_	Tone=2|Translit=wán
 13	。	。	PUNCT	_	_	9	punct	_	Translit=。
 
 # sent_id = 3957
@@ -1108,7 +1108,7 @@
 13	你	你	PRON	_	Person=2	14	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 14	上	上	VERB	_	_	11	comp:obj	_	Tone=4|Translit=shàng
 15	班	班	NOUN	_	_	14	comp:obj	_	Tone=1|Translit=bān
-16	坐	坐	VERB	_	_	14	comp:svc	_	Tone=4|Translit=zuò
+16	坐	坐	VERB	_	_	14	compound:svc	_	Tone=4|Translit=zuò
 17	地	地	NOUN	_	_	16	comp:obj	_	Tone=4|Translit=dì
 18	铁	铁	NOUN	_	_	17	@m	_	Tone=3|Translit=tiě
 19	。	。	PUNCT	_	_	11	punct	_	Translit=。
@@ -2950,6 +2950,32 @@
 14	他	他	PRON	_	Person=3	13	comp:obj	_	Tone=1|Translit=tā
 15	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
+# sent_id = 3024
+# structure = [Disregarded Situation] ， 反正 ⋯⋯
+# text = 说 不 说 都 一样 ，反正 没有 人 会 听 我 的 。
+# level = B2
+# structure_verbose = Expressing "anyway" with "fanzheng"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGZVM27
+# text_en = Whether I speak or not, it's all the same. Nobody is going to listen to me anyway.
+# translit = Shuō bu shuō dōu yīyàng, fǎnzhèng méiyǒu rén huì tīng wǒ de.
+1	说	说	VERB	_	_	6	subj	_	Tone=1|Translit=shuō
+2	不	不	ADV	_	Polarity=Neg	3	mod	_	Tone=4|Translit=bù
+3	说	说	VERB	_	_	1	conj	_	Tone=1|Translit=shuō
+4	都	都	ADV	_	_	6	mod	_	Tone=1|Translit=dū
+5	一	一	NOUN	_	_	6	@m	_	Tone=1|Translit=yī
+6	样	样	NOUN	_	_	0	root	_	Tone=2|Translit=yáng
+7	，	，	PUNCT	_	_	6	punct	_	Translit=，
+8	反	反	ADV	_	_	13	mod	_	Grammar_Target=Yes|Tone=3|Translit=fǎn
+9	正	正	ADV	_	_	8	@m	_	Grammar_Target=Yes|Tone=4|Translit=zhèng
+10	没	没	ADV	_	_	11	mod	_	Tone=2|Translit=méi
+11	有	有	VERB	_	_	13	subj	_	Tone=3|Translit=yǒu
+12	人	人	NOUN	_	_	11	comp:obj	_	Tone=2|Translit=rén
+13	会	会	AUX	_	_	6	parataxis	_	Tone=4|Translit=hùi
+14	听	听	VERB	_	_	13	comp:aux	_	Tone=1|Translit=tīng
+15	我	我	PRON	_	Person=1	14	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
+16	的	的	PART	_	Case=Gen	13	discourse	_	Tone=5|Translit=de
+17	。	。	PUNCT	_	_	13	punct	_	Translit=。
+
 # sent_id = 3038
 # structure = 尽量 + Verb / Adj.
 # text = 你 是 哥哥，要 尽量 照顾 好 妹妹。
@@ -3609,12 +3635,12 @@
 1	几	几	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=1|Translit=jī
 2	乎	乎	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=1|Translit=hū
 3	没	没	ADV	_	_	4	mod	_	Tone=2|Translit=méi
-4	有	有	VERB	_	_	0	root	_	Tone=3|Translit=yǒu
+4	有	有	VERB	_	_	6	subj	_	Tone=3|Translit=yǒu
 5	人	人	NOUN	_	_	4	comp:obj	_	Tone=2|Translit=rén
-6	相	相	VERB	_	_	4	comp:cleft	_	Tone=1|Translit=xiāng
+6	相	相	VERB	_	_	0	root	_	Tone=1|Translit=xiāng
 7	信	信	VERB	_	_	6	@m	_	Tone=4|Translit=xìn
 8	他	他	PRON	_	Person=3	6	comp:obj	_	Tone=1|Translit=tā
-9	。	。	PUNCT	_	_	4	punct	_	Translit=。
+9	。	。	PUNCT	_	_	6	punct	_	Translit=。
 
 # sent_id = 3138
 # structure = 几乎 + Noun Phrase + 都 ……
@@ -4150,7 +4176,7 @@
 10	不	不	ADV	_	Polarity=Neg	11	mod	_	Grammar_Target=Yes|Tone=4|Translit=bù
 11	是	是	AUX	_	_	3	conj	_	Grammar_Target=Yes|Tone=4|Translit=shì
 12	来	来	VERB	_	_	11	comp:cleft	_	Tone=2|Translit=lái
-13	玩	玩	VERB	_	_	12	comp:svc	_	Tone=2|Translit=wán
+13	玩	玩	VERB	_	_	12	compound:svc	_	Tone=2|Translit=wán
 14	的	的	PART	_	_	11	discourse	_	Tone=5|Translit=de
 15	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
@@ -4932,24 +4958,24 @@
 # structure_verbose = Expressing "since" with "jiran"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG4BX9
 # translit = Jìrán nǐmen shì hǎo péngyou, nà tā kěndìng huì bāng nǐ ba.Since you guys are good friends, he will definitely help you.
-1	既	既	SCONJ	_	_	5	cc	_	Grammar_Target=Yes|Tone=4|Translit=jì
+1	既	既	SCONJ	_	_	14	mod	_	Grammar_Target=Yes|Tone=4|Translit=jì
 2	然	然	SCONJ	_	_	1	@m	_	Grammar_Target=Yes|Tone=2|Translit=rán
 3	你	你	PRON	_	Number=Plur|Person=2	5	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 4	们	们	PART	_	Number=Plur|Person=2	3	@m	_	Tone=5|Translit=men
-5	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
+5	是	是	AUX	_	_	1	comp:obj	_	Tone=4|Translit=shì
 6	好	好	ADJ	_	_	7	mod	_	Tone=3|Translit=hǎo
 7	朋	朋	NOUN	_	_	5	comp:pred	_	Tone=2|Translit=péng
 8	友	友	NOUN	_	_	7	@m	_	Tone=3|Translit=yǒu
-9	，	，	PUNCT	_	_	12	punct	_	Translit=，
-10	那	那	SCONJ	_	_	12	cc	_	Grammar_Target=Yes|Tone=4|Translit=nà
-11	他	他	PRON	_	Person=3	12	subj	_	Tone=1|Translit=tā
-12	肯	肯	AUX	_	_	5	parataxis	_	Tone=3|Translit=kěn
-13	定	定	VERB	_	_	12	@m	_	Tone=4|Translit=dìng
-14	会	会	NOUN	_	_	13	comp:obj	_	Tone=4|Translit=hùi
+9	，	，	PUNCT	_	_	14	punct	_	Translit=，
+10	那	那	ADV	_	_	14	mod	_	Grammar_Target=Yes|Tone=4|Translit=nà
+11	他	他	PRON	_	Person=3	14	subj	_	Tone=1|Translit=tā
+12	肯	肯	ADV	_	_	14	mod	_	Tone=3|Translit=kěn
+13	定	定	ADV	_	_	12	@m	_	Tone=4|Translit=dìng
+14	会	会	AUX	_	_	0	root	_	Tone=4|Translit=hùi
 15	帮	帮	VERB	_	_	14	comp:aux	_	Tone=1|Translit=bāng
 16	你	你	PRON	_	Person=2	15	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
-17	吧	吧	PART	_	_	12	discourse	_	Tone=5|Translit=ba
-18	。	。	PUNCT	_	_	5	punct	_	Translit=。
+17	吧	吧	PART	_	_	14	discourse	_	Tone=5|Translit=ba
+18	。	。	PUNCT	_	_	14	punct	_	Translit=。
 
 # sent_id = 3862
 # structure = Verb + 得起 / 不起 + Obj.
@@ -5672,7 +5698,7 @@
 7	力	力	NOUN	_	_	6	@m	_	Tone=4|Translit=lì
 8	，	，	PUNCT	_	_	1	punct	_	Translit=，
 9	去	去	VERB	_	_	15	subj	_	Tone=4|Translit=qù
-10	放	放	VERB	_	_	9	comp:svc	_	Tone=4|Translit=fàng
+10	放	放	VERB	_	_	9	compound:svc	_	Tone=4|Translit=fàng
 11	弃	弃	VERB	_	_	10	@m	_	Tone=4|Translit=qì
 12	家	家	NOUN	_	_	10	comp:obj	_	Tone=1|Translit=jiā
 13	人	人	NOUN	_	_	12	@m	_	Tone=2|Translit=rén
@@ -5782,7 +5808,7 @@
 8	是	是	CCONJ	_	_	3	conj	_	Grammar_Target=Yes|Tone=4|Translit=shì
 9	出	出	VERB	_	_	8	comp:pred	_	Tone=1|Translit=chū
 10	去	去	VERB	_	_	9	comp:dir	_	Tone=4|Translit=qù
-11	吃	吃	VERB	_	_	10	comp:svc	_	Tone=1|Translit=chī
+11	吃	吃	VERB	_	_	10	compound:svc	_	Tone=1|Translit=chī
 12	，	，	PUNCT	_	_	3	punct	_	Translit=，
 13	我	我	PRON	_	Person=1	19	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 14	从	从	ADV	_	_	19	mod	_	Tone=2|Translit=cóng

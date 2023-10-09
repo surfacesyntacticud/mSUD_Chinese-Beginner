@@ -1039,7 +1039,7 @@
 3	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
 4	北	北	PROPN	_	_	3	comp:obj	_	Tone=3|Translit=běi
 5	京	京	PROPN	_	_	4	@m	_	Tone=1|Translit=jīng
-6	出	出	VERB	_	_	3	comp:svc	_	Tone=1|Translit=chū
+6	出	出	VERB	_	_	3	compound:svc	_	Tone=1|Translit=chū
 7	差	差	NOUN	_	_	6	comp:obj	_	Tone=4|Translit=chà
 8	已	已	ADV	_	_	11	mod	_	Grammar_Target=Yes|Tone=3|Translit=yǐ
 9	经	经	ADV	_	_	8	@m	_	Grammar_Target=Yes|Tone=1|Translit=jīng
@@ -2428,7 +2428,7 @@
 2	不	不	ADV	_	Polarity=Neg	3	mod	_	Tone=4|Translit=bù
 3	回	回	VERB	_	_	0	root	_	Tone=2|Translit=húi
 4	家	家	NOUN	_	_	3	comp:obj	_	Tone=1|Translit=jiā
-5	吃	吃	VERB	_	_	3	comp:svc	_	Tone=1|Translit=chī
+5	吃	吃	VERB	_	_	3	compound:svc	_	Tone=1|Translit=chī
 6	晚	晚	ADJ	_	_	7	mod@m	_	Tone=3|Translit=wǎn
 7	饭	饭	NOUN	_	_	5	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 8	了	了	PART	_	_	3	discourse	_	Gloss=PRF|Grammar_Target=Yes|Tone=5|Translit=le
@@ -2661,7 +2661,7 @@
 4	来	来	VERB	_	_	0	root	_	Tone=2|Translit=lái
 5	我	我	PRON	_	Person=1	6	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
 6	家	家	NOUN	_	_	4	comp:obj	_	Tone=1|Translit=jiā
-7	吃	吃	VERB	_	_	4	comp:svc	_	Tone=1|Translit=chī
+7	吃	吃	VERB	_	_	4	compound:svc	_	Tone=1|Translit=chī
 8	饭	饭	NOUN	_	_	7	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 9	了	了	PART	_	_	4	discourse	_	Gloss=PRF|Grammar_Target=Yes|Tone=5|Translit=le
 10	。	。	PUNCT	_	_	4	punct	_	Translit=。
@@ -2807,7 +2807,7 @@
 4	大	大	ADJ	_	_	5	mod	_	Tone=4|Translit=dà
 5	城	城	NOUN	_	_	3	comp:obj	_	Tone=2|Translit=chéng
 6	市	市	NOUN	_	_	5	@m	_	Tone=4|Translit=shì
-7	找	找	VERB	_	_	3	comp:svc	_	Tone=3|Translit=zhǎo
+7	找	找	VERB	_	_	3	compound:svc	_	Tone=3|Translit=zhǎo
 8	工	工	NOUN	_	_	7	comp:obj	_	Tone=1|Translit=gōng
 9	作	作	NOUN	_	_	8	@m	_	Tone=4|Translit=zuò
 10	。	。	PUNCT	_	_	2	punct	_	Translit=。
@@ -3189,7 +3189,7 @@
 9	朋	朋	NOUN	_	_	11	mod	_	Tone=2|Translit=péng
 10	友	友	NOUN	_	_	9	@m	_	Tone=3|Translit=yǒu
 11	家	家	NOUN	_	_	7	comp:obj	_	Tone=1|Translit=jiā
-12	见	见	VERB	_	_	7	comp:svc	_	Tone=4|Translit=jiàn
+12	见	见	VERB	_	_	7	compound:svc	_	Tone=4|Translit=jiàn
 13	她	她	PRON	_	Person=3	14	comp:obj	_	Tone=1|Translit=tā
 14	的	的	PART	_	Case=Gen	15	mod	_	Tone=5|Translit=de
 15	父	父	NOUN	_	_	12	comp:obj	_	Tone=4|Translit=fù
@@ -3660,7 +3660,7 @@
 3	了	了	PART	_	_	1	discourse	_	Gloss=PRF|Grammar_Target=Yes|Tone=5|Translit=le
 4	，	，	PUNCT	_	_	1	punct	_	Translit=，
 5	去	去	VERB	_	_	1	flat	_	Tone=4|Translit=qù
-6	写	写	VERB	_	_	5	comp:svc	_	Tone=3|Translit=xiě
+6	写	写	VERB	_	_	5	compound:svc	_	Tone=3|Translit=xiě
 7	作	作	NOUN	_	_	6	comp:obj	_	Tone=4|Translit=zuò
 8	业	业	NOUN	_	_	7	@m	_	Tone=4|Translit=yè
 9	。	。	PUNCT	_	_	5	punct	_	Translit=。
@@ -4512,7 +4512,7 @@
 5	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
 6	北	北	PROPN	_	_	5	comp:obj	_	Tone=3|Translit=běi
 7	京	京	PROPN	_	_	6	@m	_	Tone=1|Translit=jīng
-8	开	开	VERB	_	_	5	comp:svc	_	Tone=1|Translit=kāi
+8	开	开	VERB	_	_	5	compound:svc	_	Tone=1|Translit=kāi
 9	会	会	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=hùi
 10	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Grammar_Target=Yes|Tone=5|Translit=le
 11	。	。	PUNCT	_	_	5	punct	_	Translit=。
@@ -4532,7 +4532,7 @@
 5	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
 6	商	商	NOUN	_	_	5	comp:obj	_	Tone=1|Translit=shāng
 7	场	场	NOUN	_	_	6	@m	_	Tone=2|Translit=cháng
-8	买	买	VERB	_	_	5	comp:svc	_	Tone=3|Translit=mǎi
+8	买	买	VERB	_	_	5	compound:svc	_	Tone=3|Translit=mǎi
 9	衣	衣	NOUN	_	_	8	comp:obj	_	Tone=1|Translit=yī
 10	服	服	NOUN	_	_	9	@m	_	Tone=2|Translit=fú
 11	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Grammar_Target=Yes|Tone=5|Translit=le
@@ -5187,7 +5187,7 @@
 5	去	去	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=qù
 6	北	北	PROPN	_	_	5	comp:obj	_	Tone=3|Translit=běi
 7	京	京	PROPN	_	_	6	@m	_	Tone=1|Translit=jīng
-8	出	出	VERB	_	_	5	comp:svc	_	Tone=1|Translit=chū
+8	出	出	VERB	_	_	5	compound:svc	_	Tone=1|Translit=chū
 9	差	差	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=chà
 10	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -5213,7 +5213,7 @@
 12	来	来	VERB	_	_	10	comp:aux	_	Grammar_Target=Yes|Tone=2|Translit=lái
 13	我	我	PRON	_	Person=1	14	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
 14	家	家	NOUN	_	_	12	comp:obj	_	Tone=1|Translit=jiā
-15	吃	吃	VERB	_	_	12	comp:svc	_	Tone=1|Translit=chī
+15	吃	吃	VERB	_	_	12	compound:svc	_	Tone=1|Translit=chī
 16	饭	饭	NOUN	_	_	15	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 17	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -5483,7 +5483,7 @@
 4	我	我	PRON	_	Person=1	5	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 5	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=yào
 6	去	去	VERB	_	_	5	comp:aux	_	Tone=4|Translit=qù
-7	吃	吃	VERB	_	_	6	comp:svc	_	Tone=1|Translit=chī
+7	吃	吃	VERB	_	_	6	compound:svc	_	Tone=1|Translit=chī
 8	饭	饭	NOUN	_	_	7	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 9	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -5537,7 +5537,7 @@
 4	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=yào
 5	回	回	VERB	_	_	4	comp:aux	_	Tone=2|Translit=húi
 6	家	家	NOUN	_	_	5	comp:obj	_	Tone=1|Translit=jiā
-7	过	过	VERB	_	_	5	comp:svc	_	Gloss=cross|Tone=4|Translit=guò
+7	过	过	VERB	_	_	5	compound:svc	_	Gloss=cross|Tone=4|Translit=guò
 8	年	年	NOUN	_	_	7	comp:obj	_	Gloss=year|Tone=2|Translit=nián
 9	吗	吗	PART	_	Mood=Inter	4	discourse	_	Tone=5|Translit=ma
 10	？	？	PUNCT	_	_	4	punct	_	Translit=？
@@ -5638,7 +5638,7 @@
 7	该	该	AUX	_	_	6	@m	_	Grammar_Target=Yes|Tone=1|Translit=gāi
 8	回	回	VERB	_	_	6	comp:aux	_	Tone=2|Translit=húi
 9	家	家	NOUN	_	_	8	comp:obj	_	Tone=1|Translit=jiā
-10	休	休	VERB	_	_	8	comp:svc	_	Tone=1|Translit=xīu
+10	休	休	VERB	_	_	8	compound:svc	_	Tone=1|Translit=xīu
 11	息	息	VERB	_	_	10	@m	_	Tone=1|Translit=xī
 12	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
@@ -5757,7 +5757,7 @@
 1	他	他	PRON	_	Person=3	2	subj	_	Tone=1|Translit=tā
 2	会	会	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=hùi
 3	来	来	VERB	_	_	2	comp:aux	_	Tone=2|Translit=lái
-4	看	看	VERB	_	_	3	comp:svc	_	Tone=4|Translit=kàn
+4	看	看	VERB	_	_	3	compound:svc	_	Tone=4|Translit=kàn
 5	你	你	PRON	_	Person=2	4	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
 6	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
 7	？	？	PUNCT	_	_	2	punct	_	Translit=？
@@ -7298,7 +7298,7 @@
 10	一	一	ADV	_	_	11	@m	_	Gloss=one|Tone=1|Translit=yī
 11	起	起	ADV	_	_	12	mod	_	Tone=3|Translit=qǐ
 12	去	去	VERB	_	_	6	comp:aux	_	Tone=4|Translit=qù
-13	打	打	VERB	_	_	12	comp:svc	_	Gloss=hit|Tone=3|Translit=dǎ
+13	打	打	VERB	_	_	12	compound:svc	_	Gloss=hit|Tone=3|Translit=dǎ
 14	球	球	NOUN	_	_	13	comp:obj	_	Tone=2|Translit=qíu
 15	吗	吗	PART	_	Mood=Inter	6	discourse	_	Tone=5|Translit=ma
 16	?	?	PUNCT	_	_	6	punct	_	Translit=?
@@ -7976,7 +7976,7 @@
 # translit = Wǒ qù shuìjiào le.
 1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 2	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-3	睡	睡	VERB	_	_	2	comp:svc	_	Tone=4|Translit=shùi
+3	睡	睡	VERB	_	_	2	compound:svc	_	Tone=4|Translit=shùi
 4	觉	觉	NOUN	_	_	3	comp:obj	_	Tone=2|Translit=jué
 5	了	了	PART	_	_	2	discourse	_	Gloss=PRF|Grammar_Target=Yes|Tone=5|Translit=le
 6	。	。	PUNCT	_	_	2	punct	_	Translit=。
@@ -8627,7 +8627,7 @@
 4	去	去	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=qù
 5	美	美	PROPN	_	_	4	comp:obj	_	Tone=3|Translit=měi
 6	国	国	PROPN	_	_	5	@m	_	Tone=2|Translit=guó
-7	工	工	NOUN	_	_	4	comp:svc	_	Tone=1|Translit=gōng
+7	工	工	NOUN	_	_	4	compound:svc	_	Tone=1|Translit=gōng
 8	作	作	NOUN	_	_	7	@m	_	Tone=4|Translit=zuò
 9	了	了	PART	_	_	7	aspect	_	Gloss=PFV|Tone=5|Translit=le
 10	几	几	NUM	_	NumType=Card	11	mod	_	Tone=1|Translit=jī
@@ -8745,7 +8745,7 @@
 2	要	要	AUX	_	_	0	root	_	Tone=4|Translit=yào
 3	回	回	VERB	_	_	2	comp:aux	_	Grammar_Target=Yes|Tone=2|Translit=húi
 4	家	家	NOUN	_	_	3	comp:obj	_	Tone=1|Translit=jiā
-5	吃	吃	VERB	_	_	3	comp:svc	_	Grammar_Target=Yes|Tone=1|Translit=chī
+5	吃	吃	VERB	_	_	3	compound:svc	_	Grammar_Target=Yes|Tone=1|Translit=chī
 6	饭	饭	NOUN	_	_	5	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 7	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
@@ -8762,7 +8762,7 @@
 3	去	去	VERB	_	_	2	comp:aux	_	Grammar_Target=Yes|Tone=4|Translit=qù
 4	超	超	NOUN	_	_	3	comp:obj	_	Tone=1|Translit=chāo
 5	市	市	NOUN	_	_	4	@m	_	Tone=4|Translit=shì
-6	买	买	VERB	_	_	3	comp:svc	_	Grammar_Target=Yes|Tone=3|Translit=mǎi
+6	买	买	VERB	_	_	3	compound:svc	_	Grammar_Target=Yes|Tone=3|Translit=mǎi
 7	东	东	NOUN	_	_	6	comp:obj	_	Tone=1|Translit=dōng
 8	西	西	NOUN	_	_	7	@m	_	Tone=1|Translit=xī
 9	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
@@ -8783,7 +8783,7 @@
 5	图	图	NOUN	_	_	7	mod@m	_	Tone=2|Translit=tú
 6	书	书	NOUN	_	_	5	@m	_	Tone=1|Translit=shū
 7	馆	馆	NOUN	_	_	4	comp:obj	_	Tone=3|Translit=guǎn
-8	看	看	VERB	_	_	4	comp:svc	_	Grammar_Target=Yes|Tone=4|Translit=kàn
+8	看	看	VERB	_	_	4	compound:svc	_	Grammar_Target=Yes|Tone=4|Translit=kàn
 9	书	书	NOUN	_	_	8	comp:obj	_	Tone=1|Translit=shū
 10	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
@@ -8799,7 +8799,7 @@
 2	打	打	VERB	_	_	0	root	_	Gloss=hit|Grammar_Target=Yes|Tone=3|Translit=dǎ
 3	电	电	NOUN	_	_	2	comp:obj	_	Tone=4|Translit=diàn
 4	话	话	NOUN	_	_	3	@m	_	Tone=4|Translit=huà
-5	告	告	VERB	_	_	2	comp:svc	_	Grammar_Target=Yes|Tone=4|Translit=gào
+5	告	告	VERB	_	_	2	compound:svc	_	Grammar_Target=Yes|Tone=4|Translit=gào
 6	诉	诉	VERB	_	_	5	@m	_	Grammar_Target=Yes|Tone=4|Translit=sù
 7	他	他	PRON	_	Person=3	5	comp:obj	_	Tone=1|Translit=tā
 8	了	了	PART	_	_	2	discourse	_	Gloss=PRF|Tone=5|Translit=le
@@ -8820,7 +8820,7 @@
 4	坐	坐	VERB	_	_	3	comp:aux	_	Grammar_Target=Yes|Tone=4|Translit=zuò
 5	飞	飞	NOUN	_	_	4	comp:obj	_	Gloss=fly|Tone=1|Translit=fēi
 6	机	机	NOUN	_	_	5	@m	_	Tone=1|Translit=jī
-7	去	去	VERB	_	_	4	comp:svc	_	Grammar_Target=Yes|Tone=4|Translit=qù
+7	去	去	VERB	_	_	4	compound:svc	_	Grammar_Target=Yes|Tone=4|Translit=qù
 8	美	美	PROPN	_	_	7	comp:obj	_	Tone=3|Translit=měi
 9	国	国	PROPN	_	_	8	@m	_	Tone=2|Translit=guó
 10	。	。	PUNCT	_	_	3	punct	_	Translit=。
@@ -8860,7 +8860,7 @@
 5	去	去	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=qù
 6	北	北	PROPN	_	_	5	comp:obj	_	Tone=3|Translit=běi
 7	京	京	PROPN	_	_	6	@m	_	Tone=1|Translit=jīng
-8	开	开	VERB	_	_	5	comp:svc	_	Grammar_Target=Yes|Tone=1|Translit=kāi
+8	开	开	VERB	_	_	5	compound:svc	_	Grammar_Target=Yes|Tone=1|Translit=kāi
 9	会	会	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=hùi
 10	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -8879,7 +8879,7 @@
 5	要	要	AUX	_	_	0	root	_	Tone=4|Translit=yào
 6	回	回	VERB	_	_	5	comp:aux	_	Grammar_Target=Yes|Tone=2|Translit=húi
 7	家	家	NOUN	_	_	6	comp:obj	_	Tone=1|Translit=jiā
-8	过	过	VERB	_	_	6	comp:svc	_	Gloss=cross|Grammar_Target=Yes|Tone=4|Translit=guò
+8	过	过	VERB	_	_	6	compound:svc	_	Gloss=cross|Grammar_Target=Yes|Tone=4|Translit=guò
 9	年	年	NOUN	_	_	8	comp:obj	_	Gloss=year|Tone=2|Translit=nián
 10	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -8900,7 +8900,7 @@
 7	己	己	PRON	_	_	6	@m	_	Tone=3|Translit=jǐ
 8	买	买	VERB	_	_	4	comp:obj	_	Grammar_Target=Yes|Tone=3|Translit=mǎi
 9	菜	菜	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=cài
-10	做	做	VERB	_	_	8	comp:svc	_	Grammar_Target=Yes|Tone=4|Translit=zuò
+10	做	做	VERB	_	_	8	compound:svc	_	Grammar_Target=Yes|Tone=4|Translit=zuò
 11	饭	饭	NOUN	_	_	10	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 12	。	。	PUNCT	_	_	4	punct	_	Translit=。
 
@@ -9755,7 +9755,7 @@
 7	一	一	ADV	_	_	8	@m	_	Gloss=one|Grammar_Target=Yes|Tone=1|Translit=yī
 8	起	起	ADV	_	_	9	mod	_	Grammar_Target=Yes|Tone=3|Translit=qǐ
 9	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-10	上	上	VERB	_	_	9	comp:svc	_	Tone=4|Translit=shàng
+10	上	上	VERB	_	_	9	compound:svc	_	Tone=4|Translit=shàng
 11	班	班	NOUN	_	_	10	comp:obj	_	Tone=1|Translit=bān
 12	。	。	PUNCT	_	_	9	punct	_	Translit=。
 
@@ -9774,7 +9774,7 @@
 5	一	一	ADV	_	_	6	@m	_	Gloss=one|Grammar_Target=Yes|Tone=1|Translit=yī
 6	起	起	ADV	_	_	7	mod	_	Grammar_Target=Yes|Tone=3|Translit=qǐ
 7	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-8	看	看	VERB	_	_	7	comp:svc	_	Tone=4|Translit=kàn
+8	看	看	VERB	_	_	7	compound:svc	_	Tone=4|Translit=kàn
 9	电	电	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=diàn
 10	影	影	NOUN	_	_	9	@m	_	Tone=3|Translit=yǐng
 11	，	，	PUNCT	_	_	12	punct	_	Translit=，
@@ -10140,7 +10140,7 @@
 # translit = Chūqù wánwan ba!
 1	出	出	VERB	_	_	0	root	_	Tone=1|Translit=chū
 2	去	去	VERB	_	_	1	comp:dir	_	Tone=4|Translit=qù
-3	玩	玩	VERB	_	_	2	comp:svc	_	Grammar_Target=Yes|Tone=2|Translit=wán
+3	玩	玩	VERB	_	_	2	compound:svc	_	Grammar_Target=Yes|Tone=2|Translit=wán
 4	玩	玩	VERB	_	_	3	conj:redup@m	_	Grammar_Target=Yes|Tone=2|Translit=wán
 5	吧	吧	PART	_	_	1	discourse	_	Tone=5|Translit=ba
 6	！	！	PUNCT	_	_	1	punct	_	Translit=！
@@ -10157,7 +10157,7 @@
 2	想	想	AUX	_	_	0	root	_	Tone=3|Translit=xiǎng
 3	出	出	VERB	_	_	2	comp:aux	_	Tone=1|Translit=chū
 4	去	去	VERB	_	_	3	comp:dir	_	Tone=4|Translit=qù
-5	走	走	VERB	_	_	4	comp:svc	_	Grammar_Target=Yes|Tone=3|Translit=zǒu
+5	走	走	VERB	_	_	4	compound:svc	_	Grammar_Target=Yes|Tone=3|Translit=zǒu
 6	走	走	VERB	_	_	5	conj:redup@m	_	Grammar_Target=Yes|Tone=3|Translit=zǒu
 7	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
@@ -10189,7 +10189,7 @@
 # translit = Nǐ qù wèn yī wèn tāmen cèsuǒ zài nǎlǐ.
 1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-3	问	问	VERB	_	_	2	comp:svc	_	Grammar_Target=Yes|Tone=4|Translit=wèn
+3	问	问	VERB	_	_	2	compound:svc	_	Grammar_Target=Yes|Tone=4|Translit=wèn
 4	一	一	ADV	_	_	5	@m	_	Gloss=one|Grammar_Target=Yes|Tone=1|Translit=yī
 5	问	问	VERB	_	_	3	conj:redup@m	_	Grammar_Target=Yes|Tone=4|Translit=wèn
 6	他	他	PRON	_	Number=Plur|Person=3	8	mod	_	Tone=1|Translit=tā
@@ -10716,7 +10716,7 @@
 5	到	到	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=dào
 6	哪	哪	PRON	_	PronType=Int	5	comp:obj	_	Tone=3|Translit=nǎ
 7	儿	儿	PART	_	_	6	@m	_	Tone=2|Translit=ér
-8	吃	吃	VERB	_	_	5	comp:svc	_	Tone=1|Translit=chī
+8	吃	吃	VERB	_	_	5	compound:svc	_	Tone=1|Translit=chī
 9	饭	饭	NOUN	_	_	8	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 10	啊	啊	PART	_	_	5	discourse	_	Tone=5|Translit=a
 11	？	？	PUNCT	_	_	5	punct	_	Translit=？
@@ -10739,7 +10739,7 @@
 8	K	k	PROPN	_	_	7	comp:obj	_	Translit=K
 9	T	t	PROPN	_	_	8	flat:foreign@m	_	Translit=T
 10	V	v	PROPN	_	_	9	flat:foreign@m	_	Translit=V
-11	唱	唱	VERB	_	_	7	comp:svc	_	Tone=4|Translit=chàng
+11	唱	唱	VERB	_	_	7	compound:svc	_	Tone=4|Translit=chàng
 12	歌	歌	NOUN	_	_	11	comp:obj	_	Tone=1|Translit=gē
 13	。	。	PUNCT	_	_	7	punct	_	Translit=。
 
@@ -10759,7 +10759,7 @@
 6	到	到	VERB	_	_	5	comp:aux	_	Grammar_Target=Yes|Tone=4|Translit=dào
 7	美	美	PROPN	_	_	6	comp:obj	_	Tone=3|Translit=měi
 8	国	国	PROPN	_	_	7	@m	_	Tone=2|Translit=guó
-9	出	出	VERB	_	_	6	comp:svc	_	Tone=1|Translit=chū
+9	出	出	VERB	_	_	6	compound:svc	_	Tone=1|Translit=chū
 10	差	差	NOUN	_	_	9	comp:obj	_	Tone=4|Translit=chà
 11	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -11341,7 +11341,7 @@
 3	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
 4	超	超	NOUN	_	_	3	comp:obj	_	Tone=1|Translit=chāo
 5	市	市	NOUN	_	_	4	@m	_	Tone=4|Translit=shì
-6	买	买	VERB	_	_	3	comp:svc	_	Tone=3|Translit=mǎi
+6	买	买	VERB	_	_	3	compound:svc	_	Tone=3|Translit=mǎi
 7	了	了	PART	_	_	6	aspect	_	Gloss=PFV|Tone=5|Translit=le
 8	一	一	NUM	_	_	9	mod	_	Grammar_Target=Yes|Tone=1|Translit=yī
 9	些	些	NOUN	_	_	10	clf	_	Gloss=CLF|Grammar_Target=Yes|Tone=1|Translit=xiē
@@ -12383,8 +12383,8 @@
 8	班	班	NOUN	_	_	9	clf	_	Gloss=CLF|Tone=1|Translit=bān
 9	地	地	NOUN	_	_	3	comp:obj	_	Tone=4|Translit=dì
 10	铁	铁	NOUN	_	_	9	@m	_	Tone=3|Translit=tiě
-11	去	去	VERB	_	_	3	comp:svc	_	Tone=4|Translit=qù
-12	上	上	VERB	_	_	11	comp:svc	_	Tone=4|Translit=shàng
+11	去	去	VERB	_	_	3	compound:svc	_	Tone=4|Translit=qù
+12	上	上	VERB	_	_	11	compound:svc	_	Tone=4|Translit=shàng
 13	班	班	NOUN	_	_	12	comp:obj	_	Tone=1|Translit=bān
 14	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
@@ -12728,7 +12728,7 @@
 4	没	没	ADV	_	Polarity=Neg	5	mod	_	Tone=2|Translit=méi
 5	开	开	VERB	_	_	0	root	_	Tone=1|Translit=kāi
 6	始	始	NOUN	_	_	5	@m	_	Tone=3|Translit=shǐ
-7	吃	吃	VERB	_	_	5	comp:svc	_	Tone=1|Translit=chī
+7	吃	吃	VERB	_	_	5	compound:svc	_	Tone=1|Translit=chī
 8	，	，	PUNCT	_	_	14	punct	_	Translit=，
 9	他	他	PRON	_	Person=3	14	subj	_	Tone=1|Translit=tā
 10	怎	怎	PRON	_	PronType=Int	14	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
@@ -12760,7 +12760,7 @@
 10	么	么	PRON	_	_	9	@m	_	Grammar_Target=Yes|Tone=5|Translit=me
 11	不	不	ADV	_	Polarity=Neg	12	mod	_	Tone=4|Translit=bù
 12	去	去	VERB	_	_	3	parataxis	_	Tone=4|Translit=qù
-13	上	上	VERB	_	_	12	comp:svc	_	Tone=4|Translit=shàng
+13	上	上	VERB	_	_	12	compound:svc	_	Tone=4|Translit=shàng
 14	班	班	NOUN	_	_	13	comp:obj	_	Tone=1|Translit=bān
 15	？	？	PUNCT	_	_	3	punct	_	Translit=？
 
@@ -13043,7 +13043,7 @@
 2	今	今	NOUN	_	_	4	mod@temp	_	Tone=1|Translit=jīn
 3	天	天	NOUN	_	_	2	@m	_	Tone=1|Translit=tiān
 4	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-5	上	上	VERB	_	_	4	comp:svc	_	Tone=4|Translit=shàng
+5	上	上	VERB	_	_	4	compound:svc	_	Tone=4|Translit=shàng
 6	班	班	NOUN	_	_	5	comp:obj	_	Tone=1|Translit=bān
 7	了	了	PART	_	_	4	discourse	_	Gloss=PRF|Grammar_Target=Yes|Tone=5|Translit=le
 8	吗	吗	PART	_	Mood=Inter	4	discourse	_	Grammar_Target=Yes|Tone=5|Translit=ma
@@ -13168,7 +13168,7 @@
 # translit = Wǒ ài chī Sìchuān cài, yīnwèi hěn là.
 1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 2	爱	爱	VERB	_	_	0	root	_	Tone=4|Translit=ài
-3	吃	吃	VERB	_	_	2	comp:aux	_	Tone=1|Translit=chī
+3	吃	吃	VERB	_	_	2	comp:obj	_	Tone=1|Translit=chī
 4	四	四	PROPN	_	_	6	mod	_	Tone=4|Translit=sì
 5	川	川	PROPN	_	_	4	@m	_	Tone=1|Translit=chuān
 6	菜	菜	NOUN	_	_	3	comp:obj	_	Tone=4|Translit=cài
@@ -14265,7 +14265,7 @@
 # translit = Jiù qù kàn diànyǐng ba.
 1	就	就	ADV	_	_	2	mod	_	Grammar_Target=Yes|Tone=4|Translit=jìu
 2	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-3	看	看	VERB	_	_	2	comp:svc	_	Tone=4|Translit=kàn
+3	看	看	VERB	_	_	2	compound:svc	_	Tone=4|Translit=kàn
 4	电	电	NOUN	_	_	3	comp:obj	_	Tone=4|Translit=diàn
 5	影	影	NOUN	_	_	4	@m	_	Tone=3|Translit=yǐng
 6	吧	吧	PART	_	_	2	discourse	_	Tone=5|Translit=ba
@@ -14923,7 +14923,7 @@
 9	的	的	PART	_	Case=Gen	10	mod	_	Tone=5|Translit=de
 10	地	地	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=dì
 11	方	方	NOUN	_	_	10	@m	_	Tone=1|Translit=fāng
-12	工	工	NOUN	_	_	4	comp:svc	_	Tone=1|Translit=gōng
+12	工	工	NOUN	_	_	4	compound:svc	_	Tone=1|Translit=gōng
 13	作	作	NOUN	_	_	12	@m	_	Tone=4|Translit=zuò
 14	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
@@ -15982,7 +15982,7 @@
 11	者	者	CCONJ	_	_	10	@m	_	Grammar_Target=Yes|Tone=3|Translit=zhě
 12	苏	苏	PROPN	_	_	8	conj	_	Tone=1|Translit=sū
 13	州	州	PROPN	_	_	12	@m	_	Tone=1|Translit=zhōu
-14	旅	旅	VERB	_	_	7	comp:svc	_	Tone=3|Translit=lv̌
+14	旅	旅	VERB	_	_	7	compound:svc	_	Tone=3|Translit=lv̌
 15	行	行	NOUN	_	_	14	@m	_	Tone=2|Translit=xíng
 16	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -16006,7 +16006,7 @@
 10	坐	坐	VERB	_	_	5	conj	_	Tone=4|Translit=zuò
 11	高	高	NOUN	_	_	10	comp:obj	_	Tone=1|Translit=gāo
 12	铁	铁	NOUN	_	_	11	@m	_	Tone=3|Translit=tiě
-13	去	去	VERB	_	_	5	comp:svc	_	Tone=4|Translit=qù
+13	去	去	VERB	_	_	5	compound:svc	_	Tone=4|Translit=qù
 14	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
 # sent_id = 736
@@ -16052,7 +16052,7 @@
 8	者	者	CCONJ	_	_	7	@m	_	Grammar_Target=Yes|Tone=3|Translit=zhě
 9	电	电	NOUN	_	_	5	conj	_	Tone=4|Translit=diàn
 10	脑	脑	NOUN	_	_	9	@m	_	Tone=3|Translit=nǎo
-11	上	上	VERB	_	_	4	comp:svc	_	Tone=4|Translit=shàng
+11	上	上	VERB	_	_	4	compound:svc	_	Tone=4|Translit=shàng
 12	网	网	NOUN	_	_	11	comp:obj	_	Tone=3|Translit=wǎng
 13	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
@@ -16468,7 +16468,7 @@
 5	我	我	PRON	_	Person=1	6	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 6	要	要	AUX	_	_	0	root	_	Tone=4|Translit=yào
 7	去	去	VERB	_	_	6	comp:aux	_	Tone=4|Translit=qù
-8	开	开	VERB	_	_	7	comp:svc	_	Tone=1|Translit=kāi
+8	开	开	VERB	_	_	7	compound:svc	_	Tone=1|Translit=kāi
 9	会	会	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=hùi
 10	了	了	PART	_	_	6	discourse	_	Gloss=PRF|Tone=5|Translit=le
 11	。	。	PUNCT	_	_	6	punct	_	Translit=。
@@ -16634,7 +16634,7 @@
 12	我	我	PRON	_	Person=1	13	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 13	没	没	VERB	_	_	10	comp:obj	_	Tone=2|Translit=méi
 14	钱	钱	NOUN	_	_	13	comp:obj	_	Tone=2|Translit=qián
-15	买	买	VERB	_	_	13	comp:svc	_	Tone=3|Translit=mǎi
+15	买	买	VERB	_	_	13	compound:svc	_	Tone=3|Translit=mǎi
 16	。	。	PUNCT	_	_	8	punct	_	Translit=。
 
 # sent_id = 774
@@ -16700,7 +16700,7 @@
 3	五	五	NUM	_	NumType=Card	4	mod	_	Tone=3|Translit=wǔ
 4	点	点	NOUN	_	_	5	mod@temp	_	Tone=3|Translit=diǎn
 5	来	来	VERB	_	_	2	comp:obj	_	Tone=2|Translit=lái
-6	见	见	VERB	_	_	5	comp:svc	_	Tone=4|Translit=jiàn
+6	见	见	VERB	_	_	5	compound:svc	_	Tone=4|Translit=jiàn
 7	我	我	PRON	_	Person=1	6	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 8	，	，	PUNCT	_	_	9	punct	_	Translit=，
 9	但	但	SCONJ	_	_	2	mod	_	Grammar_Target=Yes|Tone=4|Translit=dàn
@@ -17041,7 +17041,7 @@
 3	刚	刚	ADV	_	_	5	mod@temp	_	Grammar_Target=Yes|Tone=1|Translit=gāng
 4	才	才	ADV	_	_	3	@m	_	Grammar_Target=Yes|Tone=2|Translit=cái
 5	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-6	开	开	VERB	_	_	5	comp:svc	_	Tone=1|Translit=kāi
+6	开	开	VERB	_	_	5	compound:svc	_	Tone=1|Translit=kāi
 7	会	会	NOUN	_	_	6	comp:obj	_	Tone=4|Translit=hùi
 8	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Tone=5|Translit=le
 9	。	。	PUNCT	_	_	5	punct	_	Translit=。
@@ -17187,7 +17187,7 @@
 6	去	去	VERB	_	_	5	comp:aux	_	Tone=4|Translit=qù
 7	哪	哪	PRON	_	PronType=Int	6	comp:obj	_	Tone=3|Translit=nǎ
 8	儿	儿	PART	_	_	7	@m	_	Tone=2|Translit=ér
-9	工	工	NOUN	_	_	6	comp:svc	_	Tone=1|Translit=gōng
+9	工	工	NOUN	_	_	6	compound:svc	_	Tone=1|Translit=gōng
 10	作	作	NOUN	_	_	9	@m	_	Tone=4|Translit=zuò
 11	？	？	PUNCT	_	_	5	punct	_	Translit=？
 
@@ -17556,7 +17556,7 @@
 11	法	法	NOUN	_	_	10	@m	_	Grammar_Target=Yes|Tone=3|Translit=fǎ
 12	出	出	VERB	_	_	9	comp:obj	_	Tone=1|Translit=chū
 13	去	去	VERB	_	_	12	comp:dir	_	Tone=4|Translit=qù
-14	吃	吃	VERB	_	_	13	comp:svc	_	Tone=1|Translit=chī
+14	吃	吃	VERB	_	_	13	compound:svc	_	Tone=1|Translit=chī
 15	饭	饭	NOUN	_	_	14	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 16	。	。	PUNCT	_	_	9	punct	_	Translit=。
 
@@ -17789,7 +17789,7 @@
 6	南	南	PROPN	_	_	8	mod@m	_	Tone=2|Translit=nán
 7	京	京	PROPN	_	_	6	@m	_	Tone=1|Translit=jīng
 8	路	路	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=lù
-9	买	买	VERB	_	_	5	comp:svc	_	Tone=3|Translit=mǎi
+9	买	买	VERB	_	_	5	compound:svc	_	Tone=3|Translit=mǎi
 10	衣	衣	NOUN	_	_	9	comp:obj	_	Tone=1|Translit=yī
 11	服	服	NOUN	_	_	10	@m	_	Tone=2|Translit=fú
 12	。	。	PUNCT	_	_	4	punct	_	Translit=。
