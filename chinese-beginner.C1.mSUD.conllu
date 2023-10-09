@@ -9,7 +9,7 @@
 2	得	得	PART	_	_	1	mod	_	Tone=2|Translit=dé
 3	倒	倒	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=3|Translit=dǎo
 4	容	容	ADJ	_	_	2	comp:obj	_	Tone=2|Translit=róng
-5	易	易	ADJ	_	_	4	@m	_	Tone=4|Translit=yì
+5	易	易	ADJ	_	_	4	/m	_	Tone=4|Translit=yì
 6	，	，	PUNCT	_	_	9	punct	_	Translit=，
 7	那	那	PART	_	_	9	discourse	_	Tone=4|Translit=nà
 8	你	你	PRON	_	Person=2	9	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
@@ -26,14 +26,14 @@
 1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	穿	穿	VERB	_	_	0	root	_	Tone=1|Translit=chuān
 3	西	西	NOUN	_	_	2	comp:obj	_	Tone=1|Translit=xī
-4	装	装	NOUN	_	_	3	@m	_	Tone=1|Translit=zhuāng
+4	装	装	NOUN	_	_	3	/m	_	Tone=1|Translit=zhuāng
 5	看	看	VERB	_	_	2	mod	_	Tone=4|Translit=kàn
 6	起	起	VERB	_	_	5	comp:dir	_	Tone=3|Translit=qǐ
 7	来	来	VERB	_	_	6	comp:dir	_	Tone=2|Translit=lái
 8	很	很	ADV	_	_	9	mod	_	Grammar_Target=Yes|Tone=3|Translit=hěn
 9	是	是	AUX	_	_	5	comp:obj	_	Grammar_Target=Yes|Tone=4|Translit=shì
 10	精	精	ADJ	_	_	9	comp:pred	_	Tone=1|Translit=jīng
-11	神	神	NOUN	_	_	10	@m	_	Tone=2|Translit=shén
+11	神	神	NOUN	_	_	10	/m	_	Tone=2|Translit=shén
 12	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 4458
@@ -45,22 +45,22 @@
 1	别	别	AUX	_	_	0	root	_	Tone=2|Translit=bié
 2	问	问	VERB	_	_	1	comp:aux	_	Tone=4|Translit=wèn
 3	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
-4	们	们	PART	_	Number=Plur|Person=1	3	@m	_	Tone=5|Translit=men
+4	们	们	PART	_	Number=Plur|Person=1	3	/m	_	Tone=5|Translit=men
 5	为	为	PRON	_	PronType=Int	8	mod	_	Tone=4|Translit=wèi
-6	什	什	PRON	_	_	5	@m	_	Tone=2|Translit=shén
-7	么	么	PRON	_	_	6	@m	_	Tone=5|Translit=me
+6	什	什	PRON	_	_	5	/m	_	Tone=2|Translit=shén
+7	么	么	PRON	_	_	6	/m	_	Tone=5|Translit=me
 8	去	去	VERB	_	_	2	comp:obj	_	Tone=4|Translit=qù
 9	K	k	PROPN	_	_	8	comp:obj	_	Translit=K
-10	T	t	PROPN	_	_	9	flat:foreign@m	_	Translit=T
-11	V	v	PROPN	_	_	10	flat:foreign@m	_	Translit=V
+10	T	t	PROPN	_	_	9	flat:foreign/m	_	Translit=T
+11	V	v	PROPN	_	_	10	flat:foreign/m	_	Translit=V
 12	唱	唱	VERB	_	_	8	compound:svc	_	Tone=4|Translit=chàng
 13	歌	歌	NOUN	_	_	12	comp:obj	_	Tone=1|Translit=gē
 14	，	，	PUNCT	_	_	15	punct	_	Translit=，
 15	热	热	ADJ	_	_	1	parataxis	_	Tone=4|Translit=rè
-16	闹	闹	ADJ	_	_	15	@m	_	Tone=4|Translit=nào
+16	闹	闹	ADJ	_	_	15	/m	_	Tone=4|Translit=nào
 17	好	好	ADV	_	_	18	mod	_	Tone=3|Translit=hǎo
 18	玩	玩	VERB	_	_	15	conj	_	Tone=2|Translit=wán
-19	儿	儿	PART	_	_	18	discourse@m	_	Tone=2|Translit=ér
+19	儿	儿	PART	_	_	18	discourse/m	_	Tone=2|Translit=ér
 20	呗	呗	PART	_	_	15	discourse	_	Grammar_Target=Yes|Tone=4|Translit=bài
 21	！	！	PUNCT	_	_	1	punct	_	Translit=！
 
@@ -77,7 +77,7 @@
 4	很	很	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=hěn
 5	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=shì
 6	必	必	ADJ	_	_	5	comp:pred	_	Tone=4|Translit=bì
-7	要	要	ADJ	_	_	6	@m	_	Tone=4|Translit=yào
+7	要	要	ADJ	_	_	6	/m	_	Tone=4|Translit=yào
 8	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 4334
@@ -90,16 +90,16 @@
 1	你	你	PRON	_	Person=2	2	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	的	的	PART	_	Case=Gen	5	mod	_	Tone=5|Translit=de
 3	工	工	NOUN	_	_	5	mod	_	Tone=1|Translit=gōng
-4	作	作	NOUN	_	_	3	@m	_	Tone=4|Translit=zuò
+4	作	作	NOUN	_	_	3	/m	_	Tone=4|Translit=zuò
 5	表	表	NOUN	_	_	7	subj	_	Tone=3|Translit=biǎo
-6	现	现	VERB	_	_	5	@m	_	Tone=4|Translit=xiàn
+6	现	现	VERB	_	_	5	/m	_	Tone=4|Translit=xiàn
 7	让	让	VERB	_	_	0	root	_	Tone=4|Translit=ràng
 8	领	领	VERB	_	_	11	subj	_	Tone=3|Translit=lǐng
-9	导	导	NOUN	_	_	8	@m	_	Tone=3|Translit=dǎo
+9	导	导	NOUN	_	_	8	/m	_	Tone=3|Translit=dǎo
 10	很	很	ADV	_	_	11	mod	_	Grammar_Target=Yes|Tone=3|Translit=hěn
 11	是	是	AUX	_	_	7	comp:obj	_	Grammar_Target=Yes|Tone=4|Translit=shì
 12	满	满	ADJ	_	_	11	comp:pred	_	Tone=3|Translit=mǎn
-13	意	意	NOUN	_	_	12	@m	_	Tone=4|Translit=yì
+13	意	意	NOUN	_	_	12	/m	_	Tone=4|Translit=yì
 14	。	。	PUNCT	_	_	7	punct	_	Translit=。
 
 # sent_id = 4364
@@ -117,11 +117,11 @@
 6	！	！	PUNCT	_	_	2	punct	_	Translit=！
 7	他	他	PRON	_	Person=3	10	subj	_	Tone=1|Translit=tā
 8	果	果	ADV	_	_	10	mod	_	Grammar_Target=Yes|Tone=3|Translit=guǒ
-9	然	然	ADV	_	_	8	@m	_	Grammar_Target=Yes|Tone=2|Translit=rán
+9	然	然	ADV	_	_	8	/m	_	Grammar_Target=Yes|Tone=2|Translit=rán
 10	是	是	AUX	_	_	2	flat	_	Tone=4|Translit=shì
 11	个	个	NOUN	_	_	12	clf	_	Gloss=CLF|Tone=4|Translit=gè
 12	骗	骗	NOUN	_	_	10	comp:pred	_	Tone=4|Translit=piàn
-13	子	子	NOUN	_	_	12	@m	_	Tone=5|Translit=zi
+13	子	子	NOUN	_	_	12	/m	_	Tone=5|Translit=zi
 14	！	！	PUNCT	_	_	10	punct	_	Translit=！
 
 # sent_id = 4392
@@ -132,15 +132,15 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGW0911
 1	他	他	PRON	_	Person=3	4	subj	_	Tone=1|Translit=tā
 2	无	无	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=2|Translit=wú
-3	非	非	ADV	_	_	2	@m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
+3	非	非	ADV	_	_	2	/m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
 4	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 5	个	个	NOUN	_	_	6	clf	_	Gloss=CLF|Tone=4|Translit=gè
 6	经	经	NOUN	_	_	4	comp:pred	_	Tone=1|Translit=jīng
-7	理	理	NOUN	_	_	6	@m	_	Tone=3|Translit=lǐ
+7	理	理	NOUN	_	_	6	/m	_	Tone=3|Translit=lǐ
 8	，	，	PUNCT	_	_	9	punct	_	Translit=，
 9	没	没	VERB	_	_	4	parataxis	_	Tone=2|Translit=méi
 10	什	什	PRON	_	_	9	comp:obj	_	Tone=2|Translit=shén
-11	么	么	PRON	_	_	10	@m	_	Tone=5|Translit=me
+11	么	么	PRON	_	_	10	/m	_	Tone=5|Translit=me
 12	了	了	VERB	ADJ	_	15	comp:obj	_	Tone=5|Translit=le
 13	不	不	ADV	_	Polarity=Neg	14	mod	_	Tone=4|Translit=bù
 14	起	起	VERB	_	_	12	comp:obj	_	Tone=3|Translit=qǐ
@@ -154,25 +154,25 @@
 # structure_verbose = Expressing "nothing but" with "wufei"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGW0911
 1	招	招	VERB	_	_	10	mod	_	Tone=1|Translit=zhāo
-2	待	待	VERB	_	_	1	@m	_	Tone=4|Translit=dài
+2	待	待	VERB	_	_	1	/m	_	Tone=4|Translit=dài
 3	中	中	PROPN	_	_	5	mod	_	Tone=1|Translit=zhōng
-4	国	国	PROPN	_	_	3	@m	_	Tone=2|Translit=guó
+4	国	国	PROPN	_	_	3	/m	_	Tone=2|Translit=guó
 5	客	客	NOUN	_	_	1	comp:obj	_	Tone=4|Translit=kè
-6	人	人	NOUN	_	_	5	@m	_	Tone=2|Translit=rén
+6	人	人	NOUN	_	_	5	/m	_	Tone=2|Translit=rén
 7	最	最	ADV	_	_	8	mod	_	Tone=4|Translit=zùi
 8	好	好	ADJ	_	_	9	comp:obj	_	Tone=3|Translit=hǎo
 9	的	的	PART	_	Case=Gen	10	mod	_	Tone=5|Translit=de
 10	饮	饮	NOUN	_	_	14	subj	_	Tone=3|Translit=yǐn
-11	料	料	NOUN	_	_	10	@m	_	Tone=4|Translit=liào
+11	料	料	NOUN	_	_	10	/m	_	Tone=4|Translit=liào
 12	无	无	ADV	_	_	14	mod	_	Grammar_Target=Yes|Tone=2|Translit=wú
-13	非	非	ADV	_	_	12	@m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
+13	非	非	ADV	_	_	12	/m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
 14	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 15	一	一	NUM	_	NumType=Card	16	mod	_	Tone=1|Translit=yī
 16	杯	杯	NOUN	_	_	18	clf	_	Gloss=CLF|Tone=1|Translit=bēi
 17	热	热	ADJ	_	_	18	mod	_	Tone=4|Translit=rè
 18	茶	茶	NOUN	_	_	14	comp:pred	_	Tone=2|Translit=chá
 19	而	而	ADV	_	_	14	mod	_	Tone=2|Translit=ér
-20	已	已	ADV	_	_	19	@m	_	Tone=3|Translit=yǐ
+20	已	已	ADV	_	_	19	/m	_	Tone=3|Translit=yǐ
 21	。	。	PUNCT	_	_	14	punct	_	Translit=。
 
 # sent_id = 4395
@@ -182,20 +182,20 @@
 # structure_verbose = Expressing "nothing but" with "wufei"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGW0911
 1	孩	孩	NOUN	_	_	3	subj	_	Tone=2|Translit=hái
-2	子	子	NOUN	_	_	1	@m	_	Tone=5|Translit=zi
+2	子	子	NOUN	_	_	1	/m	_	Tone=5|Translit=zi
 3	想	想	AUX	_	_	6	comp:obj	_	Tone=3|Translit=xiǎng
 4	得	得	VERB	_	_	3	comp:obj	_	Tone=2|Translit=dé
-5	到	到	VERB	_	_	4	@m	_	Tone=4|Translit=dào
+5	到	到	VERB	_	_	4	/m	_	Tone=4|Translit=dào
 6	的	的	PART	_	Case=Gen	9	subj	_	Tone=5|Translit=de
 7	无	无	ADV	_	_	9	mod	_	Grammar_Target=Yes|Tone=2|Translit=wú
-8	非	非	ADV	_	_	7	@m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
+8	非	非	ADV	_	_	7	/m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
 9	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 10	你	你	PRON	_	Person=2	11	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
 11	的	的	PART	_	Case=Gen	12	mod	_	Tone=5|Translit=de
 12	关	关	NOUN	_	_	9	comp:pred	_	Tone=1|Translit=guān
-13	心	心	NOUN	_	_	12	@m	_	Tone=1|Translit=xīn
+13	心	心	NOUN	_	_	12	/m	_	Tone=1|Translit=xīn
 14	罢	罢	PART	_	_	9	discourse	_	Tone=4|Translit=bà
-15	了	了	PART	_	_	14	discourse@m	_	Tone=5|Translit=le
+15	了	了	PART	_	_	14	discourse/m	_	Tone=5|Translit=le
 16	。	。	PUNCT	_	_	9	punct	_	Translit=。
 
 # sent_id = 4415
@@ -213,7 +213,7 @@
 6	唱	唱	VERB	_	_	7	comp:obj	_	Tone=4|Translit=chàng
 7	的	的	PART	_	Case=Gen	4	comp:pred	_	Tone=5|Translit=de
 8	来	来	VERB	PART	_	4	discourse	_	Grammar_Target=Yes|Tone=2|Translit=lái
-9	着	着	PART	_	_	8	@m	_	Grammar_Target=Yes|Tone=2|Translit=zháo
+9	着	着	PART	_	_	8	/m	_	Grammar_Target=Yes|Tone=2|Translit=zháo
 10	？	？	PUNCT	_	_	4	punct	_	Translit=？
 
 # sent_id = 4418
@@ -224,7 +224,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGCC713
 # text_en = .
 1	艺	艺	NOUN	_	_	3	subj	_	Tone=4|Translit=yì
-2	术	术	NOUN	_	_	1	@m	_	Tone=2|Translit=zhú
+2	术	术	NOUN	_	_	1	/m	_	Tone=2|Translit=zhú
 3	有	有	VERB	_	_	0	root	_	Tone=3|Translit=yǒu
 4	很	很	ADV	_	_	5	mod	_	Tone=3|Translit=hěn
 5	多	多	ADJ	_	NumType=Card	7	mod	_	Tone=1|Translit=duō
@@ -232,22 +232,22 @@
 7	类	类	NOUN	_	_	3	comp:obj	_	Tone=4|Translit=lèi
 8	，	，	PUNCT	_	_	3	punct	_	Translit=，
 9	绘	绘	NOUN	_	_	23	subj	_	Tone=4|Translit=hùi
-10	画	画	NOUN	_	_	9	@m	_	Tone=4|Translit=huà
+10	画	画	NOUN	_	_	9	/m	_	Tone=4|Translit=huà
 11	、	、	PUNCT	_	_	12	punct	_	Translit=、
 12	舞	舞	NOUN	_	_	9	conj	_	Tone=3|Translit=wǔ
-13	蹈	蹈	NOUN	_	_	12	@m	_	Tone=3|Translit=dǎo
+13	蹈	蹈	NOUN	_	_	12	/m	_	Tone=3|Translit=dǎo
 14	、	、	PUNCT	_	_	15	punct	_	Translit=、
 15	电	电	NOUN	_	_	12	conj	_	Tone=4|Translit=diàn
-16	影	影	NOUN	_	_	15	@m	_	Tone=3|Translit=yǐng
+16	影	影	NOUN	_	_	15	/m	_	Tone=3|Translit=yǐng
 17	以	以	CCONJ	_	_	19	cc	_	Grammar_Target=Yes|Tone=3|Translit=yǐ
-18	及	及	CCONJ	_	_	17	@m	_	Grammar_Target=Yes|Tone=2|Translit=jí
+18	及	及	CCONJ	_	_	17	/m	_	Grammar_Target=Yes|Tone=2|Translit=jí
 19	文	文	NOUN	_	_	15	conj	_	Tone=2|Translit=wén
-20	学	学	NOUN	_	_	19	@m	_	Tone=2|Translit=xué
+20	学	学	NOUN	_	_	19	/m	_	Tone=2|Translit=xué
 21	等	等	PART	_	_	19	cc	_	Tone=3|Translit=děng
 22	都	都	ADV	_	_	23	mod	_	Tone=1|Translit=dū
 23	是	是	AUX	_	_	3	flat	_	Tone=4|Translit=shì
 24	艺	艺	NOUN	_	_	23	comp:pred	_	Tone=4|Translit=yì
-25	术	术	NOUN	_	_	24	@m	_	Tone=2|Translit=zhú
+25	术	术	NOUN	_	_	24	/m	_	Tone=2|Translit=zhú
 26	。	。	PUNCT	_	_	23	punct	_	Translit=。
 
 # sent_id = 4420
@@ -258,25 +258,25 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGCC713
 # text_en = .
 1	我	我	PRON	_	Number=Plur|Person=1	3	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
-2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	Tone=5|Translit=men
+2	们	们	PART	_	Number=Plur|Person=1	1	/m	_	Tone=5|Translit=men
 3	的	的	PART	_	Case=Gen	4	mod	_	Tone=5|Translit=de
 4	价	价	NOUN	_	_	7	subj	_	Tone=4|Translit=jià
-5	值	值	NOUN	_	_	4	@m	_	Tone=2|Translit=zhí
+5	值	值	NOUN	_	_	4	/m	_	Tone=2|Translit=zhí
 6	就	就	ADV	_	_	7	mod	_	Tone=4|Translit=jìu
 7	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 8	采	采	VERB	_	_	7	comp:pred	_	Tone=3|Translit=cǎi
-9	访	访	VERB	_	_	8	@m	_	Tone=3|Translit=fǎng
+9	访	访	VERB	_	_	8	/m	_	Tone=3|Translit=fǎng
 10	、	、	PUNCT	_	_	11	punct	_	Translit=、
 11	分	分	VERB	_	_	8	conj	_	Tone=1|Translit=fēn
-12	析	析	VERB	_	_	11	@m	_	Tone=1|Translit=xī
+12	析	析	VERB	_	_	11	/m	_	Tone=1|Translit=xī
 13	以	以	CCONJ	_	_	15	cc	_	Grammar_Target=Yes|Tone=3|Translit=yǐ
-14	及	及	CCONJ	_	_	13	@m	_	Grammar_Target=Yes|Tone=2|Translit=jí
+14	及	及	CCONJ	_	_	13	/m	_	Grammar_Target=Yes|Tone=2|Translit=jí
 15	组	组	VERB	_	_	11	conj	_	Tone=3|Translit=zǔ
-16	合	合	VERB	_	_	15	@m	_	Tone=2|Translit=hé
+16	合	合	VERB	_	_	15	/m	_	Tone=2|Translit=hé
 17	投	投	VERB	_	_	21	mod	_	Tone=2|Translit=tóu
-18	资	资	NOUN	_	_	17	@m	_	Tone=1|Translit=zī
+18	资	资	NOUN	_	_	17	/m	_	Tone=1|Translit=zī
 19	管	管	VERB	_	_	21	mod	_	Tone=3|Translit=guǎn
-20	理	理	NOUN	_	_	19	@m	_	Tone=3|Translit=lǐ
+20	理	理	NOUN	_	_	19	/m	_	Tone=3|Translit=lǐ
 21	人	人	NOUN	_	_	8	comp:obj	_	Tone=2|Translit=rén
 22	。	。	PUNCT	_	_	7	punct	_	Translit=。
 
@@ -290,22 +290,22 @@
 1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
 2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
 3	项	项	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=xiàng
-4	目	目	NOUN	_	_	3	@m	_	Tone=4|Translit=mù
+4	目	目	NOUN	_	_	3	/m	_	Tone=4|Translit=mù
 5	的	的	PART	_	Case=Gen	8	mod	_	Tone=5|Translit=de
 6	投	投	NOUN	_	_	8	mod	_	Tone=2|Translit=tóu
-7	资	资	NOUN	_	_	6	@m	_	Tone=1|Translit=zī
+7	资	资	NOUN	_	_	6	/m	_	Tone=1|Translit=zī
 8	人	人	NOUN	_	_	17	subj	_	Tone=2|Translit=rén
 9	以	以	CCONJ	_	_	15	cc	_	Grammar_Target=Yes|Tone=3|Translit=yǐ
-10	及	及	CCONJ	_	_	9	@m	_	Grammar_Target=Yes|Tone=2|Translit=jí
+10	及	及	CCONJ	_	_	9	/m	_	Grammar_Target=Yes|Tone=2|Translit=jí
 11	相	相	ADJ	_	_	13	mod	_	Tone=1|Translit=xiāng
-12	关	关	ADJ	_	_	11	@m	_	Tone=1|Translit=guān
-13	负	负	VERB	_	_	15	mod@m	_	Tone=4|Translit=fù
-14	责	责	NOUN	_	_	13	@m	_	Tone=2|Translit=zé
+12	关	关	ADJ	_	_	11	/m	_	Tone=1|Translit=guān
+13	负	负	VERB	_	_	15	mod/m	_	Tone=4|Translit=fù
+14	责	责	NOUN	_	_	13	/m	_	Tone=2|Translit=zé
 15	人	人	NOUN	_	_	8	conj	_	Tone=2|Translit=rén
 16	都	都	ADV	_	_	17	mod	_	Tone=1|Translit=dū
 17	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
-18	外	外	NOUN	_	_	20	mod@m	_	Tone=4|Translit=wài
-19	国	国	NOUN	_	_	18	@m	_	Tone=2|Translit=guó
+18	外	外	NOUN	_	_	20	mod/m	_	Tone=4|Translit=wài
+19	国	国	NOUN	_	_	18	/m	_	Tone=2|Translit=guó
 20	人	人	NOUN	_	_	17	comp:pred	_	Tone=2|Translit=rén
 21	。	。	PUNCT	_	_	17	punct	_	Translit=。
 
@@ -321,20 +321,20 @@
 3	他	他	PRON	_	Person=3	4	comp:obj	_	Tone=1|Translit=tā
 4	的	的	PART	_	Case=Gen	5	mod	_	Tone=5|Translit=de
 5	理	理	NOUN	_	_	7	subj	_	Tone=3|Translit=lǐ
-6	由	由	NOUN	_	_	5	@m	_	Tone=2|Translit=yóu
+6	由	由	NOUN	_	_	5	/m	_	Tone=2|Translit=yóu
 7	是	是	AUX	_	_	2	comp:obj	_	Tone=4|Translit=shì
 8	什	什	PRON	_	PronType=Int	7	comp:pred	_	Tone=2|Translit=shén
-9	么	么	PRON	_	_	8	@m	_	Tone=5|Translit=me
+9	么	么	PRON	_	_	8	/m	_	Tone=5|Translit=me
 10	，	，	PUNCT	_	_	16	punct	_	Translit=，
 11	总	总	SCONJ	_	_	16	cc	_	Grammar_Target=Yes|Tone=3|Translit=zǒng
-12	之	之	ADV	_	_	11	@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+12	之	之	ADV	_	_	11	/m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
 13	，	，	PUNCT	_	_	11	punct	_	Translit=，
 14	我	我	PRON	_	Person=1	16	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 15	不	不	ADV	_	Polarity=Neg	16	mod	_	Tone=4|Translit=bù
 16	会	会	AUX	_	_	2	parataxis	_	Tone=4|Translit=hùi
 17	再	再	ADV	_	_	18	mod	_	Tone=4|Translit=zài
 18	相	相	VERB	_	_	16	comp:aux	_	Tone=1|Translit=xiāng
-19	信	信	VERB	_	_	18	@m	_	Tone=4|Translit=xìn
+19	信	信	VERB	_	_	18	/m	_	Tone=4|Translit=xìn
 20	他	他	PRON	_	Person=3	18	comp:obj	_	Tone=1|Translit=tā
 21	了	了	PART	_	_	16	discourse	_	Gloss=PRF|Tone=5|Translit=le
 22	。	。	PUNCT	_	_	2	punct	_	Translit=。
@@ -347,19 +347,19 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGF561D
 # text_en = .
 1	总	总	ADV	_	_	10	mod	_	Grammar_Target=Yes|Tone=3|Translit=zǒng
-2	之	之	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
+2	之	之	ADV	_	_	1	/m	_	Grammar_Target=Yes|Tone=1|Translit=zhī
 3	，	，	PUNCT	_	_	1	punct	_	Translit=，
 4	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
-5	们	们	PART	_	Number=Plur|Person=1	4	@m	_	Tone=5|Translit=men
+5	们	们	PART	_	Number=Plur|Person=1	4	/m	_	Tone=5|Translit=men
 6	这	这	ADV	_	_	8	mod	_	Tone=4|Translit=zhè
-7	么	么	ADV	_	_	6	@m	_	Tone=5|Translit=me
+7	么	么	ADV	_	_	6	/m	_	Tone=5|Translit=me
 8	做	做	VERB	_	_	10	subj	_	Tone=4|Translit=zuò
 9	都	都	ADV	_	_	10	mod	_	Tone=1|Translit=dū
 10	是	是	VERB	_	_	0	root	_	Tone=4|Translit=shì
 11	为	为	ADP	_	_	10	comp:obj	_	Tone=4|Translit=wèi
-12	了	了	PART	_	_	11	@m	_	Tone=5|Translit=le
+12	了	了	PART	_	_	11	/m	_	Tone=5|Translit=le
 13	孩	孩	NOUN	_	_	15	subj	_	Tone=2|Translit=hái
-14	子	子	NOUN	_	_	13	@m	_	Tone=5|Translit=zi
+14	子	子	NOUN	_	_	13	/m	_	Tone=5|Translit=zi
 15	好	好	ADJ	_	_	11	comp:obj	_	Tone=3|Translit=hǎo
 16	。	。	PUNCT	_	_	10	punct	_	Translit=。
 
@@ -372,18 +372,18 @@
 # text_en = .
 # translit = běn.
 1	顾	顾	NOUN	_	_	5	subj	_	Tone=4|Translit=gù
-2	客	客	NOUN	_	_	1	@m	_	Tone=4|Translit=kè
+2	客	客	NOUN	_	_	1	/m	_	Tone=4|Translit=kè
 3	至	至	ADJ	_	_	1	mod	_	Tone=4|Translit=zhì
-4	上	上	ADJ	_	_	3	@m	_	Tone=4|Translit=shàng
+4	上	上	ADJ	_	_	3	/m	_	Tone=4|Translit=shàng
 5	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 6	本	本	DET	_	_	7	mod	_	Grammar_Target=Yes|Tone=3|Translit=běn
 7	公	公	NOUN	_	_	9	comp:obj	_	Tone=1|Translit=gōng
-8	司	司	NOUN	_	_	7	@m	_	Tone=1|Translit=sī
+8	司	司	NOUN	_	_	7	/m	_	Tone=1|Translit=sī
 9	的	的	PART	_	Case=Gen	12	mod	_	Tone=5|Translit=de
 10	经	经	NOUN	_	_	12	mod	_	Tone=1|Translit=jīng
-11	营	营	NOUN	_	_	10	@m	_	Tone=2|Translit=yíng
+11	营	营	NOUN	_	_	10	/m	_	Tone=2|Translit=yíng
 12	理	理	NOUN	_	_	5	comp:pred	_	Tone=3|Translit=lǐ
-13	念	念	NOUN	_	_	12	@m	_	Tone=4|Translit=niàn
+13	念	念	NOUN	_	_	12	/m	_	Tone=4|Translit=niàn
 14	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 4444
@@ -394,21 +394,21 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGDZIO0
 1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	知	知	VERB	_	_	0	root	_	Tone=1|Translit=zhī
-3	道	道	VERB	_	_	2	@m	_	Tone=4|Translit=dào
+3	道	道	VERB	_	_	2	/m	_	Tone=4|Translit=dào
 4	管	管	NOUN	_	_	6	comp:obj	_	Tone=3|Translit=guǎn
-5	理	理	NOUN	_	_	4	@m	_	Tone=3|Translit=lǐ
+5	理	理	NOUN	_	_	4	/m	_	Tone=3|Translit=lǐ
 6	的	的	PART	_	Case=Gen	9	mod	_	Tone=5|Translit=de
 7	科	科	NOUN	_	_	9	mod	_	Grammar_Target=Yes|Tone=1|Translit=kē
-8	学	学	NOUN	_	_	7	@m	_	Grammar_Target=Yes|Tone=2|Translit=xué
+8	学	学	NOUN	_	_	7	/m	_	Grammar_Target=Yes|Tone=2|Translit=xué
 9	性	性	NOUN	_	_	14	subj	_	Grammar_Target=Yes|Tone=4|Translit=xìng
 10	和	和	CCONJ	_	_	13	cc	_	Tone=2|Translit=hé
 11	艺	艺	NOUN	_	_	13	mod	_	Grammar_Target=Yes|Tone=4|Translit=yì
-12	术	术	NOUN	_	_	11	@m	_	Grammar_Target=Yes|Tone=2|Translit=zhú
+12	术	术	NOUN	_	_	11	/m	_	Grammar_Target=Yes|Tone=2|Translit=zhú
 13	性	性	NOUN	_	_	9	conj	_	Grammar_Target=Yes|Tone=4|Translit=xìng
 14	是	是	AUX	_	_	2	comp:obj	_	Tone=4|Translit=shì
 15	指	指	VERB	_	_	14	comp:pred	_	Tone=3|Translit=zhǐ
 16	什	什	PRON	_	PronType=Int	15	comp:obj	_	Tone=2|Translit=shén
-17	么	么	PRON	_	_	16	@m	_	Tone=5|Translit=me
+17	么	么	PRON	_	_	16	/m	_	Tone=5|Translit=me
 18	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
 19	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
@@ -420,17 +420,17 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGNLGGX
 1	你	你	PRON	_	Person=2	2	mod	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	父	父	NOUN	_	_	6	subj	_	Tone=4|Translit=fù
-3	母	母	NOUN	_	_	2	@m	_	Tone=3|Translit=mǔ
+3	母	母	NOUN	_	_	2	/m	_	Tone=3|Translit=mǔ
 4	是	是	PRON	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=shì
-5	否	否	PRON	_	_	4	@m	_	Grammar_Target=Yes|Tone=3|Translit=fǒu
+5	否	否	PRON	_	_	4	/m	_	Grammar_Target=Yes|Tone=3|Translit=fǒu
 6	同	同	VERB	_	_	0	root	_	Tone=2|Translit=tóng
-7	意	意	NOUN	_	_	6	@m	_	Tone=4|Translit=yì
+7	意	意	NOUN	_	_	6	/m	_	Tone=4|Translit=yì
 8	你	你	PRON	_	Number=Plur|Person=2	10	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-9	们	们	PART	_	Number=Plur|Person=2	8	@m	_	Tone=5|Translit=men
+9	们	们	PART	_	Number=Plur|Person=2	8	/m	_	Tone=5|Translit=men
 10	住	住	VERB	_	_	6	comp:obl	_	Tone=4|Translit=zhù
 11	在	在	ADP	ADV	_	10	comp:obl	_	Tone=4|Translit=zài
-12	一	一	ADV	_	_	13	@m	_	Gloss=one|Tone=1|Translit=yī
-13	起	起	ADV	_	_	11	comp:obj@m	_	Tone=3|Translit=qǐ
+12	一	一	ADV	_	_	13	/m	_	Gloss=one|Tone=1|Translit=yī
+13	起	起	ADV	_	_	11	comp:obj/m	_	Tone=3|Translit=qǐ
 14	？	？	PUNCT	_	_	6	punct	_	Translit=？
 
 # sent_id = 4476
@@ -440,18 +440,18 @@
 # structure_verbose = "Could it be that" with "qibushi"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG5HZG6
 1	你	你	PRON	_	Person=2	4	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
-2	这	这	DET	_	_	3	det@m	_	Tone=4|Translit=zhè
+2	这	这	DET	_	_	3	det/m	_	Tone=4|Translit=zhè
 3	样	样	NOUN	ADV	_	4	mod	_	Tone=2|Translit=yáng
 4	做	做	VERB	_	_	7	subj	_	Tone=4|Translit=zuò
-5	岂	岂	ADV	_	_	7	@m	_	Grammar_Target=Yes|Tone=3|Translit=qǐ
-6	不	不	ADV	_	_	7	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+5	岂	岂	ADV	_	_	7	/m	_	Grammar_Target=Yes|Tone=3|Translit=qǐ
+6	不	不	ADV	_	_	7	/m	_	Grammar_Target=Yes|Tone=4|Translit=bù
 7	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=shì
 8	给	给	ADP	_	_	11	comp:obl	_	Tone=3|Translit=gěi
 9	自	自	PRON	_	_	8	comp:obj	_	Tone=4|Translit=zì
-10	己	己	PRON	_	_	9	@m	_	Tone=3|Translit=jǐ
+10	己	己	PRON	_	_	9	/m	_	Tone=3|Translit=jǐ
 11	找	找	VERB	_	_	7	comp:pred	_	Tone=3|Translit=zhǎo
 12	麻	麻	NOUN	_	_	11	comp:obj	_	Tone=2|Translit=má
-13	烦	烦	NOUN	_	_	12	@m	_	Tone=2|Translit=fán
+13	烦	烦	NOUN	_	_	12	/m	_	Tone=2|Translit=fán
 14	？	？	PUNCT	_	_	7	punct	_	Translit=？
 
 # sent_id = 4477
@@ -461,7 +461,7 @@
 # structure_verbose = "Could it be that" with "qibushi"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG5HZG6
 1	如	如	SCONJ	_	_	14	conj	_	Tone=2|Translit=rú
-2	果	果	SCONJ	_	_	1	@m	_	Tone=3|Translit=guǒ
+2	果	果	SCONJ	_	_	1	/m	_	Tone=3|Translit=guǒ
 3	连	连	ADV	_	_	7	mod	_	Tone=2|Translit=lián
 4	你	你	PRON	_	Person=2	7	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 5	都	都	ADV	_	_	4	mod	_	Tone=1|Translit=dū
@@ -470,11 +470,11 @@
 8	他	他	PRON	_	Person=3	7	comp:obj	_	Tone=1|Translit=tā
 9	，	，	PUNCT	_	_	1	punct	_	Translit=，
 10	他	他	PRON	_	Person=3	14	subj	_	Tone=1|Translit=tā
-11	岂	岂	ADV	_	_	13	@m	_	Grammar_Target=Yes|Tone=3|Translit=qǐ
-12	不	不	ADV	_	_	13	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+11	岂	岂	ADV	_	_	13	/m	_	Grammar_Target=Yes|Tone=3|Translit=qǐ
+12	不	不	ADV	_	_	13	/m	_	Grammar_Target=Yes|Tone=4|Translit=bù
 13	是	是	VERB	ADV	_	14	mod	_	Grammar_Target=Yes|Tone=4|Translit=shì
 14	死	死	VERB	ADJ	_	0	root	_	Tone=3|Translit=sǐ
-15	定	定	ADJ	_	_	14	comp:res@m	_	Tone=4|Translit=dìng
+15	定	定	ADJ	_	_	14	comp:res/m	_	Tone=4|Translit=dìng
 16	了	了	PART	_	_	14	discourse	_	Gloss=PRF|Tone=5|Translit=le
 17	？	？	PUNCT	_	_	14	punct	_	Translit=？
 18	！	！	PUNCT	_	_	14	punct	_	Translit=！
@@ -488,18 +488,18 @@
 1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 3	警	警	ADJ	_	_	2	comp:pred	_	Tone=3|Translit=jǐng
-4	察	察	NOUN	_	_	3	@m	_	Tone=2|Translit=chá
+4	察	察	NOUN	_	_	3	/m	_	Tone=2|Translit=chá
 5	，	，	PUNCT	_	_	2	punct	_	Translit=，
-6	这	这	DET	_	_	7	det@m	_	Tone=4|Translit=zhè
+6	这	这	DET	_	_	7	det/m	_	Tone=4|Translit=zhè
 7	样	样	NOUN	ADV	_	8	mod	_	Tone=2|Translit=yáng
 8	做	做	VERB	_	_	11	subj	_	Tone=4|Translit=zuò
-9	岂	岂	ADV	_	_	11	@m	_	Grammar_Target=Yes|Tone=3|Translit=qǐ
-10	不	不	ADV	_	_	11	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+9	岂	岂	ADV	_	_	11	/m	_	Grammar_Target=Yes|Tone=3|Translit=qǐ
+10	不	不	ADV	_	_	11	/m	_	Grammar_Target=Yes|Tone=4|Translit=bù
 11	是	是	AUX	_	_	2	flat	_	Grammar_Target=Yes|Tone=4|Translit=shì
-12	知	知	NOUN	_	_	14	mod@m	_	Tone=1|Translit=zhī
-13	法	法	NOUN	_	_	12	@m	_	Tone=3|Translit=fǎ
+12	知	知	NOUN	_	_	14	mod/m	_	Tone=1|Translit=zhī
+13	法	法	NOUN	_	_	12	/m	_	Tone=3|Translit=fǎ
 14	犯	犯	NOUN	_	_	11	comp:pred	_	Tone=4|Translit=fàn
-15	法	法	NOUN	_	_	14	@m	_	Tone=3|Translit=fǎ
+15	法	法	NOUN	_	_	14	/m	_	Tone=3|Translit=fǎ
 16	？	？	PUNCT	_	_	11	punct	_	Translit=？
 
 # sent_id = 4480
@@ -513,10 +513,10 @@
 3	歌	歌	NOUN	_	_	4	comp:obj	_	Tone=1|Translit=gē
 4	的	的	PART	_	Case=Gen	5	mod	_	Tone=5|Translit=de
 5	主	主	NOUN	_	_	12	subj	_	Tone=3|Translit=zhǔ
-6	唱	唱	NOUN	_	_	5	@m	_	Tone=4|Translit=chàng
+6	唱	唱	NOUN	_	_	5	/m	_	Tone=4|Translit=chàng
 7	兼	兼	CCONJ	_	_	10	cc	_	Grammar_Target=Yes|Tone=1|Translit=jiān
-8	词	词	NOUN	_	_	10	mod@m	_	Tone=2|Translit=cí
-9	作	作	NOUN	_	_	8	@m	_	Tone=4|Translit=zuò
+8	词	词	NOUN	_	_	10	mod/m	_	Tone=2|Translit=cí
+9	作	作	NOUN	_	_	8	/m	_	Tone=4|Translit=zuò
 10	者	者	NOUN	_	_	5	conj	_	Tone=3|Translit=zhě
 11	就	就	ADV	_	_	12	mod	_	Tone=4|Translit=jìu
 12	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
@@ -532,19 +532,19 @@
 1	你	你	PRON	_	Person=2	2	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
 2	的	的	PART	_	Case=Gen	3	mod	_	Tone=5|Translit=de
 3	职	职	NOUN	_	_	5	subj	_	Tone=2|Translit=zhí
-4	责	责	NOUN	_	_	3	@m	_	Tone=2|Translit=zé
+4	责	责	NOUN	_	_	3	/m	_	Tone=2|Translit=zé
 5	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 6	日	日	ADJ	_	_	10	mod	_	Tone=4|Translit=rì
-7	常	常	ADJ	_	_	6	@m	_	Tone=2|Translit=cháng
+7	常	常	ADJ	_	_	6	/m	_	Tone=2|Translit=cháng
 8	行	行	NOUN	_	_	10	mod	_	Tone=2|Translit=xíng
-9	政	政	NOUN	_	_	8	@m	_	Tone=4|Translit=zhèng
+9	政	政	NOUN	_	_	8	/m	_	Tone=4|Translit=zhèng
 10	工	工	NOUN	_	_	5	comp:pred	_	Tone=1|Translit=gōng
-11	作	作	NOUN	_	_	10	@m	_	Tone=4|Translit=zuò
+11	作	作	NOUN	_	_	10	/m	_	Tone=4|Translit=zuò
 12	兼	兼	CCONJ	_	_	15	cc	_	Grammar_Target=Yes|Tone=1|Translit=jiān
 13	人	人	NOUN	_	_	15	mod	_	Tone=2|Translit=rén
-14	事	事	NOUN	_	_	13	@m	_	Tone=4|Translit=shì
+14	事	事	NOUN	_	_	13	/m	_	Tone=4|Translit=shì
 15	招	招	NOUN	_	_	10	conj	_	Tone=1|Translit=zhāo
-16	聘	聘	NOUN	_	_	15	@m	_	Tone=4|Translit=pìn
+16	聘	聘	NOUN	_	_	15	/m	_	Tone=4|Translit=pìn
 17	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 4486
@@ -554,24 +554,24 @@
 # structure_verbose = Expressing "could it be possible that" with "mofei"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGYYOXD
 1	眼	眼	ADV	_	_	5	mod@loc	_	Tone=3|Translit=yǎn
-2	前	前	ADV	_	_	1	@m	_	Tone=2|Translit=qián
+2	前	前	ADV	_	_	1	/m	_	Tone=2|Translit=qián
 3	这	这	DET	_	_	4	det	_	Tone=4|Translit=zhè
 4	个	个	NOUN	_	_	5	clf	_	Gloss=CLF|Tone=4|Translit=gè
 5	人	人	NOUN	_	_	10	subj	_	Tone=2|Translit=rén
 6	，	，	PUNCT	_	_	5	punct	_	Translit=，
 7	莫	莫	ADV	_	_	10	mod	_	Grammar_Target=Yes|Tone=4|Translit=mò
-8	非	非	ADV	_	_	7	@m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
+8	非	非	ADV	_	_	7	/m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
 9	就	就	ADV	_	_	10	mod	_	Tone=4|Translit=jìu
 10	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 11	大	大	ADJ	_	_	12	mod	_	Tone=4|Translit=dà
 12	名	名	NOUN	ADJ	_	15	comp:obj	_	Tone=2|Translit=míng
-13	鼎	鼎	ADJ	_	_	12	mod@m	_	Tone=3|Translit=dǐng
-14	鼎	鼎	ADJ	_	_	13	conj:redup@m	_	Tone=3|Translit=dǐng
+13	鼎	鼎	ADJ	_	_	12	mod/m	_	Tone=3|Translit=dǐng
+14	鼎	鼎	ADJ	_	_	13	conj:redup/m	_	Tone=3|Translit=dǐng
 15	的	的	PART	_	Case=Gen	20	mod	_	Tone=5|Translit=de
-16	房	房	NOUN	_	_	18	mod@m	_	Tone=2|Translit=fáng
-17	地	地	NOUN	_	_	16	@m	_	Tone=4|Translit=dì
+16	房	房	NOUN	_	_	18	mod/m	_	Tone=2|Translit=fáng
+17	地	地	NOUN	_	_	16	/m	_	Tone=4|Translit=dì
 18	产	产	NOUN	_	_	20	mod	_	Tone=3|Translit=chǎn
-19	大	大	ADJ	_	_	20	@m	_	Tone=4|Translit=dà
+19	大	大	ADJ	_	_	20	/m	_	Tone=4|Translit=dà
 20	亨	亨	NOUN	_	_	10	comp:pred	_	Tone=1|Translit=hēng
 21	？	？	PUNCT	_	_	10	punct	_	Translit=？
 
@@ -582,17 +582,17 @@
 # structure_verbose = Expressing "could it be possible that" with "mofei"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGYYOXD
 1	莫	莫	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=mò
-2	非	非	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
+2	非	非	ADV	_	_	1	/m	_	Grammar_Target=Yes|Tone=1|Translit=fēi
 3	她	她	PRON	_	Person=3	6	subj	_	Tone=1|Translit=tā
-4	真	真	ADV	_	_	5	comp:obj@m	_	Tone=1|Translit=zhēn
+4	真	真	ADV	_	_	5	comp:obj/m	_	Tone=1|Translit=zhēn
 5	的	的	PART	ADV	_	6	mod	_	Tone=5|Translit=de
 6	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 7	你	你	PRON	_	Person=2	8	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
 8	的	的	PART	_	Case=Gen	9	mod	_	Tone=5|Translit=de
 9	亲	亲	NOUN	_	_	11	mod	_	Tone=1|Translit=qīn
-10	生	生	NOUN	_	_	9	@m	_	Tone=1|Translit=shēng
+10	生	生	NOUN	_	_	9	/m	_	Tone=1|Translit=shēng
 11	母	母	NOUN	_	_	6	comp:pred	_	Tone=3|Translit=mǔ
-12	亲	亲	NOUN	_	_	11	@m	_	Tone=1|Translit=qīn
+12	亲	亲	NOUN	_	_	11	/m	_	Tone=1|Translit=qīn
 13	？	？	PUNCT	_	_	6	punct	_	Translit=？
 
 # sent_id = 4498
@@ -602,37 +602,37 @@
 # structure_verbose = Expressing "from this" with "youci"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGLQNS3
 1	最	最	ADV	_	_	14	mod@temp	_	Tone=4|Translit=zùi
-2	近	近	ADV	_	_	1	@m	_	Tone=4|Translit=jìn
+2	近	近	ADV	_	_	1	/m	_	Tone=4|Translit=jìn
 3	很	很	ADV	_	_	4	mod	_	Tone=3|Translit=hěn
 4	多	多	ADJ	_	NumType=Card	5	mod	_	Tone=1|Translit=duō
 5	贪	贪	NOUN	_	_	14	subj	_	Tone=1|Translit=tān
-6	官	官	NOUN	_	_	5	@m	_	Tone=1|Translit=guān
+6	官	官	NOUN	_	_	5	/m	_	Tone=1|Translit=guān
 7	因	因	SCONJ	_	_	14	mod	_	Tone=1|Translit=yīn
-8	为	为	SCONJ	_	_	7	@m	_	Tone=4|Translit=wèi
+8	为	为	SCONJ	_	_	7	/m	_	Tone=4|Translit=wèi
 9	情	情	NOUN	_	_	11	comp:obj	_	Tone=2|Translit=qíng
-10	妇	妇	NOUN	_	_	9	@m	_	Tone=4|Translit=fù
+10	妇	妇	NOUN	_	_	9	/m	_	Tone=4|Translit=fù
 11	举	举	VERB	_	_	7	comp:obj	_	Tone=3|Translit=jǔ
-12	报	报	NOUN	_	_	11	@m	_	Tone=4|Translit=bào
+12	报	报	NOUN	_	_	11	/m	_	Tone=4|Translit=bào
 13	而	而	CCONJ	_	_	14	cc	_	Tone=2|Translit=ér
 14	落	落	VERB	_	_	0	root	_	Tone=4|Translit=luò
 15	马	马	NOUN	_	_	14	comp:obj	_	Tone=3|Translit=mǎ
 16	，	，	PUNCT	_	_	27	punct	_	Translit=，
-17	由	由	SCONJ	_	_	19	cc@m	_	Grammar_Target=Yes|Tone=2|Translit=yóu
-18	此	此	SCONJ	_	_	17	@m	_	Grammar_Target=Yes|Tone=3|Translit=cǐ
+17	由	由	SCONJ	_	_	19	cc/m	_	Grammar_Target=Yes|Tone=2|Translit=yóu
+18	此	此	SCONJ	_	_	17	/m	_	Grammar_Target=Yes|Tone=3|Translit=cǐ
 19	看	看	VERB	SCONJ	_	27	cc	_	Tone=4|Translit=kàn
-20	来	来	VERB	_	_	19	@m	_	Tone=2|Translit=lái
+20	来	来	VERB	_	_	19	/m	_	Tone=2|Translit=lái
 21	，	，	PUNCT	_	_	19	punct	_	Translit=，
 22	情	情	NOUN	_	_	24	mod	_	Tone=2|Translit=qíng
-23	妇	妇	NOUN	_	_	22	@m	_	Tone=4|Translit=fù
+23	妇	妇	NOUN	_	_	22	/m	_	Tone=4|Translit=fù
 24	反	反	NOUN	_	_	27	subj	_	Tone=3|Translit=fǎn
-25	腐	腐	NOUN	_	_	24	@m	_	Tone=3|Translit=fǔ
+25	腐	腐	NOUN	_	_	24	/m	_	Tone=3|Translit=fǔ
 26	也	也	ADV	_	_	27	mod	_	Tone=3|Translit=yě
 27	是	是	AUX	_	_	14	parataxis	_	Tone=4|Translit=shì
 28	一	一	NUM	_	NumType=Card	29	mod	_	Tone=1|Translit=yī
 29	个	个	NOUN	_	_	31	clf	_	Gloss=CLF|Tone=4|Translit=gè
 30	好	好	ADJ	_	_	31	mod	_	Tone=3|Translit=hǎo
 31	方	方	NOUN	_	_	27	comp:pred	_	Tone=1|Translit=fāng
-32	法	法	NOUN	_	_	31	@m	_	Tone=3|Translit=fǎ
+32	法	法	NOUN	_	_	31	/m	_	Tone=3|Translit=fǎ
 33	。	。	PUNCT	_	_	14	punct	_	Translit=。
 
 # sent_id = 4520
@@ -643,24 +643,24 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGWI5CV
 # text_en = I'd rather say that he's my friend than my teacher.
 1	与	与	SCONJ	_	_	5	cc	_	Grammar_Target=Yes|Tone=3|Translit=yǔ
-2	其	其	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=2|Translit=qí
-3	说	说	VERB	_	_	1	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+2	其	其	ADV	_	_	1	/m	_	Grammar_Target=Yes|Tone=2|Translit=qí
+3	说	说	VERB	_	_	1	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 4	他	他	PRON	_	Person=3	5	subj	_	Tone=1|Translit=tā
 5	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 6	我	我	PRON	_	Person=1	7	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 7	的	的	PART	_	Case=Gen	8	mod	_	Tone=5|Translit=de
 8	老	老	NOUN	_	_	5	comp:pred	_	Tone=3|Translit=lǎo
-9	师	师	NOUN	_	_	8	@m	_	Tone=1|Translit=shī
+9	师	师	NOUN	_	_	8	/m	_	Tone=1|Translit=shī
 10	，	，	PUNCT	_	_	15	punct	_	Translit=，
-11	不	不	ADV	_	_	12	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+11	不	不	ADV	_	_	12	/m	_	Grammar_Target=Yes|Tone=4|Translit=bù
 12	如	如	SCONJ	_	_	15	cc	_	Grammar_Target=Yes|Tone=2|Translit=rú
-13	说	说	VERB	_	_	12	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+13	说	说	VERB	_	_	12	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 14	他	他	PRON	_	Person=3	15	subj	_	Tone=1|Translit=tā
 15	是	是	AUX	_	_	5	parataxis	_	Tone=4|Translit=shì
 16	我	我	PRON	_	Person=1	17	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 17	的	的	PART	_	Case=Gen	18	mod	_	Tone=5|Translit=de
 18	朋	朋	NOUN	_	_	15	comp:pred	_	Tone=2|Translit=péng
-19	友	友	NOUN	_	_	18	@m	_	Tone=3|Translit=yǒu
+19	友	友	NOUN	_	_	18	/m	_	Tone=3|Translit=yǒu
 20	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 4521
@@ -671,24 +671,24 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGWI5CV
 # text_en = I'd rather say that she's helping herself than she's helping you.
 1	与	与	SCONJ	_	_	5	cc	_	Grammar_Target=Yes|Tone=3|Translit=yǔ
-2	其	其	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=2|Translit=qí
-3	说	说	VERB	_	_	1	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+2	其	其	ADV	_	_	1	/m	_	Grammar_Target=Yes|Tone=2|Translit=qí
+3	说	说	VERB	_	_	1	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 4	她	她	PRON	_	Person=3	5	subj	_	Tone=1|Translit=tā
 5	是	是	VERB	_	_	0	root	_	Tone=4|Translit=shì
 6	在	在	AUX	_	_	5	comp:cleft	_	Tone=4|Translit=zài
 7	帮	帮	VERB	_	_	6	comp:aux	_	Tone=1|Translit=bāng
 8	你	你	PRON	_	Person=2	7	comp:obj	_	Gloss=2SG|Tone=3|Translit=nǐ
 9	，	，	PUNCT	_	_	14	punct	_	Translit=，
-10	不	不	ADV	_	_	11	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+10	不	不	ADV	_	_	11	/m	_	Grammar_Target=Yes|Tone=4|Translit=bù
 11	如	如	SCONJ	_	_	14	cc	_	Grammar_Target=Yes|Tone=2|Translit=rú
-12	说	说	VERB	_	_	11	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+12	说	说	VERB	_	_	11	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 13	她	她	PRON	_	Person=3	14	subj	_	Tone=1|Translit=tā
 14	是	是	VERB	_	_	5	parataxis	_	Tone=4|Translit=shì
 15	在	在	AUX	_	_	14	comp:cleft	_	Tone=4|Translit=zài
 16	帮	帮	VERB	_	_	15	comp:aux	_	Tone=1|Translit=bāng
 17	她	她	PRON	_	Person=3	16	comp:obj	_	Tone=1|Translit=tā
 18	自	自	NOUN	_	_	17	conj:appos	_	Tone=4|Translit=zì
-19	己	己	NOUN	_	_	18	@m	_	Tone=3|Translit=jǐ
+19	己	己	NOUN	_	_	18	/m	_	Tone=3|Translit=jǐ
 20	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 4522
@@ -699,18 +699,18 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGWI5CV
 # text_en = I'd rather say that he was playing than cook.
 1	与	与	SCONJ	_	_	5	cc	_	Grammar_Target=Yes|Tone=3|Translit=yǔ
-2	其	其	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=2|Translit=qí
-3	说	说	VERB	_	_	1	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+2	其	其	ADV	_	_	1	/m	_	Grammar_Target=Yes|Tone=2|Translit=qí
+3	说	说	VERB	_	_	1	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 4	他	他	PRON	_	Person=3	5	subj	_	Tone=1|Translit=tā
 5	是	是	VERB	_	_	0	root	_	Tone=4|Translit=shì
 6	在	在	AUX	_	_	5	comp:cleft	_	Tone=4|Translit=zài
 7	做	做	VERB	_	_	6	comp:aux	_	Tone=4|Translit=zuò
 8	饭	饭	NOUN	_	_	7	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
 9	，	，	PUNCT	_	_	12	punct	_	Translit=，
-10	还	还	SCONJ	_	_	12	@m	_	Tone=2|Translit=huán
-11	不	不	ADV	_	_	12	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+10	还	还	SCONJ	_	_	12	/m	_	Tone=2|Translit=huán
+11	不	不	ADV	_	_	12	/m	_	Grammar_Target=Yes|Tone=4|Translit=bù
 12	如	如	SCONJ	_	_	15	cc	_	Grammar_Target=Yes|Tone=2|Translit=rú
-13	说	说	VERB	_	_	12	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+13	说	说	VERB	_	_	12	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 14	他	他	PRON	_	Person=3	15	subj	_	Tone=1|Translit=tā
 15	是	是	VERB	_	_	5	conj	_	Tone=4|Translit=shì
 16	在	在	AUX	_	_	15	comp:cleft	_	Tone=4|Translit=zài
@@ -725,28 +725,28 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGWI5CV
 # text_en = I'd rather say it's a action movie than a love movie.
 1	与	与	SCONJ	_	_	5	cc	_	Grammar_Target=Yes|Tone=3|Translit=yǔ
-2	其	其	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=2|Translit=qí
-3	说	说	VERB	_	_	1	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+2	其	其	ADV	_	_	1	/m	_	Grammar_Target=Yes|Tone=2|Translit=qí
+3	说	说	VERB	_	_	1	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 4	它	它	DET	_	_	5	subj	_	Tone=1|Translit=tā
 5	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 6	一	一	NUM	_	_	7	mod	_	Tone=1|Translit=yī
 7	部	部	NOUN	_	_	10	clf	_	Gloss=CLF|Tone=4|Translit=bù
 8	爱	爱	NOUN	_	_	10	mod	_	Tone=4|Translit=ài
-9	情	情	NOUN	_	_	8	@m	_	Tone=2|Translit=qíng
+9	情	情	NOUN	_	_	8	/m	_	Tone=2|Translit=qíng
 10	电	电	NOUN	_	_	5	comp:pred	_	Tone=4|Translit=diàn
-11	影	影	NOUN	_	_	10	@m	_	Tone=3|Translit=yǐng
+11	影	影	NOUN	_	_	10	/m	_	Tone=3|Translit=yǐng
 12	，	，	PUNCT	_	_	17	punct	_	Translit=，
-13	不	不	ADV	_	_	14	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+13	不	不	ADV	_	_	14	/m	_	Grammar_Target=Yes|Tone=4|Translit=bù
 14	如	如	SCONJ	_	_	17	cc	_	Grammar_Target=Yes|Tone=2|Translit=rú
-15	说	说	VERB	_	_	14	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+15	说	说	VERB	_	_	14	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 16	它	它	NOUN	_	_	17	subj	_	Tone=1|Translit=tā
 17	是	是	AUX	_	_	5	conj	_	Tone=4|Translit=shì
 18	一	一	NUM	_	_	19	mod	_	Tone=1|Translit=yī
 19	部	部	NOUN	_	_	22	clf	_	Gloss=CLF|Tone=4|Translit=bù
 20	动	动	VERB	_	_	22	mod	_	Tone=4|Translit=dòng
-21	作	作	NOUN	_	_	20	@m	_	Tone=4|Translit=zuò
+21	作	作	NOUN	_	_	20	/m	_	Tone=4|Translit=zuò
 22	电	电	NOUN	_	_	17	comp:pred	_	Tone=4|Translit=diàn
-23	影	影	NOUN	_	_	22	@m	_	Tone=3|Translit=yǐng
+23	影	影	NOUN	_	_	22	/m	_	Tone=3|Translit=yǐng
 24	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 4524
@@ -757,22 +757,22 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGWI5CV
 # text_en = I'd rather say that he was criticizing me than encouraging me.
 1	与	与	SCONJ	_	_	5	cc	_	Grammar_Target=Yes|Tone=3|Translit=yǔ
-2	其	其	ADV	_	_	1	@m	_	Grammar_Target=Yes|Tone=2|Translit=qí
-3	说	说	VERB	_	_	1	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+2	其	其	ADV	_	_	1	/m	_	Grammar_Target=Yes|Tone=2|Translit=qí
+3	说	说	VERB	_	_	1	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 4	他	他	PRON	_	Person=3	5	subj	_	Tone=1|Translit=tā
 5	是	是	VERB	_	_	0	root	_	Tone=4|Translit=shì
 6	在	在	AUX	_	_	5	comp:cleft	_	Tone=4|Translit=zài
 7	鼓	鼓	VERB	_	_	6	comp:aux	_	Tone=3|Translit=gǔ
-8	励	励	VERB	_	_	7	@m	_	Tone=4|Translit=lì
+8	励	励	VERB	_	_	7	/m	_	Tone=4|Translit=lì
 9	我	我	PRON	_	Person=1	7	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 10	，	，	PUNCT	_	_	14	punct	_	Translit=，
-11	不	不	ADV	_	_	12	@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
-12	如	如	SCONJ	_	_	14	cc@m	_	Grammar_Target=Yes|Tone=2|Translit=rú
-13	说	说	VERB	_	_	12	@m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
+11	不	不	ADV	_	_	12	/m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+12	如	如	SCONJ	_	_	14	cc/m	_	Grammar_Target=Yes|Tone=2|Translit=rú
+13	说	说	VERB	_	_	12	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
 14	是	是	VERB	_	_	5	conj	_	Tone=4|Translit=shì
 15	在	在	AUX	_	_	14	comp:cleft	_	Tone=4|Translit=zài
 16	批	批	VERB	_	_	15	comp:aux	_	Tone=1|Translit=pī
-17	评	评	NOUN	_	_	16	@m	_	Tone=2|Translit=píng
+17	评	评	NOUN	_	_	16	/m	_	Tone=2|Translit=píng
 18	我	我	PRON	_	Person=1	16	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 19	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -783,13 +783,13 @@
 # structure_verbose = Expressing who is in charge with "you... zuozhu"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGU98B7
 1	极	极	PROPN	_	_	3	mod	_	Tone=2|Translit=jí
-2	权	权	PROPN	_	_	1	@m	_	Tone=2|Translit=quán
+2	权	权	PROPN	_	_	1	/m	_	Tone=2|Translit=quán
 3	主	主	NOUN	_	_	5	mod	_	Tone=3|Translit=zhǔ
-4	义	义	NOUN	_	_	3	@m	_	Tone=4|Translit=yì
+4	义	义	NOUN	_	_	3	/m	_	Tone=4|Translit=yì
 5	政	政	NOUN	_	_	9	subj	_	Tone=4|Translit=zhèng
-6	府	府	NOUN	_	_	5	@m	_	Tone=3|Translit=fǔ
+6	府	府	NOUN	_	_	5	/m	_	Tone=3|Translit=fǔ
 7	通	通	ADV	_	_	9	mod@temp	_	Tone=1|Translit=tōng
-8	常	常	ADV	_	_	7	@m	_	Tone=2|Translit=cháng
+8	常	常	ADV	_	_	7	/m	_	Tone=2|Translit=cháng
 9	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 10	由	由	ADP	_	_	16	comp:obl	_	Grammar_Target=Yes|Tone=2|Translit=yóu
 11	一	一	NUM	_	_	12	mod	_	Tone=1|Translit=yī
@@ -802,11 +802,11 @@
 18	，	，	PUNCT	_	_	26	punct	_	Translit=，
 19	而	而	SCONJ	_	_	26	cc	_	Tone=2|Translit=ér
 20	民	民	NOUN	_	_	22	mod	_	Tone=2|Translit=mín
-21	主	主	NOUN	_	_	20	@m	_	Tone=3|Translit=zhǔ
+21	主	主	NOUN	_	_	20	/m	_	Tone=3|Translit=zhǔ
 22	社	社	NOUN	_	_	26	subj	_	Tone=4|Translit=shè
-23	会	会	NOUN	_	_	22	@m	_	Tone=4|Translit=hùi
+23	会	会	NOUN	_	_	22	/m	_	Tone=4|Translit=hùi
 24	通	通	ADV	_	_	26	mod@temp	_	Tone=1|Translit=tōng
-25	常	常	ADV	_	_	24	@m	_	Tone=2|Translit=cháng
+25	常	常	ADV	_	_	24	/m	_	Tone=2|Translit=cháng
 26	是	是	AUX	_	_	9	conj	_	Tone=4|Translit=shì
 27	由	由	ADP	_	_	30	comp:obl	_	Grammar_Target=Yes|Tone=2|Translit=yóu
 28	全	全	ADJ	_	_	29	mod	_	Tone=2|Translit=quán
@@ -822,15 +822,15 @@
 # structure_verbose = Using "yi... wei..."
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGWSSQL
 1	我	我	PRON	_	Number=Plur|Person=1	3	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
-2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	Tone=5|Translit=men
+2	们	们	PART	_	Number=Plur|Person=1	1	/m	_	Tone=5|Translit=men
 3	公	公	NOUN	_	_	5	subj	_	Tone=1|Translit=gōng
-4	司	司	NOUN	_	_	3	@m	_	Tone=1|Translit=sī
+4	司	司	NOUN	_	_	3	/m	_	Tone=1|Translit=sī
 5	是	是	VERB	_	_	0	root	_	Tone=4|Translit=shì
 6	以	以	VERB	_	_	5	comp:cleft	_	Grammar_Target=Yes|Tone=3|Translit=yǐ
-7	亚	亚	PROPN	_	_	8	@m	_	Tone=4|Translit=yà
+7	亚	亚	PROPN	_	_	8	/m	_	Tone=4|Translit=yà
 8	洲	洲	PROPN	_	_	9	mod	_	Tone=1|Translit=zhōu
 9	市	市	NOUN	_	_	6	comp:obj	_	Tone=4|Translit=shì
-10	场	场	NOUN	_	_	9	@m	_	Tone=2|Translit=cháng
+10	场	场	NOUN	_	_	9	/m	_	Tone=2|Translit=cháng
 11	为	为	ADP	_	_	6	comp:obl	_	Grammar_Target=Yes|Tone=4|Translit=wèi
 12	主	主	NOUN	_	_	11	comp:obj	_	Tone=3|Translit=zhǔ
 13	，	，	PUNCT	_	_	14	punct	_	Translit=，
@@ -838,7 +838,7 @@
 15	欧	欧	PROPN	_	_	17	mod	_	Tone=1|Translit=ōu
 16	美	美	PROPN	_	_	15	conj	_	Tone=3|Translit=měi
 17	市	市	NOUN	_	_	14	comp:obj	_	Tone=4|Translit=shì
-18	场	场	NOUN	_	_	17	@m	_	Tone=2|Translit=cháng
+18	场	场	NOUN	_	_	17	/m	_	Tone=2|Translit=cháng
 19	为	为	ADP	_	_	14	comp:obl	_	Grammar_Target=Yes|Tone=4|Translit=wèi
 20	辅	辅	NOUN	_	_	19	comp:obj	_	Tone=3|Translit=fǔ
 21	。	。	PUNCT	_	_	5	punct	_	Translit=。
@@ -857,20 +857,20 @@
 6	敢	敢	AUX	_	_	3	comp:obj	_	Tone=3|Translit=gǎn
 7	去	去	VERB	_	_	6	comp:aux	_	Tone=4|Translit=qù
 8	投	投	VERB	_	_	7	comp:obj	_	Tone=2|Translit=tóu
-9	诉	诉	NOUN	_	_	8	@m	_	Tone=4|Translit=sù
+9	诉	诉	NOUN	_	_	8	/m	_	Tone=4|Translit=sù
 10	才	才	SCONJ	_	_	2	mod	_	Tone=2|Translit=cái
 11	这	这	ADV	_	_	13	mod	_	Tone=4|Translit=zhè
-12	么	么	ADV	_	_	11	@m	_	Tone=5|Translit=me
+12	么	么	ADV	_	_	11	/m	_	Tone=5|Translit=me
 13	说	说	VERB	_	_	10	comp:obj	_	Tone=1|Translit=shuō
 14	的	的	PART	_	_	2	conj	_	Tone=5|Translit=de
 15	，	，	PUNCT	_	_	2	punct	_	Translit=，
 16	你	你	PRON	_	Person=2	17	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 17	可	可	AUX	_	_	2	flat	_	Tone=3|Translit=kě
-18	不	不	ADV	_	_	19	mod@m	_	Tone=4|Translit=bù
-19	能	能	AUX	_	_	17	@m	_	Tone=2|Translit=néng
+18	不	不	ADV	_	_	19	mod/m	_	Tone=4|Translit=bù
+19	能	能	AUX	_	_	17	/m	_	Tone=2|Translit=néng
 20	就	就	ADV	_	_	23	mod	_	Tone=4|Translit=jìu
 21	这	这	ADV	_	_	23	mod	_	Tone=4|Translit=zhè
-22	么	么	ADV	_	_	21	@m	_	Tone=5|Translit=me
+22	么	么	ADV	_	_	21	/m	_	Tone=5|Translit=me
 23	算	算	VERB	_	_	17	comp:aux	_	Tone=4|Translit=suàn
 24	了	了	PART	_	_	17	discourse	_	Gloss=PRF|Tone=5|Translit=le
 25	！	！	PUNCT	_	_	17	punct	_	Translit=！
@@ -884,18 +884,18 @@
 1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 2	的	的	PART	_	Case=Gen	3	mod	_	Tone=5|Translit=de
 3	同	同	NOUN	_	_	5	subj	_	Tone=2|Translit=tóng
-4	事	事	NOUN	_	_	3	@m	_	Tone=4|Translit=shì
+4	事	事	NOUN	_	_	3	/m	_	Tone=4|Translit=shì
 5	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 6	一	一	NUM	_	NumType=Card	7	mod	_	Tone=1|Translit=yī
 7	个	个	NOUN	_	_	12	clf	_	Gloss=CLF|Tone=4|Translit=gè
 8	很	很	ADV	_	_	9	mod	_	Tone=3|Translit=hěn
 9	诚	诚	ADJ	_	_	11	comp:obj	_	Tone=2|Translit=chéng
-10	实	实	ADJ	_	_	9	@m	_	Tone=2|Translit=shí
+10	实	实	ADJ	_	_	9	/m	_	Tone=2|Translit=shí
 11	的	的	PART	_	Case=Gen	12	mod	_	Tone=5|Translit=de
 12	人	人	NOUN	_	_	5	comp:pred	_	Tone=2|Translit=rén
 13	，	，	PUNCT	_	_	16	punct	_	Translit=，
 14	他	他	PRON	_	Person=3	16	subj	_	Tone=1|Translit=tā
-15	不	不	ADV	_	Polarity=Neg	16	mod@m	_	Grammar_Target=Yes|Tone=4|Translit=bù
+15	不	不	ADV	_	Polarity=Neg	16	mod/m	_	Grammar_Target=Yes|Tone=4|Translit=bù
 16	屑	屑	VERB	_	_	5	parataxis	_	Grammar_Target=Yes|Tone=4|Translit=xiè
 17	说	说	VERB	_	_	16	comp:obj	_	Tone=1|Translit=shuō
 18	谎	谎	NOUN	_	_	17	comp:obj	_	Tone=3|Translit=huǎng
@@ -915,7 +915,7 @@
 4	钱	钱	NOUN	_	_	3	comp:obj	_	Tone=2|Translit=qián
 5	而	而	CCONJ	_	_	6	cc	_	Grammar_Target=Yes|Tone=2|Translit=ér
 6	工	工	VERB	_	_	2	comp:cleft	_	Tone=1|Translit=gōng
-7	作	作	NOUN	_	_	6	@m	_	Tone=4|Translit=zuò
+7	作	作	NOUN	_	_	6	/m	_	Tone=4|Translit=zuò
 8	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
@@ -931,14 +931,14 @@
 2	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 3	为	为	ADP	_	_	7	comp:obl	_	Grammar_Target=Yes|Tone=4|Translit=wèi
 4	朋	朋	NOUN	_	_	3	comp:obj	_	Tone=2|Translit=péng
-5	友	友	NOUN	_	_	4	@m	_	Tone=3|Translit=yǒu
+5	友	友	NOUN	_	_	4	/m	_	Tone=3|Translit=yǒu
 6	而	而	VERB	_	_	7	mod	_	Grammar_Target=Yes|Tone=2|Translit=ér
 7	做	做	VERB	_	_	8	comp:obj	_	Tone=4|Translit=zuò
 8	的	的	PART	_	Case=Gen	11	mod	_	Tone=5|Translit=de
 9	这	这	DET	_	_	10	det	_	Tone=4|Translit=zhè
 10	件	件	NOUN	_	_	11	clf	_	Tone=4|Translit=jiàn
 11	事	事	NOUN	_	_	2	comp:cleft	_	Tone=4|Translit=shì
-12	情	情	NOUN	_	_	11	@m	_	Tone=2|Translit=qíng
+12	情	情	NOUN	_	_	11	/m	_	Tone=2|Translit=qíng
 13	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 4605
@@ -954,20 +954,20 @@
 3	人	人	NOUN	_	_	4	subj	_	Tone=2|Translit=rén
 4	是	是	AUX	_	_	0	root	_	Tone=4|Translit=shì
 5	个	个	NOUN	_	_	8	clf	_	Gloss=CLF|Tone=4|Translit=gè
-6	诈	诈	VERB	_	_	8	mod@m	_	Tone=4|Translit=zhà
-7	骗	骗	NOUN	_	_	6	@m	_	Tone=4|Translit=piàn
+6	诈	诈	VERB	_	_	8	mod/m	_	Tone=4|Translit=zhà
+7	骗	骗	NOUN	_	_	6	/m	_	Tone=4|Translit=piàn
 8	犯	犯	NOUN	_	_	4	comp:pred	_	Tone=4|Translit=fàn
 9	,	,	PUNCT	_	_	18	punct	_	Translit=,
 10	所	所	SCONJ	_	_	18	cc	_	Tone=3|Translit=suǒ
-11	以	以	SCONJ	_	_	10	@m	_	Tone=3|Translit=yǐ
+11	以	以	SCONJ	_	_	10	/m	_	Tone=3|Translit=yǐ
 12	以	以	ADP	_	_	18	comp:obl	_	Grammar_Target=Yes|Tone=3|Translit=yǐ
 13	政	政	NOUN	_	_	15	comp:obj	_	Tone=4|Translit=zhèng
-14	府	府	NOUN	_	_	13	@m	_	Tone=3|Translit=fǔ
+14	府	府	NOUN	_	_	13	/m	_	Tone=3|Translit=fǔ
 15	的	的	PART	_	Case=Gen	16	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
 16	名	名	NOUN	_	_	12	comp:obj	_	Grammar_Target=Yes|Tone=2|Translit=míng
-17	义	义	NOUN	_	_	16	@m	_	Grammar_Target=Yes|Tone=4|Translit=yì
+17	义	义	NOUN	_	_	16	/m	_	Grammar_Target=Yes|Tone=4|Translit=yì
 18	起	起	VERB	_	_	4	conj	_	Tone=3|Translit=qǐ
-19	诉	诉	VERB	_	_	18	@m	_	Tone=4|Translit=sù
+19	诉	诉	VERB	_	_	18	/m	_	Tone=4|Translit=sù
 20	了	了	PART	_	_	18	aspect	_	Gloss=PFV|Tone=5|Translit=le
 21	他	他	PRON	_	Person=3	18	comp:obj	_	Tone=1|Translit=tā
 22	。	。	PUNCT	_	_	4	punct	_	Translit=。
@@ -983,9 +983,9 @@
 1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
 2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
 3	地	地	NOUN	_	_	9	subj	_	Tone=4|Translit=dì
-4	方	方	NOUN	_	_	3	@m	_	Tone=1|Translit=fāng
+4	方	方	NOUN	_	_	3	/m	_	Tone=1|Translit=fāng
 5	本	本	ADV	_	_	9	mod	_	Tone=3|Translit=běn
-6	来	来	VERB	_	_	5	@m	_	Tone=2|Translit=lái
+6	来	来	VERB	_	_	5	/m	_	Tone=2|Translit=lái
 7	就	就	ADV	_	_	9	mod	_	Tone=4|Translit=jìu
 8	不	不	ADV	_	Polarity=Neg	9	mod	_	Tone=4|Translit=bù
 9	好	好	ADJ	_	_	0	root	_	Tone=3|Translit=hǎo
@@ -993,7 +993,7 @@
 11	，	，	PUNCT	_	_	13	punct	_	Translit=，
 12	更	更	SCONJ	_	_	13	mod	_	Tone=4|Translit=gèng
 13	何	何	SCONJ	_	_	9	mod	_	Grammar_Target=Yes|Tone=2|Translit=hé
-14	况	况	SCONJ	_	_	13	@m	_	Grammar_Target=Yes|Tone=4|Translit=kuàng
+14	况	况	SCONJ	_	_	13	/m	_	Grammar_Target=Yes|Tone=4|Translit=kuàng
 15	你	你	PRON	_	Person=2	16	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 16	是	是	VERB	_	_	13	comp:obj	_	Tone=4|Translit=shì
 17	第	第	NOUN	_	NumType=Ord	18	mod	_	Tone=4|Translit=dì
