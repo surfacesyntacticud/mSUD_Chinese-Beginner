@@ -115,7 +115,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUD25J
 # text_en = You both happen to be single.
 # translit = Zhènghǎo nǐmen dōu shì dānshēn.
-1	正	正	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=zhèng
+1	正	正	ADV	_	_	6	mod@temp	_	Grammar_Target=Yes|Tone=4|Translit=zhèng
 2	好	好	ADV	_	_	1	/m	_	Grammar_Target=Yes|Tone=3|Translit=hǎo
 3	你	你	PRON	_	Number=Plur|Person=2	6	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 4	们	们	PART	_	Number=Plur|Person=2	3	/m	_	Tone=5|Translit=men
@@ -172,7 +172,7 @@
 11	一	一	ADV	_	_	12	/m	_	Gloss=one|Tone=1|Translit=yī
 12	起	起	ADV	_	_	13	mod	_	Tone=3|Translit=qǐ
 13	走	走	VERB	_	_	6	parataxis	_	Tone=3|Translit=zǒu
-14	吧	吧	PART	_	_	13	discourse	_	Tone=5|Translit=ba
+14	吧	吧	PART	_	_	13	discourse:sp	_	Tone=5|Translit=ba
 15	。	。	PUNCT	_	_	6	punct	_	Translit=。
 
 # sent_id = 1599
@@ -271,7 +271,7 @@
 9	得	得	ADV	_	_	10	mod	_	Grammar_Target=Yes|Tone=2|Translit=dé
 10	上	上	VERB	_	_	8	comp:dir	_	Tone=4|Translit=shàng
 11	去	去	VERB	_	_	10	comp:dir	_	Tone=4|Translit=qù
-12	吗	吗	PART	_	Mood=Inter	8	discourse	_	Tone=5|Translit=ma
+12	吗	吗	PART	_	Mood=Inter	8	discourse:sp	_	Tone=5|Translit=ma
 13	？	？	PUNCT	_	_	8	punct	_	Translit=？
 
 # sent_id = 2586
@@ -361,7 +361,7 @@
 3	你	你	PRON	_	Person=2	5	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 4	先	先	ADV	_	_	5	mod	_	Tone=1|Translit=xiān
 5	走	走	VERB	_	_	0	root	_	Tone=3|Translit=zǒu
-6	吧	吧	PART	_	_	5	discourse	_	Tone=5|Translit=ba
+6	吧	吧	PART	_	_	5	discourse:sp	_	Tone=5|Translit=ba
 7	，	，	PUNCT	_	_	11	punct	_	Translit=，
 8	我	我	PRON	_	Person=1	11	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 9	还	还	ADV	_	_	11	mod	_	Tone=2|Translit=huán
@@ -884,7 +884,7 @@
 3	全	全	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=2|Translit=quán
 4	都	都	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
 5	到	到	VERB	_	_	0	root	_	Tone=4|Translit=dào
-6	了	了	PART	_	_	5	aspect	_	Gloss=PRF|Tone=5|Translit=le
+6	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Tone=5|Translit=le
 7	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 1540
@@ -941,7 +941,7 @@
 5	做	做	VERB	_	_	0	root	_	Tone=4|Translit=zuò
 6	完	完	VERB	_	_	5	comp:res	_	Tone=2|Translit=wán
 7	了	了	PART	_	_	5	discourse	_	Gloss=PRF|Tone=5|Translit=le
-8	吗	吗	PART	_	Mood=Inter	5	discourse	_	Tone=5|Translit=ma
+8	吗	吗	PART	_	Mood=Inter	5	discourse:sp	_	Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	5	punct	_	Translit=？
 
 # sent_id = 1543
@@ -957,7 +957,7 @@
 3	都	都	ADV	_	_	4	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
 4	拿	拿	VERB	_	_	0	root	_	Tone=2|Translit=ná
 5	走	走	VERB	_	_	4	comp:res	_	Tone=3|Translit=zǒu
-6	吧	吧	PART	_	_	4	discourse	_	Tone=5|Translit=ba
+6	吧	吧	PART	_	_	4	discourse:sp	_	Tone=5|Translit=ba
 7	。	。	PUNCT	_	_	4	punct	_	Translit=。
 
 # sent_id = 1544
@@ -1042,20 +1042,20 @@
 # text_en = He has a point, but I don't agree with all of it.
 # translit = Tā shuō de yǒu dàolǐ, dàn wǒ bù quán dōu tóngyì.
 1	他	他	PRON	_	Person=3	2	subj	_	Tone=1|Translit=tā
-2	说	说	VERB	_	_	8	mod	_	Tone=1|Translit=shuō
+2	说	说	VERB	_	_	0	root	_	Tone=1|Translit=shuō
 3	得	得	PART	_	_	2	mod	_	Tone=2|Translit=dé
 4	有	有	VERB	_	_	3	comp:obj	_	Tone=3|Translit=yǒu
 5	道	道	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=dào
 6	理	理	NOUN	_	_	5	/m	_	Tone=3|Translit=lǐ
-7	，	，	PUNCT	_	_	2	punct	_	Translit=，
-8	但	但	SCONJ	_	_	0	root	_	Tone=4|Translit=dàn
+7	，	，	PUNCT	_	_	13	punct	_	Translit=，
+8	但	但	SCONJ	_	_	13	cc	_	Tone=4|Translit=dàn
 9	我	我	PRON	_	Person=1	13	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 10	不	不	ADV	_	_	11	mod	_	Tone=4|Translit=bù
 11	全	全	ADV	_	_	13	mod	_	Grammar_Target=Yes|Tone=2|Translit=quán
 12	都	都	ADV	_	_	13	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
-13	同	同	VERB	_	_	8	comp:obj	_	Tone=2|Translit=tóng
+13	同	同	VERB	_	_	2	conj	_	Tone=2|Translit=tóng
 14	意	意	NOUN	_	_	13	/m	_	Tone=4|Translit=yì
-15	。	。	PUNCT	_	_	8	punct	_	Translit=。
+15	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 1550
 # structure = Subj. + 不 / 没 + 全都 + Predicate
@@ -1173,7 +1173,7 @@
 18	人	人	NOUN	_	_	17	/m	_	Tone=2|Translit=rén
 19	上	上	VERB	_	_	8	comp:obj	_	Tone=4|Translit=shàng
 20	车	车	NOUN	_	_	19	comp:obj	_	Tone=1|Translit=chē
-21	了	了	PART	_	_	8	discourse	_	Gloss=PRF|Tone=5|Translit=le
+21	了	了	PART	_	_	19	aspect	_	Gloss=PRF|Tone=5|Translit=le
 22	。	。	PUNCT	_	_	8	punct	_	Translit=。
 
 # sent_id = 1570
@@ -1395,7 +1395,7 @@
 # text_en = He passed the exam successfully.
 # translit = tā shùnlì de tōngguò kǎoshì le.
 1	他	他	PRON	_	Person=3	5	subj	_	Tone=1|Translit=tā
-2	顺	顺	ADJ	_	_	4	comp:obj	_	Grammar_Target=Yes|Tone=4|Translit=shùn
+2	顺	顺	ADV	_	_	4	comp:obj	_	Grammar_Target=Yes|Tone=4|Translit=shùn
 3	利	利	ADJ	_	_	2	/m	_	Grammar_Target=Yes|Tone=4|Translit=lì
 4	地	地	PART	_	_	5	mod	_	Tone=4|Translit=dì
 5	通	通	VERB	_	_	0	root	_	Tone=1|Translit=tōng
@@ -2138,7 +2138,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG1CEA8
 # text_en = This is a report from the government.
 # translit = Zhè shì láizì zhèngfǔ de bàogào.
-1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
+1	这	这	DET	_	_	2	subj	_	Tone=4|Translit=zhè
 2	是	是	VERB	_	_	0	root	_	Tone=4|Translit=shì
 3	来	来	VERB	_	_	7	comp:obj	_	Grammar_Target=Yes|Tone=2|Translit=lái
 4	自	自	ADP	_	_	3	comp:obl	_	Grammar_Target=Yes|Tone=4|Translit=zì
@@ -2258,7 +2258,7 @@
 # translit = Wǒ lái ba.
 1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 2	来	来	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=2|Translit=lái
-3	吧	吧	PART	_	_	2	discourse	_	Tone=5|Translit=ba
+3	吧	吧	PART	_	_	2	discourse:sp	_	Tone=5|Translit=ba
 4	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 2314
@@ -2277,7 +2277,7 @@
 6	，	，	PUNCT	_	_	8	punct	_	Translit=，
 7	你	你	PRON	_	Person=2	8	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 8	来	来	VERB	_	_	2	parataxis	_	Grammar_Target=Yes|Tone=2|Translit=lái
-9	吧	吧	PART	_	_	8	discourse	_	Tone=5|Translit=ba
+9	吧	吧	PART	_	_	8	discourse:sp	_	Tone=5|Translit=ba
 10	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 2315
@@ -2406,7 +2406,7 @@
 # text_en = Buy it. You don't need to consider the price.
 # translit = Mǎi ba, bùyòng kǎolǜ jiàqián.
 1	买	买	VERB	_	_	0	root	_	Tone=3|Translit=mǎi
-2	吧	吧	PART	_	_	1	discourse	_	Tone=5|Translit=ba
+2	吧	吧	PART	_	_	1	discourse:sp	_	Tone=5|Translit=ba
 3	，	，	PUNCT	_	_	5	punct	_	Translit=，
 4	不	不	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes|Tone=4|Translit=bù
 5	用	用	AUX	_	_	1	parataxis	_	Grammar_Target=Yes|Tone=4|Translit=yòng
@@ -2697,7 +2697,7 @@
 4	点	点	ADV	_	_	5	mod	_	Tone=3|Translit=diǎn
 5	时	时	NOUN	_	_	2	comp:obj	_	Tone=2|Translit=shí
 6	间	间	NOUN	_	_	5	/m	_	Tone=1|Translit=jiān
-7	吧	吧	PART	_	_	2	discourse	_	Tone=5|Translit=ba
+7	吧	吧	PART	_	_	2	discourse:sp	_	Tone=5|Translit=ba
 8	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 2348
@@ -2827,7 +2827,7 @@
 3	吃	吃	VERB	_	_	0	root	_	Tone=1|Translit=chī
 4	着	着	PART	_	_	3	aspect	_	Tone=2|Translit=zháo
 5	饭	饭	NOUN	_	_	3	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
-6	呢	呢	PART	_	_	3	discourse	_	Tone=2|Translit=ní
+6	呢	呢	PART	_	_	3	discourse:sp	_	Tone=2|Translit=ní
 7	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
 # sent_id = 2355
@@ -2841,7 +2841,7 @@
 1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 2	吃	吃	VERB	_	_	0	root	_	Tone=1|Translit=chī
 3	饭	饭	NOUN	_	_	2	comp:obj	_	Gloss=meal|Tone=4|Translit=fàn
-4	呢	呢	PART	_	_	2	discourse	_	Tone=2|Translit=ní
+4	呢	呢	PART	_	_	2	discourse:sp	_	Tone=2|Translit=ní
 5	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 2362
@@ -2857,7 +2857,7 @@
 3	怎	怎	ADV	_	_	5	mod	_	Grammar_Target=Yes|Tone=3|Translit=zěn
 4	么	么	ADV	_	_	3	/m	_	Grammar_Target=Yes|Tone=5|Translit=me
 5	爱	爱	VERB	_	_	0	root	_	Tone=4|Translit=ài
-6	说	说	VERB	_	_	5	comp:obj	_	Tone=1|Translit=shuō
+6	说	说	VERB	_	_	5	comp:aux	_	Tone=1|Translit=shuō
 7	话	话	NOUN	_	_	6	comp:obj	_	Tone=4|Translit=huà
 8	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
@@ -3249,7 +3249,7 @@
 4	读	读	VERB	_	_	2	comp:aux	_	Tone=2|Translit=dú
 5	一	一	NUM	_	_	6	/m	_	Tone=1|Translit=yī
 6	遍	遍	NOUN	_	_	4	comp:obj	_	Grammar_Target=Yes|Tone=4|Translit=biàn
-7	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
+7	吗	吗	PART	_	Mood=Inter	2	discourse:sp	_	Tone=5|Translit=ma
 8	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
 # sent_id = 2381
@@ -3484,7 +3484,7 @@
 3	见	见	VERB	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=jiàn
 4	个	个	NOUN	_	_	5	clf	_	Gloss=CLF|Tone=4|Translit=gè
 5	面	面	NOUN	_	_	3	comp:obj	_	Grammar_Target=Yes|Tone=4|Translit=miàn
-6	吧	吧	PART	_	_	3	discourse	_	Tone=5|Translit=ba
+6	吧	吧	PART	_	_	3	discourse:sp	_	Tone=5|Translit=ba
 7	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
 # sent_id = 2401
@@ -3655,7 +3655,7 @@
 4	都	都	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
 5	不	不	ADV	_	Polarity=Neg	6	mod	_	Tone=4|Translit=bù
 6	怕	怕	VERB	_	_	0	root	_	Tone=4|Translit=pà
-7	吗	吗	PART	_	Mood=Inter	6	discourse	_	Tone=5|Translit=ma
+7	吗	吗	PART	_	Mood=Inter	6	discourse:sp	_	Tone=5|Translit=ma
 8	？	？	PUNCT	_	_	6	punct	_	Translit=？
 
 # sent_id = 1557
@@ -3759,7 +3759,7 @@
 10	我	我	PRON	_	Person=1	11	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 11	来	来	VERB	_	_	4	parataxis:new	_	Tone=2|Translit=lái
 12	扔	扔	VERB	_	_	11	compound:svc	_	Tone=1|Translit=rēng
-13	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
+13	吧	吧	PART	_	_	11	discourse:sp	_	Tone=5|Translit=ba
 14	。	。	PUNCT	_	_	11	punct	_	Translit=。
 
 # sent_id = 1593
@@ -3855,7 +3855,7 @@
 3	在	在	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=zài
 4	生	生	VERB	_	_	3	comp:aux	_	Tone=1|Translit=shēng
 5	气	气	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=qì
-6	吗	吗	PART	_	Mood=Inter	3	discourse	_	Tone=5|Translit=ma
+6	吗	吗	PART	_	Mood=Inter	3	discourse:sp	_	Tone=5|Translit=ma
 7	？	？	PUNCT	_	_	3	punct	_	Translit=？
 
 # sent_id = 1603
@@ -3901,7 +3901,7 @@
 12	有	有	VERB	_	_	11	comp:pred	_	Tone=3|Translit=yǒu
 13	考	考	NOUN	_	_	12	comp:obj	_	Tone=3|Translit=kǎo
 14	试	试	NOUN	_	_	13	/m	_	Tone=4|Translit=shì
-15	吗	吗	PART	_	Mood=Inter	12	discourse	_	Tone=5|Translit=ma
+15	吗	吗	PART	_	Mood=Inter	12	discourse:sp	_	Tone=5|Translit=ma
 16	？	？	PUNCT	_	_	11	punct	_	Translit=？
 
 # sent_id = 1605
@@ -4058,7 +4058,7 @@
 # translit = Diànyǐng yǐjīng kāishǐ le, nǐ hái méi chūmén?
 1	电	电	NOUN	_	_	5	subj	_	Tone=4|Translit=diàn
 2	影	影	NOUN	_	_	1	/m	_	Tone=3|Translit=yǐng
-3	已	已	ADV	_	_	5	mod@temp	_	Tone=3|Translit=yǐ
+3	已	已	ADV	_	_	5	mod	_	Tone=3|Translit=yǐ
 4	经	经	ADV	_	_	3	/m	_	Tone=1|Translit=jīng
 5	开	开	VERB	_	_	0	root	_	Tone=1|Translit=kāi
 6	始	始	NOUN	_	_	5	/m	_	Tone=3|Translit=shǐ
@@ -4600,7 +4600,7 @@
 10	的	的	PART	_	Case=Gen	11	mod	_	Tone=5|Translit=de
 11	问	问	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=wèn
 12	题	题	NOUN	_	_	11	/m	_	Tone=2|Translit=tí
-13	吗	吗	PART	_	Mood=Inter	8	discourse	_	Tone=5|Translit=ma
+13	吗	吗	PART	_	Mood=Inter	8	discourse:sp	_	Tone=5|Translit=ma
 14	？	？	PUNCT	_	_	8	punct	_	Translit=？
 
 # sent_id = 1640
@@ -4736,7 +4736,7 @@
 5	说	说	VERB	_	_	2	comp:aux	_	Tone=1|Translit=shuō
 6	一	一	NUM	_	_	7	mod	_	Tone=1|Translit=yī
 7	遍	遍	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=biàn
-8	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
+8	吗	吗	PART	_	Mood=Inter	2	discourse:sp	_	Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
 # sent_id = 1648
@@ -4803,7 +4803,7 @@
 3	几	几	NUM	_	NumType=Card	4	mod	_	Tone=1|Translit=jī
 4	个	个	NOUN	_	_	5	clf	_	Gloss=CLF|Tone=4|Translit=gè
 5	菜	菜	NOUN	_	_	2	comp:obj	_	Tone=4|Translit=cài
-6	吧	吧	PART	_	_	2	discourse	_	Tone=5|Translit=ba
+6	吧	吧	PART	_	_	2	discourse:sp	_	Tone=5|Translit=ba
 7	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 1652
@@ -5713,7 +5713,7 @@
 5	，	，	PUNCT	_	_	3	punct	_	Translit=，
 6	快	快	ADJ	_	_	7	mod	_	Tone=4|Translit=kuài
 7	吃	吃	VERB	_	_	3	parataxis:new	_	Tone=1|Translit=chī
-8	吧	吧	PART	_	_	7	discourse	_	Tone=5|Translit=ba
+8	吧	吧	PART	_	_	7	discourse:sp	_	Tone=5|Translit=ba
 9	。	。	PUNCT	_	_	7	punct	_	Translit=。
 
 # sent_id = 1717
@@ -5732,7 +5732,7 @@
 6	，	，	PUNCT	_	_	4	punct	_	Translit=，
 7	扔	扔	VERB	_	_	4	parataxis:new	_	Tone=1|Translit=rēng
 8	掉	掉	VERB	_	_	7	comp:res	_	Tone=4|Translit=diào
-9	吧	吧	PART	_	_	7	discourse	_	Tone=5|Translit=ba
+9	吧	吧	PART	_	_	7	discourse:sp	_	Tone=5|Translit=ba
 10	。	。	PUNCT	_	_	7	punct	_	Translit=。
 
 # sent_id = 1718
@@ -5777,7 +5777,7 @@
 11	看	看	VERB	_	_	7	parataxis:new	_	Tone=4|Translit=kàn
 12	别	别	PRON	_	_	13	comp:obj	_	Tone=2|Translit=bié
 13	的	的	PART	_	_	11	comp:obj	_	Tone=5|Translit=de
-14	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
+14	吧	吧	PART	_	_	11	discourse:sp	_	Tone=5|Translit=ba
 15	。	。	PUNCT	_	_	11	punct	_	Translit=。
 
 # sent_id = 1720
@@ -6355,7 +6355,7 @@
 # text_en = Just buy it. It's been more than one year since you last bought new clothes.
 # translit = Mǎi ba, nǐ yǐjīng yī nián duō méi mǎi xīn yīfu le.
 1	买	买	VERB	_	_	0	root	_	Tone=3|Translit=mǎi
-2	吧	吧	PART	_	_	1	discourse	_	Tone=5|Translit=ba
+2	吧	吧	PART	_	_	1	discourse:sp	_	Tone=5|Translit=ba
 3	，	，	PUNCT	_	_	1	punct	_	Translit=，
 4	你	你	PRON	_	Person=2	11	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
 5	已	已	ADV	_	_	11	mod@temp	_	Tone=3|Translit=yǐ
@@ -6544,7 +6544,7 @@
 5	就	就	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=jìu
 6	出	出	VERB	_	_	0	root	_	Tone=1|Translit=chū
 7	门	门	NOUN	_	_	6	comp:obj	_	Tone=2|Translit=mén
-8	吗	吗	PART	_	Mood=Inter	6	discourse	_	Tone=5|Translit=ma
+8	吗	吗	PART	_	Mood=Inter	6	discourse:sp	_	Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	6	punct	_	Translit=？
 
 # sent_id = 1759
@@ -6637,10 +6637,10 @@
 1	她	她	PRON	_	Person=3	8	subj	_	Tone=1|Translit=tā
 2	十	十	NUM	_	NumType=Card	4	mod	_	Tone=2|Translit=shí
 3	八	八	NUM	_	NumType=Card	2	flat	_	Tone=1|Translit=bā
-4	岁	岁	NOUN	_	_	8	mod@temp	_	Tone=4|Translit=sùi
+4	岁	岁	NOUN	_	_	8	mod	_	Tone=4|Translit=sùi
 5	就	就	ADV	_	_	8	mod	_	Grammar_Target=Yes|Tone=4|Translit=jìu
-6	大	大	ADJ	_	_	7	mod/m	_	Tone=4|Translit=dà
-7	学	学	NOUN	_	_	8	mod@loc	_	Tone=2|Translit=xué
+6	大	大	ADJ	_	_	7	/m	_	Tone=4|Translit=dà
+7	学	学	NOUN	_	_	8	mod	_	Tone=2|Translit=xué
 8	毕	毕	VERB	_	_	0	root	_	Tone=4|Translit=bì
 9	业	业	NOUN	_	_	8	/m	_	Tone=4|Translit=yè
 10	了	了	PART	_	_	8	discourse	_	Gloss=PRF|Tone=5|Translit=le
@@ -6676,11 +6676,11 @@
 1	他	他	PRON	_	Person=3	6	subj	_	Tone=1|Translit=tā
 2	十	十	NUM	_	NumType=Card	3	mod	_	Tone=2|Translit=shí
 3	分	分	NOUN	_	_	6	mod@temp	_	Tone=1|Translit=fēn
-4	钟	钟	NOUN	_	_	3	/m	_	Tone=1|Translit=zhōng
+4	钟	钟	NOUN	_	_	3	mod	_	Tone=1|Translit=zhōng
 5	就	就	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=jìu
 6	做	做	VERB	_	_	0	root	_	Tone=4|Translit=zuò
 7	完	完	VERB	_	_	6	comp:res	_	Tone=2|Translit=wán
-8	了	了	PART	_	_	6	aspect	_	Gloss=PRF|Tone=5|Translit=le
+8	了	了	PART	_	_	6	discourse	_	Gloss=PRF|Tone=5|Translit=le
 9	。	。	PUNCT	_	_	6	punct	_	Translit=。
 
 # sent_id = 1767
@@ -6717,7 +6717,7 @@
 3	纸	纸	NOUN	_	_	4	subj	_	Tone=3|Translit=zhǐ
 4	够	够	ADJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=gòu
 5	用	用	VERB	_	_	4	comp:obj	_	Tone=4|Translit=yòng
-6	吗	吗	PART	_	Mood=Inter	4	discourse	_	Tone=5|Translit=ma
+6	吗	吗	PART	_	Mood=Inter	4	discourse:sp	_	Tone=5|Translit=ma
 7	？	？	PUNCT	_	_	4	punct	_	Translit=？
 
 # sent_id = 1769
@@ -6730,7 +6730,7 @@
 # translit = Fàngxīn ba, wǒ dài de qián gòu huā.
 1	放	放	VERB	_	_	0	root	_	Tone=4|Translit=fàng
 2	心	心	NOUN	_	_	1	/m	_	Tone=1|Translit=xīn
-3	吧	吧	PART	_	_	1	discourse	_	Tone=5|Translit=ba
+3	吧	吧	PART	_	_	1	discourse:sp	_	Tone=5|Translit=ba
 4	，	，	PUNCT	_	_	1	punct	_	Translit=，
 5	我	我	PRON	_	Person=1	6	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 6	带	带	VERB	_	_	7	comp:obj	_	Tone=4|Translit=dài
@@ -6962,10 +6962,10 @@
 7	。	。	PUNCT	_	_	4	punct	_	Translit=。
 8	我	我	PRON	_	Person=1	10	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 9	快	快	ADV	_	_	10	mod	_	Tone=4|Translit=kuài
-10	饿	饿	ADJ	_	_	4	parataxis:new	_	Tone=4|Translit=è
-11	死	死	ADV	_	_	10	mod	_	Tone=3|Translit=sǐ
-12	了	了	PART	_	_	10	discourse	_	Gloss=PRF|Tone=5|Translit=le
-13	。	。	PUNCT	_	_	10	punct	_	Translit=。
+10	饿	饿	ADJ	_	_	4	parataxis	_	Tone=4|Translit=è
+11	死	死	VERB	_	_	10	mod	_	Tone=3|Translit=sǐ
+12	了	了	PART	_	_	11	discourse	_	Gloss=PRF|Tone=5|Translit=le
+13	。	。	PUNCT	_	_	4	punct	_	Translit=。
 
 # sent_id = 1782
 # structure = Subj. + 终于 + Predicate + 了
@@ -7055,7 +7055,7 @@
 3	明	明	NOUN	_	_	5	mod	_	Tone=2|Translit=míng
 4	天	天	NOUN	_	_	3	/m	_	Tone=1|Translit=tiān
 5	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-6	吧	吧	PART	_	_	5	discourse	_	Tone=5|Translit=ba
+6	吧	吧	PART	_	_	5	discourse:sp	_	Tone=5|Translit=ba
 7	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 1786
@@ -7072,7 +7072,7 @@
 4	她	她	PRON	_	Person=3	3	comp:obj	_	Tone=1|Translit=tā
 5	进	进	VERB	_	_	3	comp:obj	_	Tone=4|Translit=jìn
 6	来	来	VERB	_	_	5	comp:dir	_	Tone=2|Translit=lái
-7	吧	吧	PART	_	_	3	discourse	_	Tone=5|Translit=ba
+7	吧	吧	PART	_	_	3	discourse:sp	_	Tone=5|Translit=ba
 8	。	。	PUNCT	_	_	3	punct	_	Translit=。
 
 # sent_id = 1787
@@ -7089,7 +7089,7 @@
 4	快	快	ADJ	_	_	6	mod	_	Tone=4|Translit=kuài
 5	点	点	ADV	_	_	4	mod	_	Tone=3|Translit=diǎn
 6	走	走	VERB	_	_	0	root	_	Tone=3|Translit=zǒu
-7	吧	吧	PART	_	_	6	discourse	_	Tone=5|Translit=ba
+7	吧	吧	PART	_	_	6	discourse:sp	_	Tone=5|Translit=ba
 8	。	。	PUNCT	_	_	6	punct	_	Translit=。
 
 # sent_id = 1788
@@ -7107,7 +7107,7 @@
 5	帮	帮	VERB	_	_	0	root	_	Tone=1|Translit=bāng
 6	帮	帮	VERB	_	_	5	conj:redup/m	_	Tone=1|Translit=bāng
 7	他	他	PRON	_	Person=3	5	comp:obj	_	Tone=1|Translit=tā
-8	吧	吧	PART	_	_	5	discourse	_	Tone=5|Translit=ba
+8	吧	吧	PART	_	_	5	discourse:sp	_	Tone=5|Translit=ba
 9	。	。	PUNCT	_	_	5	punct	_	Translit=。
 
 # sent_id = 1789
@@ -7127,7 +7127,7 @@
 7	先	先	ADV	_	_	8	mod	_	Tone=1|Translit=xiān
 8	回	回	VERB	_	_	2	parataxis:new	_	Tone=2|Translit=húi
 9	家	家	NOUN	_	_	8	comp:obj	_	Tone=1|Translit=jiā
-10	吧	吧	PART	_	_	8	discourse	_	Tone=5|Translit=ba
+10	吧	吧	PART	_	_	8	discourse:sp	_	Tone=5|Translit=ba
 11	。	。	PUNCT	_	_	8	punct	_	Translit=。
 
 # sent_id = 1790
@@ -7149,7 +7149,7 @@
 9	还	还	ADV	_	_	11	mod	_	Grammar_Target=Yes|Tone=2|Translit=huán
 10	是	是	ADV	_	_	9	/m	_	Grammar_Target=Yes|Tone=4|Translit=shì
 11	走	走	VERB	_	_	4	parataxis:new	_	Tone=3|Translit=zǒu
-12	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
+12	吧	吧	PART	_	_	11	discourse:sp	_	Tone=5|Translit=ba
 13	。	。	PUNCT	_	_	11	punct	_	Translit=。
 
 # sent_id = 1791
@@ -7171,7 +7171,7 @@
 9	是	是	ADV	_	_	8	/m	_	Grammar_Target=Yes|Tone=4|Translit=shì
 10	打	打	VERB	_	_	3	parataxis:new	_	Tone=3|Translit=dǎ
 11	车	车	NOUN	_	_	10	comp:obj	_	Tone=1|Translit=chē
-12	吧	吧	PART	_	_	10	discourse	_	Tone=5|Translit=ba
+12	吧	吧	PART	_	_	10	discourse:sp	_	Tone=5|Translit=ba
 13	。	。	PUNCT	_	_	10	punct	_	Translit=。
 
 # sent_id = 1792
@@ -7319,8 +7319,8 @@
 2	好	好	ADJ	_	_	1	/m	_	Grammar_Target=Yes|Tone=3|Translit=hǎo
 3	不	不	ADV	_	Polarity=Neg	4	mod	_	Tone=4|Translit=bù
 4	要	要	AUX	_	_	0	root	_	Tone=4|Translit=yào
-5	这	这	DET	_	_	6	det/m	_	Tone=4|Translit=zhè
-6	样	样	NOUN	ADV	_	7	mod	_	Tone=2|Translit=yáng
+5	这	这	DET	_	_	6	det	_	Tone=4|Translit=zhè
+6	样	样	NOUN	_	_	7	mod	_	Tone=2|Translit=yáng
 7	说	说	VERB	_	_	4	comp:aux	_	Tone=1|Translit=shuō
 8	。	。	PUNCT	_	_	4	punct	_	Translit=。
 
@@ -7396,8 +7396,8 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG1F4D1
 # text_en = Doing it this way is not right.
 # translit = Zhèyàng zuò bù duì.
-1	这	这	DET	_	_	2	det/m	_	Grammar_Target=Yes|Tone=4|Translit=zhè
-2	样	样	NOUN	ADV	_	3	mod	_	Grammar_Target=Yes|Tone=2|Translit=yáng
+1	这	这	DET	_	_	2	det	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+2	样	样	NOUN	_	_	3	mod	_	Grammar_Target=Yes|Tone=2|Translit=yáng
 3	做	做	VERB	_	_	5	subj	_	Tone=4|Translit=zuò
 4	不	不	ADV	_	Polarity=Neg	5	mod	_	Tone=4|Translit=bù
 5	对	对	ADJ	_	_	0	root	_	Tone=4|Translit=dùi
@@ -7411,8 +7411,8 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG1F4D1
 # text_en = It's not polite to say this.
 # translit = Zhèyàng shuō bù lǐmào.
-1	这	这	DET	_	_	2	det/m	_	Grammar_Target=Yes|Tone=4|Translit=zhè
-2	样	样	NOUN	ADV	_	3	mod	_	Grammar_Target=Yes|Tone=2|Translit=yáng
+1	这	这	DET	_	_	2	det	_	Grammar_Target=Yes|Tone=4|Translit=zhè
+2	样	样	NOUN	_	_	3	mod	_	Grammar_Target=Yes|Tone=2|Translit=yáng
 3	说	说	VERB	_	_	5	subj	_	Tone=1|Translit=shuō
 4	不	不	ADV	_	Polarity=Neg	5	mod	_	Tone=4|Translit=bù
 5	礼	礼	ADJ	_	_	0	root	_	Tone=3|Translit=lǐ
@@ -7453,7 +7453,7 @@
 7	样	样	NOUN	ADV	_	8	mod	_	Grammar_Target=Yes|Tone=2|Translit=yáng
 8	想	想	VERB	_	_	9	comp:obj	_	Tone=3|Translit=xiǎng
 9	的	的	PART	_	Case=Gen	5	comp:pred	_	Tone=5|Translit=de
-10	吗	吗	PART	_	Mood=Inter	5	discourse	_	Tone=5|Translit=ma
+10	吗	吗	PART	_	Mood=Inter	5	discourse:sp	_	Tone=5|Translit=ma
 11	？	？	PUNCT	_	_	5	punct	_	Translit=？
 
 # sent_id = 1806
@@ -7574,7 +7574,7 @@
 7	还	还	ADV	_	_	8	mod	_	Tone=2|Translit=huán
 8	想	想	AUX	_	_	0	root	_	Tone=3|Translit=xiǎng
 9	去	去	VERB	_	_	8	comp:aux	_	Tone=4|Translit=qù
-10	吗	吗	PART	_	Mood=Inter	8	discourse	_	Tone=5|Translit=ma
+10	吗	吗	PART	_	Mood=Inter	8	discourse:sp	_	Tone=5|Translit=ma
 11	？	？	PUNCT	_	_	8	punct	_	Translit=？
 
 # sent_id = 1811
@@ -8066,7 +8066,7 @@
 7	是	是	AUX	_	_	2	comp:obj	_	Tone=4|Translit=shì
 8	傻	傻	ADJ	_	_	7	comp:pred	_	Tone=3|Translit=shǎ
 9	子	子	NOUN	_	_	8	/m	_	Tone=5|Translit=zi
-10	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
+10	吗	吗	PART	_	Mood=Inter	2	discourse:sp	_	Tone=5|Translit=ma
 11	？	？	PUNCT	_	_	2	punct	_	Translit=？
 12	就	就	SCONJ	_	_	14	cc	_	Grammar_Target=Yes|Tone=4|Translit=jìu
 13	你	你	PRON	_	Person=2	14	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
@@ -8205,7 +8205,7 @@
 6	个	个	NOUN	_	_	7	clf	_	Gloss=CLF|Tone=4|Translit=gè
 7	孩	孩	NOUN	_	_	4	comp:obj	_	Tone=2|Translit=hái
 8	子	子	NOUN	_	_	7	/m	_	Tone=5|Translit=zi
-9	吗	吗	PART	_	Mood=Inter	4	discourse	_	Tone=5|Translit=ma
+9	吗	吗	PART	_	Mood=Inter	4	discourse:sp	_	Tone=5|Translit=ma
 10	？	？	PUNCT	_	_	4	punct	_	Translit=？
 
 # sent_id = 1842
@@ -8816,7 +8816,7 @@
 12	一	一	ADV	_	_	13	/m	_	Gloss=one|Tone=1|Translit=yī
 13	会	会	ADV	_	_	11	mod	_	Tone=4|Translit=hùi
 14	儿	儿	PART	_	_	13	/m	_	Tone=2|Translit=ér
-15	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
+15	吧	吧	PART	_	_	11	discourse:sp	_	Tone=5|Translit=ba
 16	？	？	PUNCT	_	_	4	punct	_	Translit=？
 
 # sent_id = 1875
@@ -8966,7 +8966,7 @@
 10	要	要	AUX	_	_	3	parataxis	_	Tone=4|Translit=yào
 11	加	加	VERB	_	_	10	comp:aux	_	Tone=1|Translit=jiā
 12	班	班	NOUN	_	_	11	comp:obj	_	Tone=1|Translit=bān
-13	吗	吗	PART	_	Mood=Inter	10	discourse	_	Tone=5|Translit=ma
+13	吗	吗	PART	_	Mood=Inter	10	discourse:sp	_	Tone=5|Translit=ma
 14	？	？	PUNCT	_	_	3	punct	_	Translit=？
 
 # sent_id = 1881
@@ -8988,7 +8988,7 @@
 9	一	一	ADV	_	_	10	/m	_	Gloss=one|Tone=1|Translit=yī
 10	起	起	ADV	_	_	11	mod	_	Tone=3|Translit=qǐ
 11	去	去	VERB	_	_	6	parataxis	_	Tone=4|Translit=qù
-12	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
+12	吧	吧	PART	_	_	11	discourse:sp	_	Tone=5|Translit=ba
 13	。	。	PUNCT	_	_	6	punct	_	Translit=。
 
 # sent_id = 1883
@@ -9090,7 +9090,7 @@
 10	听	听	VERB	_	_	2	parataxis	_	Tone=1|Translit=tīng
 11	得	得	ADV	_	_	12	mod	_	Tone=2|Translit=dé
 12	懂	懂	VERB	_	_	10	comp:res	_	Tone=3|Translit=dǒng
-13	吗	吗	PART	_	Mood=Inter	10	discourse	_	Tone=5|Translit=ma
+13	吗	吗	PART	_	Mood=Inter	10	discourse:sp	_	Tone=5|Translit=ma
 14	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
 # sent_id = 1887
@@ -9131,7 +9131,7 @@
 7	天	天	NOUN	_	_	6	/m	_	Tone=1|Translit=tiān
 8	再	再	ADV	_	_	9	mod	_	Tone=4|Translit=zài
 9	去	去	VERB	_	_	4	parataxis	_	Tone=4|Translit=qù
-10	吧	吧	PART	_	_	9	discourse	_	Tone=5|Translit=ba
+10	吧	吧	PART	_	_	9	discourse:sp	_	Tone=5|Translit=ba
 11	。	。	PUNCT	_	_	4	punct	_	Translit=。
 
 # sent_id = 1889
@@ -9380,7 +9380,7 @@
 6	有	有	VERB	ADJ	_	8	comp:obj	_	Tone=3|Translit=yǒu
 7	钱	钱	NOUN	_	_	6	comp:obj/m	_	Tone=2|Translit=qián
 8	的	的	PART	_	Case=Gen	4	comp:pred	_	Tone=5|Translit=de
-9	吗	吗	PART	_	Mood=Inter	4	discourse	_	Tone=5|Translit=ma
+9	吗	吗	PART	_	Mood=Inter	4	discourse:sp	_	Tone=5|Translit=ma
 10	？	？	PUNCT	_	_	4	punct	_	Translit=？
 
 # sent_id = 1901
@@ -9471,7 +9471,7 @@
 5	爱	爱	ADJ	_	_	3	comp:pred	_	Tone=4|Translit=ài
 6	他	他	PRON	_	Person=3	7	comp:obj	_	Tone=1|Translit=tā
 7	的	的	PART	_	Case=Gen	5	mod	_	Tone=5|Translit=de
-8	吗	吗	PART	_	Mood=Inter	3	discourse	_	Tone=5|Translit=ma
+8	吗	吗	PART	_	Mood=Inter	3	discourse:sp	_	Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	3	punct	_	Translit=？
 10	怎	怎	ADV	_	_	12	mod	_	Tone=3|Translit=zěn
 11	么	么	ADV	_	_	10	/m	_	Tone=5|Translit=me
@@ -9537,7 +9537,7 @@
 8	较	较	ADV	_	_	7	/m	_	Grammar_Target=Yes|Tone=4|Translit=jiào
 9	方	方	ADJ	_	_	0	root	_	Tone=1|Translit=fāng
 10	便	便	ADJ	_	_	9	/m	_	Tone=4|Translit=biàn
-11	吧	吧	PART	_	_	9	discourse	_	Tone=5|Translit=ba
+11	吧	吧	PART	_	_	9	discourse:sp	_	Tone=5|Translit=ba
 12	？	？	PUNCT	_	_	9	punct	_	Translit=？
 
 # sent_id = 1912
@@ -9978,7 +9978,7 @@
 12	的	的	PART	_	Case=Gen	13	mod	_	Grammar_Target=Yes|Tone=5|Translit=de
 13	电	电	NOUN	_	_	2	comp:obj	_	Tone=4|Translit=diàn
 14	影	影	NOUN	_	_	13	/m	_	Tone=3|Translit=yǐng
-15	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
+15	吗	吗	PART	_	Mood=Inter	2	discourse:sp	_	Tone=5|Translit=ma
 16	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
 # sent_id = 1928
@@ -10733,7 +10733,7 @@
 13	一	一	NUM	_	_	14	/m	_	Gloss=one|Tone=1|Translit=yī
 14	会	会	NOUN	ADV	_	11	mod	_	Tone=4|Translit=hùi
 15	儿	儿	PART	_	_	14	/m	_	Tone=2|Translit=ér
-16	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
+16	吧	吧	PART	_	_	11	discourse:sp	_	Tone=5|Translit=ba
 17	。	。	PUNCT	_	_	11	punct	_	Translit=。
 
 # sent_id = 1967
@@ -10751,7 +10751,7 @@
 5	一	一	ADV	_	_	6	/m	_	Gloss=one|Tone=1|Translit=yī
 6	起	起	ADV	_	_	7	mod	_	Tone=3|Translit=qǐ
 7	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
-8	吧	吧	PART	_	_	7	discourse	_	Tone=5|Translit=ba
+8	吧	吧	PART	_	_	7	discourse:sp	_	Tone=5|Translit=ba
 9	，	，	PUNCT	_	_	7	punct	_	Translit=，
 10	一	一	NUM	_	NumType=Card	11	mod	_	Tone=1|Translit=yī
 11	个	个	NOUN	_	_	12	clf	_	Gloss=CLF|Tone=4|Translit=gè
@@ -10804,7 +10804,7 @@
 6	个	个	NOUN	_	_	7	clf	_	Gloss=CLF|Tone=4|Translit=gè
 7	地	地	NOUN	_	_	5	comp:obj	_	Tone=4|Translit=dì
 8	方	方	NOUN	_	_	7	/m	_	Tone=1|Translit=fāng
-9	吧	吧	PART	_	_	5	discourse	_	Tone=5|Translit=ba
+9	吧	吧	PART	_	_	5	discourse:sp	_	Tone=5|Translit=ba
 10	，	，	PUNCT	_	_	5	punct	_	Translit=，
 11	这	这	DET	_	_	14	mod@loc	_	Tone=4|Translit=zhè
 12	里	里	NOUN	_	_	11	/m	_	Tone=3|Translit=lǐ
@@ -10830,7 +10830,7 @@
 7	明	明	NOUN	_	_	9	mod@temp	_	Tone=2|Translit=míng
 8	天	天	NOUN	_	_	7	/m	_	Tone=1|Translit=tiān
 9	去	去	VERB	_	_	1	parataxis:new	_	Tone=4|Translit=qù
-10	吧	吧	PART	_	_	9	discourse	_	Tone=5|Translit=ba
+10	吧	吧	PART	_	_	9	discourse:sp	_	Tone=5|Translit=ba
 11	。	。	PUNCT	_	_	9	punct	_	Translit=。
 
 # sent_id = 1972
@@ -11012,7 +11012,7 @@
 11	票	票	NOUN	_	_	10	/m	_	Tone=4|Translit=piào
 12	买	买	VERB	_	_	4	parataxis:new	_	Tone=3|Translit=mǎi
 13	了	了	PART	_	_	12	aspect	_	Gloss=PRF|Tone=5|Translit=le
-14	吗	吗	PART	_	Mood=Inter	12	discourse	_	Tone=5|Translit=ma
+14	吗	吗	PART	_	Mood=Inter	12	discourse:sp	_	Tone=5|Translit=ma
 15	？	？	PUNCT	_	_	12	punct	_	Translit=？
 
 # sent_id = 1986
@@ -11310,7 +11310,7 @@
 14	找	找	VERB	_	_	7	parataxis:new	_	Tone=3|Translit=zhǎo
 15	地	地	NOUN	_	_	14	comp:obj	_	Tone=4|Translit=dì
 16	方	方	NOUN	_	_	15	/m	_	Tone=1|Translit=fāng
-17	吧	吧	PART	_	_	14	discourse	_	Tone=5|Translit=ba
+17	吧	吧	PART	_	_	14	discourse:sp	_	Tone=5|Translit=ba
 18	。	。	PUNCT	_	_	14	punct	_	Translit=。
 
 # sent_id = 1997
@@ -11446,7 +11446,7 @@
 6	让	让	VERB	_	_	2	conj	_	Tone=4|Translit=ràng
 7	他	他	PRON	_	Person=3	8	subj	_	Tone=1|Translit=tā
 8	去	去	VERB	_	_	6	comp:obj	_	Tone=4|Translit=qù
-9	吧	吧	PART	_	_	6	discourse	_	Tone=5|Translit=ba
+9	吧	吧	PART	_	_	6	discourse:sp	_	Tone=5|Translit=ba
 10	。	。	PUNCT	_	_	2	punct	_	Translit=。
 11	再	再	ADV	_	_	18	cc	_	Grammar_Target=Yes|Tone=4|Translit=zài
 12	说	说	VERB	_	_	11	/m	_	Grammar_Target=Yes|Tone=1|Translit=shuō
@@ -11516,7 +11516,7 @@
 19	还	还	ADV	_	_	21	mod	_	Tone=2|Translit=huán
 20	没	没	ADV	_	_	21	mod	_	Tone=2|Translit=méi
 21	吃	吃	VERB	_	_	1	parataxis:new	_	Tone=1|Translit=chī
-22	呢	呢	PART	_	_	21	discourse	_	Tone=2|Translit=ní
+22	呢	呢	PART	_	_	21	discourse:sp	_	Tone=2|Translit=ní
 23	。	。	PUNCT	_	_	21	punct	_	Translit=。
 
 # sent_id = 2005
@@ -11530,7 +11530,7 @@
 1	住	住	VERB	_	_	0	root	_	Tone=4|Translit=zhù
 2	我	我	PRON	_	Person=1	3	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
 3	家	家	NOUN	_	_	1	comp:obj	_	Tone=1|Translit=jiā
-4	吧	吧	PART	_	_	1	discourse	_	Tone=5|Translit=ba
+4	吧	吧	PART	_	_	1	discourse:sp	_	Tone=5|Translit=ba
 5	，	，	PUNCT	_	_	6	punct	_	Translit=，
 6	可	可	AUX	_	_	1	parataxis	_	Tone=3|Translit=kě
 7	以	以	AUX	_	_	6	/m	_	Tone=3|Translit=yǐ
@@ -11597,7 +11597,7 @@
 2	天	天	NOUN	_	_	1	/m	_	Tone=1|Translit=tiān
 3	去	去	VERB	_	_	0	root	_	Tone=4|Translit=qù
 4	买	买	VERB	_	_	3	compound:svc	_	Tone=3|Translit=mǎi
-5	吧	吧	PART	_	_	3	discourse	_	Tone=5|Translit=ba
+5	吧	吧	PART	_	_	3	discourse:sp	_	Tone=5|Translit=ba
 6	，	，	PUNCT	_	_	10	punct	_	Translit=，
 7	今	今	NOUN	_	_	10	mod@temp	_	Tone=1|Translit=jīn
 8	天	天	NOUN	_	_	7	/m	_	Tone=1|Translit=tiān
@@ -11694,7 +11694,7 @@
 14	的	的	PART	_	Case=Gen	15	mod	_	Tone=5|Translit=de
 15	办	办	NOUN	_	_	12	comp:obj	_	Tone=4|Translit=bàn
 16	法	法	NOUN	_	_	15	/m	_	Tone=3|Translit=fǎ
-17	吗	吗	PART	_	Mood=Inter	12	discourse	_	Tone=5|Translit=ma
+17	吗	吗	PART	_	Mood=Inter	12	discourse:sp	_	Tone=5|Translit=ma
 18	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
 # sent_id = 2012
@@ -11717,7 +11717,7 @@
 10	们	们	PART	_	Number=Plur|Person=1	9	/m	_	Tone=5|Translit=men
 11	开	开	VERB	_	_	4	parataxis	_	Tone=1|Translit=kāi
 12	始	始	NOUN	_	_	11	/m	_	Tone=3|Translit=shǐ
-13	吧	吧	PART	_	_	11	discourse	_	Tone=5|Translit=ba
+13	吧	吧	PART	_	_	11	discourse:sp	_	Tone=5|Translit=ba
 14	。	。	PUNCT	_	_	4	punct	_	Translit=。
 
 # sent_id = 2013
@@ -11736,7 +11736,7 @@
 6	我	我	PRON	_	Number=Plur|Person=1	8	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
 7	们	们	PART	_	Number=Plur|Person=1	6	/m	_	Tone=5|Translit=men
 8	走	走	VERB	_	_	2	parataxis	_	Tone=3|Translit=zǒu
-9	吧	吧	PART	_	_	8	discourse	_	Tone=5|Translit=ba
+9	吧	吧	PART	_	_	8	discourse:sp	_	Tone=5|Translit=ba
 10	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 2014
@@ -11760,7 +11760,7 @@
 11	这	这	ADV	_	_	13	mod	_	Tone=4|Translit=zhè
 12	么	么	ADV	_	_	11	/m	_	Tone=5|Translit=me
 13	办	办	VERB	_	_	2	parataxis	_	Tone=4|Translit=bàn
-14	吧	吧	PART	_	_	13	discourse	_	Tone=5|Translit=ba
+14	吧	吧	PART	_	_	13	discourse:sp	_	Tone=5|Translit=ba
 15	。	。	PUNCT	_	_	2	punct	_	Translit=。
 
 # sent_id = 2015
@@ -11788,7 +11788,7 @@
 15	得	得	PART	_	_	14	mod	_	Tone=2|Translit=dé
 16	很	很	ADV	_	_	17	mod	_	Tone=3|Translit=hěn
 17	好	好	ADJ	_	_	15	comp:obj	_	Tone=3|Translit=hǎo
-18	吧	吧	PART	_	_	14	discourse	_	Tone=5|Translit=ba
+18	吧	吧	PART	_	_	14	discourse:sp	_	Tone=5|Translit=ba
 19	？	？	PUNCT	_	_	14	punct	_	Translit=？
 
 # sent_id = 2016
@@ -11811,7 +11811,7 @@
 10	他	他	PRON	_	Person=3	11	subj	_	Tone=1|Translit=tā
 11	通	通	VERB	_	_	9	comp:obj	_	Tone=1|Translit=tōng
 12	过	过	VERB	_	_	11	comp:dir	_	Tone=4|Translit=guò
-13	吧	吧	PART	_	_	9	discourse	_	Tone=5|Translit=ba
+13	吧	吧	PART	_	_	9	discourse:sp	_	Tone=5|Translit=ba
 14	。	。	PUNCT	_	_	9	punct	_	Translit=。
 
 # sent_id = 2017
@@ -11839,7 +11839,7 @@
 15	去	去	VERB	_	_	8	parataxis	_	Tone=4|Translit=qù
 16	安	安	NOUN	_	_	15	comp:obj	_	Tone=1|Translit=ān
 17	排	排	NOUN	_	_	16	/m	_	Tone=2|Translit=pái
-18	吧	吧	PART	_	_	15	discourse	_	Tone=5|Translit=ba
+18	吧	吧	PART	_	_	15	discourse:sp	_	Tone=5|Translit=ba
 19	。	。	PUNCT	_	_	8	punct	_	Translit=。
 
 # sent_id = 2018
@@ -11899,7 +11899,7 @@
 17	起	起	ADV	_	_	18	mod	_	Tone=3|Translit=qǐ
 18	努	努	VERB	_	_	7	parataxis:new	_	Tone=3|Translit=nǔ
 19	力	力	NOUN	_	_	18	/m	_	Tone=4|Translit=lì
-20	吧	吧	PART	_	_	18	discourse	_	Tone=5|Translit=ba
+20	吧	吧	PART	_	_	18	discourse:sp	_	Tone=5|Translit=ba
 21	。	。	PUNCT	_	_	18	punct	_	Translit=。
 
 # sent_id = 2020
@@ -12391,7 +12391,7 @@
 7	看	看	VERB	_	_	6	compound:svc	_	Tone=4|Translit=kàn
 8	电	电	NOUN	_	_	7	comp:obj	_	Tone=4|Translit=diàn
 9	影	影	NOUN	_	_	8	/m	_	Tone=3|Translit=yǐng
-10	吧	吧	PART	_	_	6	discourse	_	Tone=5|Translit=ba
+10	吧	吧	PART	_	_	6	discourse:sp	_	Tone=5|Translit=ba
 11	？	？	PUNCT	_	_	6	punct	_	Translit=？
 
 # sent_id = 2043
@@ -13545,7 +13545,7 @@
 5	是	是	AUX	_	_	2	comp:obj	_	Tone=4|Translit=shì
 6	什	什	PRON	_	PronType=Int	5	comp:pred	_	Tone=2|Translit=shén
 7	么	么	PRON	_	_	6	/m	_	Tone=5|Translit=me
-8	吗	吗	PART	_	Mood=Inter	2	discourse	_	Grammar_Target=Yes|Tone=5|Translit=ma
+8	吗	吗	PART	_	Mood=Inter	2	discourse:sp	_	Grammar_Target=Yes|Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
 # sent_id = 2110
@@ -13928,7 +13928,7 @@
 5	友	友	NOUN	_	_	4	/m	_	Tone=3|Translit=yǒu
 6	过	过	VERB	_	_	3	comp:dir	_	Gloss=cross|Grammar_Target=Yes|Tone=4|Translit=guò
 7	来	来	VERB	_	_	6	comp:dir	_	Grammar_Target=Yes|Tone=2|Translit=lái
-8	吗	吗	PART	_	Mood=Inter	1	discourse	_	Tone=5|Translit=ma
+8	吗	吗	PART	_	Mood=Inter	1	discourse:sp	_	Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	1	punct	_	Translit=？
 
 # sent_id = 2447
@@ -14381,7 +14381,7 @@
 7	我	我	PRON	_	Number=Plur|Person=1	5	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 8	们	们	PART	_	Number=Plur|Person=1	7	/m	_	Tone=5|Translit=men
 9	的	的	PART	_	Case=Gen	4	comp:pred	_	Grammar_Target=Yes|Tone=5|Translit=de
-10	吗	吗	PART	_	Mood=Inter	4	discourse	_	Tone=5|Translit=ma
+10	吗	吗	PART	_	Mood=Inter	4	discourse:sp	_	Tone=5|Translit=ma
 11	？	？	PUNCT	_	_	4	punct	_	Translit=？
 
 # sent_id = 2552
@@ -15029,7 +15029,7 @@
 7	跑	跑	VERB	_	_	0	root	_	Tone=3|Translit=pǎo
 8	得	得	PART	_	_	7	mod	_	Tone=2|Translit=dé
 9	快	快	ADJ	_	_	8	comp:obj	_	Tone=4|Translit=kuài
-10	吗	吗	PART	_	Mood=Inter	7	discourse	_	Tone=5|Translit=ma
+10	吗	吗	PART	_	Mood=Inter	7	discourse:sp	_	Tone=5|Translit=ma
 11	？	？	PUNCT	_	_	7	punct	_	Translit=？
 
 # sent_id = 2739

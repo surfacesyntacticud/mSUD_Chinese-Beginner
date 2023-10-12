@@ -409,7 +409,7 @@
 15	指	指	VERB	_	_	14	comp:pred	_	Tone=3|Translit=zhǐ
 16	什	什	PRON	_	PronType=Int	15	comp:obj	_	Tone=2|Translit=shén
 17	么	么	PRON	_	_	16	/m	_	Tone=5|Translit=me
-18	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
+18	吗	吗	PART	_	Mood=Inter	2	discourse:sp	_	Tone=5|Translit=ma
 19	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
 # sent_id = 4450
@@ -916,7 +916,7 @@
 5	而	而	CCONJ	_	_	6	cc	_	Grammar_Target=Yes|Tone=2|Translit=ér
 6	工	工	VERB	_	_	2	comp:cleft	_	Tone=1|Translit=gōng
 7	作	作	NOUN	_	_	6	/m	_	Tone=4|Translit=zuò
-8	吗	吗	PART	_	Mood=Inter	2	discourse	_	Tone=5|Translit=ma
+8	吗	吗	PART	_	Mood=Inter	2	discourse:sp	_	Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	2	punct	_	Translit=？
 
 # sent_id = 4588
