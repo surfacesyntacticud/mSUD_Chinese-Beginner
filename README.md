@@ -53,4 +53,4 @@ grew transform -grs ../tools/converter/grs/zh_mSUD_to_UD.grs -config sud -strat 
 ```
 
 ## Contact us
-If you have any question or wish to add your contribution, feel free to contact Kirian GUILLER, Qishen WU, Yixuan LI, Yidi HUANG or Yingzi LIU
+If you have any question or wish to add your contribution, feel free to contact Kirian GUILLER, Yidi HUANG, Qishen WU, Yixuan LI.
