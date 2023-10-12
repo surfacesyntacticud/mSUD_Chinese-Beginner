@@ -2,7 +2,9 @@
 
 This treebank is a native mSUD treebank (morpheme level Surface Universal Dependencies) of mandarin chinese.
 
-The sentences of the corpus were taken from the [Chinese Grammar Wiki](https://resources.allsetlearning.com/chinese/grammar/Main_Page) (maintaned by AllsetLearning under the Creatives Commons CC BY-NC-SA 3.0 License).
+The sentences of the corpus were taken from the [Chinese Grammar Wiki](https://resources.allsetlearning.com/chinese/grammar/\) (maintaned by AllsetLearning under the Creatives Commons CC BY-NC-SA 3.0 License).
+
+You can browse and query this treebank on the [GREW-Match platform](https://universal.grew.fr/?corpus=mSUD_Chinese-Beginner@latest) as well as its word level equivalent [SUD_Chinese-Beginner](https://universal.grew.fr/?corpus=SUD_Chinese-Beginner@conv)
 
 ## Structure of the Treebank
 The Treebank is partitioned in 5 parts A1, A2, B1, B2 and C1 that represents different level of difficulty (from easiest to hardest). 
