@@ -629,7 +629,7 @@
 # structure_verbose = Expressing "from this" with "youci"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGLQNS3
 # text_orig = 最近 很多 贪官 因为 情妇 举报 而 落马，由此 看来，情妇 反腐 也 是 一 个 好 方法。
-1	最	最	ADV	_	_	14	mod@temp	_	SpaceAfter=No|Tone=4|Translit=zùi
+1	最	最	ADV	_	_	14	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=zùi
 2	近	近	ADV	_	_	1	/m	_	SpaceAfter=No|Tone=4|Translit=jìn
 3	很	很	ADV	_	_	4	mod	_	SpaceAfter=No|Tone=3|Translit=hěn
 4	多	多	ADJ	_	_	5	mod	_	SpaceAfter=No|Tone=1|Translit=duō
@@ -822,7 +822,7 @@
 4	义	义	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=4|Translit=yì
 5	政	政	NOUN	_	_	9	subj	_	SpaceAfter=No|Tone=4|Translit=zhèng
 6	府	府	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=3|Translit=fǔ
-7	通	通	ADV	_	_	9	mod@temp	_	SpaceAfter=No|Tone=1|Translit=tōng
+7	通	通	ADV	_	_	9	comp:obl@temp	_	SpaceAfter=No|Tone=1|Translit=tōng
 8	常	常	ADV	_	_	7	/m	_	SpaceAfter=No|Tone=2|Translit=cháng
 9	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 10	由	由	ADP	_	_	16	comp:obl	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=yóu
@@ -839,7 +839,7 @@
 21	主	主	NOUN	_	_	20	/m	_	SpaceAfter=No|Tone=3|Translit=zhǔ
 22	社	社	NOUN	_	_	26	subj	_	SpaceAfter=No|Tone=4|Translit=shè
 23	会	会	NOUN	_	_	22	/m	_	SpaceAfter=No|Tone=4|Translit=hùi
-24	通	通	ADV	_	_	26	mod@temp	_	SpaceAfter=No|Tone=1|Translit=tōng
+24	通	通	ADV	_	_	26	comp:obl@temp	_	SpaceAfter=No|Tone=1|Translit=tōng
 25	常	常	ADV	_	_	24	/m	_	SpaceAfter=No|Tone=2|Translit=cháng
 26	是	是	AUX	_	_	9	conj	_	SpaceAfter=No|Tone=4|Translit=shì
 27	由	由	ADP	_	_	30	comp:obl	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=yóu
