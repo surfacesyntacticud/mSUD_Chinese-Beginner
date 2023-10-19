@@ -617,8 +617,8 @@
 11	会	会	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=hùi
 12	辞	辞	VERB	_	_	11	comp:aux	_	SpaceAfter=No|Tone=2|Translit=cí
 13	去	去	VERB	_	_	12	comp:dir	_	SpaceAfter=No|Tone=4|Translit=qù
-14	现	现	NOUN	_	_	16	comp:obj	_	SpaceAfter=No|Tone=4|Translit=xiàn
-15	在	在	NOUN	_	_	14	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+14	现	现	VERB	NOUN	_	16	comp:obj	_	SpaceAfter=No|Tone=4|Translit=xiàn
+15	在	在	VERB	_	_	14	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 16	的	的	PART	_	Case=Gen	17	mod	_	SpaceAfter=No|Tone=5|Translit=de
 17	工	工	NOUN	_	_	12	comp:obj	_	SpaceAfter=No|Tone=1|Translit=gōng
 18	作	作	NOUN	_	_	17	/m	_	SpaceAfter=No|Tone=4|Translit=zuò
@@ -829,8 +829,8 @@
 # translit = Tā xiànzài huǒ de bùdéliǎo, měi gè rén dōu zhīdào tā.
 # text_orig = 他 现在 火 得 不得了，每个人 都 知道 他 。
 1	他	他	PRON	_	Person=3	4	subj	_	SpaceAfter=No|Tone=1|Translit=tā
-2	现	现	NOUN	_	_	4	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-3	在	在	NOUN	_	_	2	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+2	现	现	VERB	NOUN	_	4	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+3	在	在	VERB	_	_	2	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 4	火	火	ADJ	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=huǒ
 5	得	得	PART	_	_	4	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=dé
 6	不	不	ADV	_	Polarity=Neg	7	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
@@ -855,8 +855,8 @@
 # text_en = There are too many cars nowadays, so traffic is terrible.
 # translit = Xiànzài chē tài duō, lùshang dǔ de bùdéliǎo
 # text_orig = 现在 车 太 多 ，路上 堵 得 不得了。
-1	现	现	NOUN	_	_	5	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-2	在	在	NOUN	_	_	1	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+1	现	现	VERB	NOUN	_	5	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+2	在	在	VERB	_	_	1	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 3	车	车	NOUN	_	_	5	subj	_	SpaceAfter=No|Tone=1|Translit=chē
 4	太	太	ADV	_	_	5	mod	_	SpaceAfter=No|Tone=4|Translit=tài
 5	多	多	ADJ	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=duō
@@ -1007,8 +1007,8 @@
 # translit = Wǒ xiànzài shíjiān duō de hěn, nǐ qù nǎr wǒ dōu kěyǐ péi nǐ qù.
 # text_orig = 我 现在 时间 多 得 很 ，你 去 哪儿 我 都 可以 陪 你 去 。
 1	我	我	PRON	_	Person=1	4	mod	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
-2	现	现	NOUN	_	_	4	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-3	在	在	NOUN	_	_	2	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+2	现	现	VERB	NOUN	_	4	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+3	在	在	VERB	_	_	2	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 4	时	时	NOUN	_	_	6	subj	_	SpaceAfter=No|Tone=2|Translit=shí
 5	间	间	NOUN	_	_	4	/m	_	SpaceAfter=No|Tone=1|Translit=jiān
 6	多	多	ADJ	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=duō
@@ -1068,8 +1068,8 @@
 5	儿	儿	PART	_	_	4	/m	_	SpaceAfter=No|Tone=2|Translit=ér
 6	！	！	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=！
 7	我	我	PRON	_	Person=1	10	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
-8	现	现	NOUN	_	_	10	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-9	在	在	NOUN	_	_	8	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+8	现	现	VERB	NOUN	_	10	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+9	在	在	VERB	_	_	8	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 10	烦	烦	ADJ	_	_	3	parataxis:new	_	SpaceAfter=No|Tone=2|Translit=fán
 11	得	得	PART	_	_	10	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=dé
 12	很	很	ADV	_	_	11	comp:obj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=hěn
@@ -1309,8 +1309,8 @@
 # text_en = Isn't it a little too late to say sorry now?
 # translit = Xiànzài shuō “duìbùqǐ” shì bu shì wǎn le diǎnr?
 # text_orig = 现在 说 “对不起” 是 不 是 晚 了 点儿 ？
-1	现	现	NOUN	_	_	3	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-2	在	在	NOUN	_	_	1	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+1	现	现	VERB	NOUN	_	3	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+2	在	在	VERB	_	_	1	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 3	说	说	VERB	_	_	9	subj	_	SpaceAfter=No|Tone=1|Translit=shuō
 4	“	“	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=“
 5	对	对	PUNCT	_	_	3	comp:obj	_	SpaceAfter=No|Tone=4|Translit=dùi
@@ -2418,8 +2418,8 @@
 # text_en = Now it looks like things aren't that bad.
 # translit = Xiànzài kànlái, shìqing méi nàme zāo.
 # text_orig = 现在 看来 ，事情 没 那么 糟。
-1	现	现	NOUN	_	_	3	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-2	在	在	NOUN	_	_	1	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+1	现	现	VERB	NOUN	_	3	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+2	在	在	VERB	_	_	1	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 3	看	看	VERB	ADV	_	11	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=kàn
 4	来	来	VERB	_	_	3	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=lái
 5	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=，
@@ -3679,8 +3679,8 @@
 # text_en = Now that we have to wear a mask every day, I simply don't want to go out.
 # translit = Xiànzài měitiān dōu yào dài kǒuzhào, gāncuì bùyào chūmén le.
 # text_orig = 现在 每天 都 要 戴 口罩 ，干脆 不 要 出门 了。
-1	现	现	NOUN	_	_	6	mod	_	SpaceAfter=No|Tone=4|Translit=xiàn
-2	在	在	NOUN	_	_	1	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+1	现	现	VERB	NOUN	_	6	mod	_	SpaceAfter=No|Tone=4|Translit=xiàn
+2	在	在	VERB	_	_	1	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 3	每	每	DET	_	_	4	det	_	SpaceAfter=No|Tone=3|Translit=měi
 4	天	天	NOUN	_	_	6	mod@freq	_	SpaceAfter=No|Tone=1|Translit=tiān
 5	都	都	ADV	_	_	6	mod	_	SpaceAfter=No|Tone=1|Translit=dū
@@ -4992,8 +4992,8 @@
 # text_en = It's rush hour right now. There's no way to avoid the congestion in the subway.
 # translit = Xiànzài shì gāofēng qī, dìtiě nánmiǎn huì yōngjǐ.
 # text_orig = 现在 是 高峰期，地铁 难免  会 拥挤。
-1	现	现	NOUN	_	_	3	subj	_	SpaceAfter=No|Tone=4|Translit=xiàn
-2	在	在	NOUN	_	_	1	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+1	现	现	VERB	NOUN	_	3	subj	_	SpaceAfter=No|Tone=4|Translit=xiàn
+2	在	在	VERB	_	_	1	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 3	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 4	高	高	ADJ	_	_	6	mod/m	_	SpaceAfter=No|Tone=1|Translit=gāo
 5	峰	峰	NOUN	_	_	4	/m	_	SpaceAfter=No|Tone=1|Translit=fēng

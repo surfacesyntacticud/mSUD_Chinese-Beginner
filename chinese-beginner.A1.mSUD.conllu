@@ -25,8 +25,8 @@
 # text_orig = 我们 现在 没有 钱。
 1	我	我	PRON	_	Number=Plur|Person=1	6	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	们	们	PART	_	Number=Plur|Person=1	1	/m	_	SpaceAfter=No|Tone=5|Translit=men
-3	现	现	NOUN	_	_	6	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-4	在	在	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+3	现	现	VERB	NOUN	_	6	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+4	在	在	VERB	_	_	3	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 5	没	没	ADV	_	_	6	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=méi
 6	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 7	钱	钱	NOUN	_	_	6	comp:obj	_	SpaceAfter=No|Tone=2|Translit=qián
@@ -141,8 +141,8 @@
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	老	老	NOUN	_	_	8	subj	_	SpaceAfter=No|Tone=3|Translit=lǎo
 4	师	师	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=1|Translit=shī
-5	现	现	NOUN	_	_	8	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-6	在	在	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+5	现	现	VERB	NOUN	_	8	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+6	在	在	VERB	_	_	5	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 7	没	没	ADV	_	_	8	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=méi
 8	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 9	男	男	NOUN	_	_	10	/m	_	SpaceAfter=No|Tone=2|Translit=nán
@@ -2469,8 +2469,8 @@
 # translit = Tā xiànzài zài  jiā ma？
 # text_orig = 她 现在 在 家 吗？
 1	她	她	PRON	_	Person=3	4	subj	_	SpaceAfter=No|Tone=1|Translit=tā
-2	现	现	NOUN	_	_	4	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-3	在	在	NOUN	_	_	2	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+2	现	现	VERB	NOUN	_	4	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+3	在	在	VERB	_	_	2	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 4	在	在	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=zài
 5	家	家	NOUN	_	_	4	comp:obj	_	SpaceAfter=No|Tone=1|Translit=jiā
 6	吗	吗	PART	_	_	4	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ma
@@ -2739,8 +2739,8 @@
 # text_en = Is there anyone in the office now?
 # translit = Xiànzài  bàngōngshì lǐ yǒu rén ma?
 # text_orig = 现在 办公室 里 有 人 吗？
-1	现	现	NOUN	_	_	7	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-2	在	在	NOUN	_	_	1	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+1	现	现	VERB	NOUN	_	7	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+2	在	在	VERB	_	_	1	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 3	办	办	NOUN	_	_	6	comp:obj	_	SpaceAfter=No|Tone=4|Translit=bàn
 4	公	公	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=1|Translit=gōng
 5	室	室	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=4|Translit=shì
@@ -3084,8 +3084,8 @@
 # text_orig = 我们 现在 去 公园。
 1	我	我	PRON	_	Number=Plur|Person=1	5	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	们	们	PART	_	Number=Plur|Person=1	1	/m	_	SpaceAfter=No|Tone=5|Translit=men
-3	现	现	NOUN	_	_	5	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
-4	在	在	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+3	现	现	VERB	NOUN	_	5	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xiàn
+4	在	在	VERB	_	_	3	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 5	去	去	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=qù
 6	公	公	NOUN	_	_	5	comp:obj	_	SpaceAfter=No|Tone=1|Translit=gōng
 7	园	园	NOUN	_	_	6	/m	_	SpaceAfter=No|Tone=2|Translit=yuán
@@ -3777,8 +3777,8 @@
 # text_orig = 你们 现在 要 出去 吗？
 1	你	你	PRON	_	Number=Plur|Person=2	5	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	们	们	PART	_	Number=Plur|Person=2	1	/m	_	SpaceAfter=No|Tone=5|Translit=men
-3	现	现	NOUN	_	_	5	mod	_	SpaceAfter=No|Tone=4|Translit=xiàn
-4	在	在	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+3	现	现	VERB	NOUN	_	5	mod	_	SpaceAfter=No|Tone=4|Translit=xiàn
+4	在	在	VERB	_	_	3	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 5	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=yào
 6	出	出	VERB	_	_	5	comp:aux	_	SpaceAfter=No|Tone=1|Translit=chū
 7	去	去	VERB	_	_	6	comp:dir	_	SpaceAfter=No|Tone=4|Translit=qù
@@ -4080,8 +4080,8 @@
 # translit = Nǐ xiànzài bù kěyǐ jìnqù.
 # text_orig = 你 现在 不 可以 进去。
 1	你	你	PRON	_	Person=2	5	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-2	现	现	NOUN	_	_	5	mod	_	SpaceAfter=No|Tone=4|Translit=xiàn
-3	在	在	NOUN	_	_	2	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+2	现	现	VERB	NOUN	_	5	mod	_	SpaceAfter=No|Tone=4|Translit=xiàn
+3	在	在	VERB	_	_	2	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 4	不	不	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
 5	可	可	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=kě
 6	以	以	AUX	_	_	5	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǐ
@@ -4960,8 +4960,8 @@
 # text_en = Now it's too late.
 # translit = Xiànzài tài wǎn le.
 # text_orig = 现在 太 晚 了 。
-1	现	现	NOUN	_	_	4	subj	_	SpaceAfter=No|Tone=4|Translit=xiàn
-2	在	在	NOUN	_	_	1	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+1	现	现	VERB	NOUN	_	4	subj	_	SpaceAfter=No|Tone=4|Translit=xiàn
+2	在	在	VERB	_	_	1	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 3	太	太	ADV	_	_	4	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=tài
 4	晚	晚	ADJ	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=wǎn
 5	了	了	PART	_	_	4	discourse	_	Gloss=PRF|Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=le
@@ -6059,8 +6059,8 @@
 # translit = Wǒ xiànzài xiǎng qù xǐshǒujiān, kěyǐ ma?
 # text_orig = 我 现在 想 去 洗手间， 可以 吗 ？
 1	我	我	PRON	_	Person=1	4	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
-2	现	现	NOUN	_	_	4	mod	_	SpaceAfter=No|Tone=4|Translit=xiàn
-3	在	在	NOUN	_	_	2	/m	_	SpaceAfter=No|Tone=4|Translit=zài
+2	现	现	VERB	NOUN	_	4	mod	_	SpaceAfter=No|Tone=4|Translit=xiàn
+3	在	在	VERB	_	_	2	conj/m	_	SpaceAfter=No|Tone=4|Translit=zài
 4	想	想	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=xiǎng
 5	去	去	VERB	_	_	4	comp:aux	_	SpaceAfter=No|Tone=4|Translit=qù
 6	洗	洗	VERB	_	_	8	/m	_	SpaceAfter=No|Tone=3|Translit=xǐ
