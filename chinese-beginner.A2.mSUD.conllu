@@ -13081,7 +13081,7 @@
 3	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 4	她	她	PRON	_	Person=3	5	comp:obj	_	SpaceAfter=No|Tone=1|Translit=tā
 5	的	的	PART	_	Case=Gen	10	mod	_	SpaceAfter=No|Tone=5|Translit=de
-6	第	第	NOUN	_	NumType=Ord	7	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dì
+6	第	第	NOUN	_	_	7	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dì
 7	三	三	NUM	_	NumType=Card	8	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=sān
 8	个	个	NOUN	_	_	10	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 9	男	男	NOUN	_	_	10	/m	_	SpaceAfter=No|Tone=2|Translit=nán
@@ -13888,7 +13888,7 @@
 # text_orig = 我 爱 吃 四川 菜 ，因为 很 辣 。
 1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	爱	爱	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=ài
-3	吃	吃	VERB	_	_	2	comp:aux	_	SpaceAfter=No|Tone=1|Translit=chī
+3	吃	吃	VERB	_	_	2	comp:obj	_	SpaceAfter=No|Tone=1|Translit=chī
 4	四	四	PROPN	_	_	6	mod	_	SpaceAfter=No|Tone=4|Translit=sì
 5	川	川	PROPN	_	_	4	/m	_	SpaceAfter=No|Tone=1|Translit=chuān
 6	菜	菜	NOUN	_	_	3	comp:obj	_	SpaceAfter=No|Tone=4|Translit=cài
@@ -15257,7 +15257,7 @@
 4	边	边	ADV	CCONJ	_	5	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=biān
 5	走	走	VERB	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=zǒu
 6	一	一	ADV	_	_	7	/m	_	Gloss=one|Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=yī
-7	边	边	ADV	CCONJ	_	8	conj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=biān
+7	边	边	ADV	CCONJ	_	8	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=biān
 8	聊	聊	VERB	_	_	5	conj	_	SpaceAfter=No|Tone=2|Translit=liáo
 9	吧	吧	PART	_	_	5	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ba
 10	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
@@ -19310,10 +19310,10 @@
 # text_en = How do you read the fifth character from the second line?
 # translit = Dì-èr háng  dì-wǔ  gè Hànzì zěnme dú?
 # text_orig = 第 二 行 第 五 个 汉字 怎么 读？
-1	第	第	NOUN	_	NumType=Ord	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dì
+1	第	第	NOUN	_	_	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dì
 2	二	二	NUM	_	NumType=Card	1	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=èr
 3	行	行	NOUN	_	_	7	mod	_	SpaceAfter=No|Tone=2|Translit=xíng
-4	第	第	NOUN	_	NumType=Card	6	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dì
+4	第	第	NOUN	_	_	6	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dì
 5	五	五	NUM	_	NumType=Card	4	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=wǔ
 6	个	个	NOUN	_	_	7	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 7	汉	汉	NOUN	_	_	11	comp:obj	_	SpaceAfter=No|Tone=4|Translit=hàn

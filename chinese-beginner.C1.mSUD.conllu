@@ -482,7 +482,7 @@
 # structure_verbose = "Could it be that" with "qibushi"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG5HZG6
 # text_orig = 如果 连 你 都 不 帮 他，他 岂不是 死 定 了？！
-1	如	如	SCONJ	_	_	14	conj	_	SpaceAfter=No|Tone=2|Translit=rú
+1	如	如	SCONJ	_	_	14	mod	_	SpaceAfter=No|Tone=2|Translit=rú
 2	果	果	SCONJ	_	_	1	/m	_	SpaceAfter=No|Tone=3|Translit=guǒ
 3	连	连	ADV	_	_	7	mod	_	SpaceAfter=No|Tone=2|Translit=lián
 4	你	你	PRON	_	Person=2	7	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
@@ -1037,7 +1037,7 @@
 14	况	况	SCONJ	_	_	13	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=kuàng
 15	你	你	PRON	_	Person=2	16	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 16	是	是	VERB	_	_	13	comp:obj	_	SpaceAfter=No|Tone=4|Translit=shì
-17	第	第	NOUN	_	NumType=Ord	18	mod	_	SpaceAfter=No|Tone=4|Translit=dì
+17	第	第	NOUN	_	_	18	mod	_	SpaceAfter=No|Tone=4|Translit=dì
 18	一	一	NUM	_	NumType=Card	19	mod	_	SpaceAfter=No|Tone=1|Translit=yī
 19	次	次	NOUN	_	_	20	mod	_	SpaceAfter=No|Tone=4|Translit=cì
 20	来	来	VERB	_	_	16	comp:cleft	_	SpaceAfter=No|Tone=2|Translit=lái

@@ -1097,11 +1097,11 @@
 # text_en = Me or him?
 # translit = Wǒ háishì tā?
 # text_orig = 我 还是 他 ？
-1	我	我	PRON	_	Person=1	4	conj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	0	root	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	还	还	CCONJ	_	_	4	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=huán
 3	是	是	CCONJ	_	_	2	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
-4	他	他	PRON	_	Person=3	0	root	_	SpaceAfter=No|Tone=1|Translit=tā
-5	？	？	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=？
+4	他	他	PRON	_	Person=3	1	conj	_	SpaceAfter=No|Tone=1|Translit=tā
+5	？	？	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=？
 
 # sent_id = 60
 # structure = Option A + 还是 + Option B ?
@@ -3543,7 +3543,7 @@
 3	告	告	VERB	_	_	2	comp:aux	_	SpaceAfter=No|Tone=4|Translit=gào
 4	诉	诉	VERB	_	_	3	/m	_	SpaceAfter=No|Tone=4|Translit=sù
 5	我	我	PRON	_	Person=1	3	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
-6	她	她	PRON	_	Case=Gen	7	comp:obj	_	SpaceAfter=No|Tone=1|Translit=tā
+6	她	她	PRON	_	_	7	comp:obj	_	SpaceAfter=No|Tone=1|Translit=tā
 7	的	的	PART	_	Case=Gen	10	mod	_	SpaceAfter=No|Tone=5|Translit=de
 8	手	手	NOUN	_	_	10	mod	_	SpaceAfter=No|Tone=3|Translit=shǒu
 9	机	机	NOUN	_	_	8	/m	_	SpaceAfter=No|Tone=1|Translit=jī

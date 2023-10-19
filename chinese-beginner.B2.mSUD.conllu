@@ -5170,15 +5170,15 @@
 6	好	好	ADJ	_	_	7	mod	_	SpaceAfter=No|Tone=3|Translit=hǎo
 7	朋	朋	NOUN	_	_	5	comp:pred	_	SpaceAfter=No|Tone=2|Translit=péng
 8	友	友	NOUN	_	_	7	/m	_	SpaceAfter=No|Tone=3|Translit=yǒu
-9	，	，	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=，
-10	那	那	SCONJ	_	_	12	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=nà
-11	他	他	PRON	_	Person=3	12	subj	_	SpaceAfter=No|Tone=1|Translit=tā
-12	肯	肯	AUX	_	_	5	parataxis	_	SpaceAfter=No|Tone=3|Translit=kěn
+9	，	，	PUNCT	_	_	14	punct	_	SpaceAfter=No|Translit=，
+10	那	那	SCONJ	_	_	14	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=nà
+11	他	他	PRON	_	Person=3	14	subj	_	SpaceAfter=No|Tone=1|Translit=tā
+12	肯	肯	AUX	_	_	14	mod	_	SpaceAfter=No|Tone=3|Translit=kěn
 13	定	定	VERB	_	_	12	/m	_	SpaceAfter=No|Tone=4|Translit=dìng
-14	会	会	NOUN	_	_	13	comp:obj	_	SpaceAfter=No|Tone=4|Translit=hùi
+14	会	会	AUX	_	_	5	parataxis	_	SpaceAfter=No|Tone=4|Translit=hùi
 15	帮	帮	VERB	_	_	14	comp:aux	_	SpaceAfter=No|Tone=1|Translit=bāng
 16	你	你	PRON	_	Person=2	15	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-17	吧	吧	PART	_	_	12	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ba
+17	吧	吧	PART	_	_	14	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ba
 18	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 3862

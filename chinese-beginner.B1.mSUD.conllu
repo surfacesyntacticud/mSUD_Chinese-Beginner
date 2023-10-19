@@ -2997,7 +2997,7 @@
 3	怎	怎	ADV	_	_	5	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=zěn
 4	么	么	ADV	_	_	3	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=me
 5	爱	爱	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=ài
-6	说	说	VERB	_	_	5	comp:aux	_	SpaceAfter=No|Tone=1|Translit=shuō
+6	说	说	VERB	_	_	5	comp:obj	_	SpaceAfter=No|Tone=1|Translit=shuō
 7	话	话	NOUN	_	_	6	comp:obj	_	SpaceAfter=No|Tone=4|Translit=huà
 8	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
 
@@ -10304,7 +10304,7 @@
 # text_en = Running, swimming, basketball, and so on. He likes all these sports.
 # translit = Pǎobù, yóuyǒng, lánqiú shénme de, zhèxiē yùndòng tā dōu xǐhuan.
 # text_orig = 跑步、游泳 、篮球 什么的 ，这些 运动 他 都 喜欢 。
-1	跑	跑	NOUN	_	_	15	conj:appos	_	SpaceAfter=No|Tone=3|Translit=pǎo
+1	跑	跑	NOUN	_	_	19	comp:obj	_	SpaceAfter=No|Tone=3|Translit=pǎo
 2	步	步	NOUN	_	_	1	/m	_	SpaceAfter=No|Tone=4|Translit=bù
 3	、	、	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=、
 4	游	游	NOUN	_	_	1	conj	_	SpaceAfter=No|Tone=2|Translit=yóu
@@ -10318,7 +10318,7 @@
 12	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=，
 13	这	这	DET	_	_	14	det	_	SpaceAfter=No|Tone=4|Translit=zhè
 14	些	些	NOUN	_	_	15	clf	_	Gloss=CLF|SpaceAfter=No|Tone=1|Translit=xiē
-15	运	运	NOUN	_	_	19	comp:obj	_	SpaceAfter=No|Tone=4|Translit=yùn
+15	运	运	NOUN	_	_	1	conj:appos	_	SpaceAfter=No|Tone=4|Translit=yùn
 16	动	动	NOUN	_	_	15	/m	_	SpaceAfter=No|Tone=4|Translit=dòng
 17	他	他	PRON	_	Person=3	19	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 18	都	都	ADV	_	_	19	mod	_	SpaceAfter=No|Tone=1|Translit=dū
