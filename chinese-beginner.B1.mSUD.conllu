@@ -253,17 +253,17 @@
 # text_en = Please send all of those pictures to me.
 # translit = Qǐng bǎ nàxiē zhàopiàn dōu fā gěi wǒ.
 # text_orig = 请 把 那些 照片 都 发 给 我 。
-1	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	8	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 2	把	把	ADP	_	_	8	comp:obl	_	SpaceAfter=No|Tone=3|Translit=bǎ
 3	那	那	DET	_	_	4	mod	_	Gloss=DEM.DIST|SpaceAfter=No|Tone=4|Translit=nà
 4	些	些	NOUN	_	_	5	clf	_	Gloss=CLF|SpaceAfter=No|Tone=1|Translit=xiē
 5	照	照	NOUN	_	_	2	comp:obj	_	SpaceAfter=No|Tone=4|Translit=zhào
 6	片	片	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=4|Translit=piàn
 7	都	都	ADV	_	_	8	mod	_	SpaceAfter=No|Tone=1|Translit=dū
-8	发	发	VERB	_	_	1	comp:aux	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=fā
+8	发	发	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=fā
 9	给	给	ADP	_	_	8	comp:obl	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=gěi
 10	我	我	PRON	_	Person=1	9	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
-11	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+11	。	。	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 2470
 # structure = Subj. + Verb + 得 + Complement
@@ -8215,7 +8215,7 @@
 # text_en = Please inspect room by room.
 # translit = Qǐng yī gè fángjiān yī gè fángjiān jiǎnchá.
 # text_orig = 请 一 个 房间 一 个 房间 检查 。
-1	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	10	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 2	一	一	NUM	_	NumType=Card	3	mod	_	Gloss=one|Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=yī
 3	个	个	NOUN	_	_	4	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 4	房	房	NOUN	_	_	10	comp:obj	_	SpaceAfter=No|Tone=2|Translit=fáng
@@ -8224,9 +8224,9 @@
 7	个	个	NOUN	_	_	8	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 8	房	房	NOUN	_	_	4	conj:redup	_	SpaceAfter=No|Tone=2|Translit=fáng
 9	间	间	NOUN	_	_	8	/m	_	SpaceAfter=No|Tone=1|Translit=jiān
-10	检	检	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=3|Translit=jiǎn
+10	检	检	VERB	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=jiǎn
 11	查	查	VERB	_	_	10	/m	_	SpaceAfter=No|Tone=2|Translit=chá
-12	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+12	。	。	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1824
 # structure = 一 + Time Unit + 一 + Time Unit (+ Noun)
@@ -8716,15 +8716,15 @@
 # text_en = Please buy a ticket first and then enter.
 # translit = Qǐng nǐ xiān mǎi piào zài jìnqù.
 # text_orig = 请 你 先 买 票 再 进去。
-1	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	4	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 2	你	你	PRON	_	Person=2	4	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 3	先	先	ADV	_	_	4	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=xiān
-4	买	买	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=3|Translit=mǎi
+4	买	买	VERB	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=mǎi
 5	票	票	NOUN	_	_	4	comp:obj	_	SpaceAfter=No|Tone=4|Translit=piào
 6	再	再	CCONJ	_	_	7	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=zài
 7	进	进	VERB	_	_	4	conj	_	SpaceAfter=No|Tone=4|Translit=jìn
 8	去	去	VERB	_	_	7	comp:dir	_	SpaceAfter=No|Tone=4|Translit=qù
-9	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+9	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1848
 # structure = 先 ⋯⋯ ，再 ⋯⋯
@@ -11651,18 +11651,18 @@
 8	抽	抽	VERB	_	_	7	comp:aux	_	SpaceAfter=No|Tone=1|Translit=chōu
 9	烟	烟	NOUN	_	_	8	comp:obj	_	SpaceAfter=No|Tone=1|Translit=yān
 10	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=。
-11	还	还	ADV	_	_	14	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=huán
+11	还	还	ADV	_	_	19	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=huán
 12	有	有	VERB	_	_	11	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 13	，	，	PUNCT	_	_	11	punct	_	SpaceAfter=No|Translit=，
-14	请	请	AUX	_	_	7	parataxis:new	_	SpaceAfter=No|Tone=3|Translit=qǐng
+14	请	请	INTJ	_	_	19	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 15	你	你	PRON	_	Number=Plur|Person=2	17	mod	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 16	们	们	PART	_	Number=Plur|Person=2	15	/m	_	SpaceAfter=No|Tone=5|Translit=men
 17	声	声	NOUN	_	_	19	subj	_	SpaceAfter=No|Tone=1|Translit=shēng
 18	音	音	NOUN	_	_	17	/m	_	SpaceAfter=No|Tone=1|Translit=yīn
-19	小	小	ADJ	_	_	14	comp:aux	_	SpaceAfter=No|Tone=3|Translit=xiǎo
+19	小	小	ADJ	_	_	7	parataxis:new	_	SpaceAfter=No|Tone=3|Translit=xiǎo
 20	一	一	NUM	_	_	21	/m	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 21	点	点	ADV	_	_	19	mod	_	SpaceAfter=No|Tone=3|Translit=diǎn
-22	。	。	PUNCT	_	_	14	punct	_	SpaceAfter=No|Translit=。
+22	。	。	PUNCT	_	_	19	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1990
 # structure = ⋯⋯ ，另外 ，⋯⋯
@@ -14535,11 +14535,11 @@
 # text_en = Please stand up.
 # translit = Qǐng zhàn qǐlái.
 # text_orig = 请 站 起来 。
-1	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
-2	站	站	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=4|Translit=zhàn
+1	请	请	INTJ	_	_	2	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
+2	站	站	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=zhàn
 3	起	起	VERB	_	_	2	comp:dir	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐ
 4	来	来	VERB	_	_	3	comp:dir	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=lái
-5	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+5	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 2440
 # structure = Verb + [Compound Direction Complement]
@@ -14624,13 +14624,13 @@
 # text_en = Everyone, please stand up.
 # translit = Qǐng dàjiā zhàn qǐlái.
 # text_orig = 请 大家 站 起来 。
-1	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	4	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 2	大	大	ADJ	_	_	3	mod/m	_	Gloss=big|SpaceAfter=No|Tone=4|Translit=dà
 3	家	家	NOUN	_	_	4	subj	_	Gloss=family;home|SpaceAfter=No|Tone=1|Translit=jiā
-4	站	站	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=4|Translit=zhàn
+4	站	站	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=zhàn
 5	起	起	VERB	_	_	4	comp:dir	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐ
 6	来	来	VERB	_	_	5	comp:dir	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=lái
-7	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+7	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 2452
 # structure = Verb + 起来

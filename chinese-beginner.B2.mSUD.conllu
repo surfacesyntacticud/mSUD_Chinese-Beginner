@@ -1494,19 +1494,19 @@
 # text_en = I'm a big man. I've got plenty of strength.
 # translit = Wǒ yī gè dà nánrén, yǒudeshì lìqi.
 # text_orig = 我 一 个 大男人 ，有的是 力气 。
-1	我	我	PRON	_	Person=1	5	mod	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	8	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	一	一	NUM	_	NumType=Card	3	mod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 3	个	个	NOUN	_	_	5	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 4	大	大	ADJ	_	_	5	mod	_	Gloss=big|SpaceAfter=No|Tone=4|Translit=dà
-5	男	男	NOUN	_	_	10	comp:pred	_	SpaceAfter=No|Tone=2|Translit=nán
+5	男	男	NOUN	_	_	1	conj:appos	_	SpaceAfter=No|Tone=2|Translit=nán
 6	人	人	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=2|Translit=rén
-7	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=，
-8	有	有	VERB	_	_	10	subj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
-9	的	的	PART	_	Case=Gen	8	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
-10	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
-11	力	力	NOUN	_	_	10	comp:pred	_	SpaceAfter=No|Tone=4|Translit=lì
+7	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=，
+8	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
+9	的	的	PART	_	Case=Gen	8	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
+10	是	是	AUX	_	_	8	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
+11	力	力	NOUN	_	_	8	comp:obj	_	SpaceAfter=No|Tone=4|Translit=lì
 12	气	气	NOUN	_	_	11	/m	_	SpaceAfter=No|Tone=4|Translit=qì
-13	。	。	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=。
+13	。	。	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 2916
 # structure = Subj. + 有的是 + Noun
@@ -3208,12 +3208,12 @@
 # text_en = "He is a master, after all. Look how quickly he solved the problem.
 # translit = Dàodǐ shì ge gāoshǒu, zhème kuài jiù bǎ wèntí jiějué le!
 # text_orig = 到底 是 个 高手，这么 快 就 把 问题 解决 了！
-1	到	到	VERB	_	_	3	subj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dào
+1	到	到	VERB	_	_	3	mod	_	CpdPos=ADV|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dào
 2	底	底	NOUN	_	_	1	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=dǐ
 3	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-4	个	个	NOUN	_	_	6	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
+4	个	个	NOUN	_	_	5	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 5	高	高	ADJ	_	_	3	comp:pred	_	SpaceAfter=No|Tone=1|Translit=gāo
-6	手	手	NOUN	_	_	3	comp:pred	_	SpaceAfter=No|Tone=3|Translit=shǒu
+6	手	手	NOUN	_	_	5	/m	_	Gloss=hand|SpaceAfter=No|Tone=3|Translit=shǒu
 7	，	，	PUNCT	_	_	15	punct	_	SpaceAfter=No|Translit=，
 8	这	这	ADV	_	_	10	mod	_	SpaceAfter=No|Tone=4|Translit=zhè
 9	么	么	ADV	_	_	8	/m	_	SpaceAfter=No|Tone=5|Translit=me
@@ -3224,7 +3224,7 @@
 14	题	题	NOUN	_	_	13	/m	_	SpaceAfter=No|Tone=2|Translit=tí
 15	解	解	VERB	_	_	3	parataxis	_	SpaceAfter=No|Tone=3|Translit=jiě
 16	决	决	VERB	_	_	15	/m	_	SpaceAfter=No|Tone=2|Translit=jué
-17	了	了	PART	_	_	15	discourse	_	Gloss=PRF|SpaceAfter=No|Tone=5|Translit=le
+17	了	了	PART	_	_	15	aspect	_	Gloss=PRF|SpaceAfter=No|Tone=5|Translit=le
 18	！	！	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=！
 
 # sent_id = 3096

@@ -600,10 +600,10 @@
 4	在	在	AUX	_	_	0	root	_	Gloss=PROG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=zài
 5	上	上	VERB	_	_	4	comp:aux	_	Gloss=up|SpaceAfter=No|Tone=4|Translit=shàng
 6	课	课	NOUN	_	_	5	comp:obj	_	SpaceAfter=No|Tone=4|Translit=kè
-7	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=，
-8	请	请	AUX	_	_	4	parataxis	_	SpaceAfter=No|Tone=3|Translit=qǐng
+7	，	，	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=，
+8	请	请	INTJ	_	_	10	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 9	你	你	PRON	_	Person=2	10	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-10	等	等	VERB	_	_	8	comp:aux	_	Gloss=wait|SpaceAfter=No|Tone=3|Translit=děng
+10	等	等	VERB	_	_	4	parataxis	_	Gloss=wait|SpaceAfter=No|Tone=3|Translit=děng
 11	一	一	NUM	_	_	12	/m	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 12	会	会	NOUN	_	_	10	mod	_	SpaceAfter=No|Tone=4|Translit=hùi
 13	儿	儿	PART	_	_	12	/m	_	SpaceAfter=No|Tone=2|Translit=ér
@@ -5510,9 +5510,9 @@
 # text_en = Please come in.
 # translit = Qǐng jìn.
 # text_orig = 请 进 。
-1	请	请	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
-2	进	进	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=4|Translit=jìn
-3	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+1	请	请	INTJ	_	_	2	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
+2	进	进	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=jìn
+3	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1061
 # structure = 请 + Verb
@@ -5523,9 +5523,9 @@
 # text_en = Please sit down.
 # translit = Qǐng zuò.
 # text_orig = 请 坐 。
-1	请	请	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
-2	坐	坐	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=4|Translit=zuò
-3	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+1	请	请	INTJ	_	_	2	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
+2	坐	坐	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=zuò
+3	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1062
 # structure = 请 + Verb
@@ -5536,9 +5536,9 @@
 # text_en = Please speak.
 # translit = Qǐng shuō.
 # text_orig = 请 说 。
-1	请	请	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
-2	说	说	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=1|Translit=shuō
-3	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+1	请	请	INTJ	_	_	2	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
+2	说	说	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=shuō
+3	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1063
 # structure = 请 (+ 你) + Verb Phrase
@@ -5549,10 +5549,10 @@
 # text_en = Please have some tea.
 # translit = Qǐng hē chá.
 # text_orig = 请 喝 茶 。
-1	请	请	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
-2	喝	喝	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=1|Translit=hē
+1	请	请	INTJ	_	_	2	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
+2	喝	喝	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=hē
 3	茶	茶	NOUN	_	_	2	comp:obj	_	SpaceAfter=No|Tone=2|Translit=chá
-4	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+4	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1064
 # structure = 请 (+ 你) + Verb Phrase
@@ -5563,12 +5563,12 @@
 # text_en = Please do not be late.
 # translit = Qǐng bùyào chídào.
 # text_orig = 请 不要 迟到 。
-1	请	请	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	3	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
 2	不	不	ADV	_	Polarity=Neg	3	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
-3	要	要	AUX	_	_	1	comp:aux	_	SpaceAfter=No|Tone=4|Translit=yào
+3	要	要	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=yào
 4	迟	迟	ADJ	_	_	3	comp:aux	_	SpaceAfter=No|Tone=2|Translit=chí
 5	到	到	VERB	_	_	4	/m	_	SpaceAfter=No|Tone=4|Translit=dào
-6	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+6	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1065
 # structure = 请 (+ 你) + Verb Phrase
@@ -5579,11 +5579,11 @@
 # text_en = Please have a taste.
 # translit = Qǐng cháng yī cháng.
 # text_orig = 请 尝 一 尝 。
-1	请	请	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
-2	尝	尝	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=2|Translit=cháng
+1	请	请	INTJ	_	_	2	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
+2	尝	尝	VERB	_	_	0	root	_	SpaceAfter=No|Tone=2|Translit=cháng
 3	一	一	ADV	_	_	4	/m	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 4	尝	尝	VERB	_	_	2	conj:redup/m	_	SpaceAfter=No|Tone=2|Translit=cháng
-5	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+5	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1069
 # structure = Subj. + 要 + Noun
@@ -6210,12 +6210,12 @@
 # text_en = Please wait a little bit.
 # translit = Qǐng nǐ děng yīxià.
 # text_orig = 请 你 等 一下。You get the feeling that it shouldn't be a long wait.
-1	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	3	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 2	你	你	PRON	_	Person=2	3	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-3	等	等	VERB	_	_	1	comp:aux	_	Gloss=wait|SpaceAfter=No|Tone=3|Translit=děng
+3	等	等	VERB	_	_	0	root	_	Gloss=wait|SpaceAfter=No|Tone=3|Translit=děng
 4	一	一	ADV	_	_	5	/m	_	Gloss=one|Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=yī
 5	下	下	ADV	_	_	3	mod	_	Gloss=down|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=xià
-6	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+6	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1262
 # structure = Subj. + Verb + [Indirect Obj.] + [Direct Obj.]
@@ -9116,14 +9116,14 @@
 # text_en = Please speak more slowly.
 # translit = Qǐng nǐ shuō de màn yīdiǎn.
 # text_orig = 请 你 说 得 慢 一点  。
-1	请	请	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	3	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
 2	你	你	PRON	_	Person=2	3	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-3	说	说	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=1|Translit=shuō
+3	说	说	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=shuō
 4	得	得	PART	_	_	3	mod	_	SpaceAfter=No|Tone=2|Translit=dé
 5	慢	慢	ADJ	_	_	4	comp:obj	_	SpaceAfter=No|Tone=4|Translit=màn
 6	一	一	DET	_	_	7	det	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 7	点	点	ADV	_	_	5	mod	_	SpaceAfter=No|Tone=3|Translit=diǎn
-8	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+8	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1067
 # structure = 请 (+ 你) + Verb Phrase
@@ -9134,14 +9134,14 @@
 # text_en = Please listen to the teacher.
 # translit = Qǐng nǐ tīng lǎoshī de huà.
 # text_orig = 请 你 听 老师 的 话 。
-1	请	请	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	3	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
 2	你	你	PRON	_	Person=2	3	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-3	听	听	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=1|Translit=tīng
+3	听	听	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=tīng
 4	老	老	NOUN	_	_	6	comp:obj	_	SpaceAfter=No|Tone=3|Translit=lǎo
 5	师	师	NOUN	_	_	4	/m	_	SpaceAfter=No|Tone=1|Translit=shī
 6	的	的	PART	_	Case=Gen	7	mod	_	SpaceAfter=No|Tone=5|Translit=de
 7	话	话	NOUN	_	_	3	comp:obj	_	SpaceAfter=No|Tone=4|Translit=huà
-8	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+8	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1068
 # structure = 请 (+ 你) + Verb Phrase
@@ -9152,11 +9152,11 @@
 # text_en = Please leave.
 # translit = Qǐng nǐ líkāi.
 # text_orig = 请 你 离开 。
-1	请	请	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	3	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐng
 2	你	你	PRON	_	Person=2	3	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-3	离	离	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=2|Translit=lí
+3	离	离	VERB	_	_	0	root	_	SpaceAfter=No|Tone=2|Translit=lí
 4	开	开	VERB	_	_	3	/m	_	SpaceAfter=No|Tone=1|Translit=kāi
-5	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+5	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1076
 # structure = Subj. + 要 + Verb
@@ -11454,15 +11454,15 @@
 # text_en = Please say why.
 # translit = Qǐng nǐ shuō yīxià wèishénme.
 # text_orig = 请 你 说 一下 为什么。I feel it should be a quick explanation.
-1	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	3	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 2	你	你	PRON	_	Person=2	3	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-3	说	说	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=1|Translit=shuō
+3	说	说	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=shuō
 4	一	一	ADV	_	_	5	/m	_	Gloss=one|Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=yī
 5	下	下	ADV	_	_	3	mod	_	Gloss=down|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=xià
 6	为	为	PRON	_	PronType=Int	3	mod	_	SpaceAfter=No|Tone=4|Translit=wèi
 7	什	什	PRON	_	_	6	/m	_	SpaceAfter=No|Tone=2|Translit=shén
 8	么	么	PRON	_	_	7	/m	_	SpaceAfter=No|Tone=5|Translit=me
-9	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+9	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1256
 # structure = Subj. + Verb + 一下 + Obj.
@@ -15271,15 +15271,15 @@
 # text_en = Please write as you read.
 # translit = Qǐng nǐ yībiān dú yībiān xiě.
 # text_orig = 请 你 一边 读 一边 写 。
-1	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	5	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 2	你	你	PRON	_	Person=2	5	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 3	一	一	ADV	_	_	4	/m	_	Gloss=one|Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=yī
 4	边	边	ADV	_	_	5	cc	_	CpdPos=CCONJ|Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=biān
-5	读	读	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=2|Translit=dú
+5	读	读	VERB	_	_	0	root	_	SpaceAfter=No|Tone=2|Translit=dú
 6	一	一	ADV	_	_	7	/m	_	Gloss=one|Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=yī
 7	边	边	ADV	_	_	8	cc	_	CpdPos=CCONJ|Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=biān
 8	写	写	VERB	_	_	5	conj	_	SpaceAfter=No|Tone=3|Translit=xiě
-9	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+9	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 566
 # structure = Subj. + 一边 + Verb (，) + 一边 + Verb
@@ -17060,7 +17060,7 @@
 # text_en = Please read together with the teacher.
 # translit = Qǐng nǐmen  gēn lǎoshī yīqǐ dú.
 # text_orig = 请 你们 跟 老师 一起 读。
-1	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
+1	请	请	INTJ	_	_	9	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 2	你	你	PRON	_	Number=Plur|Person=2	9	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 3	们	们	PART	_	Number=Plur|Person=2	2	/m	_	SpaceAfter=No|Tone=5|Translit=men
 4	跟	跟	ADP	_	_	9	comp:obl	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=gēn
@@ -17068,8 +17068,8 @@
 6	师	师	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=1|Translit=shī
 7	一	一	ADV	_	_	8	/m	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 8	起	起	ADV	_	_	9	mod	_	SpaceAfter=No|Tone=3|Translit=qǐ
-9	读	读	VERB	_	_	1	comp:aux	_	SpaceAfter=No|Tone=2|Translit=dú
-10	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
+9	读	读	VERB	_	_	0	root	_	SpaceAfter=No|Tone=2|Translit=dú
+10	。	。	PUNCT	_	_	9	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 745
 # structure = Subj. + 跟 + Person + Verb + Obj.
@@ -18040,15 +18040,15 @@
 2	生	生	VERB	_	_	4	comp:obj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=shēng
 3	气	气	NOUN	_	_	2	comp:obj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=qì
 4	的	的	PART	_	Case=Gen	5	mod	_	SpaceAfter=No|Tone=5|Translit=de
-5	时	时	NOUN	_	_	8	comp:obl@temp	_	SpaceAfter=No|Tone=2|Translit=shí
+5	时	时	NOUN	_	_	11	comp:obl@temp	_	SpaceAfter=No|Tone=2|Translit=shí
 6	候	候	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=4|Translit=hòu
 7	，	，	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=，
-8	请	请	AUX	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=qǐng
+8	请	请	INTJ	_	_	11	discourse	_	SpaceAfter=No|Tone=3|Translit=qǐng
 9	你	你	PRON	_	Person=2	11	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 10	不	不	ADV	_	Polarity=Neg	11	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
-11	要	要	AUX	_	_	8	comp:aux	_	SpaceAfter=No|Tone=4|Translit=yào
+11	要	要	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=yào
 12	笑	笑	VERB	_	_	11	comp:aux	_	Gloss=laugh|SpaceAfter=No|Tone=4|Translit=xiào
-13	。	。	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=。
+13	。	。	PUNCT	_	_	11	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 833
 # structure = (Subj.) + Verb / Adj. + 的 时候, ....
