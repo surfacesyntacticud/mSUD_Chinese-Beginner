@@ -4688,7 +4688,7 @@
 # text_orig = 对 你 而言 ，我 就是 一 个 这样 的 人 吗？
 1	对	对	ADP	_	_	8	comp:obl	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dùi
 2	你	你	PRON	_	Person=2	1	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-3	而	而	VERB	_	_	1	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=ér
+3	而	而	VERB	_	_	1	fixed	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=ér
 4	言	言	VERB	_	_	3	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=yán
 5	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=，
 6	我	我	PRON	_	Person=1	8	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
@@ -5276,7 +5276,7 @@
 14	要	要	VERB	_	_	13	/m	_	SpaceAfter=No|Tone=4|Translit=yào
 15	跑	跑	VERB	_	_	19	comp:obj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=pǎo
 16	来	来	VERB	_	_	15	comp:dir	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=lái
-17	跑	跑	VERB	_	_	15	conj:redup/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=pǎo
+17	跑	跑	VERB	_	_	15	conj:redup	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=pǎo
 18	去	去	VERB	_	_	17	comp:dir	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=qù
 19	的	的	PART	_	_	13	comp:obj	_	SpaceAfter=No|Tone=5|Translit=de
 20	！	！	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=！

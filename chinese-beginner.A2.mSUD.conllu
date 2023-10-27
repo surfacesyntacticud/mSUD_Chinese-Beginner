@@ -6235,7 +6235,7 @@
 7	个	个	NOUN	_	_	8	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 8	好	好	ADJ	_	_	3	comp:obj	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
 9	消	消	NOUN	_	_	8	comp:obj	_	SpaceAfter=No|Tone=1|Translit=xiāo
-10	息	息	NOUN	_	_	8	/m	_	SpaceAfter=No|Tone=1|Translit=xī
+10	息	息	NOUN	_	_	9	/m	_	SpaceAfter=No|Tone=1|Translit=xī
 11	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1263
@@ -11010,7 +11010,7 @@
 6	待	待	VERB	_	_	5	comp:aux	_	SpaceAfter=No|Tone=4|Translit=dài
 7	在	在	ADP	_	_	6	comp:obl	_	Gloss=at;on;in|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=zài
 8	家	家	NOUN	_	_	9	mod	_	Gloss=family;home|SpaceAfter=No|Tone=1|Translit=jiā
-9	里	里	NOUN	_	_	7	comp:obl/m	_	SpaceAfter=No|Tone=3|Translit=lǐ
+9	里	里	NOUN	_	_	7	comp:obl	_	SpaceAfter=No|Tone=3|Translit=lǐ
 10	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 1220

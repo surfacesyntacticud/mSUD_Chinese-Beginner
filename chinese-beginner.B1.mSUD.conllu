@@ -10856,10 +10856,10 @@
 # text_orig = 北京、上海、广州 等 城市 的 经济 都 很 发达 。
 1	北	北	PROPN	_	_	10	mod	_	SpaceAfter=No|Tone=3|Translit=běi
 2	京	京	PROPN	_	_	1	/m	_	SpaceAfter=No|Tone=1|Translit=jīng
-3	、	、	CCONJ	_	_	4	punct	_	SpaceAfter=No|Translit=、
+3	、	、	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=、
 4	上	上	PROPN	_	_	1	conj	_	Gloss=up|SpaceAfter=No|Tone=4|Translit=shàng
 5	海	海	PROPN	_	_	4	/m	_	SpaceAfter=No|Tone=3|Translit=hǎi
-6	、	、	CCONJ	_	_	7	cc	_	SpaceAfter=No|Translit=、
+6	、	、	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=、
 7	广	广	PROPN	_	_	4	conj	_	SpaceAfter=No|Tone=3|Translit=guǎng
 8	州	州	PROPN	_	_	7	/m	_	SpaceAfter=No|Tone=1|Translit=zhōu
 9	等	等	PART	_	_	7	conj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=děng
@@ -14770,11 +14770,11 @@
 3	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 4	世	世	NOUN	_	_	6	mod	_	SpaceAfter=No|Tone=4|Translit=shì
 5	界	界	NOUN	_	_	4	/m	_	SpaceAfter=No|Tone=4|Translit=jiè
-6	上	上	NOUN	_	_	9	comp:obl	_	Gloss=up|SpaceAfter=No|Tone=4|Translit=shàng
-7	最	最	ADV	_	_	9	mod	_	SpaceAfter=No|Tone=4|Translit=zùi
-8	国	国	NOUN	_	_	11	comp:obj	_	SpaceAfter=No|Tone=2|Translit=guó
-9	际	际	NOUN	_	_	11	comp:obj	_	SpaceAfter=No|Tone=4|Translit=jì
-10	化	化	NOUN	_	_	8	/m	_	SpaceAfter=No|Tone=4|Translit=huà
+6	上	上	NOUN	_	_	10	comp:obl	_	Gloss=up|SpaceAfter=No|Tone=4|Translit=shàng
+7	最	最	ADV	_	_	10	mod	_	SpaceAfter=No|Tone=4|Translit=zùi
+8	国	国	NOUN	_	_	10	/m	_	SpaceAfter=No|Tone=2|Translit=guó
+9	际	际	NOUN	_	_	8	comp:obj/m	_	SpaceAfter=No|Tone=4|Translit=jì
+10	化	化	NOUN	_	_	12		_	CpdPos=ADJ|SpaceAfter=No|Tone=4|Translit=huà
 11	的	的	PART	_	Case=Gen	12	mod	_	SpaceAfter=No|Tone=5|Translit=de
 12	城	城	NOUN	_	_	3	comp:pred	_	SpaceAfter=No|Tone=2|Translit=chéng
 13	市	市	NOUN	_	_	12	/m	_	SpaceAfter=No|Tone=4|Translit=shì
