@@ -4748,8 +4748,8 @@
 4	大	大	ADJ	_	_	5	mod	_	Gloss=big|SpaceAfter=No|Tone=4|Translit=dà
 5	革	革	NOUN	_	_	1	comp:obj	_	SpaceAfter=No|Tone=2|Translit=gé
 6	命	命	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=4|Translit=mìng
-7	而	而	VERB	_	_	1	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=ér
-8	言	言	VERB	_	_	1	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=yán
+7	而	而	VERB	_	_	5	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=ér
+8	言	言	VERB	_	_	7	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=yán
 9	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=，
 10	大	大	ADJ	_	_	11	mod	_	Gloss=big|SpaceAfter=No|Tone=4|Translit=dà
 11	部	部	NOUN	_	_	13	comp:obj	_	SpaceAfter=No|Tone=4|Translit=bù

@@ -3280,7 +3280,7 @@
 # translit = Tā zuótiān yī tiān dōu zài dǎ yóuxì, yīzhí dǎ dào tā māma huí jiā.
 # text_orig = 他 昨天 一天 都 在 打游戏 ，一直 打 到 他 妈妈 回家 。
 1	他	他	PRON	_	Person=3	7	subj	_	SpaceAfter=No|Tone=1|Translit=tā
-2	昨	昨	NOUN	_	_	7	mod/m	_	Gloss=yesterday|SpaceAfter=No|Tone=2|Translit=zuó
+2	昨	昨	NOUN	_	_	7	mod	_	Gloss=yesterday|SpaceAfter=No|Tone=2|Translit=zuó
 3	天	天	NOUN	_	_	2	/m	_	Gloss=day|SpaceAfter=No|Tone=1|Translit=tiān
 4	一	一	NUM	_	NumType=Card	5	mod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 5	天	天	NOUN	_	_	7	mod	_	Gloss=day|SpaceAfter=No|Tone=1|Translit=tiān
