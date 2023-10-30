@@ -10558,7 +10558,7 @@
 5	服	服	NOUN	_	_	4	/m	_	SpaceAfter=No|Tone=2|Translit=fú
 6	都	都	ADV	_	_	7	mod	_	SpaceAfter=No|Tone=1|Translit=dū
 7	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-8	G	g	PROPN	_	_	7	comp:pred	_	SpaceAfter=No|Translit=G
+8	G	g	PROPN	_	_	20	comp:obj	_	SpaceAfter=No|Translit=G
 9	u	u	PROPN	_	_	8	flat:foreign/m	_	SpaceAfter=No|Translit=u
 10	c	c	PROPN	_	_	9	flat:foreign/m	_	SpaceAfter=No|Translit=c
 11	c	c	PROPN	_	_	10	flat:foreign/m	_	SpaceAfter=No|Translit=c
@@ -10570,7 +10570,7 @@
 17	n	n	PROPN	_	_	16	flat:foreign/m	_	SpaceAfter=No|Translit=n
 18	e	e	PROPN	_	_	17	flat:foreign/m	_	SpaceAfter=No|Translit=e
 19	l	l	PROPN	_	_	18	flat:foreign/m	_	SpaceAfter=No|Translit=l
-20	之	之	NOUN	_	_	15	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=zhī
+20	之	之	NOUN	_	_	21	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=zhī
 21	类	类	NOUN	_	_	22	comp:obj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=lèi
 22	的	的	PART	_	Case=Gen	23	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 23	名	名	NOUN	_	_	7	comp:pred	_	SpaceAfter=No|Tone=2|Translit=míng
@@ -14752,8 +14752,8 @@
 15	尼	尼	PROPN	_	_	13	/m	_	SpaceAfter=No|Tone=2|Translit=ní
 16	电	电	NOUN	_	_	7	comp:pred	_	SpaceAfter=No|Tone=4|Translit=diàn
 17	影	影	NOUN	_	_	16	/m	_	SpaceAfter=No|Tone=3|Translit=yǐng
-18	之	之	NOUN	_	_	7	comp:pred	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=zhī
-19	一	一	NOUN	_	_	7	comp:pred	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=yī
+18	之	之	NOUN	_	_	16	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=zhī
+19	一	一	NOUN	_	_	18	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=yī
 20	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 2516

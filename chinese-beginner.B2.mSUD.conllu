@@ -2440,7 +2440,7 @@
 # text_en = It suddenly rained that day, so we had to cancel it.
 # translit = Nà tiān tūrán xià yǔ le, wǒmen zhǐhǎo qǔxiāo.
 # text_orig = 那天 突然 下雨 了 ，我们 只好 取消 。
-1	那	那	NOUN	_	_	2	det	_	SpaceAfter=No|Tone=4|Translit=nà
+1	那	那	DET	_	_	2	det	_	SpaceAfter=No|Tone=4|Translit=nà
 2	天	天	NOUN	_	_	5	comp:obl@temp	_	SpaceAfter=No|Tone=1|Translit=tiān
 3	突	突	ADV	_	_	5	mod	_	SpaceAfter=No|Tone=1|Translit=tū
 4	然	然	ADV	_	_	3	/m	_	SpaceAfter=No|Tone=2|Translit=rán
@@ -3957,7 +3957,7 @@
 2	本	本	ADV	_	_	4	comp:obl@temp	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=běn
 3	来	来	ADV	_	_	2	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=lái
 4	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-5	要	要	AUX	_	_	4	comp:pred	_	SpaceAfter=No|Tone=4|Translit=yào
+5	要	要	AUX	_	_	7	comp:obj	_	SpaceAfter=No|Tone=4|Translit=yào
 6	去	去	VERB	_	_	5	comp:aux	_	SpaceAfter=No|Tone=4|Translit=qù
 7	的	的	PART	_	Case=Gen	4	comp:pred	_	SpaceAfter=No|Tone=5|Translit=de
 8	，	，	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=，
@@ -4021,7 +4021,7 @@
 2	本	本	ADV	_	_	4	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=běn
 3	来	来	ADV	_	_	2	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=lái
 4	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-5	应	应	AUX	_	_	4	comp:pred	_	SpaceAfter=No|Tone=4|Translit=yìng
+5	应	应	AUX	_	_	11	comp:obj	_	SpaceAfter=No|Tone=4|Translit=yìng
 6	该	该	AUX	_	_	5	/m	_	SpaceAfter=No|Tone=1|Translit=gāi
 7	考	考	VERB	_	_	5	comp:aux	_	SpaceAfter=No|Tone=3|Translit=kǎo
 8	得	得	PART	_	_	7	mod	_	SpaceAfter=No|Tone=2|Translit=dé
@@ -4031,7 +4031,7 @@
 12	，	，	PUNCT	_	_	18	punct	_	SpaceAfter=No|Translit=，
 13	可	可	SCONJ	_	_	18	cc	_	SpaceAfter=No|Tone=3|Translit=kě
 14	是	是	SCONJ	_	_	13	/m	_	SpaceAfter=No|Tone=4|Translit=shì
-15	那	那	NOUN	_	_	16	det	_	SpaceAfter=No|Tone=4|Translit=nà
+15	那	那	DET	_	_	16	det	_	SpaceAfter=No|Tone=4|Translit=nà
 16	天	天	NOUN	_	_	18	mod	_	Gloss=day|SpaceAfter=No|Tone=1|Translit=tiān
 17	他	他	PRON	_	Person=3	18	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 18	生	生	VERB	_	_	4	parataxis	_	SpaceAfter=No|Tone=1|Translit=shēng
@@ -4278,7 +4278,7 @@
 3	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 4	双	双	NUM	_	NumType=Card	5	mod	_	SpaceAfter=No|Tone=1|Translit=shuāng
 5	胞	胞	NOUN	_	_	3	comp:pred	_	SpaceAfter=No|Tone=1|Translit=bāo
-6	胎	胎	NOUN	_	_	3	comp:pred	_	SpaceAfter=No|Tone=1|Translit=tāi
+6	胎	胎	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=1|Translit=tāi
 7	，	，	PUNCT	_	_	16	punct	_	SpaceAfter=No|Translit=，
 8	但	但	SCONJ	_	_	16	cc	_	SpaceAfter=No|Tone=4|Translit=dàn
 9	是	是	SCONJ	_	_	8	/m	_	SpaceAfter=No|Tone=4|Translit=shì
@@ -4420,7 +4420,7 @@
 7	是	是	AUX	_	_	2	parataxis	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
 8	不	不	ADV	_	Polarity=Neg	9	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
 9	小	小	ADJ	_	_	7	comp:pred	_	SpaceAfter=No|Tone=3|Translit=xiǎo
-10	心	心	NOUN	_	_	7	comp:pred	_	SpaceAfter=No|Tone=1|Translit=xīn
+10	心	心	NOUN	_	_	9	/m	_	SpaceAfter=No|Tone=1|Translit=xīn
 11	，	，	PUNCT	_	_	14	punct	_	SpaceAfter=No|Translit=，
 12	而	而	CCONJ	_	_	14	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=ér
 13	不	不	ADV	_	Polarity=Neg	14	mod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
@@ -4672,7 +4672,7 @@
 7	张	张	NOUN	_	_	6	/m	_	SpaceAfter=No|Tone=1|Translit=zhāng
 8	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 9	不	不	ADV	_	Polarity=Neg	10	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
-10	可	可	ADJ	_	_	8	comp:pred	_	SpaceAfter=No|Tone=3|Translit=kě
+10	可	可	ADJ	_	_	12	comp:obj	_	SpaceAfter=No|Tone=3|Translit=kě
 11	能	能	ADJ	_	_	10	/m	_	SpaceAfter=No|Tone=2|Translit=néng
 12	的	的	PART	_	_	8	comp:pred	_	SpaceAfter=No|Tone=5|Translit=de
 13	。	。	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=。
@@ -4714,7 +4714,7 @@
 # text_orig = 这 件 事，大家 都 是 有 责任 的，包括 政府 在内 。
 1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
 2	件	件	NOUN	_	_	3	clf	_	SpaceAfter=No|Tone=4|Translit=jiàn
-3	事	事	NOUN	_	_	8	comp:pred	_	SpaceAfter=No|Tone=4|Translit=shì
+3	事	事	NOUN	_	_	8	mod	_	SpaceAfter=No|Tone=4|Translit=shì
 4	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=，
 5	大	大	ADJ	_	_	6	mod	_	Gloss=big|SpaceAfter=No|Tone=4|Translit=dà
 6	家	家	NOUN	_	_	8	subj	_	Gloss=family;home|SpaceAfter=No|Tone=1|Translit=jiā
@@ -5021,7 +5021,7 @@
 2	汉	汉	NOUN	_	_	1	comp:obj	_	SpaceAfter=No|Tone=4|Translit=hàn
 3	语	语	NOUN	_	_	2	/m	_	SpaceAfter=No|Tone=3|Translit=yǔ
 4	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-5	值	值	ADJ	_	_	4	comp:pred	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=zhí
+5	值	值	ADJ	_	_	7	comp:obj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=zhí
 6	得	得	ADJ	_	_	5	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=dé
 7	的	的	PART	_	_	4	comp:pred	_	SpaceAfter=No|Tone=5|Translit=de
 8	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=。
@@ -5141,7 +5141,7 @@
 6	然	然	SCONJ	_	_	5	/m	_	SpaceAfter=No|Tone=2|Translit=rán
 7	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 8	名	名	NOUN	_	_	7	comp:pred	_	SpaceAfter=No|Tone=2|Translit=míng
-9	牌	牌	NOUN	_	_	7	comp:pred	_	SpaceAfter=No|Tone=2|Translit=pái
+9	牌	牌	NOUN	_	_	8	/m	_	SpaceAfter=No|Tone=2|Translit=pái
 10	，	，	PUNCT	_	_	19	punct	_	SpaceAfter=No|Translit=，
 11	但	但	SCONJ	_	_	19	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dàn
 12	是	是	SCONJ	_	_	11	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
