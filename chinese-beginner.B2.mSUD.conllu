@@ -3165,7 +3165,7 @@
 9	不	不	ADV	_	_	12	mod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
 10	得	得	SCONJ	_	_	9	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=dé
 11	不	不	ADV	_	Polarity=Neg	9	/m	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
-12	服	服	VERB	_	_	4	flat	_	SpaceAfter=No|Tone=2|Translit=fú
+12	服	服	VERB	_	_	4	parataxis:new	_	SpaceAfter=No|Tone=2|Translit=fú
 13	从	从	ADP	_	_	12	/m	_	SpaceAfter=No|Tone=2|Translit=cóng
 14	公	公	NOUN	_	_	16	comp:obj	_	SpaceAfter=No|Tone=1|Translit=gōng
 15	司	司	NOUN	_	_	14	/m	_	SpaceAfter=No|Tone=1|Translit=sī
@@ -5309,7 +5309,7 @@
 17	，	，	PUNCT	_	_	11	punct	_	SpaceAfter=No|Translit=，
 18	常	常	ADV	_	_	20	mod	_	SpaceAfter=No|Tone=2|Translit=cháng
 19	常	常	ADV	_	_	18	conj:redup/m	_	SpaceAfter=No|Tone=2|Translit=cháng
-20	会	会	AUX	_	_	11	flat	_	SpaceAfter=No|Tone=4|Translit=hùi
+20	会	会	AUX	_	_	11	parataxis:new	_	SpaceAfter=No|Tone=4|Translit=hùi
 21	做	做	VERB	_	_	20	comp:aux	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
 22	一	一	NUM	_	_	23	mod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 23	些	些	NOUN	_	_	24	clf	_	Gloss=CLF|SpaceAfter=No|Tone=1|Translit=xiē
@@ -5320,7 +5320,7 @@
 28	时	时	NOUN	_	_	27	comp:obj	_	SpaceAfter=No|Tone=2|Translit=shí
 29	候	候	NOUN	_	_	28	/m	_	SpaceAfter=No|Tone=4|Translit=hòu
 30	还	还	ADV	_	_	31	mod	_	SpaceAfter=No|Tone=2|Translit=huán
-31	会	会	AUX	_	_	20	flat	_	SpaceAfter=No|Tone=4|Translit=hùi
+31	会	会	AUX	_	_	20	parataxis:new	_	SpaceAfter=No|Tone=4|Translit=hùi
 32	跳	跳	VERB	_	_	31	comp:aux	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=tiào
 33	来	来	VERB	_	_	32	comp:dir	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=lái
 34	跳	跳	VERB	_	_	32	conj:redup	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=tiào
@@ -5755,7 +5755,7 @@
 7	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=，
 8	以	以	ADV	_	_	10	comp:obl@temp	_	SpaceAfter=No|Tone=3|Translit=yǐ
 9	后	后	ADV	_	_	8	fixed/m	_	SpaceAfter=No|Tone=4|Translit=hòu
-10	少	少	VERB	_	_	4	flat	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=shǎo
+10	少	少	VERB	_	_	4	parataxis:new	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=shǎo
 11	不	不	ADV	_	_	12	/m	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
 12	了	了	PART	_	_	10	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=le
 13	麻	麻	ADJ	_	_	10	comp:obj	_	SpaceAfter=No|Tone=2|Translit=má
@@ -5783,7 +5783,7 @@
 9	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=，
 10	成	成	VERB	_	_	12	subj	_	SpaceAfter=No|Tone=2|Translit=chéng
 11	熟	熟	ADJ	_	_	10	/m	_	SpaceAfter=No|Tone=2|Translit=shú
-12	是	是	AUX	_	_	4	flat	_	SpaceAfter=No|Tone=4|Translit=shì
+12	是	是	AUX	_	_	4	parataxis:new	_	SpaceAfter=No|Tone=4|Translit=shì
 13	自	自	PRON	_	_	23	subj	_	SpaceAfter=No|Tone=4|Translit=zì
 14	己	己	PRON	_	_	13	/m	_	SpaceAfter=No|Tone=3|Translit=jǐ
 15	对	对	ADP	_	_	23	comp:obl	_	SpaceAfter=No|Tone=4|Translit=dùi
@@ -5816,7 +5816,7 @@
 7	我	我	PRON	_	Person=1	10	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 8	又	又	ADV	_	_	10	mod	_	SpaceAfter=No|Tone=4|Translit=yòu
 9	不	不	ADV	_	Polarity=Neg	10	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
-10	是	是	AUX	_	_	2	flat	_	SpaceAfter=No|Tone=4|Translit=shì
+10	是	是	AUX	_	_	2	parataxis:new	_	SpaceAfter=No|Tone=4|Translit=shì
 11	只	只	ADV	_	_	12	mod	_	SpaceAfter=No|Tone=3|Translit=zhǐ
 12	有	有	VERB	_	_	10	comp:pred	_	SpaceAfter=No|Tone=3|Translit=yǒu
 13	你	你	PRON	_	Person=2	12	comp:obl	_	SpaceAfter=No|Tone=3|Translit=nǐ
@@ -5993,7 +5993,7 @@
 12	，	，	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=，
 13	都	都	ADV	_	_	15	mod	_	SpaceAfter=No|Tone=1|Translit=dū
 14	不	不	ADV	_	Polarity=Neg	15	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
-15	能	能	AUX	_	_	7	flat	_	SpaceAfter=No|Tone=2|Translit=néng
+15	能	能	AUX	_	_	7	parataxis:new	_	SpaceAfter=No|Tone=2|Translit=néng
 16	穿	穿	VERB	_	_	15	comp:aux	_	SpaceAfter=No|Tone=1|Translit=chuān
 17	。	。	PUNCT	_	_	15	punct	_	SpaceAfter=No|Translit=。
 
@@ -6051,7 +6051,7 @@
 16	不	不	ADV	_	Polarity=Neg	17	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
 17	自	自	ADV	_	_	19	mod	_	SpaceAfter=No|Tone=4|Translit=zì
 18	己	己	ADV	_	_	17	/m	_	SpaceAfter=No|Tone=3|Translit=jǐ
-19	做	做	VERB	_	_	3	flat	_	SpaceAfter=No|Tone=4|Translit=zuò
+19	做	做	VERB	_	_	3	parataxis:new	_	SpaceAfter=No|Tone=4|Translit=zuò
 20	饭	饭	NOUN	_	_	19	comp:obj	_	Gloss=meal|SpaceAfter=No|Tone=4|Translit=fàn
 21	。	。	PUNCT	_	_	19	punct	_	SpaceAfter=No|Translit=。
 
@@ -6076,7 +6076,7 @@
 10	案	案	NOUN	_	_	9	/m	_	SpaceAfter=No|Tone=4|Translit=àn
 11	或	或	CCONJ	_	_	13	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=huò
 12	者	者	CCONJ	_	_	11	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=zhě
-13	是	是	AUX	_	_	2	flat	_	SpaceAfter=No|Tone=4|Translit=shì
+13	是	是	AUX	_	_	2	parataxis:new	_	SpaceAfter=No|Tone=4|Translit=shì
 14	三	三	NUM	_	NumType=Card	13	comp:pred	_	SpaceAfter=No|Tone=1|Translit=sān
 15	十	十	NUM	_	NumType=Card	14	flat	_	SpaceAfter=No|Tone=2|Translit=shí
 16	，	，	PUNCT	_	_	19	punct	_	SpaceAfter=No|Translit=，

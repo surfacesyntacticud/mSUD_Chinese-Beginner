@@ -124,7 +124,7 @@
 7	他	他	PRON	_	Person=3	10	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 8	果	果	ADV	_	_	10	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=guǒ
 9	然	然	ADV	_	_	8	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=rán
-10	是	是	AUX	_	_	2	flat	_	SpaceAfter=No|Tone=4|Translit=shì
+10	是	是	AUX	_	_	2	parataxis:new	_	SpaceAfter=No|Tone=4|Translit=shì
 11	个	个	NOUN	_	_	12	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 12	骗	骗	NOUN	_	_	10	comp:pred	_	SpaceAfter=No|Tone=4|Translit=piàn
 13	子	子	NOUN	_	_	12	/m	_	SpaceAfter=No|Tone=5|Translit=zi
@@ -256,7 +256,7 @@
 20	学	学	NOUN	_	_	19	/m	_	SpaceAfter=No|Tone=2|Translit=xué
 21	等	等	PART	_	_	19	cc	_	SpaceAfter=No|Tone=3|Translit=děng
 22	都	都	ADV	_	_	23	mod	_	SpaceAfter=No|Tone=1|Translit=dū
-23	是	是	AUX	_	_	3	flat	_	SpaceAfter=No|Tone=4|Translit=shì
+23	是	是	AUX	_	_	3	parataxis:new	_	SpaceAfter=No|Tone=4|Translit=shì
 24	艺	艺	NOUN	_	_	23	comp:pred	_	SpaceAfter=No|Tone=4|Translit=yì
 25	术	术	NOUN	_	_	24	/m	_	SpaceAfter=No|Tone=2|Translit=zhú
 26	。	。	PUNCT	_	_	23	punct	_	SpaceAfter=No|Translit=。
@@ -518,7 +518,7 @@
 8	做	做	VERB	_	_	11	subj	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
 9	岂	岂	ADV	_	_	11	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐ
 10	不	不	ADV	_	_	11	/m	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
-11	是	是	AUX	_	_	2	flat	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
+11	是	是	AUX	_	_	2	parataxis:new	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
 12	知	知	NOUN	_	_	14	mod/m	_	SpaceAfter=No|Tone=1|Translit=zhī
 13	法	法	NOUN	_	_	12	/m	_	SpaceAfter=No|Tone=3|Translit=fǎ
 14	犯	犯	NOUN	_	_	11	comp:pred	_	SpaceAfter=No|Tone=4|Translit=fàn
@@ -901,7 +901,7 @@
 14	的	的	PART	_	_	2	conj	_	SpaceAfter=No|Tone=5|Translit=de
 15	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=，
 16	你	你	PRON	_	Person=2	17	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-17	可	可	AUX	_	_	2	flat	_	SpaceAfter=No|Tone=3|Translit=kě
+17	可	可	AUX	_	_	2	parataxis:new	_	SpaceAfter=No|Tone=3|Translit=kě
 18	不	不	ADV	_	_	19	mod/m	_	SpaceAfter=No|Tone=4|Translit=bù
 19	能	能	AUX	_	_	17	/m	_	SpaceAfter=No|Tone=2|Translit=néng
 20	就	就	ADV	_	_	23	mod	_	SpaceAfter=No|Tone=4|Translit=jìu

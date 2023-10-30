@@ -3294,7 +3294,7 @@
 2	好	好	ADJ	_	_	0	root	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
 3	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=，
 4	我	我	PRON	_	Person=1	5	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
-5	姓	姓	VERB	_	_	2	flat	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=xìng
+5	姓	姓	VERB	_	_	2	parataxis:new	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=xìng
 6	毛	毛	PROPN	_	_	5	comp:obj	_	SpaceAfter=No|Tone=2|Translit=máo
 7	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
 
@@ -5244,7 +5244,7 @@
 6	吧	吧	NOUN	_	_	5	/m	_	Gloss=bar|SpaceAfter=No|Tone=5|Translit=ba
 7	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=，
 8	你	你	PRON	_	Person=2	9	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-9	去	去	VERB	_	_	3	flat	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=qù
+9	去	去	VERB	_	_	3	parataxis:new	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=qù
 10	不	不	ADV	_	Polarity=Neg	11	mod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
 11	去	去	VERB	_	_	9	conj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=qù
 12	？	？	PUNCT	_	_	9	punct	_	SpaceAfter=No|Translit=？
