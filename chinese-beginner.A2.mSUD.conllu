@@ -9323,7 +9323,7 @@
 4	以	以	AUX	_	_	3	/m	_	SpaceAfter=No|Tone=3|Translit=yǐ
 5	上	上	VERB	_	_	3	comp:aux	_	Gloss=up|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shàng
 6	网	网	NOUN	_	_	5	comp:obj	_	SpaceAfter=No|Tone=3|Translit=wǎng
-7	买	买	VERB	_	_	3	comp:aux	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=mǎi
+7	买	买	VERB	_	_	5	comp:svc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=mǎi
 8	机	机	NOUN	_	_	9	mod/m	_	SpaceAfter=No|Tone=1|Translit=jī
 9	票	票	NOUN	_	_	7	comp:obj	_	SpaceAfter=No|Tone=4|Translit=piào
 10	吗	吗	PART	_	_	3	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ma
@@ -11759,7 +11759,7 @@
 7	，	，	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=，
 8	学	学	NOUN	_	_	12	subj	_	SpaceAfter=No|Tone=2|Translit=xué
 9	生	生	NOUN	_	_	8	/m	_	SpaceAfter=No|Tone=1|Translit=shēng
-10	们	们	PART	_	Number=Plur|Person=3	8	mod	_	SpaceAfter=No|Tone=5|Translit=men
+10	们	们	PART	_	Number=Plur	8	mod	_	SpaceAfter=No|Tone=5|Translit=men
 11	都	都	ADV	_	_	12	mod	_	SpaceAfter=No|Tone=1|Translit=dū
 12	读	读	VERB	_	_	6	parataxis	_	SpaceAfter=No|Tone=2|Translit=dú
 13	不	不	ADV	_	Polarity=Neg	14	mod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù

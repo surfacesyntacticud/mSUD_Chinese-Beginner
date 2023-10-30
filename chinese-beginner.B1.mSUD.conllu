@@ -11782,7 +11782,7 @@
 10	外	外	NOUN	_	_	9	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=wài
 11	，	，	PUNCT	_	_	9	punct	_	SpaceAfter=No|Translit=，
 12	每	每	DET	_	_	13	det	_	SpaceAfter=No|Tone=3|Translit=měi
-13	天	天	NOUN	_	_	14	mod@freq	_	SpaceAfter=No|Tone=1|Translit=tiān
+13	天	天	NOUN	_	_	14	mod	_	SpaceAfter=No|Tone=1|Translit=tiān
 14	下	下	NOUN	_	_	17	comp:obl@temp	_	SpaceAfter=No|Tone=4|Translit=xià
 15	午	午	NOUN	_	_	14	/m	_	SpaceAfter=No|Tone=3|Translit=wǔ
 16	还	还	ADV	_	_	17	mod	_	SpaceAfter=No|Tone=2|Translit=huán

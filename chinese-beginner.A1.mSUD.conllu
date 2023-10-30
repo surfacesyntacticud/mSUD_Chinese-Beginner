@@ -1296,7 +1296,7 @@
 # text_en = My son is one year old.
 # translit = Wǒ érzi yī suì.
 # text_orig = 我 儿子 一 岁 。
-1	我	我	PRON	_	Person=1|Poss=Yes	2	mod	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	2	mod	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	儿	儿	NOUN	_	_	5	subj	_	SpaceAfter=No|Tone=2|Translit=ér
 3	子	子	NOUN	_	_	2	/m	_	SpaceAfter=No|Tone=5|Translit=zi
 4	一	一	NUM	_	NumType=Card	5	mod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī

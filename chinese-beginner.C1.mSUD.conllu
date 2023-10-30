@@ -466,11 +466,11 @@
 4	做	做	VERB	_	_	7	subj	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
 5	岂	岂	ADV	_	_	7	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐ
 6	不	不	ADV	_	_	7	/m	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
-7	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
+7	是	是	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
 8	给	给	ADP	_	_	11	comp:obl	_	SpaceAfter=No|Tone=3|Translit=gěi
 9	自	自	PRON	_	_	8	comp:obj	_	SpaceAfter=No|Tone=4|Translit=zì
 10	己	己	PRON	_	_	9	/m	_	SpaceAfter=No|Tone=3|Translit=jǐ
-11	找	找	VERB	_	_	7	comp:pred	_	SpaceAfter=No|Tone=3|Translit=zhǎo
+11	找	找	VERB	_	_	7	comp:obj	_	SpaceAfter=No|Tone=3|Translit=zhǎo
 12	麻	麻	NOUN	_	_	11	comp:obj	_	SpaceAfter=No|Tone=2|Translit=má
 13	烦	烦	NOUN	_	_	12	/m	_	SpaceAfter=No|Tone=2|Translit=fán
 14	？	？	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=？
@@ -518,10 +518,10 @@
 8	做	做	VERB	_	_	11	subj	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
 9	岂	岂	ADV	_	_	11	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=qǐ
 10	不	不	ADV	_	_	11	/m	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
-11	是	是	AUX	_	_	2	parataxis:new	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
+11	是	是	VERB	_	_	2	parataxis:new	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
 12	知	知	NOUN	_	_	14	mod/m	_	SpaceAfter=No|Tone=1|Translit=zhī
 13	法	法	NOUN	_	_	12	/m	_	SpaceAfter=No|Tone=3|Translit=fǎ
-14	犯	犯	NOUN	_	_	11	comp:pred	_	SpaceAfter=No|Tone=4|Translit=fàn
+14	犯	犯	NOUN	_	_	11	comp:obj	_	SpaceAfter=No|Tone=4|Translit=fàn
 15	法	法	NOUN	_	_	14	/m	_	SpaceAfter=No|Tone=3|Translit=fǎ
 16	？	？	PUNCT	_	_	11	punct	_	SpaceAfter=No|Translit=？
 
@@ -714,7 +714,7 @@
 12	说	说	VERB	_	_	11	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=shuō
 13	她	她	PRON	_	Person=3	14	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 14	是	是	VERB	_	_	5	parataxis	_	SpaceAfter=No|Tone=4|Translit=shì
-15	在	在	AUX	_	_	14	comp:cleft	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
+15	在	在	AUX	_	_	14	comp:pred	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
 16	帮	帮	VERB	_	_	15	comp:aux	_	SpaceAfter=No|Tone=1|Translit=bāng
 17	她	她	PRON	_	Person=3	16	comp:obj	_	SpaceAfter=No|Tone=1|Translit=tā
 18	自	自	NOUN	_	_	17	conj:appos	_	SpaceAfter=No|Tone=4|Translit=zì
