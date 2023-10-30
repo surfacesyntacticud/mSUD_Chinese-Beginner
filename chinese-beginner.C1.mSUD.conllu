@@ -705,7 +705,7 @@
 3	说	说	VERB	_	_	1	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=shuō
 4	她	她	PRON	_	Person=3	5	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 5	是	是	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-6	在	在	AUX	_	_	5	comp:cleft	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
+6	在	在	AUX	_	_	5	comp:pred	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
 7	帮	帮	VERB	_	_	6	comp:aux	_	SpaceAfter=No|Tone=1|Translit=bāng
 8	你	你	PRON	_	Person=2	7	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 9	，	，	PUNCT	_	_	14	punct	_	SpaceAfter=No|Translit=，
@@ -734,7 +734,7 @@
 3	说	说	VERB	_	_	1	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=shuō
 4	他	他	PRON	_	Person=3	5	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 5	是	是	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-6	在	在	AUX	_	_	5	comp:cleft	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
+6	在	在	AUX	_	_	5	comp:pred	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
 7	做	做	VERB	_	_	6	comp:aux	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
 8	饭	饭	NOUN	_	_	7	comp:obj	_	Gloss=meal|SpaceAfter=No|Tone=4|Translit=fàn
 9	，	，	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=，
@@ -744,7 +744,7 @@
 13	说	说	VERB	_	_	12	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=shuō
 14	他	他	PRON	_	Person=3	15	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 15	是	是	VERB	_	_	5	conj	_	SpaceAfter=No|Tone=4|Translit=shì
-16	在	在	AUX	_	_	15	comp:cleft	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
+16	在	在	AUX	_	_	15	comp:pred	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
 17	玩	玩	VERB	_	_	16	comp:aux	_	SpaceAfter=No|Tone=2|Translit=wán
 18	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
 
@@ -794,7 +794,7 @@
 3	说	说	VERB	_	_	1	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=shuō
 4	他	他	PRON	_	Person=3	5	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 5	是	是	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-6	在	在	AUX	_	_	5	comp:cleft	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
+6	在	在	AUX	_	_	5	comp:pred	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
 7	鼓	鼓	VERB	_	_	6	comp:aux	_	SpaceAfter=No|Tone=3|Translit=gǔ
 8	励	励	VERB	_	_	7	/m	_	SpaceAfter=No|Tone=4|Translit=lì
 9	我	我	PRON	_	Person=1	7	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
@@ -803,7 +803,7 @@
 12	如	如	SCONJ	_	_	14	cc/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=rú
 13	说	说	VERB	_	_	12	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=shuō
 14	是	是	VERB	_	_	5	conj	_	SpaceAfter=No|Tone=4|Translit=shì
-15	在	在	AUX	_	_	14	comp:cleft	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
+15	在	在	AUX	_	_	14	comp:pred	_	Gloss=PROG|SpaceAfter=No|Tone=4|Translit=zài
 16	批	批	VERB	_	_	15	comp:aux	_	SpaceAfter=No|Tone=1|Translit=pī
 17	评	评	NOUN	_	_	16	/m	_	SpaceAfter=No|Tone=2|Translit=píng
 18	我	我	PRON	_	Person=1	16	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
@@ -861,7 +861,7 @@
 3	公	公	NOUN	_	_	5	subj	_	SpaceAfter=No|Tone=1|Translit=gōng
 4	司	司	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=1|Translit=sī
 5	是	是	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-6	以	以	VERB	_	_	5	comp:cleft	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǐ
+6	以	以	VERB	_	_	5	comp:pred	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǐ
 7	亚	亚	PROPN	_	_	8	/m	_	SpaceAfter=No|Tone=4|Translit=yà
 8	洲	洲	PROPN	_	_	9	mod	_	SpaceAfter=No|Tone=1|Translit=zhōu
 9	市	市	NOUN	_	_	6	comp:obj	_	SpaceAfter=No|Tone=4|Translit=shì
@@ -887,7 +887,7 @@
 # text_orig = 他 是 谅 你 不 敢 去 投诉 才 这么 说 的，你 可 不 能 就 这么 算了！
 1	他	他	PRON	_	Person=3	2	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 2	是	是	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-3	谅	谅	VERB	_	_	2	comp:cleft	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=liàng
+3	谅	谅	VERB	_	_	2	comp:pred	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=liàng
 4	你	你	PRON	_	Person=2	6	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 5	不	不	ADV	_	Polarity=Neg	6	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
 6	敢	敢	AUX	_	_	3	comp:obj	_	SpaceAfter=No|Tone=3|Translit=gǎn
@@ -901,13 +901,13 @@
 14	的	的	PART	_	_	2	conj	_	SpaceAfter=No|Tone=5|Translit=de
 15	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=，
 16	你	你	PRON	_	Person=2	17	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
-17	可	可	AUX	_	_	2	parataxis:new	_	SpaceAfter=No|Tone=3|Translit=kě
+17	可	可	VERB	_	_	2	parataxis:new	_	SpaceAfter=No|Tone=3|Translit=kě
 18	不	不	ADV	_	_	19	mod/m	_	SpaceAfter=No|Tone=4|Translit=bù
 19	能	能	AUX	_	_	17	/m	_	SpaceAfter=No|Tone=2|Translit=néng
 20	就	就	ADV	_	_	23	mod	_	SpaceAfter=No|Tone=4|Translit=jìu
 21	这	这	ADV	_	_	23	mod	_	SpaceAfter=No|Tone=4|Translit=zhè
 22	么	么	ADV	_	_	21	/m	_	SpaceAfter=No|Tone=5|Translit=me
-23	算	算	VERB	_	_	17	comp:aux	_	SpaceAfter=No|Tone=4|Translit=suàn
+23	算	算	VERB	_	_	17	comp:obj	_	SpaceAfter=No|Tone=4|Translit=suàn
 24	了	了	PART	_	_	17	discourse	_	Gloss=PRF|SpaceAfter=No|Tone=5|Translit=le
 25	！	！	PUNCT	_	_	17	punct	_	SpaceAfter=No|Translit=！
 
@@ -952,7 +952,7 @@
 3	为	为	ADP	_	_	6	comp:obl	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=wèi
 4	钱	钱	NOUN	_	_	3	comp:obj	_	SpaceAfter=No|Tone=2|Translit=qián
 5	而	而	CCONJ	_	_	6	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=ér
-6	工	工	VERB	_	_	2	comp:cleft	_	SpaceAfter=No|Tone=1|Translit=gōng
+6	工	工	VERB	_	_	2	comp:pred	_	SpaceAfter=No|Tone=1|Translit=gōng
 7	作	作	NOUN	_	_	6	/m	_	SpaceAfter=No|Tone=4|Translit=zuò
 8	吗	吗	PART	_	_	2	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ma
 9	？	？	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=？
@@ -1040,6 +1040,6 @@
 17	第	第	NOUN	_	_	18	mod	_	SpaceAfter=No|Tone=4|Translit=dì
 18	一	一	NUM	_	NumType=Card	19	mod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 19	次	次	NOUN	_	_	20	mod	_	SpaceAfter=No|Tone=4|Translit=cì
-20	来	来	VERB	_	_	16	comp:cleft	_	SpaceAfter=No|Tone=2|Translit=lái
+20	来	来	VERB	_	_	16	comp:pred	_	SpaceAfter=No|Tone=2|Translit=lái
 21	？	？	PUNCT	_	_	9	punct	_	SpaceAfter=No|Translit=？
 

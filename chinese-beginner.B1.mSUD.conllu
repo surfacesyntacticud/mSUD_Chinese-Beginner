@@ -14774,7 +14774,7 @@
 7	最	最	ADV	_	_	10	mod	_	SpaceAfter=No|Tone=4|Translit=zùi
 8	国	国	NOUN	_	_	10	/m	_	SpaceAfter=No|Tone=2|Translit=guó
 9	际	际	NOUN	_	_	8	comp:obj/m	_	SpaceAfter=No|Tone=4|Translit=jì
-10	化	化	NOUN	_	_	12		_	CpdPos=ADJ|SpaceAfter=No|Tone=4|Translit=huà
+10	化	化	NOUN	_	_	11	comp:obj	_	CpdPos=ADJ|SpaceAfter=No|Tone=4|Translit=huà
 11	的	的	PART	_	Case=Gen	12	mod	_	SpaceAfter=No|Tone=5|Translit=de
 12	城	城	NOUN	_	_	3	comp:pred	_	SpaceAfter=No|Tone=2|Translit=chéng
 13	市	市	NOUN	_	_	12	/m	_	SpaceAfter=No|Tone=4|Translit=shì

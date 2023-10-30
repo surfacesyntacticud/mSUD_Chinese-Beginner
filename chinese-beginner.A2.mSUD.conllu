@@ -2574,8 +2574,8 @@
 # text_orig = 我 不 去 看电影 了 。I had said I was going.
 1	我	我	PRON	_	Person=1	3	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	不	不	ADV	_	Polarity=Neg	3	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
-3	去	去	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=qù
-4	看	看	VERB	_	_	3	comp:aux	_	SpaceAfter=No|Tone=4|Translit=kàn
+3	去	去	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=qù
+4	看	看	VERB	_	_	3	comp:svc	_	SpaceAfter=No|Tone=4|Translit=kàn
 5	电	电	NOUN	_	_	4	comp:obj	_	SpaceAfter=No|Tone=4|Translit=diàn
 6	影	影	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=3|Translit=yǐng
 7	了	了	PART	_	_	3	discourse	_	Gloss=PRF|Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=le
@@ -12048,7 +12048,7 @@
 5	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=，
 6	学	学	NOUN	_	_	9	subj	_	SpaceAfter=No|Tone=2|Translit=xué
 7	生	生	NOUN	_	_	6	/m	_	SpaceAfter=No|Tone=1|Translit=shēng
-8	们	们	PART	_	Number=Plur|Person=3	6	mod	_	SpaceAfter=No|Tone=5|Translit=men
+8	们	们	PART	_	Number=Plur	6	mod	_	SpaceAfter=No|Tone=5|Translit=men
 9	问	问	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=wèn
 10	了	了	PART	_	_	9	aspect	_	Gloss=PFV|SpaceAfter=No|Tone=5|Translit=le
 11	一	一	NUM	_	_	12	mod	_	Gloss=one|Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=yī
@@ -17309,7 +17309,7 @@
 12	明	明	NOUN	_	_	7	comp:obj	_	SpaceAfter=No|Tone=2|Translit=míng
 13	星	星	NOUN	_	_	12	/m	_	SpaceAfter=No|Tone=1|Translit=xīng
 14	一	一	NOUN	_	_	15	/m	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
-15	样	样	NOUN	_	_	7	fixed	_	SpaceAfter=No|Tone=2|Translit=yáng
+15	样	样	NOUN	_	_	7	mod	_	SpaceAfter=No|Tone=2|Translit=yáng
 16	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 765
@@ -17335,7 +17335,7 @@
 12	那	那	DET	_	_	13	det/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=nà
 13	个	个	NOUN	_	_	9	conj:dicto	_	CpdPos=INTJ|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=gè
 14	⋯	⋯	PUNCT	_	_	13	punct	_	SpaceAfter=No|Translit=⋯
-15	⋯	⋯	PUNCT	_	_	13	cc	_	SpaceAfter=No|Translit=⋯
+15	⋯	⋯	PUNCT	_	_	13	punct	_	SpaceAfter=No|Translit=⋯
 16	i	i	PROPN	_	_	3	comp:obj	_	SpaceAfter=No|Translit=i
 17	P	p	PROPN	_	_	16	flat:foreign/m	_	SpaceAfter=No|Translit=P
 18	h	h	PROPN	_	_	17	flat:foreign/m	_	SpaceAfter=No|Translit=h
@@ -17505,9 +17505,9 @@
 10	，	，	PUNCT	_	_	11	punct	_	SpaceAfter=No|Translit=，
 11	可	可	SCONJ	_	_	7	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=kě
 12	是	是	AUX	_	_	11	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
-13	他	他	PRON	_	Person=3	14	subj	_	SpaceAfter=No|Tone=1|Translit=tā
-14	没	没	AUX	_	Polarity=Neg	11	comp:obj	_	SpaceAfter=No|Tone=2|Translit=méi
-15	接	接	VERB	_	_	14	comp:aux	_	SpaceAfter=No|Tone=1|Translit=jiē
+13	他	他	PRON	_	Person=3	15	subj	_	SpaceAfter=No|Tone=1|Translit=tā
+14	没	没	ADV	_	Polarity=Neg	15	mod	_	SpaceAfter=No|Tone=2|Translit=méi
+15	接	接	VERB	_	_	11	comp:obj	_	SpaceAfter=No|Tone=1|Translit=jiē
 16	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 773

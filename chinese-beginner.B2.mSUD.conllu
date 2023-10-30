@@ -4623,7 +4623,7 @@
 2	奖	奖	NOUN	_	_	1	/m	_	SpaceAfter=No|Tone=3|Translit=jiǎng
 3	这	这	DET	_	_	4	det	_	Gloss=DEM.PROX|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=zhè
 4	种	种	NOUN	_	_	5	clf	_	Gloss=CLF|Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=zhǒng
-5	活	活	NOUN	_	_	9	subj	_	SpaceAfter=No|Tone=2|Translit=huó
+5	活	活	NOUN	_	_	1	conj:appos	_	SpaceAfter=No|Tone=2|Translit=huó
 6	动	动	NOUN	_	_	5	/m	_	SpaceAfter=No|Tone=4|Translit=dòng
 7	，	，	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=，
 8	都	都	ADV	_	_	9	mod	_	SpaceAfter=No|Tone=1|Translit=dū
@@ -5044,7 +5044,7 @@
 7	事	事	NOUN	_	_	9	subj	_	SpaceAfter=No|Tone=4|Translit=shì
 8	情	情	NOUN	_	_	7	/m	_	SpaceAfter=No|Tone=2|Translit=qíng
 9	是	是	AUX	_	_	2	comp:obj	_	SpaceAfter=No|Tone=4|Translit=shì
-10	值	值	ADJ	_	_	9	comp:pred	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=zhí
+10	值	值	ADJ	_	_	12	comp:obj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=zhí
 11	得	得	ADJ	_	_	10	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=dé
 12	的	的	PART	_	_	9	comp:pred	_	SpaceAfter=No|Tone=5|Translit=de
 13	？	？	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=？
@@ -5142,8 +5142,8 @@
 7	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 8	名	名	NOUN	_	_	7	comp:pred	_	SpaceAfter=No|Tone=2|Translit=míng
 9	牌	牌	NOUN	_	_	8	/m	_	SpaceAfter=No|Tone=2|Translit=pái
-10	，	，	PUNCT	_	_	19	punct	_	SpaceAfter=No|Translit=，
-11	但	但	SCONJ	_	_	19	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dàn
+10	，	，	PUNCT	_	_	11	punct	_	SpaceAfter=No|Translit=，
+11	但	但	SCONJ	_	_	7	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=dàn
 12	是	是	SCONJ	_	_	11	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
 13	质	质	NOUN	_	_	19	subj	_	SpaceAfter=No|Tone=2|Translit=zhí
 14	量	量	NOUN	_	_	13	/m	_	SpaceAfter=No|Tone=4|Translit=liàng
@@ -5151,7 +5151,7 @@
 16	不	不	ADV	_	Polarity=Neg	19	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
 17	怎	怎	ADV	_	_	19	mod	_	SpaceAfter=No|Tone=3|Translit=zěn
 18	么	么	PRON	_	_	17	/m	_	SpaceAfter=No|Tone=5|Translit=me
-19	样	样	NOUN	_	_	7	comp:pred	_	SpaceAfter=No|Tone=2|Translit=yáng
+19	样	样	NOUN	_	_	11	comp:obj	_	SpaceAfter=No|Tone=2|Translit=yáng
 20	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 3827
@@ -5173,7 +5173,7 @@
 9	，	，	PUNCT	_	_	14	punct	_	SpaceAfter=No|Translit=，
 10	那	那	SCONJ	_	_	14	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=nà
 11	他	他	PRON	_	Person=3	14	subj	_	SpaceAfter=No|Tone=1|Translit=tā
-12	肯	肯	AUX	_	_	14	mod	_	SpaceAfter=No|Tone=3|Translit=kěn
+12	肯	肯	ADV	_	_	14	mod	_	SpaceAfter=No|Tone=3|Translit=kěn
 13	定	定	VERB	_	_	12	/m	_	SpaceAfter=No|Tone=4|Translit=dìng
 14	会	会	AUX	_	_	5	parataxis	_	SpaceAfter=No|Tone=4|Translit=hùi
 15	帮	帮	VERB	_	_	14	comp:aux	_	SpaceAfter=No|Tone=1|Translit=bāng
@@ -5551,7 +5551,7 @@
 # text_en = I wouldn't marry him even if his father were the president!
 # translit = Nǎpà tā bàba shì zǒngtǒng, wǒ yě bù yào jià gěi tā!
 # text_orig = 哪怕 他 爸爸 是 总统 ，我 也 不 要 嫁 给 他 ！
-1	哪	哪	ADV	_	PronType=Int	2	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=nǎ
+1	哪	哪	PRON	_	PronType=Int	2	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=nǎ
 2	怕	怕	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=pà
 3	他	他	PRON	_	Person=3	4	mod	_	SpaceAfter=No|Tone=1|Translit=tā
 4	爸	爸	NOUN	_	_	6	subj	_	SpaceAfter=No|Tone=4|Translit=bà
@@ -5784,15 +5784,15 @@
 10	成	成	VERB	_	_	12	subj	_	SpaceAfter=No|Tone=2|Translit=chéng
 11	熟	熟	ADJ	_	_	10	/m	_	SpaceAfter=No|Tone=2|Translit=shú
 12	是	是	AUX	_	_	4	parataxis:new	_	SpaceAfter=No|Tone=4|Translit=shì
-13	自	自	PRON	_	_	23	subj	_	SpaceAfter=No|Tone=4|Translit=zì
+13	自	自	PRON	_	_	18	subj	_	SpaceAfter=No|Tone=4|Translit=zì
 14	己	己	PRON	_	_	13	/m	_	SpaceAfter=No|Tone=3|Translit=jǐ
-15	对	对	ADP	_	_	23	comp:obl	_	SpaceAfter=No|Tone=4|Translit=dùi
-16	自	自	PRON	_	_	18	subj	_	SpaceAfter=No|Tone=4|Translit=zì
+15	对	对	ADP	_	_	18	comp:obl	_	SpaceAfter=No|Tone=4|Translit=dùi
+16	自	自	PRON	_	_	15	comp:obj	_	SpaceAfter=No|Tone=4|Translit=zì
 17	己	己	PRON	_	_	16	/m	_	SpaceAfter=No|Tone=3|Translit=jǐ
 18	做	做	VERB	_	_	20	comp:obj	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
 19	过	过	PART	_	_	18	aspect	_	Gloss=EXP|SpaceAfter=No|Tone=4|Translit=guò
 20	的	的	PART	_	Case=Gen	21	mod	_	SpaceAfter=No|Tone=5|Translit=de
-21	事	事	NOUN	_	_	15	comp:obj	_	SpaceAfter=No|Tone=4|Translit=shì
+21	事	事	NOUN	_	_	23	mod	_	SpaceAfter=No|Tone=4|Translit=shì
 22	情	情	NOUN	_	_	21	/m	_	SpaceAfter=No|Tone=2|Translit=qíng
 23	负	负	VERB	_	_	12	comp:pred	_	SpaceAfter=No|Tone=4|Translit=fù
 24	责	责	NOUN	_	_	23	/m	_	SpaceAfter=No|Tone=2|Translit=zé
