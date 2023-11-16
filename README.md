@@ -7,7 +7,7 @@ The sentences of the corpus were taken from the [Chinese Grammar Wiki](https://r
 You can browse and query this treebank on the [GREW-Match platform](https://universal.grew.fr/?corpus=mSUD_Chinese-Beginner@latest) as well as its word level equivalent [SUD_Chinese-Beginner](https://universal.grew.fr/?corpus=SUD_Chinese-Beginner@conv)
 
 ## Structure of the Treebank
-The Treebank is partitioned in 5 parts A1, A2, B1, B2 and C1 that represents different level of difficulty (from easiest to hardest). 
+The Treebank is partitioned in 5 parts A1, A2, B1, B2 and C1 that represent different levels of difficulty (from easiest to hardest). 
 
 /!\ At the day of October 12th of 2023, 2350 sentences have been hand annotated. But below is the complete distribution of the corpus when it will be finished. 
 
@@ -21,7 +21,7 @@ The corpus is made of around 4300 sentences, with the following distribution :
  
 
 ## Structure of a sentence
-Here an example of the meta data that each sentences contains : 
+Here an example of the meta data that each sentence contains : 
 ```
 # sent_id = 1
 # structure = 没 + 有 (+ Obj.)
@@ -36,10 +36,13 @@ Here an example of the meta data that each sentences contains :
 PS : At the moment, some of the sentences in the C1 part are missing the pinyin (transliteration)
 
 ## Morpheme level of annotation
-To be independent of the results of a pre tokenization, we decided to annotate the corpus on the morpheme level. It means that each character is a node/token of the sentence, and relations xxx@m (m for morpheme) are linking characters of a same "word unit".
-We will provide in a near future the grew rules for converting to word unit SUD and to word unit UD.
+To be independent of the results of a pre tokenization, we decided to annotate the corpus on the morpheme level.
+It means that each character is a node/token of the sentence, and relations xxx/m (m for morpheme) are linking characters of a same "word unit".
+The word-level treebank (called `SUD_Chinese-Beginner`) is available in the `SUD_Chinese-Beginner` folder.
 
 ## Conversions
+Grew rules for converting to word unit SUD and to word unit UD are available in [SUD tools](https://github.com/surfacesyntacticud/tools)
+
 ### Prerequesites
 You first need to [install grew](https://grew.fr/usage/install/) and pull the [SUD rewriting repository](https://github.com/surfacesyntacticud/tools)
 ### Convert to SUD (from mSUD)
@@ -47,6 +50,7 @@ Given that you cloned the "tools" repo on a sibling level with the current repo
 ```
 grew transform -grs ../tools/converter/grs/zh_mSUD_to_SUD.grs -config sud -strat zh_mSUD_to_SUD_main -i ./chinese-beginner.A1.mSUD.conllu -o ./chinese-beginner.A1.SUD.conllu
 ```
+
 ### Convert to UD (from mSUD)
 ```
 grew transform -grs ../tools/converter/grs/zh_mSUD_to_UD.grs -config sud -strat zh_mSUD_to_UD_main -i ./chinese-beginner.A1.mSUD.conllu -o ./chinese-beginner.A1.UD.conllu
