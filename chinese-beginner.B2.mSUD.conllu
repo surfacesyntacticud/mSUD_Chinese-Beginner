@@ -6014,14 +6014,14 @@
 6	不	不	ADV	_	_	7	mod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
 7	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
 8	L	l	PROPN	_	_	7	comp:pred	_	SpaceAfter=No|Translit=L
-9	V	v	PROPN	_	_	8	flat:foreign/m	_	SpaceAfter=No|Translit=V
+9	V	v	PROPN	_	_	8	flat@foreign/m	_	SpaceAfter=No|Translit=V
 10	就	就	CCONJ	_	_	11	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=jìu
 11	是	是	VERB	_	_	7	conj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
 12	G	g	PROPN	_	_	11	comp:obj	_	SpaceAfter=No|Translit=G
-13	u	u	PROPN	_	_	12	flat:foreign/m	_	SpaceAfter=No|Translit=u
-14	c	c	PROPN	_	_	13	flat:foreign/m	_	SpaceAfter=No|Translit=c
-15	c	c	PROPN	_	_	14	flat:foreign/m	_	SpaceAfter=No|Translit=c
-16	i	i	PROPN	_	_	15	flat:foreign/m	_	SpaceAfter=No|Translit=i
+13	u	u	PROPN	_	_	12	flat@foreign/m	_	SpaceAfter=No|Translit=u
+14	c	c	PROPN	_	_	13	flat@foreign/m	_	SpaceAfter=No|Translit=c
+15	c	c	PROPN	_	_	14	flat@foreign/m	_	SpaceAfter=No|Translit=c
+16	i	i	PROPN	_	_	15	flat@foreign/m	_	SpaceAfter=No|Translit=i
 17	！	！	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=！
 
 # sent_id = 4260

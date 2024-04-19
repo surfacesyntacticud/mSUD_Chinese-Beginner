@@ -381,9 +381,9 @@
 4	认	认	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=rèn
 5	识	识	VERB	_	_	4	/m	_	SpaceAfter=No|Tone=4|Translit=shì
 6	J	j	PROPN	_	_	4	comp:obj	_	SpaceAfter=No|Translit=J
-7	o	o	PROPN	_	_	6	flat:foreign/m	_	SpaceAfter=No|Translit=o
-8	h	h	PROPN	_	_	7	flat:foreign/m	_	SpaceAfter=No|Translit=h
-9	n	n	PROPN	_	_	8	flat:foreign/m	_	SpaceAfter=No|Translit=n
+7	o	o	PROPN	_	_	6	flat@foreign/m	_	SpaceAfter=No|Translit=o
+8	h	h	PROPN	_	_	7	flat@foreign/m	_	SpaceAfter=No|Translit=h
+9	n	n	PROPN	_	_	8	flat@foreign/m	_	SpaceAfter=No|Translit=n
 10	吗	吗	PART	_	_	4	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ma
 11	？	？	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=？
 
@@ -2882,9 +2882,9 @@
 4	师	师	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=1|Translit=shī
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 6	i	i	PROPN	_	_	5	comp:obj	_	SpaceAfter=No|Translit=i
-7	P	p	PROPN	_	_	6	flat:foreign/m	_	SpaceAfter=No|Translit=P
-8	a	a	PROPN	_	_	7	flat:foreign/m	_	SpaceAfter=No|Translit=a
-9	d	d	PROPN	_	_	8	flat:foreign/m	_	SpaceAfter=No|Translit=d
+7	P	p	PROPN	_	_	6	flat@foreign/m	_	SpaceAfter=No|Translit=P
+8	a	a	PROPN	_	_	7	flat@foreign/m	_	SpaceAfter=No|Translit=a
+9	d	d	PROPN	_	_	8	flat@foreign/m	_	SpaceAfter=No|Translit=d
 10	吗	吗	PART	_	_	5	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ma
 11	？	？	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=？
 
@@ -2935,8 +2935,8 @@
 1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=jiào
 3	T	t	PROPN	_	_	2	comp:obj	_	SpaceAfter=No|Translit=T
-4	o	o	PROPN	_	_	3	flat:foreign/m	_	SpaceAfter=No|Translit=o
-5	m	m	PROPN	_	_	4	flat:foreign/m	_	SpaceAfter=No|Translit=m
+4	o	o	PROPN	_	_	3	flat@foreign/m	_	SpaceAfter=No|Translit=o
+5	m	m	PROPN	_	_	4	flat@foreign/m	_	SpaceAfter=No|Translit=m
 6	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 187
@@ -3759,11 +3759,11 @@
 6	一	一	NUM	_	NumType=Card	7	mod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 7	个	个	NOUN	_	_	8	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 8	i	i	PROPN	_	_	5	comp:obj	_	SpaceAfter=No|Translit=i
-9	P	p	PROPN	_	_	8	flat:foreign/m	_	SpaceAfter=No|Translit=P
-10	h	h	PROPN	_	_	9	flat:foreign/m	_	SpaceAfter=No|Translit=h
-11	o	o	PROPN	_	_	10	flat:foreign/m	_	SpaceAfter=No|Translit=o
-12	n	n	PROPN	_	_	11	flat:foreign/m	_	SpaceAfter=No|Translit=n
-13	e	e	PROPN	_	_	12	flat:foreign/m	_	SpaceAfter=No|Translit=e
+9	P	p	PROPN	_	_	8	flat@foreign/m	_	SpaceAfter=No|Translit=P
+10	h	h	PROPN	_	_	9	flat@foreign/m	_	SpaceAfter=No|Translit=h
+11	o	o	PROPN	_	_	10	flat@foreign/m	_	SpaceAfter=No|Translit=o
+12	n	n	PROPN	_	_	11	flat@foreign/m	_	SpaceAfter=No|Translit=n
+13	e	e	PROPN	_	_	12	flat@foreign/m	_	SpaceAfter=No|Translit=e
 14	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 237
@@ -4362,9 +4362,9 @@
 # translit = iPad zěnme yòng?
 # text_orig = iPad 怎么 用？
 1	i	i	PROPN	_	_	7	comp:obj	_	SpaceAfter=No|Translit=i
-2	P	p	PROPN	_	_	1	flat:foreign/m	_	SpaceAfter=No|Translit=P
-3	a	a	PROPN	_	_	2	flat:foreign/m	_	SpaceAfter=No|Translit=a
-4	d	d	PROPN	_	_	3	flat:foreign/m	_	SpaceAfter=No|Translit=d
+2	P	p	PROPN	_	_	1	flat@foreign/m	_	SpaceAfter=No|Translit=P
+3	a	a	PROPN	_	_	2	flat@foreign/m	_	SpaceAfter=No|Translit=a
+4	d	d	PROPN	_	_	3	flat@foreign/m	_	SpaceAfter=No|Translit=d
 5	怎	怎	PRON	_	PronType=Int	7	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=zěn
 6	么	么	PRON	_	_	5	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=me
 7	用	用	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=yòng
@@ -4414,10 +4414,10 @@
 # text_orig = "Apple" 怎么 说？the "in Chinese" is implied
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit="
 2	A	a	PROPN	_	_	10	comp:obj	_	SpaceAfter=No|Translit=A
-3	p	p	PROPN	_	_	2	flat:foreign/m	_	SpaceAfter=No|Translit=p
-4	p	p	PROPN	_	_	3	flat:foreign/m	_	SpaceAfter=No|Translit=p
-5	l	l	PROPN	_	_	4	flat:foreign/m	_	SpaceAfter=No|Translit=l
-6	e	e	PROPN	_	_	5	flat:foreign/m	_	SpaceAfter=No|Translit=e
+3	p	p	PROPN	_	_	2	flat@foreign/m	_	SpaceAfter=No|Translit=p
+4	p	p	PROPN	_	_	3	flat@foreign/m	_	SpaceAfter=No|Translit=p
+5	l	l	PROPN	_	_	4	flat@foreign/m	_	SpaceAfter=No|Translit=l
+6	e	e	PROPN	_	_	5	flat@foreign/m	_	SpaceAfter=No|Translit=e
 7	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit="
 8	怎	怎	PRON	_	PronType=Int	10	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=zěn
 9	么	么	PRON	_	_	8	/m	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=me
@@ -4792,9 +4792,9 @@
 1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
 3	J	j	PROPN	_	_	2	comp:pred	_	SpaceAfter=No|Translit=J
-4	o	o	PROPN	_	_	3	flat:foreign/m	_	SpaceAfter=No|Translit=o
-5	h	h	PROPN	_	_	4	flat:foreign/m	_	SpaceAfter=No|Translit=h
-6	n	n	PROPN	_	_	5	flat:foreign/m	_	SpaceAfter=No|Translit=n
+4	o	o	PROPN	_	_	3	flat@foreign/m	_	SpaceAfter=No|Translit=o
+5	h	h	PROPN	_	_	4	flat@foreign/m	_	SpaceAfter=No|Translit=h
+6	n	n	PROPN	_	_	5	flat@foreign/m	_	SpaceAfter=No|Translit=n
 7	吗	吗	PART	_	_	2	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ma
 8	？	？	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=？
 
@@ -6180,10 +6180,10 @@
 4	女	女	NOUN	_	_	5	subj	_	SpaceAfter=No|Tone=3|Translit=nv̌
 5	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=jiào
 6	A	a	PROPN	_	_	5	comp:obj	_	SpaceAfter=No|Translit=A
-7	l	l	PROPN	_	_	6	flat:foreign/m	_	SpaceAfter=No|Translit=l
-8	a	a	PROPN	_	_	7	flat:foreign/m	_	SpaceAfter=No|Translit=a
-9	n	n	PROPN	_	_	8	flat:foreign/m	_	SpaceAfter=No|Translit=n
-10	a	a	PROPN	_	_	9	flat:foreign/m	_	SpaceAfter=No|Translit=a
+7	l	l	PROPN	_	_	6	flat@foreign/m	_	SpaceAfter=No|Translit=l
+8	a	a	PROPN	_	_	7	flat@foreign/m	_	SpaceAfter=No|Translit=a
+9	n	n	PROPN	_	_	8	flat@foreign/m	_	SpaceAfter=No|Translit=n
+10	a	a	PROPN	_	_	9	flat@foreign/m	_	SpaceAfter=No|Translit=a
 11	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 191
@@ -6202,9 +6202,9 @@
 5	板	板	NOUN	_	_	4	/m	_	SpaceAfter=No|Tone=3|Translit=bǎn
 6	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=jiào
 7	J	j	PROPN	_	_	6	comp:obj	_	SpaceAfter=No|Translit=J
-8	o	o	PROPN	_	_	7	flat:foreign/m	_	SpaceAfter=No|Translit=o
-9	h	h	PROPN	_	_	8	flat:foreign/m	_	SpaceAfter=No|Translit=h
-10	n	n	PROPN	_	_	9	flat:foreign/m	_	SpaceAfter=No|Translit=n
+8	o	o	PROPN	_	_	7	flat@foreign/m	_	SpaceAfter=No|Translit=o
+9	h	h	PROPN	_	_	8	flat@foreign/m	_	SpaceAfter=No|Translit=h
+10	n	n	PROPN	_	_	9	flat@foreign/m	_	SpaceAfter=No|Translit=n
 11	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 192
@@ -6221,8 +6221,8 @@
 3	狗	狗	NOUN	_	_	4	subj	_	SpaceAfter=No|Tone=3|Translit=gǒu
 4	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=jiào
 5	M	m	PROPN	_	_	4	comp:obj	_	SpaceAfter=No|Translit=M
-6	a	a	PROPN	_	_	5	flat:foreign/m	_	SpaceAfter=No|Translit=a
-7	x	x	PROPN	_	_	6	flat:foreign/m	_	SpaceAfter=No|Translit=x
+6	a	a	PROPN	_	_	5	flat@foreign/m	_	SpaceAfter=No|Translit=a
+7	x	x	PROPN	_	_	6	flat@foreign/m	_	SpaceAfter=No|Translit=x
 8	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 193
@@ -6240,11 +6240,11 @@
 4	机	机	NOUN	_	_	3	/m	_	SpaceAfter=No|Tone=1|Translit=jī
 5	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=jiào
 6	i	i	PROPN	_	_	5	comp:obj	_	SpaceAfter=No|Translit=i
-7	P	p	PROPN	_	_	6	flat:foreign/m	_	SpaceAfter=No|Translit=P
-8	h	h	PROPN	_	_	7	flat:foreign/m	_	SpaceAfter=No|Translit=h
-9	o	o	PROPN	_	_	8	flat:foreign/m	_	SpaceAfter=No|Translit=o
-10	n	n	PROPN	_	_	9	flat:foreign/m	_	SpaceAfter=No|Translit=n
-11	e	e	PROPN	_	_	10	flat:foreign/m	_	SpaceAfter=No|Translit=e
+7	P	p	PROPN	_	_	6	flat@foreign/m	_	SpaceAfter=No|Translit=P
+8	h	h	PROPN	_	_	7	flat@foreign/m	_	SpaceAfter=No|Translit=h
+9	o	o	PROPN	_	_	8	flat@foreign/m	_	SpaceAfter=No|Translit=o
+10	n	n	PROPN	_	_	9	flat@foreign/m	_	SpaceAfter=No|Translit=n
+11	e	e	PROPN	_	_	10	flat@foreign/m	_	SpaceAfter=No|Translit=e
 12	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 74

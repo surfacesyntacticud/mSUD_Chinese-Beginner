@@ -54,8 +54,8 @@
 7	么	么	PRON	_	_	6	/m	_	SpaceAfter=No|Tone=5|Translit=me
 8	去	去	VERB	_	_	2	comp:obj	_	SpaceAfter=No|Tone=4|Translit=qù
 9	K	k	PROPN	_	_	8	comp:obj	_	SpaceAfter=No|Translit=K
-10	T	t	PROPN	_	_	9	flat:foreign/m	_	SpaceAfter=No|Translit=T
-11	V	v	PROPN	_	_	10	flat:foreign/m	_	SpaceAfter=No|Translit=V
+10	T	t	PROPN	_	_	9	flat@foreign/m	_	SpaceAfter=No|Translit=T
+11	V	v	PROPN	_	_	10	flat@foreign/m	_	SpaceAfter=No|Translit=V
 12	唱	唱	VERB	_	_	8	compound:svc	_	SpaceAfter=No|Tone=4|Translit=chàng
 13	歌	歌	NOUN	_	_	12	comp:obj	_	SpaceAfter=No|Tone=1|Translit=gē
 14	，	，	PUNCT	_	_	15	punct	_	SpaceAfter=No|Translit=，
