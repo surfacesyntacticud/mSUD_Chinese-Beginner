@@ -4887,7 +4887,7 @@
 # level = B2
 # structure_verbose = Expressing "no matter" with "buguan"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG0NDS6
-# translit =  Bùguǎn nǐ shì shénme shíhou mǎi de, wǒmen dōu kěyǐ miǎnfèi xiū.No matter when you bought it, we can repair it for you for free.
+# translit = Bùguǎn nǐ shì shénme shíhou mǎi de, wǒmen dōu kěyǐ miǎnfèi xiū.No matter when you bought it, we can repair it for you for free.
 # text_orig = 不管 你 是 什么 时候 买 的 ，我们 都 可以 免费 修。
 1	不	不	ADV	_	Polarity=Neg	2	mod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
 2	管	管	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=guǎn

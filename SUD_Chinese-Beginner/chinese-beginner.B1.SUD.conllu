@@ -1928,7 +1928,7 @@
 # structure_verbose = Expressing "to come from" with "laizi"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG1CEA8
 # text_en = These books all come from Japan.
-# translit =  Zhèxiē shū dōu láizì Rìběn.
+# translit = Zhèxiē shū dōu láizì Rìběn.
 # text_orig = 这些 书 都 来自 日本 。
 1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
 2	些	些	NOUN	_	_	3	clf	_	Gloss=CLF|SpaceAfter=No|Tone=1|Translit=xiē
@@ -9730,7 +9730,7 @@
 # structure_verbose = A softer "but" with "buguo"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
 # text_en = I like this piece of clothing, but it's a little bit expensive.
-# translit =  Zhè jiàn yīfu wǒ hěn xǐhuan, bùguò yǒudiǎn guì.
+# translit = Zhè jiàn yīfu wǒ hěn xǐhuan, bùguò yǒudiǎn guì.
 # text_orig = 这 件 衣服 我 很 喜欢 ，不过 有点 贵 。
 1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
 2	件	件	NOUN	_	_	3	clf	_	SpaceAfter=No|Tone=4|Translit=jiàn
@@ -12148,7 +12148,7 @@
 # structure_verbose = Sequencing past events with "houlai"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGY0UDC
 # text_en = Beijing used to be called Beiping. Later, the name was changed to Beijing.
-# translit =  Běijīng yǐqián jiào Běipíng, hòulái gǎi chéng le Běijīng.
+# translit = Běijīng yǐqián jiào Běipíng, hòulái gǎi chéng le Běijīng.
 # text_orig = 北京 以前 叫 北平 ，后来 改成 了 北京 。
 1	北京	北京	PROPN	_	_	3	subj	_	SpaceAfter=No|Tone=3_1|Translit=běi_jīng
 2	以前	以前	ADV	_	_	3	comp:obl@temp	_	SpaceAfter=No|Tone=3_2|Translit=yǐ_qián
@@ -13244,7 +13244,7 @@
 # structure_verbose = The "shi... de" construction for indicating purpose
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG0UFR4
 # text_en = Are you really here to help us?
-# translit =  Nǐ zhēnde  shì lái bāng wǒmen de ma?
+# translit = Nǐ zhēnde  shì lái bāng wǒmen de ma?
 # text_orig = 你 真的 是 来 帮 我们 的 吗 ？
 1	你	你	PRON	_	Person=2	3	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	真的	真的	ADV	_	_	3	mod	_	SpaceAfter=No|Tone=1_5|Translit=zhēn_de
