@@ -10,7 +10,7 @@
 1	说	说	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=shuō
 2	得	得	PART	_	_	1	mod	_	SpaceAfter=No|Tone=2|Translit=dé
 3	倒	倒	ADV	_	_	4	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=dǎo
-4	容易	容易	ADJ	_	_	2	comp:obj	_	SpaceAfter=No|Tone=2_4|Translit=róng_yì
+4	容易	容易	ADJ	_	_	2	comp	_	SpaceAfter=No|Tone=2_4|Translit=róng_yì
 5	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=，
 6	那	那	PART	_	_	8	discourse	_	SpaceAfter=No|Tone=4|Translit=nà
 7	你	你	PRON	_	Person=2	8	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
@@ -82,7 +82,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGA1B87
 # text_en = Your performance at work has made the leader very satisfied.
 # text_orig = 你 的 工作 表现 让 领导 很是 满意 。
-1	你	你	PRON	_	Person=2	2	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+1	你	你	PRON	_	Person=2	2	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	的	的	PART	_	Case=Gen	4	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	工作	工作	NOUN	_	_	4	mod	_	SpaceAfter=No|Tone=1_4|Translit=gōng_zuò
 4	表现	表现	NOUN	_	_	5	subj	_	SpaceAfter=No|Tone=3_4|Translit=biǎo_xiàn
@@ -105,7 +105,7 @@
 2	说	说	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=shuō
 3	得	得	PART	_	_	2	mod	_	SpaceAfter=No|Tone=2|Translit=dé
 4	没	没	ADV	_	Polarity=Neg	5	mod	_	Gloss=NEG|SpaceAfter=No|Tone=2|Translit=méi
-5	错	错	ADJ	_	_	3	comp:obj	_	SpaceAfter=No|Tone=4|Translit=cuò
+5	错	错	ADJ	_	_	3	comp	_	SpaceAfter=No|Tone=4|Translit=cuò
 6	！	！	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=！
 7	他	他	PRON	_	Person=3	9	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 8	果然	果然	ADV	_	_	9	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_2|Translit=guǒ_rán
@@ -129,7 +129,7 @@
 6	，	，	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=，
 7	没	没	VERB	_	_	3	parataxis	_	Gloss=NEG|SpaceAfter=No|Tone=2|Translit=méi
 8	什么	什么	PRON	_	_	7	comp:obj	_	SpaceAfter=No|Tone=2_5|Translit=shén_me
-9	了	了	VERB	_	_	12	comp:obj	_	CpdPos=ADJ|SpaceAfter=No|Tone=5|Translit=le
+9	了	了	VERB	_	_	12	comp	_	CpdPos=ADJ|SpaceAfter=No|Tone=5|Translit=le
 10	不	不	ADV	_	Polarity=Neg	11	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
 11	起	起	VERB	_	_	9	comp:obj	_	SpaceAfter=No|Tone=3|Translit=qǐ
 12	的	的	PART	_	_	8	mod	_	SpaceAfter=No|Tone=5|Translit=de
@@ -146,7 +146,7 @@
 2	中国	中国	PROPN	_	_	3	mod	_	SpaceAfter=No|Tone=1_2|Translit=zhōng_guó
 3	客人	客人	NOUN	_	_	1	comp:obj	_	SpaceAfter=No|Tone=4_2|Translit=kè_rén
 4	最	最	ADV	_	_	5	mod	_	SpaceAfter=No|Tone=4|Translit=zùi
-5	好	好	ADJ	_	_	6	comp:obj	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
+5	好	好	ADJ	_	_	6	comp	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
 6	的	的	PART	_	Case=Gen	7	mod	_	SpaceAfter=No|Tone=5|Translit=de
 7	饮料	饮料	NOUN	_	_	9	subj	_	SpaceAfter=No|Tone=3_4|Translit=yǐn_liào
 8	无非	无非	ADV	_	_	9	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_1|Translit=wú_fēi
@@ -166,12 +166,12 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGW0911
 # text_orig = 孩子 想 得到 的 无非 是 你 的 关心 罢了。
 1	孩子	孩子	NOUN	_	_	2	subj	_	SpaceAfter=No|Tone=2_5|Translit=hái_zi
-2	想	想	AUX	_	_	4	comp:obj	_	SpaceAfter=No|Tone=3|Translit=xiǎng
+2	想	想	AUX	_	_	4	comp	_	SpaceAfter=No|Tone=3|Translit=xiǎng
 3	得到	得到	VERB	_	_	2	comp:obj	_	SpaceAfter=No|Tone=2_4|Translit=dé_dào
 4	的	的	PART	_	Case=Gen	6	subj	_	SpaceAfter=No|Tone=5|Translit=de
 5	无非	无非	ADV	_	_	6	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_1|Translit=wú_fēi
 6	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-7	你	你	PRON	_	Person=2	8	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+7	你	你	PRON	_	Person=2	8	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 8	的	的	PART	_	Case=Gen	9	mod	_	SpaceAfter=No|Tone=5|Translit=de
 9	关心	关心	NOUN	_	_	6	comp:pred	_	SpaceAfter=No|Tone=1_1|Translit=guān_xīn
 10	罢了	罢了	PART	_	_	6	discourse	_	SpaceAfter=No|Tone=4_5|Translit=bà_le
@@ -190,7 +190,7 @@
 3	歌	歌	NOUN	_	_	4	subj	_	SpaceAfter=No|Tone=1|Translit=gē
 4	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 5	谁	谁	PRON	_	PronType=Int	6	subj	_	SpaceAfter=No|Tone=2|Translit=shúi
-6	唱	唱	VERB	_	_	7	comp:obj	_	SpaceAfter=No|Tone=4|Translit=chàng
+6	唱	唱	VERB	_	_	7	comp	_	SpaceAfter=No|Tone=4|Translit=chàng
 7	的	的	PART	_	Case=Gen	4	comp:pred	_	SpaceAfter=No|Tone=5|Translit=de
 8	来着	来着	PART	_	_	4	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_2|Translit=lái_zháo
 9	？	？	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=？
@@ -232,7 +232,7 @@
 # text_en = Our value lies in conducting interviews, analysis, as well as synthesizing and managing investment portfolios.
 # translit = Wǒmen de jiàzhí jiùshì cǎifǎng, fēnxī yǐjí zǔhé tóuzī guǎnlǐ rén.
 # text_orig = 我们 的 价值 就是 采访、分析 以及 组合 投资 管理 人 。
-1	我们	我们	PRON	_	Number=Plur|Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
+1	我们	我们	PRON	_	Number=Plur|Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	价值	价值	NOUN	_	_	5	subj	_	SpaceAfter=No|Tone=4_2|Translit=jià_zhí
 4	就	就	ADV	_	_	5	mod	_	SpaceAfter=No|Tone=4|Translit=jìu
@@ -258,7 +258,7 @@
 # text_orig = 这个 项目 的 投资人 以及 相关 负责 人 都 是 外国 人 。
 1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
 2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
-3	项目	项目	NOUN	_	_	4	comp:obj	_	SpaceAfter=No|Tone=4_4|Translit=xiàng_mù
+3	项目	项目	NOUN	_	_	4	comp	_	SpaceAfter=No|Tone=4_4|Translit=xiàng_mù
 4	的	的	PART	_	Case=Gen	6	mod	_	SpaceAfter=No|Tone=5|Translit=de
 5	投资	投资	NOUN	_	_	6	mod	_	SpaceAfter=No|Tone=2_1|Translit=tóu_zī
 6	人	人	NOUN	_	_	12	subj	_	SpaceAfter=No|Tone=2|Translit=rén
@@ -281,7 +281,7 @@
 # text_orig = 不管 他 的 理由 是 什么 ，总之 ，我 不会 再 相信 他 了 。
 1	不	不	ADV	_	Polarity=Neg	2	mod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
 2	管	管	VERB	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=guǎn
-3	他	他	PRON	_	Person=3	4	comp:obj	_	SpaceAfter=No|Tone=1|Translit=tā
+3	他	他	PRON	_	Person=3	4	comp	_	SpaceAfter=No|Tone=1|Translit=tā
 4	的	的	PART	_	Case=Gen	5	mod	_	SpaceAfter=No|Tone=5|Translit=de
 5	理由	理由	NOUN	_	_	6	subj	_	SpaceAfter=No|Tone=3_2|Translit=lǐ_yóu
 6	是	是	AUX	_	_	2	comp:obj	_	SpaceAfter=No|Tone=4|Translit=shì
@@ -315,7 +315,7 @@
 7	是	是	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 8	为了	为了	ADP	_	_	7	comp:obj	_	SpaceAfter=No|Tone=4_5|Translit=wèi_le
 9	孩子	孩子	NOUN	_	_	10	subj	_	SpaceAfter=No|Tone=2_5|Translit=hái_zi
-10	好	好	ADJ	_	_	8	comp:obj	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
+10	好	好	ADJ	_	_	8	comp	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
 11	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 4441
@@ -331,7 +331,7 @@
 2	至上	至上	ADJ	_	_	1	mod	_	SpaceAfter=No|Tone=4_4|Translit=zhì_shàng
 3	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 4	本	本	DET	_	_	5	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=běn
-5	公司	公司	NOUN	_	_	6	comp:obj	_	SpaceAfter=No|Tone=1_1|Translit=gōng_sī
+5	公司	公司	NOUN	_	_	6	comp	_	SpaceAfter=No|Tone=1_1|Translit=gōng_sī
 6	的	的	PART	_	Case=Gen	8	mod	_	SpaceAfter=No|Tone=5|Translit=de
 7	经营	经营	NOUN	_	_	8	mod	_	SpaceAfter=No|Tone=1_2|Translit=jīng_yíng
 8	理念	理念	NOUN	_	_	3	comp:pred	_	SpaceAfter=No|Tone=3_4|Translit=lǐ_niàn
@@ -346,7 +346,7 @@
 # text_orig = 你 知道 管理 的 科学 性 和 艺术 性 是 指 什么 吗？
 1	你	你	PRON	_	Person=2	2	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	知道	知道	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1_4|Translit=zhī_dào
-3	管理	管理	NOUN	_	_	4	comp:obj	_	SpaceAfter=No|Tone=3_3|Translit=guǎn_lǐ
+3	管理	管理	NOUN	_	_	4	comp	_	SpaceAfter=No|Tone=3_3|Translit=guǎn_lǐ
 4	的	的	PART	_	Case=Gen	6	mod	_	SpaceAfter=No|Tone=5|Translit=de
 5	科学	科学	NOUN	_	_	6	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1_2|Translit=kē_xué
 6	性	性	NOUN	_	_	10	subj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=xìng
@@ -387,7 +387,7 @@
 3	做	做	VERB	_	_	4	subj	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
 4	岂不是	岂不是	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_4_4|Translit=qǐ_bù_shì
 5	给	给	ADP	_	_	7	comp:obl	_	SpaceAfter=No|Tone=3|Translit=gěi
-6	自己	自己	PRON	_	_	5	comp:obj	_	SpaceAfter=No|Tone=4_3|Translit=zì_jǐ
+6	自己	自己	PRON	_	_	5	comp	_	SpaceAfter=No|Tone=4_3|Translit=zì_jǐ
 7	找	找	VERB	_	_	4	comp:obj	_	SpaceAfter=No|Tone=3|Translit=zhǎo
 8	麻烦	麻烦	NOUN	_	_	7	comp:obj	_	SpaceAfter=No|Tone=2_2|Translit=má_fán
 9	？	？	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=？

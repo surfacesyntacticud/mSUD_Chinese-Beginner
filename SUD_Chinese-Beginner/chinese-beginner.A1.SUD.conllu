@@ -73,7 +73,7 @@
 # text_orig = 我们 在 北京 没有 房子。
 1	我们	我们	PRON	_	Number=Plur|Person=1	5	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
 2	在	在	ADP	_	_	5	comp:obl	_	Gloss=at;on;in|SpaceAfter=No|Tone=4|Translit=zài
-3	北京	北京	PROPN	_	_	2	comp:obj	_	SpaceAfter=No|Tone=3_1|Translit=běi_jīng
+3	北京	北京	PROPN	_	_	2	comp	_	SpaceAfter=No|Tone=3_1|Translit=běi_jīng
 4	没	没	ADV	_	_	5	mod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=méi
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 6	房子	房子	NOUN	_	_	5	comp:obj	_	SpaceAfter=No|Tone=2_5|Translit=fáng_zi
@@ -107,7 +107,7 @@
 # text_orig = 你们 在 上海 没有 朋友 吗？
 1	你们	你们	PRON	_	Number=Plur|Person=2	5	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3_5|Translit=nǐ_men
 2	在	在	ADP	_	_	5	comp:obl	_	Gloss=at;on;in|SpaceAfter=No|Tone=4|Translit=zài
-3	上海	上海	PROPN	_	_	2	comp:obj	_	Gloss=up|SpaceAfter=No|Tone=4_3|Translit=shàng_hǎi
+3	上海	上海	PROPN	_	_	2	comp	_	Gloss=up|SpaceAfter=No|Tone=4_3|Translit=shàng_hǎi
 4	没	没	ADV	_	_	5	mod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=méi
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 6	朋友	朋友	NOUN	_	_	5	comp:obj	_	SpaceAfter=No|Tone=2_3|Translit=péng_yǒu
@@ -123,7 +123,7 @@
 # text_en = My teacher doesn't have a boyfriend now.
 # translit = Wǒ de lǎoshī xiànzài méiyǒu nánpéngyou.
 # text_orig = 我 的 老师 现在 没有 男朋友。
-1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	老师	老师	NOUN	_	_	6	subj	_	SpaceAfter=No|Tone=3_1|Translit=lǎo_shī
 4	现在	现在	NOUN	_	_	6	comp:obl@temp	_	SpaceAfter=No|Tone=4_4|Translit=xiàn_zài
@@ -876,7 +876,7 @@
 # text_en = My grandpa and grandma are both 70 years old.
 # translit = Wǒ de yéye hé  nǎinai dōu qīshí suì.
 # text_orig = 我 的 爷爷 和 奶奶 都 70 岁 。
-1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	爷爷	爷爷	NOUN	_	_	8	subj	_	SpaceAfter=No|Tone=2_2|Translit=yé_yé
 4	和	和	CCONJ	_	_	5	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=hé
@@ -1099,7 +1099,7 @@
 2	喜欢	喜欢	VERB	_	_	0	root	_	SpaceAfter=No|Tone=3_1|Translit=xǐ_huān
 3	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 4	还是	还是	CCONJ	_	_	7	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_4|Translit=huán_shì
-5	我	我	PRON	_	Person=1	6	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+5	我	我	PRON	_	Person=1	6	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 6	的	的	PART	_	Case=Gen	7	mod	_	SpaceAfter=No|Tone=5|Translit=de
 7	钱	钱	NOUN	_	_	3	conj	_	SpaceAfter=No|Tone=2|Translit=qián
 8	？	？	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=？
@@ -1547,7 +1547,7 @@
 # text_en = Is your birthday November 11th?
 # translit = Nǐ de shēngrì shì Shíyīyuè shíyī hào ma?
 # text_orig = 你 的 生日 是 11 月 11 号吗？
-1	你	你	PRON	_	Person=2	2	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+1	你	你	PRON	_	Person=2	2	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	生日	生日	NOUN	_	_	4	subj	_	SpaceAfter=No|Tone=1_4|Translit=shēng_rì
 4	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
@@ -1854,7 +1854,7 @@
 2	爸爸	爸爸	NOUN	_	_	3	subj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_4|Translit=bà_bà
 3	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
 4	我们	我们	PRON	_	Number=Plur|Person=1	5	mod	_	Gloss=1SG|Grammar_Target=Yes|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
-5	公司	公司	NOUN	_	_	6	comp:obj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1_1|Translit=gōng_sī
+5	公司	公司	NOUN	_	_	6	comp	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1_1|Translit=gōng_sī
 6	的	的	PART	_	Case=Gen	7	mod	_	SpaceAfter=No|Tone=5|Translit=de
 7	老板	老板	NOUN	_	_	3	comp:pred	_	SpaceAfter=No|Tone=3_3|Translit=lǎo_bǎn
 8	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
@@ -1868,7 +1868,7 @@
 # text_en = my teacher
 # translit = wǒ de lǎoshī
 # text_orig = 我 的 老师
-1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	老师	老师	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=3_1|Translit=lǎo_shī
 
@@ -1881,7 +1881,7 @@
 # text_en = your cell phone
 # translit = nǐ de  shǒujī
 # text_orig = 你 的 手机
-1	你	你	PRON	_	Person=2	2	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+1	你	你	PRON	_	Person=2	2	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	手机	手机	NOUN	_	_	0	root	_	Gloss=hand|SpaceAfter=No|Tone=3_1|Translit=shǒu_jī
 
@@ -1894,7 +1894,7 @@
 # text_en = our money
 # translit = wǒmen de qián
 # text_orig = 我们 的 钱
-1	我们	我们	PRON	_	Number=Plur|Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
+1	我们	我们	PRON	_	Number=Plur|Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	钱	钱	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=2|Translit=qián
 
@@ -1907,7 +1907,7 @@
 # text_en = their stuff
 # translit = tāmen de dōngxi
 # text_orig = 他们 的 东西
-1	他们	他们	PRON	_	Number=Plur|Person=3	2	comp:obj	_	SpaceAfter=No|Tone=1_5|Translit=tā_men
+1	他们	他们	PRON	_	Number=Plur|Person=3	2	comp	_	SpaceAfter=No|Tone=1_5|Translit=tā_men
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	东西	东西	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=1_1|Translit=dōng_xī
 
@@ -1920,7 +1920,7 @@
 # text_en = dad's car
 # translit = bàba de chē
 # text_orig = 爸爸 的 车
-1	爸爸	爸爸	NOUN	_	_	2	comp:obj	_	SpaceAfter=No|Tone=4_4|Translit=bà_bà
+1	爸爸	爸爸	NOUN	_	_	2	comp	_	SpaceAfter=No|Tone=4_4|Translit=bà_bà
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	车	车	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=chē
 
@@ -1933,7 +1933,7 @@
 # text_en = your food
 # translit = nǐmen de cài
 # text_orig = 你们 的 菜
-1	你们	你们	PRON	_	Number=Plur|Person=2	2	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3_5|Translit=nǐ_men
+1	你们	你们	PRON	_	Number=Plur|Person=2	2	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3_5|Translit=nǐ_men
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	菜	菜	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=cài
 
@@ -1946,7 +1946,7 @@
 # text_en = Beijing's air
 # translit = Běijīng de kōngqì
 # text_orig = 北京 的 空气
-1	北京	北京	PROPN	_	_	2	comp:obj	_	SpaceAfter=No|Tone=3_1|Translit=běi_jīng
+1	北京	北京	PROPN	_	_	2	comp	_	SpaceAfter=No|Tone=3_1|Translit=běi_jīng
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	空气	空气	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=1_4|Translit=kōng_qì
 
@@ -1959,7 +1959,7 @@
 # text_en = the company's boss
 # translit = gōngsī de lǎobǎn
 # text_orig = 公司 的 老板
-1	公司	公司	NOUN	_	_	2	comp:obj	_	SpaceAfter=No|Tone=1_1|Translit=gōng_sī
+1	公司	公司	NOUN	_	_	2	comp	_	SpaceAfter=No|Tone=1_1|Translit=gōng_sī
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	老板	老板	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=3_3|Translit=lǎo_bǎn
 
@@ -1972,7 +1972,7 @@
 # text_en = Shanghai's weather
 # translit = Shànghǎi de  tiānqì
 # text_orig = 上海 的 天气
-1	上海	上海	PROPN	_	_	2	comp:obj	_	Gloss=up|SpaceAfter=No|Tone=4_3|Translit=shàng_hǎi
+1	上海	上海	PROPN	_	_	2	comp	_	Gloss=up|SpaceAfter=No|Tone=4_3|Translit=shàng_hǎi
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	天气	天气	NOUN	_	_	0	root	_	Gloss=day|SpaceAfter=No|Tone=1_4|Translit=tiān_qì
 
@@ -1985,7 +1985,7 @@
 # text_en = teacher's friend
 # translit = lǎoshī de péngyou
 # text_orig = 老师 的 朋友
-1	老师	老师	NOUN	_	_	2	comp:obj	_	SpaceAfter=No|Tone=3_1|Translit=lǎo_shī
+1	老师	老师	NOUN	_	_	2	comp	_	SpaceAfter=No|Tone=3_1|Translit=lǎo_shī
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
 3	朋友	朋友	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=2_3|Translit=péng_yǒu
 
@@ -2025,7 +2025,7 @@
 # text_en = Where's my cell phone?
 # translit = Wǒ de shǒujī ne?
 # text_orig = 我 的 手机 呢 ？
-1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	手机	手机	NOUN	_	_	0	root	_	Gloss=hand|SpaceAfter=No|Tone=3_1|Translit=shǒu_jī
 4	呢	呢	PART	_	_	3	discourse:sp	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=ní
@@ -2440,7 +2440,7 @@
 # text_en = Is there anyone in the room?
 # translit = Fángjiān lǐ yǒu rén ma?
 # text_orig = 房间 里 有 人 吗？
-1	房间	房间	NOUN	_	_	2	comp:obj	_	SpaceAfter=No|Tone=2_1|Translit=fáng_jiān
+1	房间	房间	NOUN	_	_	2	comp	_	SpaceAfter=No|Tone=2_1|Translit=fáng_jiān
 2	里	里	ADP	_	_	3	comp:obl@loc	_	SpaceAfter=No|Tone=3|Translit=lǐ
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 4	人	人	NOUN	_	_	3	comp:obj	_	SpaceAfter=No|Tone=2|Translit=rén
@@ -2456,7 +2456,7 @@
 # text_en = Is there any water in the cup?
 # translit = Bēizi lǐ yǒu shuǐ ma?
 # text_orig = 杯子 里 有 水 吗？
-1	杯子	杯子	NOUN	_	_	2	comp:obj	_	SpaceAfter=No|Tone=1_5|Translit=bēi_zi
+1	杯子	杯子	NOUN	_	_	2	comp	_	SpaceAfter=No|Tone=1_5|Translit=bēi_zi
 2	里	里	ADP	_	_	3	comp:obl@loc	_	SpaceAfter=No|Tone=3|Translit=lǐ
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 4	水	水	NOUN	_	_	3	comp:obj	_	SpaceAfter=No|Tone=3|Translit=shǔi
@@ -2472,12 +2472,12 @@
 # text_en = Your number is in my cell phone.
 # translit = Wǒ de shǒujī lǐ yǒu nǐ de hàomǎ.
 # text_orig = 我 的 手机 里 有 你 的 号码。
-1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
-3	手机	手机	NOUN	_	_	4	comp:obj	_	Gloss=hand|SpaceAfter=No|Tone=3_1|Translit=shǒu_jī
+3	手机	手机	NOUN	_	_	4	comp	_	Gloss=hand|SpaceAfter=No|Tone=3_1|Translit=shǒu_jī
 4	里	里	ADP	_	_	5	comp:obl@loc	_	SpaceAfter=No|Tone=3|Translit=lǐ
 5	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
-6	你	你	PRON	_	Person=2	7	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+6	你	你	PRON	_	Person=2	7	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 7	的	的	PART	_	Case=Gen	8	mod	_	SpaceAfter=No|Tone=5|Translit=de
 8	号码	号码	NOUN	_	_	5	comp:obj	_	SpaceAfter=No|Tone=4_3|Translit=hào_mǎ
 9	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
@@ -2492,7 +2492,7 @@
 # translit = Xiànzài  bàngōngshì lǐ yǒu rén ma?
 # text_orig = 现在 办公室 里 有 人 吗？
 1	现在	现在	NOUN	_	_	4	comp:obl@temp	_	SpaceAfter=No|Tone=4_4|Translit=xiàn_zài
-2	办公室	办公室	NOUN	_	_	3	comp:obj	_	SpaceAfter=No|Tone=4_1_4|Translit=bàn_gōng_shì
+2	办公室	办公室	NOUN	_	_	3	comp	_	SpaceAfter=No|Tone=4_1_4|Translit=bàn_gōng_shì
 3	里	里	ADP	_	_	4	comp:obl@loc	_	SpaceAfter=No|Tone=3|Translit=lǐ
 4	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 5	人	人	NOUN	_	_	4	comp:obj	_	SpaceAfter=No|Tone=2|Translit=rén
@@ -2618,7 +2618,7 @@
 # text_en = Does your teacher have an iPad?
 # translit = Nǐ de lǎoshī yǒu iPad ma?
 # text_orig = 你 的 老师 有 iPad 吗？
-1	你	你	PRON	_	Person=2	2	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+1	你	你	PRON	_	Person=2	2	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	老师	老师	NOUN	_	_	4	subj	_	SpaceAfter=No|Tone=3_1|Translit=lǎo_shī
 4	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
@@ -3030,7 +3030,7 @@
 # text_en = My Chinese teacher's surname is Chen.
 # translit = Wǒ de Zhōngwén lǎoshī xìng Chén.
 # text_orig = 我 的 中文 老师 姓 陈。
-1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	的	的	PART	_	Case=Gen	4	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	中文	中文	NOUN	_	_	4	mod	_	SpaceAfter=No|Tone=1_2|Translit=zhōng_wén
 4	老师	老师	NOUN	_	_	5	subj	_	SpaceAfter=No|Tone=3_1|Translit=lǎo_shī
@@ -3134,7 +3134,7 @@
 # text_en = Can your cell phone go on the internet?
 # translit = Nǐ de shǒujī néng shàngwǎng ma?
 # text_orig = 你 的 手机 能 上网 吗？
-1	你	你	PRON	_	Person=2	2	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+1	你	你	PRON	_	Person=2	2	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	手机	手机	NOUN	_	_	4	subj	_	Gloss=hand|SpaceAfter=No|Tone=3_1|Translit=shǒu_jī
 4	能	能	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=néng
@@ -3153,7 +3153,7 @@
 # translit = Yī suì de bǎobao néng shuōhuà ma?
 # text_orig = 一 岁 的 宝宝 能 说话 吗？
 1	一	一	NUM	_	NumType=Card	2	mod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
-2	岁	岁	NOUN	_	_	3	comp:obj	_	SpaceAfter=No|Tone=4|Translit=sùi
+2	岁	岁	NOUN	_	_	3	comp	_	SpaceAfter=No|Tone=4|Translit=sùi
 3	的	的	PART	_	Case=Gen	4	mod	_	SpaceAfter=No|Tone=5|Translit=de
 4	宝宝	宝宝	NOUN	_	_	5	subj	_	SpaceAfter=No|Tone=3_3|Translit=bǎo_bǎo
 5	能	能	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=néng
@@ -3231,7 +3231,7 @@
 2	能	能	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=néng
 3	告诉	告诉	VERB	_	_	2	comp:aux	_	SpaceAfter=No|Tone=4_4|Translit=gào_sù
 4	我	我	PRON	_	Person=1	3	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
-5	她	她	PRON	_	_	6	comp:obj	_	SpaceAfter=No|Tone=1|Translit=tā
+5	她	她	PRON	_	_	6	comp	_	SpaceAfter=No|Tone=1|Translit=tā
 6	的	的	PART	_	Case=Gen	8	mod	_	SpaceAfter=No|Tone=5|Translit=de
 7	手机	手机	NOUN	_	_	8	mod	_	SpaceAfter=No|Tone=3_1|Translit=shǒu_jī
 8	号码	号码	NOUN	_	_	3	comp:obj	_	SpaceAfter=No|Tone=4_3|Translit=hào_mǎ
@@ -3542,7 +3542,7 @@
 2	晚上	晚上	NOUN	_	_	3	mod	_	SpaceAfter=No|Tone=3_4|Translit=wǎn_shàng
 3	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=yào
 4	给	给	ADP	_	_	6	comp:obl	_	SpaceAfter=No|Tone=3|Translit=gěi
-5	妈妈	妈妈	NOUN	_	_	4	comp:obj	_	Gloss=mother|SpaceAfter=No|Tone=1_1|Translit=mā_mā
+5	妈妈	妈妈	NOUN	_	_	4	comp	_	Gloss=mother|SpaceAfter=No|Tone=1_1|Translit=mā_mā
 6	打	打	VERB	_	_	3	comp:aux	_	Gloss=hit|SpaceAfter=No|Tone=3|Translit=dǎ
 7	电话	电话	NOUN	_	_	6	comp:obj	_	SpaceAfter=No|Tone=4_4|Translit=diàn_huà
 8	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
@@ -3590,7 +3590,7 @@
 # text_en = Are you planning to go home after getting off work?
 # translit = Xiàbān yǐhòu nǐ yào huíjiā ma?
 # text_orig = 下班 以后 你 要 回家 吗？
-1	下	下	VERB	_	_	3	comp:obj	_	Gloss=down|SpaceAfter=No|Tone=4|Translit=xià
+1	下	下	VERB	_	_	3	comp	_	Gloss=down|SpaceAfter=No|Tone=4|Translit=xià
 2	班	班	NOUN	_	_	1	comp:obj	_	SpaceAfter=No|Tone=1|Translit=bān
 3	以后	以后	ADP	_	_	5	comp:obl@temp	_	SpaceAfter=No|Tone=3_4|Translit=yǐ_hòu
 4	你	你	PRON	_	Person=2	5	subj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
@@ -3628,7 +3628,7 @@
 1	二	二	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No|Tone=4|Translit=èr
 2	十	十	NUM	_	NumType=Card	1	flat	_	SpaceAfter=No|Tone=2|Translit=shí
 3	一	一	NUM	_	NumType=Card	2	flat	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
-4	岁	岁	NOUN	_	_	5	comp:obj	_	SpaceAfter=No|Tone=4|Translit=sùi
+4	岁	岁	NOUN	_	_	5	comp	_	SpaceAfter=No|Tone=4|Translit=sùi
 5	以后	以后	ADP	_	_	6	comp:obl@temp	_	SpaceAfter=No|Tone=3_4|Translit=yǐ_hòu
 6	可以	可以	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_3|Translit=kě_yǐ
 7	喝	喝	VERB	_	_	6	comp:aux	_	SpaceAfter=No|Tone=1|Translit=hē
@@ -3666,7 +3666,7 @@
 1	我们	我们	PRON	_	Number=Plur|Person=1	2	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
 2	可以	可以	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_3|Translit=kě_yǐ
 3	在	在	ADP	_	_	5	comp:obl	_	Gloss=at;on;in|SpaceAfter=No|Tone=4|Translit=zài
-4	办公室	办公室	NOUN	_	_	3	comp:obj	_	SpaceAfter=No|Tone=4_1_4|Translit=bàn_gōng_shì
+4	办公室	办公室	NOUN	_	_	3	comp	_	SpaceAfter=No|Tone=4_1_4|Translit=bàn_gōng_shì
 5	吃	吃	VERB	_	_	2	comp:aux	_	SpaceAfter=No|Tone=1|Translit=chī
 6	饭	饭	NOUN	_	_	5	comp:obj	_	Gloss=meal|SpaceAfter=No|Tone=4|Translit=fàn
 7	吗	吗	PART	_	_	2	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ma
@@ -3937,7 +3937,7 @@
 3	知道	知道	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1_4|Translit=zhī_dào
 4	怎么	怎么	PRON	_	PronType=Int	7	mod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_5|Translit=zěn_me
 5	跟	跟	ADP	_	_	7	comp:obl	_	SpaceAfter=No|Tone=1|Translit=gēn
-6	女孩子	女孩子	NOUN	_	_	5	comp:obj	_	SpaceAfter=No|Tone=3_2_5|Translit=nv̌_hái_zi
+6	女孩子	女孩子	NOUN	_	_	5	comp	_	SpaceAfter=No|Tone=3_2_5|Translit=nv̌_hái_zi
 7	说	说	VERB	_	_	3	comp:obj	_	SpaceAfter=No|Tone=1|Translit=shuō
 8	话	话	NOUN	_	_	7	comp:obj	_	SpaceAfter=No|Tone=4|Translit=huà
 9	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
@@ -4061,7 +4061,7 @@
 2	没	没	ADV	_	_	3	mod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=méi
 3	有	有	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yǒu
 4	喝	喝	VERB	_	_	3	comp:aux	_	SpaceAfter=No|Tone=1|Translit=hē
-5	你	你	PRON	_	Person=2	6	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+5	你	你	PRON	_	Person=2	6	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 6	的	的	PART	_	Case=Gen	7	mod	_	SpaceAfter=No|Tone=5|Translit=de
 7	啤酒	啤酒	NOUN	_	_	4	comp:obj	_	SpaceAfter=No|Tone=2_3|Translit=pí_jǐu
 8	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
@@ -4312,7 +4312,7 @@
 # text_en = In class don't play with your phone!
 # translit = Shàngkè de shíhou bùyào wán shǒujī!
 # text_orig = 上课 的 时候 不要 玩 手机！
-1	上	上	VERB	_	_	3	comp:obj	_	Gloss=up|SpaceAfter=No|Tone=4|Translit=shàng
+1	上	上	VERB	_	_	3	comp	_	Gloss=up|SpaceAfter=No|Tone=4|Translit=shàng
 2	课	课	NOUN	_	_	1	comp:obj	_	SpaceAfter=No|Tone=4|Translit=kè
 3	的	的	PART	_	Case=Gen	4	mod	_	SpaceAfter=No|Tone=5|Translit=de
 4	时候	时候	NOUN	_	_	6	comp:obl@temp	_	SpaceAfter=No|Tone=2_4|Translit=shí_hòu
@@ -4458,7 +4458,7 @@
 1	这	这	DET	_	_	3	subj	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
 2	都	都	ADV	_	_	3	mod	_	SpaceAfter=No|Tone=1|Translit=dū
 3	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
-4	你	你	PRON	_	Person=2	5	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+4	你	你	PRON	_	Person=2	5	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 5	的	的	PART	_	Case=Gen	6	mod	_	SpaceAfter=No|Tone=5|Translit=de
 6	钱	钱	NOUN	_	_	3	comp:pred	_	SpaceAfter=No|Tone=2|Translit=qián
 7	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
@@ -4490,7 +4490,7 @@
 1	我	我	PRON	_	Person=1	3	subj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	也	也	ADV	_	_	3	mod	_	SpaceAfter=No|Tone=3|Translit=yě
 3	是	是	AUX	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
-4	他	他	PRON	_	Person=3	5	comp:obj	_	SpaceAfter=No|Tone=1|Translit=tā
+4	他	他	PRON	_	Person=3	5	comp	_	SpaceAfter=No|Tone=1|Translit=tā
 5	的	的	PART	_	Case=Gen	6	mod	_	SpaceAfter=No|Tone=5|Translit=de
 6	朋友	朋友	NOUN	_	_	3	comp:pred	_	SpaceAfter=No|Tone=2_3|Translit=péng_yǒu
 7	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
@@ -4946,7 +4946,7 @@
 # text_en = Is the coffee expensive here?
 # translit = Zhèlǐ de kāfēi gùi bu gùi?
 # text_orig = 这里 的 咖啡 贵 不 贵 ？
-1	这里	这里	DET	_	_	2	comp:obj	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4_3|Translit=zhè_lǐ
+1	这里	这里	DET	_	_	2	comp	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4_3|Translit=zhè_lǐ
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	咖啡	咖啡	NOUN	_	_	4	subj	_	SpaceAfter=No|Tone=1_1|Translit=kā_fēi
 4	贵	贵	ADJ	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=gùi
@@ -5226,7 +5226,7 @@
 # text_orig = 他 是 你 的 老板 ， 对 不 对 ？
 1	他	他	PRON	_	Person=3	2	subj	_	SpaceAfter=No|Tone=1|Translit=tā
 2	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
-3	你	你	PRON	_	Person=2	4	comp:obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+3	你	你	PRON	_	Person=2	4	comp	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 4	的	的	PART	_	Case=Gen	5	mod	_	SpaceAfter=No|Tone=5|Translit=de
 5	老板	老板	NOUN	_	_	2	comp:pred	_	SpaceAfter=No|Tone=3_3|Translit=lǎo_bǎn
 6	，	，	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=，
@@ -5658,7 +5658,7 @@
 # text_en = Our boss is named John.
 # translit = Wǒmen de lǎobǎn jiào John.
 # text_orig = 我们 的 老板 叫 John。
-1	我们	我们	PRON	_	Number=Plur|Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
+1	我们	我们	PRON	_	Number=Plur|Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	老板	老板	NOUN	_	_	4	subj	_	SpaceAfter=No|Tone=3_3|Translit=lǎo_bǎn
 4	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=jiào
@@ -5674,7 +5674,7 @@
 # text_en = My dog is called Max.
 # translit = Wǒ de gǒu jiào Max.
 # text_orig = 我 的 狗 叫 Max。
-1	我	我	PRON	_	Person=1	2	comp:obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+1	我	我	PRON	_	Person=1	2	comp	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	的	的	PART	_	Case=Gen	3	mod	_	SpaceAfter=No|Tone=5|Translit=de
 3	狗	狗	NOUN	_	_	4	subj	_	SpaceAfter=No|Tone=3|Translit=gǒu
 4	叫	叫	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=jiào
