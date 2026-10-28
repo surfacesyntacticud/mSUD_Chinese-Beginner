@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 4286
 # structure = 或者 A ，或者 B
 # text = 咱们或者去爬山或者泡温泉。
